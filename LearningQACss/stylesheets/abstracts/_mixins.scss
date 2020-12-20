@@ -1,0 +1,170 @@
+@use sass:string;
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+//Yossi changes
+//Add index to grid area
+@mixin add-index-grid-area($area-name,$area-index){
+  .#{$area-name}--#{$area-index}{
+    display: grid;
+    width: 100%;
+    grid-area: #{$area-name}--#{$area-index};
+    align-items: center;
+   justify-items: center;
+  }
+}
+
+
+///Make css property with css Variable with fallback
+@mixin variable($property,$variable,$fallback) {
+  #{$property}: $fallback;
+  #{$property}: var($variable);
+  
+}
+
+//Make variable with calc
+@mixin calc-var($property,$init ,$index,$variable) {
+  @if($index == 1)
+  {
+  #{$property}-0: $init;
+  }
+   
+   $PrevIndex: $index - 1;
+  #{$property}-#{$index}: calc(var(#{$property}-#{$PrevIndex})  + var( #{$variable}));
+}
+
+@mixin data-theme($selector , $index) {
+ [data-theme="#{$selector}-#{$index}"] {
+    @if($index == 1)
+    {
+      --hue: var(--first-hue); // 180
+    }
+    @else
+    {
+      --hue: calc(var(--first-hue) + calc(var(--hue-step) * #{$index}));
+    }
+     
+     
+    }
+}
+
+@mixin theme-colors($class,$property,$lgt ,$index) {
+
+  .#{$class}-#{$index} {
+    // --hue-percent: calc($hue-percent * 1%);
+    #{$property}: hsl(var(--hue), var(--hue-percent) ,var(#{$lgt}-#{$index}));
+  }
+}
+
+@mixin yl-scheduler-content-area($prefix,$property,$week, $day,$area, $color) {
+
+  &#{$prefix}-#{$week}-#{$day}{
+    #{$property}: #{$area}-#{$week}-#{$day};
+    
+   
+    @if(#{$color} > 0)
+    {
+      background-color: #{$color};
+    }
+  }
+  
+}
+@mixin yl-scheduler-content-area-times($area-time) {
+  &-time-#{$area-time}{
+      grid-area: t#{$area-time};
+    }
+}
+/*
+&--day-2 {
+					grid-area: day-2;
+					background-color: #00ef56;
+        }
+  */      
+@mixin yl-scheduler-header-area($prefix,$property, $day,$area, $color) {
+
+  &#{$prefix}-#{$day}{
+    #{$property}: #{$area}-#{$day};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @if(#{$color} > 0)
+    {
+      background-color: #{$color};
+    }
+    
+  }
+  
+}
+
+
+@mixin yl-table-24h-single($start-time,$text-time) {
+  .th-#{$start-time}{
+     grid-area: th#{$start-time};   
+     overflow:hidden ;
+    }
+    .td-#{$start-time}{
+         grid-area: t#{$start-time};   
+         overflow:hidden ;
+        
+    }
+    .th-#{$start-time}::before{
+        
+        content: quote($text-time) ;
+    }
+}
+
+
+/*
+fluid-type from  CSS-tricks (Mike)
+*/
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $min-vw) {
+      @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+    }
+
+    @media screen and (min-width: $max-vw) {
+      @each $property in $properties {
+        #{$property}: $max-value;
+      }
+    }
+  }
+}
+
+

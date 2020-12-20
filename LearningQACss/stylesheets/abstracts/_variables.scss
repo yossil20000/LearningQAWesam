@@ -1,0 +1,101 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: rgb(229, 0, 80) !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+$method: grid;
+
+$color: rebeccapurple;
+$col_gap: 1rem;
+
+// yossi Levy Changes
+
+/* Fluid Font
+  https: //codepen.io/MadeByMike/pen/bEEGvv
+  */
+$minScreen: 18.75rem;
+$maxScreen: 50rem;
+$minFont: .3rem;
+$maxFont: 2rem;
+
+
+
+
+$base-font-size: 62.5% !default;
+$base-line-height: 1.25 * $base-font-size;
+$grid-gap: 2px;
+$border-radius: 10px;
+$white-color: #fff;
+
+
+/// Theme  data-theme-container Variable
+
+$shade-count: 10;
+$theme-count: 72;
+$hue-step: calc(360 / $theme-count);
+$first-hue: 0;
+$hue-percent: 60%;
+$lgt-steps: calc(100% / $shade-count);
+
+
+/// Theme  data-theme-container CSS Variable
+[data-theme-container]{
+  //Number of themes , hue of first color , hue-step to the next hue
+  --theme-count: #{$theme-count};
+  --first-hue: #{$first-hue};
+  --hue-step: calc(360 / var(--theme-count));
+  // number of shes , steps of lightness
+  --hue-percent: #{$hue-percent};
+  --lgt-steps:calc(100% / var(--shade-count));
+
+}
+

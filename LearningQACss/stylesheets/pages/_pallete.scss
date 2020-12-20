@@ -1,0 +1,26 @@
+.pallete__grid
+{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+
+}
+
+
+@mixin pallete-item($ibg-color,$icolor) {
+    .pallete__item-#{$ibg-color}-#{$icolor}
+    {
+        @extend .color-#{$icolor}; 
+        @extend .bg-color-#{$ibg-color};
+        
+        
+    }
+    
+}
+
+
+    @for $vbg-color from 1 through $shade-count{
+        @for $vcolor from 1 through $shade-count {
+            @include pallete-item($vbg-color,$vcolor);
+        }
+    }
+

@@ -1,0 +1,107 @@
+/** @format */
+
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+$text-settings: (
+	'xs': (
+		font-size: 0.75rem,
+		// 12px
+			line-height: $base-line-height,
+	),
+	'sm': (
+		font-size: 0.875rem,
+		// 14px
+			line-height: $base-line-height,
+	),
+	'base': (
+		font-size: 1rem,
+		// 16px
+			line-height: $base-line-height,
+	),
+	'md': (
+		font-size: 1.125rem,
+		// 18px
+			line-height: $base-line-height * 2,
+	),
+	'lg': (
+		font-size: 1.25rem,
+		// 20px
+			line-height: $base-line-height * 2,
+	),
+	'xl': (
+		font-size: 1.5rem,
+		// 24px
+			line-height: $base-line-height * 2,
+	),
+);
+
+$font-weight: (
+	'thin': 100,
+	'extra-light': 200,
+	'light': 300,
+	'normal': 400,
+	'medium': 500,
+	'semi-bold': 600,
+	'bold': 700,
+	'extra-bold': 800,
+	'black': 900,
+	'extra-black': 950,
+	'lighter': lighter,
+	'bolder': bolder
+);
+
+$font-size: (
+	'xxx-large': 1.4rem,
+	'xx-large': 1.3rem,
+	'x-large': 1.2rem,
+	'large': 1.1rem,
+	'medium': 1rem,
+	'small': 0.9rem,
+	'x-small': 0.8rem,
+	'xx-small': 0.7rem,
+	'xxx-small': 0.6rem,
+	'larger': 1.2em,
+	'smaller': 0.8em,
+	'p130': 130%,
+	'p120': 120%,
+	'p110': 110%,
+	'p100': 100%,
+	'p90': 90%,
+	'p80': 80%,
+	'p70': 70%
+);
+.c_account {
+	input,select {
+		font-size: 1.1rem;
+	}
+}
+/* @media screen and (max-width: 600px) {
+	body {
+		font-size: 0.9rem;
+	}
+	.table__admin {
+		font-size: 0.8rem;
+	}
+	.c_account {
+		input,select {
+			font-size: 0.9rem;
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 0.8rem;
+	}
+	.table__admin {
+		font-size: 0.7rem;
+    }
+    	.c_account {
+		input,select {
+			font-size: 0.6rem;
+			
+		}
+	}
+}
+ */
+ 
