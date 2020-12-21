@@ -1,3 +1,52 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.test-item{
+    &__container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: minmax(auto ,0.2fr) 1fr;
+        grid-template-rows: 0.15fr auto auto 1fr 0.15fr;
+        grid-template-areas: 
+        "aside-header header" 
+        "aside question" 
+        "aside option" 
+        "aside supplement"
+        "aside footer";
+        &_aside-header{
+            grid-area: aside-header;
+        }
+        &_aside{
+            height: 100%;
+            grid-area: aside;
+            background-color: aqua;
+            overflow: scroll;
+        }
+        &_header{
+            grid-area: header;
+            background-color: aquamarine;
+        }
+        &_question{
+            grid-area: question;
+            background-color: blanchedalmond;
+        }
+        &_option{
+            grid-area: option;
+            background-color: blueviolet;
+        }
+        &_supplement{
+            grid-area: supplement;
+            background-color: chartreuse;
+        }
+        &_footer{
+            grid-area: footer;
+            background-color: chocolate;
+        }
+        
+    }
+}
+.question-list {
+    background-color: cornflowerblue;
+    
+    
+}

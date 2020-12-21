@@ -1055,20 +1055,18 @@ a:hover, a:active, a:focus {
 
 .content__page--header {
   -ms-grid-row: 1;
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   grid-area: header;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
 }
 
 .content__page--footer {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
   grid-area: footer;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
 }
@@ -1163,6 +1161,72 @@ a:hover, a:active, a:focus {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: page-main;
+}
+
+.test-item__container {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-grid-columns: minmax(auto, 0.2fr) 1fr;
+      grid-template-columns: minmax(auto, 0.2fr) 1fr;
+  -ms-grid-rows: 0.15fr auto auto 1fr 0.15fr;
+      grid-template-rows: 0.15fr auto auto 1fr 0.15fr;
+      grid-template-areas: "aside-header header"  "aside question"  "aside option"  "aside supplement" "aside footer";
+}
+
+.test-item__container_aside-header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: aside-header;
+}
+
+.test-item__container_aside {
+  height: 100%;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  grid-area: aside;
+  background-color: aqua;
+  overflow: scroll;
+}
+
+.test-item__container_header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: header;
+  background-color: aquamarine;
+}
+
+.test-item__container_question {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: question;
+  background-color: blanchedalmond;
+}
+
+.test-item__container_option {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: option;
+  background-color: blueviolet;
+}
+
+.test-item__container_supplement {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: supplement;
+  background-color: chartreuse;
+}
+
+.test-item__container_footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: footer;
+  background-color: chocolate;
+}
+
+.question-list {
+  background-color: cornflowerblue;
 }
 
 .pallete__grid {
