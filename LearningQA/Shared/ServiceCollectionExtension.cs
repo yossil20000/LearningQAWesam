@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
 using LearningQA.Shared.Entities;
+using Microsoft.Extensions.Logging;
 
 namespace LearningQA.Shared
 {
@@ -18,6 +19,9 @@ namespace LearningQA.Shared
 			services.AddDbContext<LearningQAContext>(options =>
 			options.UseSqlite(@"Data Source=.\LearningQAContext.db")
 			.UseLazyLoadingProxies()
+			.EnableSensitiveDataLogging()
+			.EnableDetailedErrors()
+			.LogTo(Console.WriteLine,LogLevel.Information)
 			);
 			return services;
 		}
