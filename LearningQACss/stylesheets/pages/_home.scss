@@ -5,20 +5,25 @@
     &__container{
         display: grid;
         height: 100vh;
-        grid-template-columns: minmax(auto ,0.2fr) 1fr;
+        grid-template-columns: minmax(auto ,0.2fr) .2fr 1fr;
         grid-template-rows: 0.15fr auto auto 1fr 0.15fr;
         grid-template-areas: 
-        "aside-header header" 
-        "aside question" 
-        "aside option" 
-        "aside supplement"
-        "aside footer";
+        "aside-header header header"
+        "aside question question"
+        "aside option option"
+        "aside supplement supplement"
+        "aside footer footer";
         &_aside-header{
             grid-area: aside-header;
         }
         &_aside{
-            height: 100%;
             grid-area: aside;
+             &:hover {
+                 grid-column: 1 / 3;
+             }
+            height: 100%;
+            
+            
             background-color: aqua;
             overflow: scroll;
         }
