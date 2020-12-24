@@ -22,36 +22,28 @@
                  grid-column: 1 / 3;
              }
             height: 100%;
-            
-            
-            background-color: aqua;
             overflow: scroll;
         }
         &_header{
             grid-area: header;
-            background-color: aquamarine;
         }
         &_question{
             grid-area: question;
-            background-color: blanchedalmond;
         }
         &_option{
             grid-area: option;
-            background-color: blueviolet;
         }
         &_supplement{
             grid-area: supplement;
-            background-color: chartreuse;
         }
         &_footer{
             grid-area: footer;
-            background-color: chocolate;
         }
         
     }
 }
 .question-list {
-    background-color: cornflowerblue;
+    
     
     
 }

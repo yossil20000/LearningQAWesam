@@ -1189,7 +1189,6 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 1;
   grid-area: aside;
   height: 100%;
-  background-color: aqua;
   overflow: scroll;
 }
 
@@ -1204,7 +1203,6 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: header;
-  background-color: aquamarine;
 }
 
 .test-item__container_question {
@@ -1212,7 +1210,6 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: question;
-  background-color: blanchedalmond;
 }
 
 .test-item__container_option {
@@ -1220,7 +1217,6 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: option;
-  background-color: blueviolet;
 }
 
 .test-item__container_supplement {
@@ -1228,7 +1224,6 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: supplement;
-  background-color: chartreuse;
 }
 
 .test-item__container_footer {
@@ -1236,11 +1231,6 @@ a:hover, a:active, a:focus {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: footer;
-  background-color: chocolate;
-}
-
-.question-list {
-  background-color: cornflowerblue;
 }
 
 .pallete__grid {
@@ -1339,6 +1329,11 @@ a:hover, a:active, a:focus {
 
 .w3-hover-border-theme:hover {
   border-color: #4c6a92 !important;
+}
+
+.current__theme-bg-image {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(var(--hue), var(--hue-percent), var(--lgt-9))), to(hsl(var(--hue), var(--hue-percent), var(--lgt-1))));
+  background-image: linear-gradient(180deg, hsl(var(--hue), var(--hue-percent), var(--lgt-9)) 0%, hsl(var(--hue), var(--hue-percent), var(--lgt-1)) var(--bg-image-linear-stop));
 }
 
 .pallete__grid1 {
