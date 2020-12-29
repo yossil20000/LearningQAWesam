@@ -18,12 +18,16 @@
             grid-area: aside-header;
         }
         &_aside{
+            position: relative;
             grid-area: aside;
              &:hover {
                  grid-column: 1 / 3;
              }
             height: 100%;
             overflow: scroll;
+            input[type="button"] {
+               display: none;
+            }
         }
         &_header{
             grid-area: header;
