@@ -6,11 +6,12 @@
         display: grid;
         height: 100vh;
         grid-template-columns: minmax(auto ,0.2fr) .2fr 1fr;
-        grid-template-rows: 0.15fr auto auto 1fr 0.15fr;
+        grid-template-rows: 0.15fr auto auto auto 1fr 0.15fr;
         grid-template-areas: 
         "aside-header header header"
         "aside question question"
         "aside option option"
+        "aside answer answer"
         "aside supplement supplement"
         "aside footer footer";
         &_aside-header{
@@ -32,6 +33,9 @@
         }
         &_option{
             grid-area: option;
+        }
+        &_answer{
+            grid-area: answer;
         }
         &_supplement{
             grid-area: supplement;

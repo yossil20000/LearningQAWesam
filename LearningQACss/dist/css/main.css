@@ -1065,7 +1065,7 @@ a:hover, a:active, a:focus {
 }
 
 .content__page--footer {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: footer;
@@ -1172,9 +1172,9 @@ a:hover, a:active, a:focus {
   height: 100vh;
   -ms-grid-columns: minmax(auto, 0.2fr) 0.2fr 1fr;
       grid-template-columns: minmax(auto, 0.2fr) 0.2fr 1fr;
-  -ms-grid-rows: 0.15fr auto auto 1fr 0.15fr;
-      grid-template-rows: 0.15fr auto auto 1fr 0.15fr;
-      grid-template-areas: "aside-header header header" "aside question question" "aside option option" "aside supplement supplement" "aside footer footer";
+  -ms-grid-rows: 0.15fr auto auto auto 1fr 0.15fr;
+      grid-template-rows: 0.15fr auto auto auto 1fr 0.15fr;
+      grid-template-areas: "aside-header header header" "aside question question" "aside option option" "aside answer answer" "aside supplement supplement" "aside footer footer";
 }
 
 .test-item__container_aside-header {
@@ -1185,7 +1185,7 @@ a:hover, a:active, a:focus {
 
 .test-item__container_aside {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 4;
+  -ms-grid-row-span: 5;
   -ms-grid-column: 1;
   grid-area: aside;
   height: 100%;
@@ -1219,15 +1219,22 @@ a:hover, a:active, a:focus {
   grid-area: option;
 }
 
-.test-item__container_supplement {
+.test-item__container_answer {
   -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: answer;
+}
+
+.test-item__container_supplement {
+  -ms-grid-row: 5;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: supplement;
 }
 
 .test-item__container_footer {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: footer;
