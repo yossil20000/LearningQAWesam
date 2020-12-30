@@ -1,5 +1,7 @@
+using LearningQA.Server.Infrasructure;
 using LearningQA.Shared;
 using LearningQA.Shared.Entities;
+using LearningQA.Shared.Extensions;
 
 using MediatR;
 
@@ -34,8 +36,16 @@ namespace LearningQA.Server
 			services.AddSwaggerGen();
 			//
 			//Mediator
+
+			//MediatR Pipeline support
+			services.AddHttpContextAccessor();
+			//The order is the pipe order
+			services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ExampleMediatRPipe<,>));
+			//
 			//AddMediatR(Assembly.GetExecutingAssembly()
+			//provide the assambly where the handler exist
 			services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
+
 			//
 			//Applicatiob DBContext
 			services.AddApplicationDbConext();

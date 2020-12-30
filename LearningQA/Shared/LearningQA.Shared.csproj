@@ -13,6 +13,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="DateTimeExtensions">
+      <HintPath>..\..\..\UtilitisLibary\Bin\net5.0\DateTimeExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectTExtensions">
+      <HintPath>..\..\..\UtilitisLibary\Bin\net5.0\ObjectTExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceResult">
+      <HintPath>..\..\..\UtilitisLibary\Bin\net5.0\ServiceResult.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceResult.ApiExtensions">
+      <HintPath>..\..\..\UtilitisLibary\Bin\net5.0\ServiceResult.ApiExtensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
 </Project>

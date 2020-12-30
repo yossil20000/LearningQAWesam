@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Sqlite;
 using LearningQA.Shared.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace LearningQA.Shared
+namespace LearningQA.Shared.Extensions
 {
 	public static class IServiceCollectionExtension
 	{

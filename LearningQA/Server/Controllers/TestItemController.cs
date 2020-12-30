@@ -10,6 +10,8 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+using ServiceResult;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,14 +40,14 @@ namespace LearningQA.Server.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> TestItems()
+		public async Task<Result<IEnumerable<TestItemInfo>>> TestItems()
 		{
 			List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
 			CancellationToken cancellationToken = new CancellationToken();
 			testItemInfos.Add(new TestItemInfo() { Id = 1,Subject="S1",Category="C1",Chapter="c1",NumOfQuestions=31, Version=1});
 			testItemInfos.Add(new TestItemInfo() { Id = 2, Subject = "S2", Category = "C2", Chapter = "c2", NumOfQuestions = 32, Version = 2 });
 			var result  = await _mediator.Send(new TestItemsInfoQuery(),cancellationToken);
-			return Ok(result);
+			return  await Task.FromResult(result);
 		}
 		[HttpPut]
 		public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
