@@ -38,7 +38,7 @@ namespace LearningQA.Server.Infrasructure
 			var result = await next();
 			if(result is Result<IEnumerable<TestItemInfo>> testItemResponse )
 			{
-				testItemResponse.Errors.Add("This is new");
+				
 				testItemResponse.Message = "Good Job";
 			}
 			return result;

@@ -1,5 +1,6 @@
 ﻿using Castle.Core.Logging;
 
+using LearningQA.Server.Configuration;
 using LearningQA.Shared.DTO;
 using LearningQA.Shared.Entities;
 using LearningQA.Shared.MediatR.TestItem.Command;
@@ -9,6 +10,7 @@ using MediatR;
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 using ServiceResult;
 
@@ -22,9 +24,10 @@ namespace LearningQA.Server.Controllers
 {
 	public class TestItemController : ApiControllerBase
 	{
-		public TestItemController(ILogger<ApiControllerBase> logger,IMediator mediator) :base(logger,mediator)
+		private readonly IOptions<LeaningConfig> _learningConfig;
+		public TestItemController(ILogger<ApiControllerBase> logger,IMediator mediator, IOptions<LeaningConfig> learningConfig) :base(logger,mediator)
 		{
-
+			_learningConfig = learningConfig;
 		}
 		/// <summary>
 		/// Create New TestItem

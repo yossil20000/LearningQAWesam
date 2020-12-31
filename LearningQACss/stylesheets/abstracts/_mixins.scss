@@ -86,62 +86,7 @@
   }
 }
 
-@mixin yl-scheduler-content-area($prefix,$property,$week, $day,$area, $color) {
 
-  &#{$prefix}-#{$week}-#{$day}{
-    #{$property}: #{$area}-#{$week}-#{$day};
-    
-   
-    @if(#{$color} > 0)
-    {
-      background-color: #{$color};
-    }
-  }
-  
-}
-@mixin yl-scheduler-content-area-times($area-time) {
-  &-time-#{$area-time}{
-      grid-area: t#{$area-time};
-    }
-}
-/*
-&--day-2 {
-					grid-area: day-2;
-					background-color: #00ef56;
-        }
-  */      
-@mixin yl-scheduler-header-area($prefix,$property, $day,$area, $color) {
-
-  &#{$prefix}-#{$day}{
-    #{$property}: #{$area}-#{$day};
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @if(#{$color} > 0)
-    {
-      background-color: #{$color};
-    }
-    
-  }
-  
-}
-
-
-@mixin yl-table-24h-single($start-time,$text-time) {
-  .th-#{$start-time}{
-     grid-area: th#{$start-time};   
-     overflow:hidden ;
-    }
-    .td-#{$start-time}{
-         grid-area: t#{$start-time};   
-         overflow:hidden ;
-        
-    }
-    .th-#{$start-time}::before{
-        
-        content: quote($text-time) ;
-    }
-}
 
 
 /*

@@ -10,17 +10,9 @@
     @include calc-var(--lgt,-5%,$var,--lgt-steps );
    
 }
-  /*  @include calc-var(--lgt,0%,1,--lgt-steps );
-   @include calc-var(--lgt,0%,2,--lgt-steps);
-  @include calc-var(--lgt,0%,3,--lgt-steps);
-  @include calc-var(--lgt,0%,4,--lgt-steps );
-  @include calc-var(--lgt,0%,5,--lgt-steps );
-  @include calc-var(--lgt,0%,6,--lgt-steps ); */
 }
 
 
-/*  @include data-theme("color" ,1);
-  @include data-theme("color" ,2); */
 
   @for $var from 1 through $theme-count {
        @include data-theme("color" , $var);
