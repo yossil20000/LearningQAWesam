@@ -10,5 +10,6 @@ namespace LearningQA.Shared.Interface
 	{
 		string TenantId { get; set; }
 		string Content { get; set; }
+		 bool IsTrue { get; set; }
 	}
 }

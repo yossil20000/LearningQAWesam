@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace LearningQA.Server.Controllers
 {
 	[ApiController]
-	[Route("[controller]")]
+	[Route("api/[controller]/[action]")]
 	public  class ApiControllerBase : ControllerBase
 	{
 		public readonly ILogger<ApiControllerBase> _logger;

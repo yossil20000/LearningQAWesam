@@ -14,7 +14,7 @@ namespace LearningQA.Shared.Interface
 	{
 		ICollection<AnswareOption<Tdb>> SelectedAnswer { get; set; }
 		bool IsCorrect { get; set; }
-		bool InAnswered { get; set; }
+		bool IsAnswered { get; set; }
 		string TenantId { get; set; }
 	}
 }

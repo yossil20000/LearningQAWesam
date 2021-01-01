@@ -129,10 +129,11 @@ namespace DynamicRepository.Tests.EFCore
 			foreach (var questionAnsware in TestItemsData.ElementAt(0).Questions)
 			{
 				var answare = new Answer<int>();
+				answare.QUestionSql = questionAnsware;
 				answare.SelectedAnswer = new List<AnswareOption<int>>();
 				var selectedAnsware = new AnswareOption<int>();
-				selectedAnsware.TenantId = questionAnsware.Answares.ElementAt(0).TenantId;
-				selectedAnsware.Content = questionAnsware.Answares.ElementAt(0).Content;
+				selectedAnsware.TenantId = questionAnsware.Options.ElementAt(0).TenantId;
+				selectedAnsware.Content = questionAnsware.Options.ElementAt(0).Content;
 				answare.SelectedAnswer.Add(selectedAnsware);
 				answare.IsCorrect = questionAnsware.IsCorrect(answare.SelectedAnswer);
 				answare.SelectedAnswer.Add(selectedAnsware);
@@ -161,7 +162,7 @@ namespace DynamicRepository.Tests.EFCore
 			{
 				QUestionSql qq = new QUestionSql();
 				qq.Options = new List<QuestionOption<int>>();
-				qq.Answares = new List<AnswareOption<int>>();
+				
 				qq.QuestionNumber = $"{q.GetQuestionNumber(j)}";
 				qq.Question = $"Question Select {j}";
 				qq.AnswerType = numOfQuestion > 1 ? LearningQA.Shared.Interface.AnswerType.AT_MULTI : LearningQA.Shared.Interface.AnswerType.AT_ONE;
@@ -174,7 +175,7 @@ namespace DynamicRepository.Tests.EFCore
 					
 					qq.Options.Add(questionOption);
 				}
-				qq.Answares.Add(qq.Options.Last().ToAnswareOption<int>());
+				
 				q.Questions.Add(qq);
 			}
 			//if (lastMark > 0) q.Questions.Last().Mark = lastMark; 
@@ -186,7 +187,7 @@ namespace DynamicRepository.Tests.EFCore
 		{
 			QUestionSql qq = new QUestionSql();
 			qq.Options = new List<QuestionOption<int>>();
-			qq.Answares = new List<AnswareOption<int>>();
+			
 			qq.QuestionNumber = $"{questionNumber}";
 			qq.Question = $"Question Select {questionNumber}";
 			qq.AnswerType = numOfAnswares > 1 ? LearningQA.Shared.Interface.AnswerType.AT_MULTI : LearningQA.Shared.Interface.AnswerType.AT_ONE;
@@ -198,7 +199,7 @@ namespace DynamicRepository.Tests.EFCore
 
 				qq.Options.Add(questionOption);
 			}
-			qq.Answares.Add(qq.Options.ElementAt(0).ToAnswareOption<int>());
+			
 			
 			qq.Supplements = new List<Supplement<int>>()
 			{
@@ -247,7 +248,7 @@ namespace DynamicRepository.Tests.EFCore
 
 				answare.TenantId = questionAnsware.QuestionNumber;
 				answare.IsCorrect = false;
-				answare.InAnswered = false;
+				answare.IsAnswered = false;
 				test.Answers.Add(answare);
 				
 			}

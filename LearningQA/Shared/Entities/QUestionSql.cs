@@ -19,11 +19,11 @@ namespace LearningQA.Shared.Entities
 		public AnswerType AnswerType { get; set; } = AnswerType.AT_ONE;
 		public virtual ICollection<Supplement<int>> Supplements { get; set; }
 		public virtual ICollection<QuestionOption<int>> Options { get; set; }
-		public virtual ICollection<AnswareOption<int>> Answares { get; set; }
+		//public virtual ICollection<AnswareOption<int>> Answares { get; set; }
 
 		public bool IsCorrect(ICollection<AnswareOption<int>> answare)
 		{
-			var goodAnsware = Answares.Select(x => x.TenantId).ToList();
+			var goodAnsware = Options.Where(x => x.IsTrue).Select(x => x.TenantId).ToList();
 			var answared = answare.Select(x => x.TenantId).ToList();
 			if (!goodAnsware.Except(answared).Any() && !answared.Except(goodAnsware).Any())
 				return true;

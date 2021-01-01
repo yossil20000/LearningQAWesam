@@ -33,6 +33,7 @@ namespace LearningQA.Shared.Interface
 		AnswerType AnswerType { get; set; }
 		ICollection<Supplement<Tdb>> Supplements  { get; set; }
 		ICollection<QuestionOption<int>> Options { get; set; }
-		ICollection<AnswareOption<int>> Answares { get; set; }
+		//ICollection<AnswareOption<int>> Answares { get; set; }
+		
 	}
 }

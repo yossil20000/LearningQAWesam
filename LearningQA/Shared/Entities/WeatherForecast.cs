@@ -4,7 +4,18 @@ using System.Text;
 
 namespace LearningQA.Shared.Entities
 {
-	public class WeatherForecast
+	public interface IWeatherForecast
+	{
+		DateTime Date { get; set; }
+
+		int TemperatureC { get; set; }
+
+		string Summary { get; set; }
+
+		int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+
+	}
+	public class WeatherForecast : IWeatherForecast
 	{
 		public DateTime Date { get; set; }
 

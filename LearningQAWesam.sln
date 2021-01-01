@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.64
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningQA.Server", "LearningQA\Server\LearningQA.Server.csproj", "{489897C1-16AA-4482-B787-8689606078FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningQA.Server", "LearningQA\Server\LearningQA.Server.csproj", "{489897C1-16AA-4482-B787-8689606078FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningQA.Client", "LearningQA\Client\LearningQA.Client.csproj", "{AC50B658-9A00-43F8-974D-A6917566F79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningQA.Client", "LearningQA\Client\LearningQA.Client.csproj", "{AC50B658-9A00-43F8-974D-A6917566F79F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningQA.Shared", "LearningQA\Shared\LearningQA.Shared.csproj", "{4933AC2F-47F1-4E64-A1AC-37B270967AA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningQA.Shared", "LearningQA\Shared\LearningQA.Shared.csproj", "{4933AC2F-47F1-4E64-A1AC-37B270967AA1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicRepository", "LearningQA\DynamicRepository\DynamicRepository.csproj", "{BEA0F7AA-D82B-4E2F-BD7B-43C284534632}"
 EndProject

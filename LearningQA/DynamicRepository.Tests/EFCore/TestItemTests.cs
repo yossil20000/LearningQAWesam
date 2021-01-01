@@ -25,7 +25,6 @@ namespace DynamicRepository.Tests.EFCore
 				var subject = new PersonRepository(context);
 				var result = context.TestItems
 					.Include(x => x.Questions).ThenInclude(x => x.Options)
-					.Include(x => x.Questions).ThenInclude(x => x.Answares)
 					.ToList();
 				result.Count().Should().Be(TestItemsData.Count());
 				foreach(var item in result)
@@ -244,9 +243,9 @@ namespace DynamicRepository.Tests.EFCore
 				}
 				context.SaveChanges();
 				var questionsToRemove = testItem.Questions;
-				var answareOPtionsRemove = questionsToRemove.SelectMany(x => x.Answares);
+				
 				var questionOptionRemove = questionsToRemove.SelectMany(x => x.Options);
-				context.AnswareOptions.RemoveRange(answareOPtionsRemove);
+				
 				context.QuestionOptions.RemoveRange(questionOptionRemove);
 				context.QUestionSqls.RemoveRange(questionsToRemove);
 				context.SaveChanges();

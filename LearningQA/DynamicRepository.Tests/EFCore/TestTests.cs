@@ -57,7 +57,7 @@ namespace DynamicRepository.Tests.EFCore
 						Trace.WriteLine($"{options.TenantId} {options.Content}");
 					}
 					Trace.WriteLine("Right Answare");
-					foreach (var rightAnsware in question.Answares)
+					foreach (var rightAnsware in question.Options.Where(x => x.IsTrue))
 					{
 						Trace.WriteLine($"{rightAnsware.TenantId} {rightAnsware.Content}");
 						tests.Answers.Where(x => x.TenantId == question.QuestionNumber).FirstOrDefault().SelectedAnswer.Add(new AnswareOption<int>() { Content = rightAnsware.Content, Id =0, TenantId = rightAnsware.TenantId});
