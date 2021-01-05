@@ -64,7 +64,13 @@ namespace LearningQA.Server.Controllers
 		public async Task<IActionResult> CreateTestItem([FromBody] TestItem<QUestionSql, int> testItem)
 		{
 			var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>();
-			var result = _mediator.Send(new CreateNewTestItemCommand(testitems.FirstOrDefault()), cancellationToken);
+
+			var result = await _mediator.Send(new CreateRangeTestItemCommand(testitems), cancellationToken);
+			foreach (var item in testitems)
+			{
+				//var result = await _mediator.Send(new CreateNewTestItemCommand(item), cancellationToken);
+			}
+			
 			return Ok(true);
 		}
 	}

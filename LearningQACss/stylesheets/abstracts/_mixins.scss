@@ -34,11 +34,11 @@
 }
 //Yossi changes
 //Add index to grid area
-@mixin add-index-grid-area($area-name,$area-index){
-  .#{$area-name}--#{$area-index}{
+@mixin add-index-grid-area($area-name,$area-prefix,$area-index){
+  .#{$area-name}#{$area-prefix}#{$area-index}{
     display: grid;
     width: 100%;
-    grid-area: #{$area-name}--#{$area-index};
+    grid-area: #{$area-name}#{$area-prefix}#{$area-index};
     align-items: center;
    justify-items: center;
   }

@@ -34,6 +34,7 @@ namespace LearningQA.Client
 			services.AddScoped<IFetchDataModel, FetchData_Model>();
 			services.AddScoped<ITestItemModel, TestItemModel>();
 			services.AddScoped<ITestItemViewModel, TestItemViewModel>();
+			services.AddSingleton<TestItemViewModelPersist>();
 			var assemblyAll = AppDomain.CurrentDomain.GetAssemblies();
 			var assembly = assemblyAll.Where(a => a.FullName.StartsWith("LearningQA.Client")).FirstOrDefault();
 

@@ -29,6 +29,7 @@ namespace LearningQA.Shared.Interface
 		TQuestion Question { get; set; }
 		string QuestionNumber { get; set; }
 		int Mark { get; set; }
+		bool IsActive { get; set; }
 		//ICategory<Tdb> Category { get; set; }
 		AnswerType AnswerType { get; set; }
 		ICollection<Supplement<Tdb>> Supplements  { get; set; }

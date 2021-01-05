@@ -24,6 +24,8 @@
        @include theme-colors(color,color,--lgt ,$var);
   }
 
-
+  .current__theme-bg-image {
+    background-image: linear-gradient(180deg, hsl(var(--hue), var(--hue-percent), var(--lgt-9)) 0%, hsl(var(--hue), var(--hue-percent), var(--lgt-1)) var(--bg-image-linear-stop));
+}
 
   

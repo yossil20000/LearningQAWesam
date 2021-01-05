@@ -1,0 +1,33 @@
+﻿<div>
+    <InputSelect @bind-Value="TestItemViewModelPersist.SelectedCategory">
+        <option value="">--select-category</option>
+
+        @foreach (string value in TestItemViewModelPersist.Categories)
+        {
+
+            <option>@value</option>
+        }
+    </InputSelect>
+
+    <InputSelect class="btn-outline-primary" @bind-Value="TestItemViewModelPersist.SelectedSubjecte">
+
+        <option value="">--select-subject</option>
+        @foreach (string value in TestItemViewModelPersist.Subjectes)
+        {
+            
+            <option>@value</option>
+        }
+    </InputSelect>
+    <InputSelect @bind-Value="TestItemViewModelPersist.SelectedChapter">
+        <option value="">--select-chapter</option>
+        @foreach (string value in TestItemViewModelPersist.Chapteres)
+        {
+
+            <option>@value</option>
+        }
+    </InputSelect>
+
+</div>
+@code {
+
+}

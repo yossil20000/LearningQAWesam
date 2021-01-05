@@ -16,6 +16,7 @@ namespace LearningQA.Shared.Entities
 		public string QuestionNumber { get; set; }
 		public string Question { get; set; } = string.Empty;
 		public int Mark { get; set; }
+		public bool IsActive { get; set; }
 		public AnswerType AnswerType { get; set; } = AnswerType.AT_ONE;
 		public virtual ICollection<Supplement<int>> Supplements { get; set; }
 		public virtual ICollection<QuestionOption<int>> Options { get; set; }

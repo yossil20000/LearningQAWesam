@@ -10,8 +10,8 @@ namespace LearningQA.Shared.DTO
 	{
 		public int Id { get; set; }
 		public string Category { get; set; } = "";
-		private string _subject;
-		public string Subject { get { return _subject; } set { _subject = value; GetHashCode(); } }
+
+		public string Subject { get; set; } = "";
 		public string Chapter { get; set; } = "";
 		public int Version { get; set; } = 0;
 		public int NumOfQuestions { get; set; }

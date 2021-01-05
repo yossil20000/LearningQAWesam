@@ -62,10 +62,10 @@ a {
     text-decoration: underline;
   }
 }
-.disabled { 
-    position : relative; 
-    color    : grey;
-}
+// .disabled { 
+//     position : relative; 
+//     color    : grey;
+// }
 .disabled:after {
     position :absolute;
     left     : 0;
@@ -75,3 +75,8 @@ a {
     content  :' ';
 }
 
+.disabled{
+  
+  cursor: not-allowed;
+  pointer-events: none;
+}

@@ -14,27 +14,27 @@ using System.Threading.Tasks;
 
 namespace LearningQA.Shared.MediatR.TestItem.Command
 {
-	public class CreateNewTestItemCommand : IRequest<TestItem<QUestionSql,int>>
+	public class CreateNewTestItemInfoCommand : IRequest<TestItem<QUestionSql, int>>
 	{
 		public TestItemInfo _testItemInfo;
-		public CreateNewTestItemCommand(TestItemInfo testItemInfo)
+		public CreateNewTestItemInfoCommand(TestItemInfo testItemInfo)
 		{
 			_testItemInfo = testItemInfo;
 		}
 	}
 
-	public class CreateNewTestItemommandHandler : IRequestHandler<CreateNewTestItemCommand,TestItem<QUestionSql,int>>
+	public class CreateNewTestItemInfoCommandHandler : IRequestHandler<CreateNewTestItemInfoCommand, TestItem<QUestionSql, int>>
 	{
 		private readonly LearningQAContext dbContext;
-		ILogger<CreateNewTestItemommandHandler> logger;
+		ILogger<CreateNewTestItemInfoCommandHandler> logger;
 
-		public CreateNewTestItemommandHandler(LearningQAContext context, ILogger<CreateNewTestItemommandHandler> logger)
+		public CreateNewTestItemInfoCommandHandler(LearningQAContext context, ILogger<CreateNewTestItemInfoCommandHandler> logger)
 		{
 			dbContext = context;
 			this.logger = logger;
 		}
 
-		public async  Task<TestItem<QUestionSql, int>> Handle(CreateNewTestItemCommand request, CancellationToken cancellationToken)
+		public async  Task<TestItem<QUestionSql, int>> Handle(CreateNewTestItemInfoCommand request, CancellationToken cancellationToken)
 		{
 			try
 			{

@@ -5,12 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="DataResource\TestItems\TestItem - Copy.json" />
     <Content Remove="DataResource\TestItems\TestItem.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="DataResource\TestItems\TestItem - Copy.json" />
     <EmbeddedResource Include="DataResource\TestItems\TestItem.json" />
   </ItemGroup>
 

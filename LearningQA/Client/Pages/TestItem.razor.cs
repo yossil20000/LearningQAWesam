@@ -13,6 +13,7 @@ namespace LearningQA.Client.Pages
 	{
 		[Inject]
 		ITestItemViewModel testItemViewModel { get; set; }
+		private bool IsInitialize { get; set; } = false;
 		public TestItem()
 		{
 
@@ -20,7 +21,14 @@ namespace LearningQA.Client.Pages
 		protected override async  Task OnInitializedAsync()
 		{
 			await testItemViewModel?.RetriveTestItemInfos();
-
+			IsInitialize = true;
+			
+		}
+		protected override void OnAfterRender(bool firstRender)
+		{
+			//TestItemViewModelPersist.OnChanged(
+			//	() => base.StateHasChanged());
+			base.OnAfterRender(firstRender);
 		}
 	}
 }

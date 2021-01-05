@@ -10,21 +10,35 @@ namespace LearningQA.Client.ViewModel
 {
 	public interface ITestItemViewModel
 	{
-		List<TestItemInfo> TestItemInfos { get; }
+		
 		Task RetriveTestItemInfos();
-	}
+		
+
+		
+	}	
+
+
 	public class TestItemViewModel : ITestItemViewModel
 	{
-		private readonly ITestItemModel testItemModel;
-		List<TestItemInfo> testItemInfos;
-		public List<TestItemInfo> TestItemInfos { get => testItemInfos; private set => testItemInfos = value; }
-		public TestItemViewModel(ITestItemModel testItemModel)
+
+		public ITestItemModel testItemModel;
+		public TestItemViewModelPersist TestItemViewModelPersist { get; private set; }
+
+			public TestItemViewModel(ITestItemModel testItemModel, TestItemViewModelPersist testItemViewModelPersist )
 		{
 			this.testItemModel = testItemModel;
-		}
+			TestItemViewModelPersist = testItemViewModelPersist;
+			}
 		public async Task RetriveTestItemInfos()
 		{
+			if (TestItemViewModelPersist.Initialize)
+				return;
 			await testItemModel.RetriveTestItemInfos();
+			TestItemViewModelPersist.TestItemInfos = testItemModel.TestItemInfos.ToList();
+			
+
 		}
-	}
+		
+
+		}
 }

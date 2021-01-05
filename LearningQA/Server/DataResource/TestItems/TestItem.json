@@ -2,8 +2,8 @@
 
   {
     "id": 0,
-    "category": "ATPL_OXFORD",
-    "subject": "Air Low",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Low",
     "chapter": "2.International Agreements and Organizations",
     "version": 0,
     "testQuestionMarking": 0,
@@ -14,6 +14,7 @@
         "questionNumber": "1",
         "question": "What does cabotage refer to?",
         "mark": 0,
+        "isactive": true,
         "answerType": 0,
         "supplements": [
           {
@@ -54,6 +55,292 @@
         "questionNumber": "2",
         "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
         "mark": 0,
+        "isactive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "string",
+            "content": "string"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the Tokyo convention",
+            "isTrue": true
+          },
+          {
+            "ensurecreate": null,
+
+            "id": 0,
+            "tenantId": "B",
+            "content": "the Rome convention",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the Warswa convention",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the Paris convention",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Low",
+    "chapter": "3.Airworthiness of Aircraft",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 60,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "What does cabotage refer to?",
+        "mark": 0,
+        "isactive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "string",
+            "content": "string"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Domestic air services within a state",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "An international air carrier",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A flight above territorial waters",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Crop sprayinge",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
+        "mark": 0,
+        "isactive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "string",
+            "content": "string"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the Tokyo convention",
+            "isTrue": true
+          },
+          {
+            "ensurecreate": null,
+
+            "id": 0,
+            "tenantId": "B",
+            "content": "the Rome convention",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the Warswa convention",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the Paris convention",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "2.Electrics and Electronics",
+    "chapter": "1.Basic Principles",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 60,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "What does cabotage refer to?",
+        "mark": 0,
+        "isactive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "string",
+            "content": "string"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Domestic air services within a state",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "An international air carrier",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A flight above territorial waters",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Crop sprayinge",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
+        "mark": 0,
+        "isactive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "string",
+            "content": "string"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the Tokyo convention",
+            "isTrue": true
+          },
+          {
+            "ensurecreate": null,
+
+            "id": 0,
+            "tenantId": "B",
+            "content": "the Rome convention",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the Warswa convention",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the Paris convention",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "2.Electrics and Electronics",
+    "chapter": "2.Switches",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 60,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "What does cabotage refer to?",
+        "mark": 0,
+        "isactive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "string",
+            "content": "string"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Domestic air services within a state",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "An international air carrier",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A flight above territorial waters",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Crop sprayinge",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
+        "mark": 0,
+        "isactive": true,
         "answerType": 0,
         "supplements": [
           {
@@ -93,4 +380,5 @@
       }
     ]
   }
+
 ]
