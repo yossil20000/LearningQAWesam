@@ -28,4 +28,10 @@
     background-image: linear-gradient(180deg, hsl(var(--hue), var(--hue-percent), var(--lgt-9)) 0%, hsl(var(--hue), var(--hue-percent), var(--lgt-1)) var(--bg-image-linear-stop));
 }
 
+@for $lgt-start from 0 through $shade-count{
+  @for $lgt-end from 0 through $shade-count{
+    @include them-bg-image(current__theme-bg-image,$lgt-start,$lgt-end)
+  }
+    
+}
   

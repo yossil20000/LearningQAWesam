@@ -86,7 +86,11 @@
   }
 }
 
-
+@mixin them-bg-image($class,$lgt-start,$lgt-end) {
+  .#{$class}--#{$lgt-start}-#{$lgt-end}{
+    background-image: linear-gradient(180deg, hsl(var(--hue), var(--hue-percent), var(--lgt-#{$lgt-start})) 0%, hsl(var(--hue), var(--hue-percent), var(--lgt-#{$lgt-end})) var(--bg-image-linear-stop));
+  }
+}
 
 
 /*
