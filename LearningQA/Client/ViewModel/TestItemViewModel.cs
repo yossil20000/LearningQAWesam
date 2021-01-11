@@ -17,6 +17,9 @@ namespace LearningQA.Client.ViewModel
 		Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo);
 		Task OnLoadCommand();
 		TestItem<QUestionSql, int> TestItem { get; set; }
+		void OnNext();
+		void OnPrevious();
+
 	}	
 
 
@@ -39,7 +42,11 @@ namespace LearningQA.Client.ViewModel
 			await testItemModel.RetriveTestItemInfos();
 			TestItemViewModelPersist.TestItemInfos = testItemModel.TestItemInfos.ToList();
 			
-
+			TestItemViewModelPersist.SelectedQuestion = TestItemViewModelPersist.TestItem.Questions.ElementAt(0);
+			TestItemViewModelPersist.CurrentQuestion = 0;
+			TestItemViewModelPersist.EnablePreviouse = false;
+			if (TestItemViewModelPersist.TestItem.Questions.Count > 1)
+				TestItemViewModelPersist.EnableNext = true;
 		}
 		
 		public async Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo)
@@ -58,6 +65,16 @@ namespace LearningQA.Client.ViewModel
 				Chapter = TestItemViewModelPersist.SelectedChapter
 			};
 			 TestItem = await RetriveTestItem(testItemInfo);
+		}
+
+		public void OnNext()
+		{
+			
+		}
+
+		public void OnPrevious()
+		{
+			
 		}
 	}
 }

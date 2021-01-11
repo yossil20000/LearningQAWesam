@@ -40,8 +40,9 @@
                 Inititalzed In Process
             </div>
         }
-        @if (testItemViewModel.TestItem != null)
+        @if (testItemViewModel.TestItem != null && TestItemViewModelPersist.TestItem != null && TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Options != null)
         {
+
             <div class="test-item__container_question bg-color-8 color-2">
                 @if (TestItemViewModelPersist.SelectedQuestion != null)
                 {
@@ -50,7 +51,8 @@
             </div>
             <div class="test-item__container_option bg-color-9 color-2">
                 <ul>
-                    @foreach (var i in  TestItemViewModelPersist.SelectedQuestion.Options)
+ 
+                    @foreach (var i in TestItemViewModelPersist.SelectedQuestion.Options)
                     {
                         <li>
                             <div class="form-check form-switch ">
@@ -62,16 +64,17 @@
 
                 </ul>
             </div>
+            <div class="test-item__container_nav">
+                <button class=@($"nav-1 bg-color-7 color-2 {(TestItemViewModelPersist.EnablePreviouse ? "" : "disabled")}") @onclick="TestItemViewModelPersist.OnNext">Previous</button>
+                <div class="nav-2">Q</div>
+                <input type="number" min=3 max="4" class="nav-3 bg-color-7 color-2">
+                <!-- <div class="nav-4"></div> -->
+                <button class=@($"nav-1 bg-color-7 color-2 {(TestItemViewModelPersist.EnableNext ? "" : "disabled")}" ) @onclick="TestItemViewModelPersist.OnNext">Next</button>
+                <!-- <div style="width: 2px;"></div> -->
+                <button class=" bg-color-7 color-2 nav-7">Finish</button>
+            </div>
         }
-        <div class="test-item__container_nav">
-            <button class=@($"nav-1 bg-color-7 color-2")>previous</button>
-            <div class="nav-2">Q</div>
-            <input type="number" min=3 max="4" class="nav-3 bg-color-7 color-2">
-            <!-- <div class="nav-4"></div> -->
-            <button class="  bg-color-7 color-2 nav-5">next</button>
-            <!-- <div style="width: 2px;"></div> -->
-            <button class=" bg-color-7 color-2 nav-7">Finish</button>
-        </div>
+
         <div class="test-item__container_aside-summary bg-color-6 color-2">
             <div>Ansered</div>
             <div class="color-3">566</div>

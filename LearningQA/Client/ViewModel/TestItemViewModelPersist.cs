@@ -11,7 +11,7 @@ namespace LearningQA.Client.ViewModel
 	public class TestItemViewModelPersist
 	{
 		private readonly List<Action> registration = new List<Action>();
-		public bool Initialize { get; set; }
+		public bool Initialize { get; set; } = false;
 		private void Changed()
 		{
 			registration.ForEach(a => a());
@@ -36,14 +36,14 @@ namespace LearningQA.Client.ViewModel
 		{
 
 		}
-		private string _selectedCategory;
+		private string _selectedCategory ="";
 		public string SelectedCategory { get => _selectedCategory; set { _selectedCategory = value;  OnCategoryChanged(); } }
 		public List<string> Categories { get; set; } = new List<string>();
 		
 		private string _selectedSubjecte = "";
 		public string SelectedSubjecte { get => _selectedSubjecte; set { _selectedSubjecte = value; OnSubjectChanged(); } }
 		public List<string> Subjectes { get; set; } = new List<string>();
-		private string _selectedChapter;
+		private string _selectedChapter = "";
 		public string SelectedChapter { get => _selectedChapter; set{ _selectedChapter = value; Changed(); } }
 		public List<string> Chapteres { get; set; } = new List<string>();
 		List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
@@ -55,7 +55,7 @@ namespace LearningQA.Client.ViewModel
 
 			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().ToList();
 			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().ToList();
-
+			
 			Changed();
 		}
 
@@ -69,6 +69,28 @@ namespace LearningQA.Client.ViewModel
 			Subjectes = TestItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().ToList();
 			Changed();
 		}
-		public QUestionSql SelectedQuestion { get; set; }
+		public QUestionSql SelectedQuestion { get; set; } = new QUestionSql();
+		public bool EnablePreviouse { get; set; } = false;
+		public bool EnableNext { get; set; } = false;
+		public TestItem<QUestionSql,int> TestItem { get; set; }
+		public int CurrentQuestion { get; set; } = 0;
+		public void OnNext()
+		{
+			if (CurrentQuestion < TestItem.Questions.Count)
+				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion++);
+			EnablePreviouse = CurrentQuestion == 0 ? false : true;
+			EnableNext = CurrentQuestion < TestItem.Questions.Count ? true : false;
+			Changed();
+		}
+
+		public void OnPrevious()
+		{
+			if (CurrentQuestion > 0 )
+				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion--);
+			EnablePreviouse = CurrentQuestion == 0 ? false : true;
+			EnableNext = CurrentQuestion < TestItem.Questions.Count ? true : false;
+			Changed();
+		}
+
 	}
 }

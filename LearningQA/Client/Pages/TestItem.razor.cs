@@ -22,7 +22,7 @@ namespace LearningQA.Client.Pages
 		}
 		protected override async  Task OnInitializedAsync()
 		{
-			await testItemViewModel?.RetriveTestItemInfos();
+			 testItemViewModel?.RetriveTestItemInfos();
 			IsInitialize = true;
 			
 		}
