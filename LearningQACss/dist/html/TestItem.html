@@ -11,7 +11,9 @@
 			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
 			crossorigin="anonymous"
 		/> 
-		<link rel="stylesheet" href="/dist/css/main.css" />
+        <link rel="stylesheet" href="/dist/css/main.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 		<title>Test Item</title>
 	</head>
 	<body data-theme-container data-theme="color-43">
@@ -25,16 +27,19 @@
                     <div>Questions</div>
                 </div>
                 <div class="test-item__container_selection ">
-                    <select class="ss1 bg-color-6 color-2">
-                    <option value="A">1 aaaaaaaaaaaaa</option>
-                </select>
-                <select class="ss2 bg-color-6 color-2">
-                    <option value="A">2 aaaaaaaaaaaaaaaaaaaaaaaa</option>
-                </select>
-                <select   class="ss3 bg-color-6 color-2">
-                    <option value="A">3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
-                </select>
-                <button class="ss4 bg-color-6 color-2">Load</button>
+                   
+                        <select class="ss1 bg-color-6 color-2">
+                            <option value="A">1 aaaaaaaaaaaaa</option>
+                            </select>
+                    
+
+                    <select class="ss2 bg-color-6 color-2">
+                        <option value="A">2 aaaaaaaaaaaaaaaaaaaaaaaa</option>
+                    </select>
+                    <select   class="ss3 bg-color-6 color-2">
+                        <option value="A">3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
+                    </select>
+                    <button class="ss4 bg-color-6 color-2">Load</button>
                 </div>
                 <div class="test-item__container_nav">
                     <button class="nav-1  bg-color-7 color-2 " >previous</button>
@@ -43,9 +48,9 @@
                     <!-- <div class="nav-4"></div> -->
                     <button class="  bg-color-7 color-2 nav-5">next</button>
                     <!-- <div style="width: 2px;"></div> -->
-                    <button class="  bg-color-7 color-2 nav-7">Finish</button>
+                    <button  class=" bg-color-7 color-2 nav-7">Finish</button>
                 </div>
-                <div class="test-item__container_aside-timer ">
+<!--                 <div class="test-item__container_aside-timer ">
                 <div class="th bg-color-6 color-2">Time st</div>
                 
                  <div class="th-1"></div>
@@ -74,7 +79,7 @@
                     <div class="tt-11">-</div>
                 
                  
-                </div>
+                </div> -->
                 
                 <div class="test-item__container_aside-summary bg-color-6 color-2">
                     <div>Ansered</div>
@@ -89,29 +94,34 @@
                         <ul>
                             <li>
                                 <div class="form-check form-switch ">
-                                    <input class="form-check-input bg-color-2" type="checkbox" id="flexSwitchCheckDefault">
+                                    <input class="form-check-input bg-color-2" type="checkbox" id="question-option-1">
                                 </div>
                                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nostrum natus, est sequi iure inventore?</p>
                             </li>
                             <li>
                                 <div class="form-check form-switch ">
-                                    <input class="form-check-input bg-color-2" type="checkbox" id="flexSwitchCheckDefault">
+                                    <input class="form-check-input bg-color-2" type="checkbox" id="question-option-2">
                                 </div>
                                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nostrum natus, est sequi iure inventore?</p>
                             </li>
                             <li>
                                 <div class="form-check form-switch ">
-                                    <input class="form-check-input bg-color-2" type="checkbox" id="flexSwitchCheckDefault">
+                                    <input class="form-check-input bg-color-2" type="checkbox" id="question-option-3">
                                 </div>
                                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nostrum natus, est sequi iure inventore?</p>
                             </li>                        
                             <li>
                                 <div class="form-check form-switch ">
-                                    <input class="form-check-input bg-color-2" type="checkbox" id="flexSwitchCheckDefault">
+                                    <input class="form-check-input bg-color-2" type="checkbox" id="question-option-4">
                                 </div>
                                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nostrum natus, est sequi iure inventore?</p>
                             </li>
-
+                          <!--   <li>
+                                <div id="show-answer" class="toggle">
+                                  
+                                </div> 
+                                <p>Show</p>
+                            </li> -->
                         </ul>
                     </p>
                 </div>
@@ -120,36 +130,50 @@
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
 						incidunt?
-					</p>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eligendi.</p>
                 </div>
                 <!-- <div class="test-item__container_answer visually-hidden"  > -->
-                <div class="test-item__container_answer bg-color-7 color-2"  >
-                    <!-- <div class="accordion accordion-flush" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Shoe Answer
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="test-item__container_answer-expend bg-color-7 color-2"  >
+                        <!-- <div class="accordion accordion-flush" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Shoe Answer
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
                                 </div>
-                            </div>
-                        </div>                    
-                    </div> -->
-                    <div class="form-check form-switch ">
-                        <input class="form-check-input bg-color-2" type="checkbox" id="answerShowResult">
-                        <p>Showe Answer</p>
-                        <p class="visually-hiddens">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, tempore!</p>
-                      </div>
+                            </div>                    
+                        </div> -->
+    <!--                     <div class="form-check form-switch ">
+                            <input class="form-check-input bg-color-2" type="checkbox" >
+                            <p>Showe Answer</p>
+                            <p class="visually-hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, tempore!</p>
+                          </div> -->
+                          <div id="show-answer" class="toggle">
+                            
+                        </div>
+                        <div>Shoe/hide</div>
+    
+                          
+                          
+                        
+                    </div>
+                <div class="test-item__container_answer bg-color-7 color-2"  >
+                    <p class="visually-hidden" id="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, tempore!</p>
+                    
+            
                 </div>
                 <div class="test-item__container_supplement bg-color-9 color-2">
 
-                    <div class="toggle">
+                    <div id="container_supplement" class="toggle">
 
                     </div>                   
-                    <h1>suppl</h1>
+                    
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore nostrum laboriosam quo maxime, repellat possimus commodi vitae ratione dignissimos reprehenderit accusantium harum cumque maiores dolorem ut placeat accusamus ab sint. Modi consequatur natus dolores, ratione harum saepe a eos! Eaque eum, accusamus ipsum odio molestias ea maiores quis pariatur.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A reiciendis modi nobis quae blanditiis commodi rem dicta, laudantium ab quaerat est illo accusamus assumenda sunt delectus, in porro nisi doloremque voluptates voluptatum animi! Provident eligendi nulla quae placeat dolorum voluptates, tenetur doloribus illum possimus ratione enim porro obcaecati ipsum. Accusantium assumenda sunt veritatis, blanditiis laborum consequatur alias optio, iure debitis sequi possimus atque dolor culpa voluptatum eum quae quas quibusdam totam beatae in? Ea ut fugit similique rerum, sint ab nisi, doloribus molestias vero animi hic, maxime provident odit! Ut, praesentium. Molestiae, illo rerum. Reiciendis doloribus voluptatem quaerat maxime vero.</p>
                 </div>
@@ -162,7 +186,7 @@
                          <ul>
                     <li class="question-list_item1" >
 
-                        <i>ss</i>
+                        <div class="legend-icon_answered"></div>
                         <div>Q1</div>
                         <input type="checkbox"  title="Remove From Current Test"/>
                     </li>
@@ -220,10 +244,12 @@
                
                 </aside>
                 <div class="test-item__container_aside-legend">
-                    <div>a</div>
-                    <div>aaaa</div>
-                    <div>a</div>
-                    <div>aaaa</div>
+                    <div class="legend-icon_answered"></div>
+                    <div>Answered</div>
+                    <div class="legend-icon_wrong"></div>
+                    <div>Wrong</div>
+                    <div class="legend-icon_marked"></div>
+                    <div>Marked</div>
                 </div>
 				<!-- <footer class="test-item__container_footer">Footer</footer> -->
 			</div>
@@ -240,12 +266,23 @@
 			crossorigin="anonymous"
         ></script>
         <script>
-            const menuToggle = document.querySelector('.toggle');
-             const showcase = document.querySelector('.test-item__container_supplement');
-       
-             menuToggle.addEventListener('click', () => {
+            // const menuToggle = document.querySelector('.toggle');
+            const menuSupplement = document.querySelector('#container_supplement');
+            const container_supplement = document.querySelector('.test-item__container_supplement');
+            const menueShowAnsware = document.querySelector('#show-answer');
+            const answer= document.querySelector('#answer');
+            /*  menuToggle.addEventListener('click', () => {
                menuToggle.classList.toggle('active');
                showcase.classList.toggle('active');
+             }) */
+
+                menuSupplement.addEventListener('click', () => {
+                menuSupplement.classList.toggle('active');
+                container_supplement.classList.toggle('expande');
+             })
+             menueShowAnsware.addEventListener('click',() => {
+                 menueShowAnsware.classList.toggle('active');
+                 answer.classList.toggle('visually-hidden');
              })
        </script>
 	</body>

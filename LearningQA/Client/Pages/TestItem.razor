@@ -2,131 +2,140 @@
 @inject LearningQA.Client.ViewModel.TestItemViewModelPersist TestItemViewModelPersist
 
 
-<div class="container-fluid bg-color-10 color-6">
-    <div class="test-item__container">
-        <header class="test-item__container_header current__theme-bg-image  "><h4>Header</h4></header>
-        <div class="test-item__container_selection">
-            @if (IsInitialize)
-            {
-                <EditForm Model="TestItemViewModelPersist">
-                    <LearningQA.Client.Components.TestItemSelects TestItemViewModelPersist="TestItemViewModelPersist">
-
-                    </LearningQA.Client.Components.TestItemSelects>
-                </EditForm>
-
-            }
-            else
-            {
-                <div>
-                    Inititalzed In Process
-                </div>
-            }
+<div class="bg-color-6 color-6">
+    <div class="test-item__container bg-color-7 color-2">
+        <header class="test-item__container_header current__theme-bg-image--5-9"><div>Header</div></header>
+        <div class="test-item__container_aside-header current__theme-bg-image">
+            <div>Questions</div>
         </div>
-        <div class="test-item__container_option bg-color-4 color-8">
-            <p>
+        @if (false)
+        {
+            <div class="test-item__container_selection ">
+
+
+
+
+                <select class="ss2 bg-color-6 color-2">
+                    <option value="A">2 aaaaaaaaaaaaaaaaaaaaaaaa</option>
+                </select>
+                <select class="ss3 bg-color-6 color-2">
+                    <option value="A">3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
+                </select>
+                <button class="ss4 bg-color-6 color-2">Load</button>
+            </div>
+        }
+        else if (IsInitialize)
+        {
+            <EditForm class="test-item__container_selection" Model="TestItemViewModelPersist">
+                <LearningQA.Client.Components.TestItemSelects TestItemViewModelPersist="TestItemViewModelPersist" OnLoadCommand="testItemViewModel.OnLoadCommand">
+
+                </LearningQA.Client.Components.TestItemSelects>
+
+            </EditForm>
+
+        }
+        else
+        {
+            <div>
+                Inititalzed In Process
+            </div>
+        }
+        @if (testItemViewModel.TestItem != null)
+        {
+            <div class="test-item__container_question bg-color-8 color-2">
+                @if (TestItemViewModelPersist.SelectedQuestion != null)
+                {
+                    <p>@TestItemViewModelPersist.SelectedQuestion.Question</p>
+                }
+            </div>
+            <div class="test-item__container_option bg-color-9 color-2">
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
+                    @foreach (var i in  TestItemViewModelPersist.SelectedQuestion.Options)
+                    {
+                        <li>
+                            <div class="form-check form-switch ">
+                                <input class="form-check-input bg-color-2" type="checkbox" id="question-option-2" @onchange="EventArgs => { OnOptionChanged(i, EventArgs.Value); }">
+                            </div>
+                            <p>@i.Content</p>
+                        </li>
+                    }
+
                 </ul>
-            </p>
+            </div>
+        }
+        <div class="test-item__container_nav">
+            <button class=@($"nav-1 bg-color-7 color-2")>previous</button>
+            <div class="nav-2">Q</div>
+            <input type="number" min=3 max="4" class="nav-3 bg-color-7 color-2">
+            <!-- <div class="nav-4"></div> -->
+            <button class="  bg-color-7 color-2 nav-5">next</button>
+            <!-- <div style="width: 2px;"></div> -->
+            <button class=" bg-color-7 color-2 nav-7">Finish</button>
         </div>
-        <div class="test-item__container_question">
-            <p>Main</p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
-                incidunt?
-            </p>
+        <div class="test-item__container_aside-summary bg-color-6 color-2">
+            <div>Ansered</div>
+            <div class="color-3">566</div>
+            <div>Remained</div>
+            <div>123</div>
+            <div>marked</div>
+            <div>12</div>
+        </div>
+
+
+        <div class="test-item__container_answer-expend bg-color-7 color-2">
+
+            <div id="show-answer" class="toggle"></div>
+            <div>Show / Hide</div>
         </div>
         <div class="test-item__container_answer">
-            <div class="accordion accordion-flush" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="visually-hidden" id="answer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, tempore!</p>
         </div>
-        <div.test-item__container_answer class="test-item__container_supplement">
-            <h1>suppl</h1>
+        <div class="test-item__container_supplement bg-color-9 color-2">
+            <div id="container_supplement" class="toggle">
+
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore nostrum laboriosam quo maxime, repellat possimus commodi vitae ratione dignissimos reprehenderit accusantium harum cumque maiores dolorem ut placeat accusamus ab sint. Modi consequatur natus dolores, ratione harum saepe a eos! Eaque eum, accusamus ipsum odio molestias ea maiores quis pariatur.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A reiciendis modi nobis quae blanditiis commodi rem dicta, laudantium ab quaerat est illo accusamus assumenda sunt delectus, in porro nisi doloremque voluptates voluptatum animi! Provident eligendi nulla quae placeat dolorum voluptates, tenetur doloribus illum possimus ratione enim porro obcaecati ipsum. Accusantium assumenda sunt veritatis, blanditiis laborum consequatur alias optio, iure debitis sequi possimus atque dolor culpa voluptatum eum quae quas quibusdam totam beatae in? Ea ut fugit similique rerum, sint ab nisi, doloribus molestias vero animi hic, maxime provident odit! Ut, praesentium. Molestiae, illo rerum. Reiciendis doloribus voluptatem quaerat maxime vero.</p>
-        </div.test-item__container_answer>
+        </div>
         <div class="test-item__container_aside-header current__theme-bg-image">
             <h6>Questions</h6>
         </div>
 
-        <aside class="test-item__container_aside bg-color-10 color-2">
+        <aside class="test-item__container_aside bg-color-5 color-2">
 
             <input type="button" class="c123" id="aaa">
-            <div class="question-list color-8 bg-color-2">
+            <div class="question-list color-5 bg-color-2">
                 <ul>
-                    <li class="question-list_item1">Q 1</li>
-                    <li class="question-list_item2">Q 2</li>
-                    <li class="question-list_item3">Q 3</li>
-                    <li class="question-list_item4">Q 4</li>
-                    <li class="question-list_item5">Q 5</li>
-                    <li class="question-list_item6">Q 6</li>
-                    <li class="question-list_item7">Q 7</li>
-                    <li class="question-list_item8">Q 8</li>
-                    <li class="question-list_item9">Q 9</li>
-                    <li class="question-list_item10">Q 10</li>
-                    <li class="question-list_item11">Q 11</li>
-                    <li class="question-list_item12">Q 12</li>
-                    <li class="question-list_item13">Q 13</li>
-                    <li class="question-list_item14">Q 14</li>
-                    <li class="question-list_item15">Q 15</li>
-                    <li class="question-list_item16">Q 16</li>
-                    <li class="question-list_item17">Q 17</li>
-                    <li class="question-list_item18">Q 18</li>
-                    <li class="question-list_item19">Q 19</li>
-                    <li class="question-list_item20">Q 20</li>
-                    <li class="question-list_item21">Q 21</li>
-                    <li class="question-list_item22">Q 22</li>
-                    <li class="question-list_item23">Q 23</li>
-                    <li class="question-list_item24">Q 24</li>
-                    <li class="question-list_item25">Q 25</li>
-                    <li class="question-list_item26">Q 26</li>
-                    <li class="question-list_item27">Q 27</li>
-                    <li class="question-list_item28">Q 28</li>
-                    <li class="question-list_item29">Q 29</li>
-                    <li class="question-list_item30">Q 30</li>
-                    <li class="question-list_item31">Q 31</li>
-                    <li class="question-list_item32">Q 32</li>
-                    <li class="question-list_item33">Q 33</li>
-                    <li class="question-list_item34">Q 34</li>
-                    <li class="question-list_item35">Q 35</li>
-                    <li class="question-list_item36">Q 36</li>
-                    <li class="question-list_item37">Q 37</li>
-                    <li class="question-list_item38">Q 38</li>
-                    <li class="question-list_item39">Q 39</li>
-                    <li class="question-list_item40">Q 40</li>
-                    <li class="question-list_item41">Q 41</li>
-                    <li class="question-list_item42">Q 42</li>
-                    <li class="question-list_item43">Q 43</li>
-                    <li class="question-list_item44">Q 44</li>
-                    <li class="question-list_item45">Q 45</li>
-                    <li class="question-list_item46">Q 46</li>
-                    <li class="question-list_item47">Q 47</li>
-                    <li class="question-list_item48">Q 48</li>
-                    <li class="question-list_item49">Q 49</li>
-                    <li class="question-list_item50">Q 50</li>
+                    <li class="question-list_item1">
+                        <div class="legend-icon_answered"></div>
+                        <div>Q1</div>
+                        <input type="checkbox" title="Remove From Current Test" />
+                    </li>
+                    <li class="question-list_item2">
+                        <div class="legend-icon_answered"></div>
+                        <div>Q1</div>
+                        <input type="checkbox" title="Remove From Current Test" />
+                    </li>
                 </ul>
             </div>
 
         </aside>
-        <footer class="test-item__container_footer">Footer</footer>
+
+        <div class="test-item__container_aside-legend">
+            <div class="legend-icon_answered"></div>
+            <div>Answered</div>
+            <div class="legend-icon_wrong"></div>
+            <div>Wrong</div>
+            <div class="legend-icon_marked"></div>
+            <div>Marked</div>
+        </div>
+        @*<footer class="test-item__container_footer">Footer</footer>*@
     </div>
 </div>
 
 @code {
-
+    private void OnOptionChanged(QuestionOption<int> id, object checkedValue)
+    {
+        Console.WriteLine($"Option id{id.Id } status: {(bool)checkedValue} ");
+    }
 }

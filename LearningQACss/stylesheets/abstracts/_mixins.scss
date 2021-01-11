@@ -118,9 +118,9 @@ fluid-type from  CSS-tricks (Mike)
 
 /* Define break points*/
 $screen-size:(
-  mobile: 480px,
-  tablet: 768px,
-  desktop: 1440px, 
+  "mobile": 480px,
+  "tablet": 768px,
+  "desktop": 1440px, 
 );
 
 //Defining our conditional Media query Mixin
@@ -134,4 +134,9 @@ $screen-size:(
       };
     }
   }
+}
+@mixin media-query-property-min($value, $media-property, $media-value) {
+  @media screen and (min-width : $value) {
+    $media-property: $media-value;
+  };
 }

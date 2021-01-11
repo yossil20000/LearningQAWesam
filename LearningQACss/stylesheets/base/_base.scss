@@ -1,3 +1,4 @@
+@use "sass:map";
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
@@ -26,28 +27,35 @@
     --font-family: Sansita, Swashed;
     --font-size: calc(1vw + 1vh + .5vmin);
     --font-weight: bold; 
-    line-height: 1.15;
+    --shade-count: #{$shade-count};
+    --bg-image-linear-stop: 120%;
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
---shade-count: #{$shade-count};
---bg-image-linear-stop: 120%;
-box-sizing: border-box;
-height: 100%;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 //@include fluid-type(font-size, $minScreen, $maxScreen, $minFont, $maxFont);
-font-size: var(--font-size);
+
  
  //font: normal small-caps calc(1vw + 1vh + .5vmin) var(--bs-font-sans-serif, 9)
  //font: normal small-caps calc(1vw + 1vh + .5vmin) Literata;
  //font: normal small-caps bold calc(1vw + 1vh + .5vmin) 'Crimson Pro';
  //font: normal small-caps bold calc(1vw + 1vh + .5vmin) var(--font-family);
+
+ height: 100%;
+ box-sizing: border-box;
+ font-size: var(--font-size);
  font-family: var(--font-family);
  font-weight: var(--font-weight);
+ line-height: 1.15;
+ text-rendering: optimizeLegibility;
+
+ @media screen and (min-width :768px) {
+  --font-size: calc(0.3vw + 1vh + .5vmin); 
+};
 
 }
+
 // https://css-tricks.com/almanac/properties/s/scrollbar/
 body::-webkit-scrollbar {
   width: 1em;
@@ -75,22 +83,4 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
-}
-// .disabled { 
-//     position : relative; 
-//     color    : grey;
-// }
-.disabled:after {
-    position :absolute;
-    left     : 0;
-    top      : 0;
-    width    : 100%;
-    height   : 100%;
-    content  :' ';
-}
-
-.disabled{
-  
-  cursor: not-allowed;
-  pointer-events: none;
 }

@@ -1,33 +1,41 @@
-﻿<div>
-    <InputSelect @bind-Value="TestItemViewModelPersist.SelectedCategory">
-        <option value="">--select-category</option>
+﻿
 
-        @foreach (string value in TestItemViewModelPersist.Categories)
-        {
+   
+        <InputSelect   class="test-item__container_selection_ss1 bg-color-6 color-2" @bind-Value="TestItemViewModelPersist.SelectedCategory">
+            <option value="">--select-category</option>
 
-            <option>@value</option>
-        }
-    </InputSelect>
+            @foreach (string value in TestItemViewModelPersist.Categories)
+            {
 
-    <InputSelect class="btn-outline-primary" @bind-Value="TestItemViewModelPersist.SelectedSubjecte">
+                <option>@value</option>
+            }
+        </InputSelect>
+    
+   
+   
+        <InputSelect  class="ss2 bg-color-6 color-2" @bind-Value="TestItemViewModelPersist.SelectedSubjecte" >
 
-        <option value="">--select-subject</option>
-        @foreach (string value in TestItemViewModelPersist.Subjectes)
-        {
-            
-            <option>@value</option>
-        }
-    </InputSelect>
-    <InputSelect @bind-Value="TestItemViewModelPersist.SelectedChapter">
-        <option value="">--select-chapter</option>
-        @foreach (string value in TestItemViewModelPersist.Chapteres)
-        {
+            <option value="">--select-subject</option>
+            @foreach (string value in TestItemViewModelPersist.Subjectes)
+            {
 
-            <option>@value</option>
-        }
-    </InputSelect>
+                <option>@value</option>
+            }
+        </InputSelect>
+   
+    
+        <InputSelect class="test-item__container_selection_ss3 bg-color-6 color-2"  @bind-Value="TestItemViewModelPersist.SelectedChapter">
+            <option value="">--select-chapter</option>
+            @foreach (string value in TestItemViewModelPersist.Chapteres)
+            {
 
-</div>
-@code {
+                <option>@value</option>
+            }
+        </InputSelect>
 
-}
+    
+    
+        <button class="ss4 bg-color-6 color-2" @onclick="@(() => OnLoadCommand.InvokeAsync())">Load</button>
+    
+
+      

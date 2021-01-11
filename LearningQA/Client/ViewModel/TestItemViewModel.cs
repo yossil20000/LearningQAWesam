@@ -1,5 +1,6 @@
 ﻿using LearningQA.Client.Model;
 using LearningQA.Shared.DTO;
+using LearningQA.Shared.Entities;
 
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,10 @@ namespace LearningQA.Client.ViewModel
 	{
 		
 		Task RetriveTestItemInfos();
-		
 
-		
+		Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo);
+		Task OnLoadCommand();
+		TestItem<QUestionSql, int> TestItem { get; set; }
 	}	
 
 
@@ -23,6 +25,7 @@ namespace LearningQA.Client.ViewModel
 
 		public ITestItemModel testItemModel;
 		public TestItemViewModelPersist TestItemViewModelPersist { get; private set; }
+		public TestItem<QUestionSql,int> TestItem { get; set; }
 
 			public TestItemViewModel(ITestItemModel testItemModel, TestItemViewModelPersist testItemViewModelPersist )
 		{
@@ -39,6 +42,22 @@ namespace LearningQA.Client.ViewModel
 
 		}
 		
-
+		public async Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo)
+		{
+			var result = await testItemModel.RetriveTestItem(testItemInfo);
+			TestItemViewModelPersist.SelectedQuestion = result.Questions.FirstOrDefault();
+			return result;
 		}
+
+		public async Task OnLoadCommand()
+		{
+			TestItemInfo testItemInfo = new TestItemInfo()
+			{
+				Category = TestItemViewModelPersist.SelectedCategory,
+				Subject = TestItemViewModelPersist.SelectedSubjecte,
+				Chapter = TestItemViewModelPersist.SelectedChapter
+			};
+			 TestItem = await RetriveTestItem(testItemInfo);
+		}
+	}
 }

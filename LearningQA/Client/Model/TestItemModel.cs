@@ -1,4 +1,5 @@
 ﻿using LearningQA.Shared.DTO;
+using LearningQA.Shared.Entities;
 
 using ServiceResult;
 
@@ -15,6 +16,7 @@ namespace LearningQA.Client.Model
 	{
 		IEnumerable<TestItemInfo> TestItemInfos { get;  }
 		Task RetriveTestItemInfos();
+		Task<TestItem<QUestionSql,int>> RetriveTestItem(TestItemInfo testItemInfo);
 	}
 	public class TestItemModel : ITestItemModel
 	{
@@ -30,6 +32,13 @@ namespace LearningQA.Client.Model
 		{
 			var result = await httpClient.GetFromJsonAsync<IEnumerable<TestItemInfo>>("api/TestItem/TestItems");
 			testItemInfos = result.ToList();
+		}
+
+		public async Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo)
+		{
+			var result = await httpClient.GetFromJsonAsync<TestItem<QUestionSql, int>>($"api/TestItem/TestItem?category={testItemInfo.Category}&subject={testItemInfo.Subject}&chapter={testItemInfo.Chapter}");
+
+			return result;
 		}
 	}
 }

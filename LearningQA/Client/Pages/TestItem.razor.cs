@@ -1,4 +1,6 @@
 ﻿using LearningQA.Client.ViewModel;
+using LearningQA.Shared.DTO;
+using LearningQA.Shared.Entities;
 
 using Microsoft.AspNetCore.Components;
 
@@ -29,6 +31,11 @@ namespace LearningQA.Client.Pages
 			//TestItemViewModelPersist.OnChanged(
 			//	() => base.StateHasChanged());
 			base.OnAfterRender(firstRender);
+		}
+		
+		private async Task OnLoadCommand(TestItemInfo testItemInfo)
+		{
+			TestItem<QUestionSql, int> testItem = await testItemViewModel.RetriveTestItem(testItemInfo);
 		}
 	}
 }

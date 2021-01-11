@@ -54,10 +54,25 @@ namespace LearningQA.Server.Controllers
 			var list = result.Data;
 			return  await Task.FromResult(list);
 		}
+		[HttpGet]
+		public async Task<ActionResult<TestItem<QUestionSql,int>>> TestItem([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter)
+		{
+			TestItemQuery testItemQuery = new TestItemQuery()
+			{
+				TestItemInfo = new TestItemInfo()
+				{
+					Category = category,
+					Subject = subject,
+					Chapter = chapter
+				}
+			};
+			var result = await _mediator.Send(testItemQuery);
+			return Ok(result.Data);
+		}
 		[HttpPut]
 		public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
 		{
-			var result = _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);
+			var result = await _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);
 			return Ok(true);
 		}
 		[HttpPost(Name = "/CreateTestItem")]

@@ -1,4 +1,5 @@
 ﻿using LearningQA.Shared.DTO;
+using LearningQA.Shared.Entities;
 
 using System;
 using System.Collections.Generic;
@@ -68,5 +69,6 @@ namespace LearningQA.Client.ViewModel
 			Subjectes = TestItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().ToList();
 			Changed();
 		}
+		public QUestionSql SelectedQuestion { get; set; }
 	}
 }

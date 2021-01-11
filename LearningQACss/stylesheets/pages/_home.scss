@@ -1,40 +1,85 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.ss1{
+    grid-area: ss1;
+    
+   text-overflow: ellipsis;
+   margin : $grid-left-margin;
+   min-width: 0;
+}
+.ss2{
+ grid-area: ss2;
+ text-overflow: ellipsis;
+ overflow: scroll;
+ min-width: 0;
+ margin-left: 1px;
+ margin : $grid-left-margin;
+}
+.ss3{
+ grid-area: ss3;
+ text-overflow: ellipsis;
+   overflow: hidden;
+   min-width: 0;
+   margin : $grid-left-margin;
+}
+.ss4{
+ grid-area: ss4;
+ text-overflow: ellipsis;
+   overflow: hidden;
+   min-width: 0;
+   margin-left: 1px;
+   margin: 2px 2px 2px 2px;
+   margin : $grid-right-margin;
+   
+}
 .test-item{
     &__container{
         display: grid;
         height: 100vh;
-        grid-template-columns: minmax(auto ,0.2fr) .2fr 1fr;
-        grid-template-rows: 5ch 5ch 5ch auto auto auto auto  1fr 5ch auto;
+        grid-template-columns: minmax(auto ,0.1fr) .2fr 1fr;
+        grid-template-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
         grid-template-areas: 
         "aside-header header header" 
-        "aside-timer selection selection"
-        "aside-teimer nav nav"
-        "aside-summary question question"
+        "aside-summary selection selection"
+        "aside-summary nav nav"
+        "aside question question"
         "aside question question"
         "aside option option"
+        "aside answer-expend answer-expend" 
         "aside answer answer" 
         "aside supplement supplement" 
         "aside-legend supplement supplement" 
-        "aside-legend footer footer";
+        "aside-legend supplement supplement" 
+        "footer footer footer";
+        &_answer-expend{
+            grid-area: answer-expend;
+            display: grid;
+            grid-template-columns: 3rem 1fr;
+            
+            padding-left: 1ch;
+        }
         &_aside-summary{
             display: grid;
             grid-area: aside-summary;
             grid-template-columns: 1fr   5ch;
-            grid-auto-rows: 2ch;
+            grid-auto-rows: 2.6ch;
+            padding-left: 0.5ch;
         }
         &_aside-legend{
             grid-area: aside-legend;
             display: grid;
             grid-template-columns: 0.25fr 0.75fr;
-            grid-auto-rows: 2ch;
+            grid-auto-rows: 2.5ch;
+            padding-left: 0.5ch;
+            
         }
         
         &_aside-timer
         {
             grid-area: aside-timer;
             display: grid;
+            padding-left: 0.5ch;
             grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr auto;
             grid-template-rows: 2ch 2ch 2ch 2ch ;
             grid-template-areas: 
@@ -61,6 +106,7 @@
         }
         &_aside-header{
             grid-area: aside-header;
+            padding-left: 0.5ch;
             div{
                 display: flex;
                
@@ -74,11 +120,13 @@
         &_aside{
             position: relative;
             grid-area: aside;
+            padding-left: 0.5ch;
              &:hover {
                  grid-column: 1 / 3;
+                 grid-row: 4 / -1;
              }
             height: 100%;
-            overflow: scroll;
+            overflow-y: scroll;
             input[type="button"] {
                display: none;
             }
@@ -87,6 +135,18 @@
                 padding: 0;
                 list-style-type: none;
             }
+            &::-webkit-scrollbar {
+                width: 0.5em;
+              }
+              &::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px rgba(94, 38, 38, 0.3);
+              }
+               
+              
+              &::-webkit-scrollbar-thumb {
+                background-color:darkgrey;
+                outline: 1px solid slategrey;
+              }
         }
         &_nav
         {
@@ -100,10 +160,12 @@
             .nav-1{
                 grid-area: nav-1;
                 margin: $grid-left-margin;
+                
             }
             .nav-2{
                 grid-area: nav-2;
                 margin: $grid-left-margin;
+                align-self: center;
             }
             .nav-3{
                 grid-area: nav-3;
@@ -135,49 +197,49 @@
             grid-area: selection;
             justify-content: space-between;
             
-            gap: px;
-           .ss1{
-               grid-area: ss1;
+            gap: 0px;
+            &_ss1{
+                grid-area: ss1;
+                
+               text-overflow: ellipsis;
+               margin : $grid-left-margin;
+               min-width: 0;
+            }
+            &_ss2{
+             grid-area: ss2;
+             text-overflow: ellipsis;
+             overflow: scroll;
+             min-width: 0;
+             margin-left: 1px;
+             margin : $grid-left-margin;
+            }
+            &_ss3{
+             grid-area: ss3;
+             text-overflow: ellipsis;
+               overflow: hidden;
+               min-width: 0;
+               margin : $grid-left-margin;
+            }
+            &_ss4{
+             grid-area: ss4;
+             text-overflow: ellipsis;
+               overflow: hidden;
+               min-width: 0;
+               margin-left: 1px;
+               margin: 2px 2px 2px 2px;
+               margin : $grid-right-margin;
                
-              text-overflow: ellipsis;
-              margin : $grid-left-margin;
-              min-width: 0;
-           }
-           .ss2{
-            grid-area: ss2;
-            text-overflow: ellipsis;
-            overflow: scroll;
-            min-width: 0;
-            margin-left: 1px;
-            margin : $grid-left-margin;
-        }
-        .ss3{
-            grid-area: ss3;
-            text-overflow: ellipsis;
-              overflow: hidden;
-              min-width: 0;
-              margin : $grid-left-margin;
-        }
-         .ss4{
-            grid-area: ss4;
-            text-overflow: ellipsis;
-              overflow: hidden;
-              min-width: 0;
-              margin-left: 1px;
-              margin: 2px 2px 2px 2px;
-              margin : $grid-right-margin;
-              
-        }
+            }
         }
         
         &_header{
             display: grid;
             grid-area: header;
             
-            justify-content: stretch;
+/*             justify-content: stretch;
             align-content: stretch;
             align-items: stretch;
-            justify-items: stretch;
+            justify-items: stretch; */
             div{
                 display: flex;
                
@@ -192,6 +254,7 @@
             padding: 1ch;
         }
         &_option{
+            padding-left: 1ch;
             grid-area: option;
             ul {
                 padding: 0;
@@ -206,14 +269,16 @@
         &_answer{
             grid-area: answer;
            
+           
         }
         &_supplement{
-            
+            display: grid;
+            grid-template-rows: 4vh auto;
             grid-area: supplement;
             padding-left: 1ch;
-            overflow: scroll;
-            scrollbar-width: auto;
-            scrollbar-color: darkgrey slategrey;
+            overflow-y: scroll;
+ /*            scrollbar-width: thin;
+            scrollbar-color: darkgrey slategrey; */
             &::-webkit-scrollbar {
                 width: 1em;
               }
@@ -228,6 +293,7 @@
               }
         }
         &_footer{
+            padding-left: 1ch;
             grid-area: footer;
         }
         
@@ -240,7 +306,7 @@
     grid-auto-rows: 3ch;
     align-items: center;
     gap: 3px;
-   
+   margin-top: 0.1rem;
 }
 /* checked*/
 .form-check-input:checked {
@@ -252,27 +318,59 @@
     background-color: oldlace;
     border: 3px solid rgba(70, 15, 15, 0);
 }
+
+
 .toggle{
     position: relative;
-    width: 60px;
-    height: 60px;
-    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    width: 1rem;
+    height: 1rem;
+    background: url(/dist/css/fonts/expand_less-24px.svg);
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 2rem;
     background-position: center;
     cursor: pointer;
 }
+/* .toggle::after{
+    content: 'Expande';
+}
+ */
+
 .toggle.active
 {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background: url(/dist/css/fonts/expand_more-24px.svg);
   background-repeat: no-repeat;
-  background-size: 25px;
+  background-size: 2rem;
   background-position: center;
   cursor: pointer;
 }
-.test-item__container_supplement.active{
+/* .toggle.active::before{
+    content: 'hide';
+} */
+.test-item__container_supplement.expande{
     z-index: 1000;
     grid-row: 6 / -1;
-    grid-column: 2 / -1;
+    grid-column: 1 / -1;
     
+    
+}
+.legend-icon{
+    justify-self: center;
+    align-self: center;
+    height: 1ch;
+    width: 1ch;
+    border-radius: 50%;
+   margin-left: 0.1rem;
+    &_answered{
+        @extend .legend-icon;
+        background-color: green;
+    }
+  
+    &_marked{
+        @extend .legend-icon;
+        background-color: blueviolet;
+    }
+    &_wrong{
+        @extend .legend-icon;
+        background-color:red;
+    }
 }
