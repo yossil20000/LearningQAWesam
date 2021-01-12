@@ -17,6 +17,7 @@ namespace LearningQA.Shared.MediatR.TestItem.Command
 	public class CreateRangeTestItemCommand : IRequest<int>
 	{
 		public List<TestItem<QUestionSql, int>> _testItems;
+		public bool CreateNewDatabase { get; set; } = false;
 		public CreateRangeTestItemCommand(List<TestItem<QUestionSql, int>> testItems)
 		{
 			_testItems = testItems;
@@ -38,7 +39,11 @@ namespace LearningQA.Shared.MediatR.TestItem.Command
 		{
 			try
 			{
-				
+				if(request.CreateNewDatabase)
+				{
+					dbContext.Database.EnsureDeleted();
+					dbContext.Database.EnsureCreated();
+				}
 				dbContext.TestItems.AddRange(request._testItems);
 				var result = await dbContext.SaveChangesAsync();
 				return result;

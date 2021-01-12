@@ -2032,6 +2032,7 @@ a:hover, a:active, a:focus {
   width: 1ch;
   border-radius: 50%;
   margin-left: 0.1rem;
+  background-color: gray;
 }
 
 .legend-icon_answered {

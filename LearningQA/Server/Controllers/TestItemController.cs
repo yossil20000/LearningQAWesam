@@ -88,6 +88,22 @@ namespace LearningQA.Server.Controllers
 			
 			return Ok(true);
 		}
+		[HttpPost(Name = "/LoadNewFromFile")]
+		public async Task<IActionResult> LoadNewFromFile()
+		{
+
+			
+			var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>();
+
+			var result = await _mediator.Send(new CreateRangeTestItemCommand(testitems) { CreateNewDatabase = true}, cancellationToken);
+			foreach (var item in testitems)
+			{
+				//var result = await _mediator.Send(new CreateNewTestItemCommand(item), cancellationToken);
+			}
+
+			return Ok(true);
+		}
+
 	}
 
 }

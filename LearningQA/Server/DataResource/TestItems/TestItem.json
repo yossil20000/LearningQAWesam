@@ -15,6 +15,9 @@
         "question": "What does cabotage refer to?",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -56,6 +59,9 @@
         "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -110,6 +116,9 @@
         "question": "What does cabotage refer to?",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -151,6 +160,9 @@
         "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -205,6 +217,9 @@
         "question": "What does cabotage refer to?",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -246,6 +261,9 @@
         "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -300,6 +318,9 @@
         "question": "What does cabotage refer to?",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {
@@ -341,6 +362,9 @@
         "question": "The Convention signed by the states relating to damage caused by foreign aircraft,to persons and property on the ground is",
         "mark": 0,
         "isactive": true,
+        "isanswered": false,
+        "ismarked": true,
+        "isselected": true,
         "answerType": 0,
         "supplements": [
           {

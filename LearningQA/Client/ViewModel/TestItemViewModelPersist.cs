@@ -50,6 +50,7 @@ namespace LearningQA.Client.ViewModel
 		public List<string> Chapteres { get; set; } = new List<string>();
 		List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
 		public List<TestItemInfo> TestItemInfos { get => testItemInfos; set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); } }
+		
 		private void ProcessTestItemInfo()
 		{
 			Categories = testItemInfos.Select(x => x.Category).Distinct().ToList();
@@ -122,6 +123,9 @@ namespace LearningQA.Client.ViewModel
 				Changed();
 			}
 		}
-
+		public void OnQuestionIsSelected(int Id, ChangeEventArgs ea)
+		{
+			testItem.Questions.Where(x => x.Id == Id).FirstOrDefault().IsActive = (bool)ea.Value;
+		}
 	}
 }
