@@ -1,6 +1,8 @@
 ﻿using LearningQA.Shared.DTO;
 using LearningQA.Shared.Entities;
 
+using Microsoft.AspNetCore.Components;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +14,7 @@ namespace LearningQA.Client.ViewModel
 	{
 		private readonly List<Action> registration = new List<Action>();
 		public bool Initialize { get; set; } = false;
-		private void Changed()
+		public void Changed()
 		{
 			registration.ForEach(a => a());
 
@@ -62,34 +64,63 @@ namespace LearningQA.Client.ViewModel
 		private void OnSubjectChanged()
 		{
 			Chapteres = TestItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().ToList();
+			SelectedChapter = Chapteres.FirstOrDefault();
 			Changed();
 		}
 		private void OnCategoryChanged()
 		{
 			Subjectes = TestItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().ToList();
+			SelectedSubjecte = Subjectes.FirstOrDefault();
 			Changed();
 		}
 		public QUestionSql SelectedQuestion { get; set; } = new QUestionSql();
-		public bool EnablePreviouse { get; set; } = false;
-		public bool EnableNext { get; set; } = false;
-		public TestItem<QUestionSql,int> TestItem { get; set; }
+		public bool EnablePreviouse { get; set; } = true;
+		public bool EnableNext { get; set; } = true;
+
+		private TestItem<QUestionSql, int> testItem = new TestItem<QUestionSql, int>();
+		public TestItem<QUestionSql,int> TestItem { 
+			get { return testItem; } 
+			set { testItem = value; CurrentQuestion = 0; UpdatePagination(); Changed(); } 
+		}
 		public int CurrentQuestion { get; set; } = 0;
+		private void UpdatePagination()
+		{
+			EnablePreviouse = CurrentQuestion == 0 ? false : true;
+			EnableNext = CurrentQuestion < TestItem.Questions.Count - 1 ? true : false;
+			
+		}
 		public void OnNext()
 		{
-			if (CurrentQuestion < TestItem.Questions.Count)
-				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion++);
-			EnablePreviouse = CurrentQuestion == 0 ? false : true;
-			EnableNext = CurrentQuestion < TestItem.Questions.Count ? true : false;
+			if (CurrentQuestion < TestItem.Questions.Count - 1)
+			{
+				CurrentQuestion++;
+				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion);
+			}
+			UpdatePagination();
 			Changed();
 		}
 
 		public void OnPrevious()
 		{
-			if (CurrentQuestion > 0 )
-				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion--);
-			EnablePreviouse = CurrentQuestion == 0 ? false : true;
-			EnableNext = CurrentQuestion < TestItem.Questions.Count ? true : false;
+			if (CurrentQuestion > 0)
+			{
+				CurrentQuestion--;
+				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion);
+			}
+			UpdatePagination();
 			Changed();
+		}
+		public void OnChangeQuestionNumber(ChangeEventArgs ea)
+		{
+			int questionNumber = 0;
+			int.TryParse(ea.Value.ToString(), out questionNumber);
+			if (questionNumber >= 0 && questionNumber < testItem.Questions.Count)
+			{
+				CurrentQuestion = questionNumber;
+				SelectedQuestion = testItem.Questions.ElementAt(CurrentQuestion);
+				UpdatePagination();
+				Changed();
+			}
 		}
 
 	}

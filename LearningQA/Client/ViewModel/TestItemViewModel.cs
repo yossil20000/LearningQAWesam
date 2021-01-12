@@ -65,6 +65,9 @@ namespace LearningQA.Client.ViewModel
 				Chapter = TestItemViewModelPersist.SelectedChapter
 			};
 			 TestItem = await RetriveTestItem(testItemInfo);
+			TestItemViewModelPersist.TestItem = TestItem;
+			
+			
 		}
 
 		public void OnNext()
