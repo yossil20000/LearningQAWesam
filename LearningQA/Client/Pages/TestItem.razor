@@ -122,12 +122,18 @@
                             }
                         }
                     </ul>
-                   
+
                 </p>
             </div>
 
         }
+        <div class=@($"test-item__container_supplement {(supplementExpand ? "" : "expande")} bg-color-9 color-2")>
+            <div id="container_supplement" class=@($"{(supplementExpand ? "toggle" : "toggle active")}") @onclick="OnSupplementExpandToggle">
 
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore nostrum laboriosam quo maxime, repellat possimus commodi vitae ratione dignissimos reprehenderit accusantium harum cumque maiores dolorem ut placeat accusamus ab sint. Modi consequatur natus dolores, ratione harum saepe a eos! Eaque eum, accusamus ipsum odio molestias ea maiores quis pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A reiciendis modi nobis quae blanditiis commodi rem dicta, laudantium ab quaerat est illo accusamus assumenda sunt delectus, in porro nisi doloremque voluptates voluptatum animi! Provident eligendi nulla quae placeat dolorum voluptates, tenetur doloribus illum possimus ratione enim porro obcaecati ipsum. Accusantium assumenda sunt veritatis, blanditiis laborum consequatur alias optio, iure debitis sequi possimus atque dolor culpa voluptatum eum quae quas quibusdam totam beatae in? Ea ut fugit similique rerum, sint ab nisi, doloribus molestias vero animi hic, maxime provident odit! Ut, praesentium. Molestiae, illo rerum. Reiciendis doloribus voluptatem quaerat maxime vero.</p>
+        </div>
         <div class="test-item__container_aside-summary bg-color-6 color-2">
             <div>Ansered</div>
             <div class="color-3">566</div>
@@ -144,13 +150,7 @@
             <div>Show / Hide</div>
         </div>
 
-        <div class="test-item__container_supplement bg-color-9 color-2">
-            <div id="container_supplement" class="toggle">
 
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore nostrum laboriosam quo maxime, repellat possimus commodi vitae ratione dignissimos reprehenderit accusantium harum cumque maiores dolorem ut placeat accusamus ab sint. Modi consequatur natus dolores, ratione harum saepe a eos! Eaque eum, accusamus ipsum odio molestias ea maiores quis pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A reiciendis modi nobis quae blanditiis commodi rem dicta, laudantium ab quaerat est illo accusamus assumenda sunt delectus, in porro nisi doloremque voluptates voluptatum animi! Provident eligendi nulla quae placeat dolorum voluptates, tenetur doloribus illum possimus ratione enim porro obcaecati ipsum. Accusantium assumenda sunt veritatis, blanditiis laborum consequatur alias optio, iure debitis sequi possimus atque dolor culpa voluptatum eum quae quas quibusdam totam beatae in? Ea ut fugit similique rerum, sint ab nisi, doloribus molestias vero animi hic, maxime provident odit! Ut, praesentium. Molestiae, illo rerum. Reiciendis doloribus voluptatem quaerat maxime vero.</p>
-        </div>
         <div class="test-item__container_aside-header current__theme-bg-image">
             <h6>Questions</h6>
         </div>
@@ -171,6 +171,7 @@
 
 @code {
     private bool answereExpend { get; set; } = false;
+    private bool supplementExpand { get; set; } = false;
 
     private void OnOptionChanged(QuestionOption<int> id, object checkedValue)
     {
@@ -179,6 +180,10 @@
     private void OnAnswerExpandToggle()
     {
         answereExpend = !answereExpend;
+    }
+    private void OnSupplementExpandToggle()
+    {
+        supplementExpand = !supplementExpand;
     }
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@
 }
