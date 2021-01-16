@@ -22,7 +22,7 @@ namespace DynamicRepository.Tests.EFCore
 
 		protected readonly IEnumerable<Person<int>> PersonData;
 		protected IEnumerable< TestItem<QUestionSql, int>> TestItemsData;
-		protected IEnumerable<Test<QUestionSql, int>> TestsData = new List<Test<QUestionSql,int>>();
+		protected ICollection<Test<QUestionSql, int>> TestsData = new List<Test<QUestionSql,int>>();
 	
 
 		
@@ -54,7 +54,7 @@ namespace DynamicRepository.Tests.EFCore
 				context.SaveChanges();
 				PersonData =  CreatePersons();
 				FillTestEntity();
-
+				FillTestEntity();
 
 
 				context.AddRange(TestsData);

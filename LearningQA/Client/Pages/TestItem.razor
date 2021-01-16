@@ -24,7 +24,7 @@
                 <button class="ss4 bg-color-6 color-2">Load</button>
             </div>
         }
-        else if (IsInitialize)
+        else if (TestItemViewModelPersist != null)
         {
             <EditForm class="test-item__container_selection" Model="TestItemViewModelPersist">
                 <LearningQA.Client.Components.TestItemSelects TestItemViewModelPersist="TestItemViewModelPersist" OnLoadCommand="testItemViewModel.OnLoadCommand">
@@ -40,7 +40,7 @@
                 Inititalzed In Process
             </div>
         }
-        @if (testItemViewModel.TestItem != null && TestItemViewModelPersist.TestItem != null && TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Options != null)
+        @if (TestItemViewModelPersist.TestItem != null && TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Options != null)
         {
 
             <div class="test-item__container_question bg-color-8 color-2">
@@ -52,11 +52,18 @@
             <div class="test-item__container_option bg-color-9 color-2">
                 <ul>
 
-                    @foreach (var i in TestItemViewModelPersist.SelectedQuestion.Options)
+                    @foreach (var i in TestItemViewModelPersist.SelectedQuestion.Options.OrderBy(x => x.TenantId))
                     {
                         <li>
                             <div class="form-check form-switch ">
-                                <input class="form-check-input bg-color-2" type="checkbox" id="question-option-2" @onchange="EventArgs => { OnOptionChanged(i, EventArgs.Value); }">
+                                @if (!IsTestMode )
+                                {
+                                    <input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="EventArgs => { TestItemViewModelPersist.OnOptionChanged(i, EventArgs.Value); }">
+                                }
+                                else
+                                {
+                                    <input class="form-check-input bg-color-2" type="checkbox" checked="@IsOptionChecked(TestItemViewModelPersist.SelectedQuestion, i.TenantId)" id="question-option-2" @onchange="EventArgs => { TestItemViewModelPersist.OnOptionChanged(i, EventArgs.Value); }">
+                                }
                             </div>
                             <p>@i.Content</p>
                         </li>
@@ -67,11 +74,26 @@
             <div class="test-item__container_nav">
                 <button class=@($"nav-1 bg-color-7 color-2 {(TestItemViewModelPersist.EnablePreviouse ? "" : "disabled")}") @onclick="TestItemViewModelPersist.OnPrevious">Previous</button>
                 <div class="nav-2">Q</div>
-                <input type="number" max=@(TestItemViewModelPersist.TestItem.Questions.Count - 1) min="0" class="nav-3 bg-color-7 color-2" value=@(TestItemViewModelPersist.CurrentQuestion) @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs); }">
+                <input type="number" max=@(TestItemViewModelPersist.TestItem.Questions.Count) min="1" class="nav-3 bg-color-7 color-2" value=@(TestItemViewModelPersist.CurrentQuestion) @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs); }">
                 <!-- <div class="nav-4"></div> -->
                 <button class=@($"nav-5 bg-color-7 color-2 {(TestItemViewModelPersist.EnableNext ? "" : "disabled")}" ) @onclick="TestItemViewModelPersist.OnNext">Next</button>
                 <!-- <div style="width: 2px;"></div> -->
-                <button class=" bg-color-7 color-2 nav-7">Finish</button>
+                @if (TestItemViewModelPersist.ExamState == ExamState.ExamCreate)
+                {
+                    <button class=" bg-color-7 color-2 nav-7" @onclick="testItemViewModel.OnStartTest">Start Test</button>
+                }
+                else if (TestItemViewModelPersist.ExamState == ExamState.ExamStart)
+                {
+                    <button class=" bg-color-7 color-2 nav-7" @onclick="testItemViewModel.OnFinishTest">Finish</button>
+                }
+                else if (TestItemViewModelPersist.ExamState == ExamState.ExamFinished)
+                {
+                    <button class=" bg-color-7 color-2 nav-7" @onclick="testItemViewModel.OnCheckTest">Check</button>
+                }
+                else if (TestItemViewModelPersist.ExamState == ExamState.ExamResultReady)
+                {
+                    <button class=" bg-color-7 color-2 nav-7" @onclick="testItemViewModel.OnSaveCurrentExam">Save</button>
+                }
             </div>
 
             <aside class="test-item__container_aside bg-color-5 color-2">
@@ -79,32 +101,46 @@
                 <input type="button" class="c123" id="aaa">
                 <div class="question-list color-5 bg-color-2">
                     <ul>
-                        @foreach (var question in TestItemViewModelPersist.TestItem.Questions)
+                        @if (IsTestMode && TestItemViewModelPersist.ExamState >= ExamState.ExamCreate)
                         {
-                            <li class="question-list_item1">
-                                <div class=@($"legend-icon{(question.IsAnswered ? "_answered" : (question.IsMarked ? "_marked" : ""))}")></div>
-                                <div>@question.QuestionNumber</div>
-                                @if (question.IsSelected)
-                                {
-                                    <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(question.Id, ChangeEventArgs); }" />
-                                }
-                                else
-                                {
-                                    <input type="checkbox" title="Remove From Current Test" @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(question.Id, ChangeEventArgs); }" />
-                                }
+                            @foreach (var answer in TestItemViewModelPersist.CurrentTest.Answers)
+                            {
+                                <li class="question-list_item1">
+                                    <div class=@($"legend-icon{(answer.IsAnswered ? "_answered" : "")}")></div>
+                                    <div class=@($"{(answer.IsCorrect ? "bg-color-10" : "")}")>@answer.QUestionSql.QuestionNumber</div>
+                                    @if (answer.QUestionSql.IsSelected)
+                                    {
+                                        <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />
+                                    }
+                                    else
+                                    {
+                                        <input type="checkbox" title="Remove From Current Test" @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />
+                                    }
 
-                            </li>
+                                </li>
+                            }
                         }
-                        <li class="question-list_item1">
-                            <div class="legend-icon_answered"></div>
-                            <div>Q1</div>
-                            <input type="checkbox" title="Remove From Current Test" />
-                        </li>
-                        <li class="question-list_item2">
-                            <div class="legend-icon_answered"></div>
-                            <div>Q1</div>
-                            <input type="checkbox" title="Remove From Current Test" />
-                        </li>
+                        else
+                        {
+                            @foreach (var question in TestItemViewModelPersist.TestItem.Questions)
+                            {
+                                <li class="question-list_item1">
+                                    <div class=@($"legend-icon{(question.IsAnswered ? "_answered" : (question.IsMarked ? "_marked" : ""))}")></div>
+                                    <div>@question.QuestionNumber</div>
+                                    @if (question.IsSelected)
+                                    {
+                                        <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(question.Id, ChangeEventArgs); }" />
+                                    }
+                                    else
+                                    {
+                                        <input type="checkbox" title="Remove From Current Test" @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(question.Id, ChangeEventArgs); }" />
+                                    }
+
+                                </li>
+                            }
+                        }
+
+
                     </ul>
                 </div>
 
@@ -135,12 +171,23 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A reiciendis modi nobis quae blanditiis commodi rem dicta, laudantium ab quaerat est illo accusamus assumenda sunt delectus, in porro nisi doloremque voluptates voluptatum animi! Provident eligendi nulla quae placeat dolorum voluptates, tenetur doloribus illum possimus ratione enim porro obcaecati ipsum. Accusantium assumenda sunt veritatis, blanditiis laborum consequatur alias optio, iure debitis sequi possimus atque dolor culpa voluptatum eum quae quas quibusdam totam beatae in? Ea ut fugit similique rerum, sint ab nisi, doloribus molestias vero animi hic, maxime provident odit! Ut, praesentium. Molestiae, illo rerum. Reiciendis doloribus voluptatem quaerat maxime vero.</p>
         </div>
         <div class="test-item__container_aside-summary bg-color-6 color-2">
-            <div>Ansered</div>
-            <div class="color-3">566</div>
-            <div>Remained</div>
-            <div>123</div>
-            <div>marked</div>
-            <div>12</div>
+            @if (IsTestMode && TestItemViewModelPersist.ExamState >= ExamState.ExamCreate)
+            {
+                
+                <div>Answered</div>
+                <div>@(TestItemViewModelPersist.CurrentTest.Answers.Where(x => x.IsAnswered).Count())</div>
+                <div>Wrong</div>
+                <div>@(TestItemViewModelPersist.CurrentTest.Answers.Where(x => !x.IsCorrect).Count())</div>
+   
+                <div>Remained</div>
+                <div>@(TestItemViewModelPersist.CurrentTest.Answers.Count() - TestItemViewModelPersist.CurrentTest.Answers.Where(x => x.IsAnswered).Count())</div>
+            }
+            else
+            {
+
+            }
+
+
         </div>
 
 
@@ -158,6 +205,7 @@
 
 
         <div class="test-item__container_aside-legend">
+
             <div class="legend-icon_answered"></div>
             <div>Answered</div>
             <div class="legend-icon_wrong"></div>
@@ -170,13 +218,13 @@
 </div>
 
 @code {
+    //*private RenderFragment<QuestionOption<int>> questionOptionChecbox = (i) =>  @<input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="(EventArgs) => { OnOptionChanged(i, EventArgs); }">;*/
     private bool answereExpend { get; set; } = false;
-    private bool supplementExpand { get; set; } = false;
+    private bool supplementExpand { get; set; } = true;
+    private bool IsTestMode { get; set; } = true;
 
-    private void OnOptionChanged(QuestionOption<int> id, object checkedValue)
-    {
-        Console.WriteLine($"Option id{id.Id } status: {(bool)checkedValue} ");
-    }
+  
+
     private void OnAnswerExpandToggle()
     {
         answereExpend = !answereExpend;
@@ -184,6 +232,11 @@
     private void OnSupplementExpandToggle()
     {
         supplementExpand = !supplementExpand;
+    }
+    private bool IsOptionChecked(QUestionSql questionSql , string tenantId)
+    {
+        //return questionSql?.Options.Where(x => x.TenantId == tenantId).FirstOrDefault()?.IsTrue ?? false;
+        return TestItemViewModelPersist.CurrentTest.Answers.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault().SelectedAnswer.Where(x => x.TenantId == tenantId).Any();
     }
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@
 }

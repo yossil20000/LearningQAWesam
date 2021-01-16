@@ -15,6 +15,7 @@ namespace LearningQA.Shared.Entities
 		public string TenantId { get; set; }
 		public string Content { get; set; }
 		public bool IsTrue { get; set; }
+		public bool IsSelected { get; set; } = false;
 
 	}
 	public static class EntityExtensions

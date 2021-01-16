@@ -4,6 +4,7 @@ using LearningQA.Server.Configuration;
 using LearningQA.Server.Infrasructure;
 using LearningQA.Shared.DTO;
 using LearningQA.Shared.Entities;
+using LearningQA.Shared.MediatR.Test.Command;
 using LearningQA.Shared.MediatR.TestItem.Command;
 using LearningQA.Shared.MediatR.TestItem.Query;
 
@@ -14,7 +15,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 using ServiceResult;
-
+using ServiceResult.ApiExtensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,7 +56,7 @@ namespace LearningQA.Server.Controllers
 			return  await Task.FromResult(list);
 		}
 		[HttpGet]
-		public async Task<ActionResult<TestItem<QUestionSql,int>>> TestItem([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter)
+		public async Task<IActionResult> TestItem([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter)
 		{
 			TestItemQuery testItemQuery = new TestItemQuery()
 			{
@@ -64,16 +65,25 @@ namespace LearningQA.Server.Controllers
 					Category = category,
 					Subject = subject,
 					Chapter = chapter
-				}
+				} 
 			};
 			var result = await _mediator.Send(testItemQuery);
-			return Ok(result.Data);
+
+			return this.FromResult(result);
 		}
 		[HttpPut]
 		public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
 		{
 			var result = await _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);
 			return Ok(true);
+		}
+		[HttpPost(Name = "/UpdateExam")]
+		public async Task<IActionResult> UpdateExam([FromBody] Test<QUestionSql,int> exam)
+		{
+			var result = await _mediator.Send(new UpdateExamCommand(exam));
+
+			return this.FromResult(result);
+			
 		}
 		[HttpPost(Name = "/CreateTestItem")]
 		public async Task<IActionResult> CreateTestItem([FromBody] TestItem<QUestionSql, int> testItem)
@@ -104,6 +114,43 @@ namespace LearningQA.Server.Controllers
 			return Ok(true);
 		}
 
+		[HttpGet(Name = "/EmptyTestItem")]
+		public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int test, int questionCount)
+		{
+			string[] option = new string[4] { "A", "B", "C", "D" };
+			List<TestItem<QUestionSql, int>> testItems = new List<TestItem<QUestionSql, int>>();
+			testItems = CreateList<TestItem<QUestionSql, int>>(test);
+			for(int i =0; i < testItems.Count();i++)
+			{
+				testItems[i] = new TestItem<QUestionSql, int>();
+
+				testItems[i].Questions = new List<QUestionSql>();
+
+				for(var j=0; j < questionCount;j++)
+				{
+					QUestionSql q = new QUestionSql();
+
+					q.QuestionNumber = (j + 1).ToString();
+					q.Options = new List<QuestionOption<int>>();
+					q.Supplements = new List<Supplement<int>>();
+					for(var k=0; k < 4; k++)
+					{
+						QuestionOption<int> qo = new QuestionOption<int>();
+						qo.TenantId = option[k];
+						q.Options.Add(qo);
+					}
+					testItems[i].Questions.Add(q);
+				}
+		
+			}
+
+
+			return await Task.FromResult(testItems);
+		}
+		private static List<T> CreateList<T>(int capacity)
+		{
+			return Enumerable.Repeat(default(T), capacity).ToList();
+		}
 	}
 
 }

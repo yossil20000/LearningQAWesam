@@ -143,7 +143,7 @@ namespace DynamicRepository.Tests.EFCore
 			}
 			var tests = new List<Test<QUestionSql, int>>();
 			tests.Add(test);
-			TestsData = tests;
+			TestsData.Add(test);
 			return tests.FirstOrDefault();
 		}
 		private TestItem<QUestionSql, int> CreateTestItem(int modifier = 0, int numOfQuestion = 4, int numOfRightQuestion=1)

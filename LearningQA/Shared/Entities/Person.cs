@@ -19,7 +19,7 @@ namespace LearningQA.Shared.Entities
 		public string Phone { get; set; }
 		public string Address { get; set; }
 		public Tdb? Id { get; set; }
-		public virtual ICollection<Test<QUestionSql,Tdb>> Tests { get; set; }
+		public virtual ICollection<Test<QUestionSql,Tdb>> Tests { get; set; } 
 		public void SetNull()
 		{
 			IdNumber = null;
@@ -28,6 +28,15 @@ namespace LearningQA.Shared.Entities
 			Phone = null;
 			Address = null;
 
+		}
+		public void Reset()
+		{
+			IdNumber = "";
+			Name = "";
+			Email = "";
+			Phone = "";
+			Address = "";
+			
 		}
 	}
 }

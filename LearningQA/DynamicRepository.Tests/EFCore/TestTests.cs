@@ -44,32 +44,37 @@ namespace DynamicRepository.Tests.EFCore
 		{
 			using(var context = new LearningQAContext(_inMemoryDbOptions))
 			{
-				var tests = context.Tests.Where(x => x.TestItem != null).FirstOrDefault();
-				tests.Should().NotBeNull();
-				tests.Answers.Select(x => x.SelectedAnswer).ToList().ForEach(x => x.Clear());
-				Trace.WriteLine(tests.TestItem.GeTestItemTitle());
-				foreach(var question in tests.TestItem.Questions)
+				var testlist = context.Tests.Where(x => x.TestItem != null).ToList();
+				foreach(var tests in testlist)
 				{
-					Trace.WriteLine($"Q{question.QuestionNumber} {question.Question}");
-					Trace.WriteLine("Options");
-					foreach(var options in question.Options)
+					
+					tests.Should().NotBeNull();
+					tests.Answers.Select(x => x.SelectedAnswer).ToList().ForEach(x => x.Clear());
+					Trace.WriteLine(tests.TestItem.GeTestItemTitle());
+					foreach (var question in tests.TestItem.Questions)
 					{
-						Trace.WriteLine($"{options.TenantId} {options.Content}");
+						Trace.WriteLine($"Q{question.QuestionNumber} {question.Question}");
+						Trace.WriteLine("Options");
+						foreach (var options in question.Options)
+						{
+							Trace.WriteLine($"{options.TenantId} {options.Content}");
+						}
+						Trace.WriteLine("Right Answare");
+						foreach (var rightAnsware in question.Options.Where(x => x.IsTrue))
+						{
+							Trace.WriteLine($"{rightAnsware.TenantId} {rightAnsware.Content}");
+							tests.Answers.Where(x => x.TenantId == question.QuestionNumber).FirstOrDefault().SelectedAnswer.Add(new AnswareOption<int>() { Content = rightAnsware.Content, Id = 0, TenantId = rightAnsware.TenantId });
+						}
+						Trace.WriteLine("---------");
+
+
+
 					}
-					Trace.WriteLine("Right Answare");
-					foreach (var rightAnsware in question.Options.Where(x => x.IsTrue))
-					{
-						Trace.WriteLine($"{rightAnsware.TenantId} {rightAnsware.Content}");
-						tests.Answers.Where(x => x.TenantId == question.QuestionNumber).FirstOrDefault().SelectedAnswer.Add(new AnswareOption<int>() { Content = rightAnsware.Content, Id =0, TenantId = rightAnsware.TenantId});
-					}
-					Trace.WriteLine("---------");
-
-
-
+					context.Update(tests);
+					context.SaveChanges();
 				}
-				context.Update(tests);
-				context.SaveChanges();
-				tests = context.Tests.Find(1);
+				
+				var result  = context.Tests.Find(1);
 			}
 		}
 	}

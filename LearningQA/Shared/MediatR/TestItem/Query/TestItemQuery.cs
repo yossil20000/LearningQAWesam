@@ -33,17 +33,26 @@ namespace LearningQA.Shared.MediatR.TestItem.Query
 
 		public async  Task<Result<TestItem<QUestionSql, int>>> Handle(TestItemQuery request, CancellationToken cancellationToken)
 		{
-			var testItem = await dbContext.TestItems.Where(x =>
+			try
+			{
+				var testItem = await dbContext.TestItems.Where(x =>
 		   x.Category == request.TestItemInfo.Category &&
 		   x.Subject == request.TestItemInfo.Subject &&
 		   x.Chapter == request.TestItemInfo.Chapter).FirstOrDefaultAsync();
-			if (testItem == null)
-			{
-				testItem = new TestItem<QUestionSql, int>();
+				if (testItem == null)
+				{
+					testItem = new TestItem<QUestionSql, int>();
 
+				}
+
+				return await Task.FromResult(new SuccessResult<TestItem<QUestionSql, int>>(testItem));
 			}
-
-			return await Task.FromResult(new SuccessResult<TestItem<QUestionSql, int>>(testItem));
+			catch(Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+				return await Task.FromResult(new UnexpectedResult<TestItem<QUestionSql, int>>(ex.Message) { Message="Failed In TestItemQuery" });
+			}
+			
 		}
 
 		
