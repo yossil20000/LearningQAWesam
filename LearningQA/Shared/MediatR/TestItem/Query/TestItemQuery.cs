@@ -35,10 +35,13 @@ namespace LearningQA.Shared.MediatR.TestItem.Query
 		{
 			try
 			{
-				var testItem = await dbContext.TestItems.Where(x =>
+				var testItem = await dbContext.TestItems.AsNoTracking().Where(x =>
 		   x.Category == request.TestItemInfo.Category &&
 		   x.Subject == request.TestItemInfo.Subject &&
-		   x.Chapter == request.TestItemInfo.Chapter).FirstOrDefaultAsync();
+		   x.Chapter == request.TestItemInfo.Chapter)
+		   .Include(x => x.Questions).ThenInclude(x => x.Supplements)
+		   .Include(x => x.Questions).ThenInclude(x => x.Options)
+		   .FirstOrDefaultAsync();
 				if (testItem == null)
 				{
 					testItem = new TestItem<QUestionSql, int>();

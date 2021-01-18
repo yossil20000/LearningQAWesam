@@ -23,6 +23,7 @@ namespace LearningQA.Shared.Entities
 		public AnswerType AnswerType { get; set; } = AnswerType.AT_ONE;
 		public virtual ICollection<Supplement<int>> Supplements { get; set; }
 		public virtual ICollection<QuestionOption<int>> Options { get; set; }
+		
 		//public virtual ICollection<AnswareOption<int>> Answares { get; set; }
 
 		public bool IsCorrect(ICollection<AnswareOption<int>> answare)

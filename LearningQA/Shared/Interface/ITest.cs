@@ -15,6 +15,7 @@ namespace LearningQA.Shared.Interface
 		Tdb Id { get; set; }
 		DateTime DateStart { get; set; }
 		DateTime DateFinish { get; set; }
+		//int TestItemId { get; set; }
 
 		TestItem<TQuestion, Tdb> TestItem { get; set; }
 		ICollection<Answer<Tdb>> Answers { get; set; }

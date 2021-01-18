@@ -7,7 +7,7 @@
     "chapter": "2.International Agreements and Organizations",
     "version": 0,
     "testQuestionMarking": 0,
-    "duration": 60,
+    "duration": 2400,
     "questions": [
       {
         "id": 0,
@@ -1796,7 +1796,7 @@
     "chapter": "1.Basic Principles",
     "version": 0,
     "testQuestionMarking": 0,
-    "duration": 60,
+    "duration": 3600,
     "questions": [
       {
         "id": 0,
@@ -1897,7 +1897,7 @@
     "chapter": "2.Switches",
     "version": 0,
     "testQuestionMarking": 0,
-    "duration": 60,
+    "duration": 1800,
     "questions": [
       {
         "id": 0,

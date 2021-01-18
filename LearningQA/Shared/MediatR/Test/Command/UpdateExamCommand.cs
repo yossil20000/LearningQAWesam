@@ -39,12 +39,22 @@ namespace LearningQA.Shared.MediatR.Test.Command
 		{
 			try
 			{
-				dbContext.Tests.Update(request.Test);
-				var result = await dbContext.SaveChangesAsync();
-				if (result > 0)
-					return await Task.FromResult(new SuccessResult<bool>(true));
-				else
-					return await Task.FromResult(new ServiceResult.InvalidResult<bool>("") { Message = "UpdateExamCommand Failed On Save" });
+				using(var context = new LearningQAContext())
+				{
+					//dbContext.ChangeTracker.Clear();
+					dbContext.Add(request.Test);
+
+					var result = await dbContext.SaveChangesAsync();
+					dbContext.ChangeTracker.Clear();
+					dbContext.Update(request.Test);
+
+					result = await dbContext.SaveChangesAsync();
+					if (result > 0)
+						return await Task.FromResult(new SuccessResult<bool>(true));
+					else
+						return await Task.FromResult(new ServiceResult.InvalidResult<bool>("") { Message = "UpdateExamCommand Failed On Save" });
+				}
+				
 			}
 			catch(Exception ex)
 			{

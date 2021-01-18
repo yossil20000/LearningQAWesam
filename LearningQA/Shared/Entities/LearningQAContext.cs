@@ -25,6 +25,7 @@ namespace LearningQA.Shared.Entities
 		{
 			modelBuilder.Entity<Person<int>>().HasIndex(person => person.IdNumber).IsUnique();
 			modelBuilder.Entity<TestItem<QUestionSql, int>>().HasIndex(testItem => new { testItem.Category, testItem.Chapter, testItem.Subject, testItem.Version }).IsUnique();
+			
 			//modelBuilder.Entity<QUestionSql>().HasIndex(qUestionSql => qUestionSql.QuestionNumber).IsUnique();
 		}
 		public DbSet<Person<int>> Person { get; set; }

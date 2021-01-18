@@ -40,6 +40,15 @@ namespace DynamicRepository.Tests.EFCore
 			}
 		}
 		[Fact]
+		public void GetTest()
+		{
+			using(var context = new LearningQAContext(_inMemoryDbOptions))
+			{
+				var test = context.Tests.Where(x => x.Id == 2).ToList();
+
+			}
+		}
+		[Fact]
 		public void FillTestWithSelectedAnsware()
 		{
 			using(var context = new LearningQAContext(_inMemoryDbOptions))
