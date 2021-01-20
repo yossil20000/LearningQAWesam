@@ -3,16 +3,11 @@ using LearningQA.Shared.MediatR.RequestWrapper;
 using LearningQA.Shared.MediatR.TestItem;
 using LearningQA.Shared.MediatR.TestItem.Command;
 
-using MediatR;
-
 using Microsoft.Extensions.Logging;
 
 using ServiceResult;
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 

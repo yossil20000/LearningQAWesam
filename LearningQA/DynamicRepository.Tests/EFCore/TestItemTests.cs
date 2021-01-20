@@ -192,13 +192,13 @@ namespace DynamicRepository.Tests.EFCore
 				//var testItem = TestItemGetById(1);
 				var testItem = testItemSubject.Get(1);
 				
-				var testInTest = context.Tests.Where(x => x.TestItem.Id == 1).ToList();
+				var testInTest = context.Tests.Where(x => x.TestItemId == 1).ToList();
 				foreach(var test in testInTest)
 				{
 					bool result = DeleteTest(context, test.Id);
 					result.Should().BeTrue();
 				}
-				testInTest = context.Tests.Where(x => x.TestItem.Id == 1).ToList();
+				testInTest = context.Tests.Where(x => x.TestItemId == 1).ToList();
 				testInTest.Should().BeEmpty();
 
 
@@ -235,7 +235,7 @@ namespace DynamicRepository.Tests.EFCore
 			{
 				var testItemRepository = new TestItemRepository(context);
 				var testItem = testItemRepository.Get(testItemId);
-				var testsToRemove = context.Tests.Where(x => x.TestItem.Id == testItem.Id);
+				var testsToRemove = context.Tests.Where(x => x.TestItemId == testItem.Id);
 				bool delteteTestResult = true;
 				foreach (var test in testsToRemove)
 				{

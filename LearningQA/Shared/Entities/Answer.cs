@@ -13,8 +13,10 @@ namespace LearningQA.Shared.Entities
 		public Tdb Id { get; set; }
 		public virtual  QUestionSql QUestionSql { get; set; }
 		public virtual ICollection<AnswareOption<Tdb>> SelectedAnswer { get; set; }
-		public bool IsCorrect { get; set; }
-		public bool IsAnswered { get; set; }
-		public string TenantId { get; set; }
+		public bool IsCorrect { get; set; } = false;
+		public bool IsAnswered { get; set; } = false;
+		public bool IsMarked { get; set; } = false;
+		public bool IsSelected { get; set; } = true;
+		public string TenantId { get; set; } = "";
 	}
 }

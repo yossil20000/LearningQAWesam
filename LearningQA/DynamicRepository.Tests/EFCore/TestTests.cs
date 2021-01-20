@@ -53,14 +53,15 @@ namespace DynamicRepository.Tests.EFCore
 		{
 			using(var context = new LearningQAContext(_inMemoryDbOptions))
 			{
-				var testlist = context.Tests.Where(x => x.TestItem != null).ToList();
+
+				var testlist = context.Tests.Where(x => x.TestItemId >  0).ToList();
 				foreach(var tests in testlist)
 				{
-					
+					TestItem<QUestionSql, int> testItem = context.TestItems.Find(tests.TestItemId);
 					tests.Should().NotBeNull();
 					tests.Answers.Select(x => x.SelectedAnswer).ToList().ForEach(x => x.Clear());
-					Trace.WriteLine(tests.TestItem.GeTestItemTitle());
-					foreach (var question in tests.TestItem.Questions)
+					Trace.WriteLine(testItem.GeTestItemTitle());
+					foreach (var question in testItem.Questions)
 					{
 						Trace.WriteLine($"Q{question.QuestionNumber} {question.Question}");
 						Trace.WriteLine("Options");

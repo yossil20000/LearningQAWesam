@@ -10,9 +10,9 @@ namespace LearningQA.Shared.Entities
 {
 	public class QuestionOption<Tdb> : IQuestionOption<Tdb>
 	{
-		public Tdb Id { get; set; } 
-		public string TenantId { get; set; }
-		public string Content { get; set; }
+		public Tdb Id { get; set; }
+		public string TenantId { get; set; } = "";
+		public string Content { get; set; } = "";
 		public bool IsTrue { get; set; }
 	}
 }

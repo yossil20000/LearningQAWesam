@@ -108,7 +108,7 @@
                                 <li class="question-list_item1">
                                     <div class=@($"legend-icon{(answer.IsAnswered ? "_answered" : "")}")></div>
                                     <div class=@($"{(answer.IsCorrect ? "bg-color-10" : "")}")>@answer.QUestionSql.QuestionNumber</div>
-                                    @if (answer.QUestionSql.IsSelected)
+                                    @if (answer.IsSelected)
                                     {
                                         <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />
                                     }
@@ -122,18 +122,18 @@
                         }
                         else
                         {
-                            @foreach (var question in TestItemViewModelPersist.TestItem.Questions)
+                            @foreach (var answer in TestItemViewModelPersist.CurrentTest.Answers)
                             {
                                 <li class="question-list_item1">
-                                    <div class=@($"legend-icon{(question.IsAnswered ? "_answered" : (question.IsMarked ? "_marked" : ""))}")></div>
-                                    <div>@question.QuestionNumber</div>
-                                    @if (question.IsSelected)
+                                    <div class=@($"legend-icon{(answer.IsAnswered ? "_answered" : (answer.IsMarked ? "_marked" : ""))}")></div>
+                                    <div>@answer.QUestionSql.QuestionNumber</div>
+                                    @if (answer.IsSelected)
                                     {
-                                        <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(question.Id, ChangeEventArgs); }" />
+                                        <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />
                                     }
                                     else
                                     {
-                                        <input type="checkbox" title="Remove From Current Test" @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(question.Id, ChangeEventArgs); }" />
+                                        <input type="checkbox" title="Remove From Current Test" @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />
                                     }
 
                                 </li>

@@ -17,9 +17,9 @@ namespace LearningQA.Shared.Entities
 		public string Question { get; set; } = string.Empty;
 		public int Mark { get; set; }
 		public bool IsActive { get; set; }
-		public bool IsAnswered { get; set; } = false;
-		public bool IsMarked { get; set; } = true;
-		public bool IsSelected { get; set; } = true;
+		//public bool IsAnswered { get; set; } = false;
+		//public bool IsMarked { get; set; } = true;
+		//public bool IsSelected { get; set; } = true;
 		public AnswerType AnswerType { get; set; } = AnswerType.AT_ONE;
 		public virtual ICollection<Supplement<int>> Supplements { get; set; }
 		public virtual ICollection<QuestionOption<int>> Options { get; set; }

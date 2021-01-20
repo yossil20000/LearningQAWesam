@@ -151,7 +151,7 @@ namespace LearningQA.Client.ViewModel
 		}
 		private void FillTestEntity(TestItem<QUestionSql, int> testItem, Test<QUestionSql, int> test)
 		{
-			test.TestItem = testItem;
+			
 
 			test.Answers = new List<Answer<int>>();
 			foreach (var questionAnsware in testItem.Questions)

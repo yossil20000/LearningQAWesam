@@ -123,9 +123,10 @@ namespace DynamicRepository.Tests.EFCore
 
 			
 			var test = StartTest();
-			test.TestItem = TestItemsData.ElementAt(0);
+			
 			test.DateFinish = test.DateStart.AddSeconds(60);
 			test.Answers = new List<Answer<int>>();
+			test.TestItemId = TestItemsData.ElementAt(0).Id;
 			foreach (var questionAnsware in TestItemsData.ElementAt(0).Questions)
 			{
 				var answare = new Answer<int>();
@@ -210,10 +211,10 @@ namespace DynamicRepository.Tests.EFCore
 		private Test<QUestionSql,int> CreateTest(TestItem<QUestionSql,int> testItem, bool makeWrongAnsware)
 		{
 			var test = StartTest();
-			test.TestItem = testItem;
+			
 			test.DateFinish = test.DateStart.AddSeconds(60);
 			test.Answers = new List<Answer<int>>();
-			foreach (var questionAnsware in test.TestItem.Questions)
+			foreach (var questionAnsware in testItem.Questions)
 			{
 				var answare = new Answer<int>();
 				answare.SelectedAnswer = new List<AnswareOption<int>>();
@@ -238,10 +239,10 @@ namespace DynamicRepository.Tests.EFCore
 		private Test<QUestionSql, int> CreateNewTest(TestItem<QUestionSql, int> testItem)
 		{
 			var test = StartTest();
-			test.TestItem = testItem;
+			
 			test.DateFinish = test.DateStart.AddSeconds(60);
 			test.Answers = new List<Answer<int>>();
-			foreach (var questionAnsware in test.TestItem.Questions)
+			foreach (var questionAnsware in testItem.Questions)
 			{
 				var answare = new Answer<int>();
 				answare.SelectedAnswer = new List<AnswareOption<int>>();

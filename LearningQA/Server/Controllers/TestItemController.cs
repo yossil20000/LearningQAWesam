@@ -77,14 +77,7 @@ namespace LearningQA.Server.Controllers
 			var result = await _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);
 			return Ok(true);
 		}
-		[HttpPost(Name = "/UpdateExam")]
-		public async Task<IActionResult> UpdateExam([FromBody] Test<QUestionSql,int> exam)
-		{
-			var result = await _mediator.Send(new UpdateExamCommand(exam));
-
-			return this.FromResult(result);
-			
-		}
+		
 		
 		[HttpPost(Name = "/CreateTestItem")]
 		public async Task<IActionResult> CreateTestItem([FromBody] TestItem<QUestionSql, int> testItem)
