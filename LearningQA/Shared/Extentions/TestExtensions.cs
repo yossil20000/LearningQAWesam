@@ -11,7 +11,7 @@ namespace LearningQA.Shared.Extentions
 {
 	public static class TestExtensions
 	{
-		public static bool FillTest(this ExamModel test , TestItem<QUestionSql,int> testItem)
+		public static bool FillTest(this ExamModel examModel , TestItem<QUestionSql,int> testItem)
 		{
 			bool succeed = false;
 
@@ -19,9 +19,9 @@ namespace LearningQA.Shared.Extentions
 			{
 				if(testItem != null)
 				{
-					test.Duration = testItem.Duration;
-					test.Title = $"{testItem.Category}/{testItem.Subject}/{testItem.Chapter}/{testItem.Version}";
-					test.Test = new Test<QUestionSql, int>();
+					examModel.Duration = testItem.Duration;
+					examModel.Title = $"{testItem.Category}/{testItem.Subject}/{testItem.Chapter}/{testItem.Version}";
+					examModel.Test = new Test<QUestionSql, int>();
 					List<Answer<int>> answers = new List<Answer<int>>();
 					foreach(var question in testItem.Questions)
 					{
@@ -29,8 +29,10 @@ namespace LearningQA.Shared.Extentions
 						answer.QUestionSql = question;
 						answers.Add(answer);
 					}
-					test.Test.Answers = answers;
-					test.Test.TestItemId = testItem.Id;
+					examModel.Test.Answers = answers;
+					examModel.Test.TestItemId = testItem.Id;
+					examModel.Test.Duration = examModel.Duration;
+
 					succeed = true;
 				}
 			}

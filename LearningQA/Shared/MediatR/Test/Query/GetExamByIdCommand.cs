@@ -40,7 +40,7 @@ namespace LearningQA.Shared.MediatR.Test.Query
 				var result = await (from test in dbContext.Tests
 							 where test.Id == request.TestId
 							 join testItem in dbContext.TestItems
-							 on test.Id equals testItem.Id
+							 on test.TestItemId equals testItem.Id
 							 select new ExamModel() { Test = test, Duration = testItem.Duration, Title=testItem.GeTestItemTitle()}).FirstOrDefaultAsync();
 				if(result != null)
 				{

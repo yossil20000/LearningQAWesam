@@ -32,9 +32,9 @@ namespace LearningQA.Server.Controllers
 			return this.FromResult(result);
 		}
 		[HttpGet(Name ="/GetExamInfo")]
-		public async Task<IActionResult> GetExamInfo()
+		public async Task<IActionResult> GetExamInfo(int personId)
 		{
-			var result = await _mediator.Send(new GetExamsInfoQuery());
+			var result = await _mediator.Send(new GetExamsInfoQuery() { PersonId = personId});
 			return this.FromResult(result);
 		}
 		[HttpGet(Name = "/PersonsInfo")]
@@ -55,6 +55,18 @@ namespace LearningQA.Server.Controllers
 		{
 			var result = await _mediator.Send(new CreateExamCommand(testItemId,personId));
 			return this.FromResult(result);
+		}
+
+		[HttpPut(Name = "/CreateExamByTitle")]
+		public async Task<ActionResult<ExamModel>> CreateExamByTitle(TestItemInfo testItemInfo)
+		{
+			//string category = "", subject = "", chapter = "";
+			int version = 0;
+			//var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = category, Subject = subject, Chapter = chapter, Version = version }));
+			//var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = category.ToString(), Subject = subject.ToString(), Chapter = chapter.ToString(), Version = version }));
+			var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = testItemInfo.Category.ToString(), Subject = testItemInfo.Subject.ToString(), Chapter = testItemInfo.Chapter.ToString(), Version = version }));
+			//return this.FromResult(result);
+			return result.Data;
 		}
 
 		[HttpPost(Name = "/UpdateExam")]

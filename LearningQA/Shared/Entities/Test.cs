@@ -17,6 +17,7 @@ namespace LearningQA.Shared.Entities
 		public DateTime DateStart { get; set; }
 		public DateTime DateFinish { get; set; }
 		public int Mark { get; set; }
+		public int Duration { get; set; }
 		public int TestItemId { get; set; }
 		//public virtual TestItem<TQuestion,Tdb> TestItem { get; set; }
 		public virtual ICollection<Answer<Tdb>> Answers { get; set; }

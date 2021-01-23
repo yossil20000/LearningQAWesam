@@ -51,7 +51,12 @@ namespace LearningQA.Shared.Extentions
 			OnCountFinish = onCountFinish;
 			OnCount25Percent = onCount25Percent;
 		}
-
+		public new void Start(int duration)
+		{
+			this.duration = duration;
+			baseTime = DateTime.Now;
+			base.Start();
+		}
 		public new void Start()
 		{
 			baseTime = DateTime.Now;

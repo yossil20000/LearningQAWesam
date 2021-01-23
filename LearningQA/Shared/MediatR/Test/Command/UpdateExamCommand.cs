@@ -16,9 +16,11 @@ namespace LearningQA.Shared.MediatR.Test.Command
 	public class UpdateExamCommand : BaseRequest, IRequestWrapper<bool>
 	{
 		public Test<QUestionSql, int> Test { get; private set; }
-		public UpdateExamCommand(Test<QUestionSql,int> test)
+		public int PersonId { get; private set; }
+		public UpdateExamCommand(Test<QUestionSql,int> test ,int personId)
 		{
 			Test = test;
+			PersonId = personId;
 		}
 
 		
@@ -34,16 +36,15 @@ namespace LearningQA.Shared.MediatR.Test.Command
 		{
 			try
 			{
-				using(var context = new LearningQAContext())
+				//using(var context = new LearningQAContext())
 				{
 					//dbContext.ChangeTracker.Clear();
-					dbContext.Add(request.Test);
+					var person = dbContext.Person.Find(request.PersonId);
+					
+						person.Tests.Add(request.Test);
+					dbContext.Update(person);
 
 					var result = await dbContext.SaveChangesAsync();
-					dbContext.ChangeTracker.Clear();
-					dbContext.Update(request.Test);
-
-					result = await dbContext.SaveChangesAsync();
 					if (result > 0)
 						return await Task.FromResult(new SuccessResult<bool>(true));
 					else

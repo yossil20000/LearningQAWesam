@@ -89,7 +89,7 @@ namespace LearningQA.Client.ViewModel
 		public CountDownTimer CountDownTimer = new CountDownTimer();
 		public void OnCount(int count)
 		{
-			Console.WriteLine($"CountDown reamin {count}");
+			//Console.WriteLine($"CountDown reamin {count}");
 			
 			CountDownRemain = TimeSpan.FromSeconds(count);
 			Changed();
@@ -97,17 +97,24 @@ namespace LearningQA.Client.ViewModel
 		public void OnCountFinished()
 		{
 			Console.WriteLine($"CountDown Finished");
+			ExamState = ExamState.ExamFinished;
+			CountDownTimer.Stop();
+			Changed();
 		}
 		#endregion
 
 		#region Test Selection
 		//Category
 		private string _selectedCategory ="";
-		public string SelectedCategory { get => _selectedCategory; set { _selectedCategory = value;  OnCategoryChanged(); } }
+		public string SelectedCategory { 
+			get => _selectedCategory; 
+			set { _selectedCategory = value;  OnCategoryChanged(); } }
 		public List<string> Categories { get; set; } = new List<string>();
 		//Subject
 		private string _selectedSubjecte = "";
-		public string SelectedSubjecte { get => _selectedSubjecte; set { _selectedSubjecte = value; OnSubjectChanged(); } }
+		public string SelectedSubjecte { 
+			get => _selectedSubjecte; 
+			set { _selectedSubjecte = value; OnSubjectChanged(); } }
 		public List<string> Subjectes { get; set; } = new List<string>();
 		//Chapter
 		private string _selectedChapter = "";
@@ -157,21 +164,10 @@ namespace LearningQA.Client.ViewModel
 		#region Entities
 
 		List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
-		public List<TestItemInfo> TestItemInfos { get => testItemInfos; set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); } }
+		public List<TestItemInfo> TestItemInfos { 
+			get => testItemInfos; 
+			set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); } }
 
-			private TestItem<QUestionSql, int> testItem = new TestItem<QUestionSql, int>();
-		public TestItem<QUestionSql, int> TestItem
-		{
-			get { return testItem; }
-			set
-			{
-				testItem = value;
-
-				CurrentQuestion = 1; UpdatePagination();
-
-				Changed();
-			}
-		}
 		
 		#endregion
 
@@ -186,45 +182,69 @@ namespace LearningQA.Client.ViewModel
 		private void UpdatePagination()
 		{
 			EnablePreviouse = CurrentQuestion == 1 ? false : true;
-			EnableNext = CurrentQuestion < TestItem.Questions.Count  ? true : false;
+			EnableNext = CurrentQuestion < CurrentTest.Answers.Count  ? true : false;
 			
 		}
 		public void OnNext()
 		{
-			if (CurrentQuestion < TestItem.Questions.Count)
+			try
 			{
-				CurrentQuestion++;
-				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion - 1);
+				if (CurrentQuestion < CurrentTest.Answers.Count)
+				{
+					CurrentQuestion++;
+					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+				}
+				UpdatePagination();
+				Changed();
 			}
-			UpdatePagination();
-			Changed();
+			catch (Exception ex)
+			{
+
+				Console.WriteLine(ex.Message);
+			}
 		}
 
 		public void OnPrevious()
 		{
-			if (CurrentQuestion > 1)
+			try
 			{
-				CurrentQuestion--;
-				SelectedQuestion = TestItem.Questions.ElementAt(CurrentQuestion - 1);
+				if (CurrentQuestion > 1)
+				{
+					CurrentQuestion--;
+					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+				}
+				UpdatePagination();
+				Changed();
 			}
-			UpdatePagination();
-			Changed();
+			catch (Exception ex)
+			{
+
+				Console.WriteLine(ex.Message);
+			}
 		}
 		public void OnChangeQuestionNumber(ChangeEventArgs ea)
 		{
-			int questionNumber = 0;
-			int.TryParse(ea.Value.ToString(), out questionNumber);
-			if (questionNumber >= 1 && questionNumber <= testItem.Questions.Count)
+			try
 			{
-				CurrentQuestion = questionNumber;
-				SelectedQuestion = testItem.Questions.ElementAt(CurrentQuestion - 1);
-				UpdatePagination();
-				Changed();
+				int questionNumber = 0;
+				int.TryParse(ea.Value.ToString(), out questionNumber);
+				if (questionNumber >= 1 && questionNumber <= CurrentTest.Answers.Count)
+				{
+					CurrentQuestion = questionNumber;
+					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+					UpdatePagination();
+					Changed();
+				}
+			}
+			catch (Exception ex)
+			{
+
+				Console.WriteLine(ex.Message);
 			}
 		}
 		public void OnQuestionIsSelected(int Id, ChangeEventArgs ea)
 		{
-			testItem.Questions.Where(x => x.Id == Id).FirstOrDefault().IsActive = (bool)ea.Value;
+			CurrentTest.Answers.Where(x => x.Id == Id).FirstOrDefault().IsSelected = (bool)ea.Value;
 		}
 
 		public void OnOptionChanged(QuestionOption<int> id, object checkedValue)

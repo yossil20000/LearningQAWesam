@@ -45,7 +45,7 @@ namespace LearningQA.Server.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IEnumerable<TestItemInfo>> TestItems()
+		public async Task<IEnumerable<TestItemInfo>> TestItemsInfo()
 		{
 			List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
 			CancellationToken cancellationToken = new CancellationToken();
@@ -55,7 +55,22 @@ namespace LearningQA.Server.Controllers
 			var list = result.Data;
 			return  await Task.FromResult(list);
 		}
+
+		[HttpGet(Name = "/TestItemInfo")]
+		public async Task<IActionResult> TestItemInfo( int testItemId)
+		{
+			var result = await _mediator.Send(new TestItemInfoQuery(testItemId));
+			return this.FromResult(result);
+		}
+		/// <summary>
+		/// Get TestItem 
+		/// </summary>
+		/// <param name="category"></param>
+		/// <param name="subject"></param>
+		/// <param name="chapter"></param>
+		/// <returns>"<questionsql,int>"</returns>
 		[HttpGet]
+
 		public async Task<IActionResult> TestItem([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter)
 		{
 			TestItemQuery testItemQuery = new TestItemQuery()
@@ -71,7 +86,13 @@ namespace LearningQA.Server.Controllers
 
 			return this.FromResult(result);
 		}
+		/// <summary>
+		/// Update TestItem from a TestItem instance
+		/// </summary>
+		/// <param name="testItem"></param>
+		/// <returns>bool</returns>
 		[HttpPut]
+		
 		public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
 		{
 			var result = await _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);

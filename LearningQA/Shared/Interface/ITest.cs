@@ -16,6 +16,7 @@ namespace LearningQA.Shared.Interface
 		DateTime DateStart { get; set; }
 		DateTime DateFinish { get; set; }
 		int Mark { get; set; }
+		int Duration { get; set; }
 		int TestItemId { get; set; }
 
 		//TestItem<TQuestion, Tdb> TestItem { get; set; }

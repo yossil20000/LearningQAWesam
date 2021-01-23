@@ -19,7 +19,7 @@ namespace LearningQA.Shared.MediatR.Test.Query
 {
 	public class GetExamsInfoQuery : IRequestWrapper<IQueryable<ExamInfoModel>>
 	{
-		
+		public int PersonId { get; set; } = 0;
 	}
 
 	public class GetExamInfoQueryHandler : BaseDBContextHandler, IHandlerWrapper<GetExamsInfoQuery, IQueryable<ExamInfoModel>>
@@ -55,10 +55,13 @@ namespace LearningQA.Shared.MediatR.Test.Query
 				//				 Title = $"{ testitem.Category}/{testitem.Subject}/{testitem.Chapter}/{testitem.Version}",
 				//				 PersonId = pp.Id, Name = pp.Name
 				//			 };
+
 				var result = from p in dbContext.Person.SelectMany(x => x.Tests)
 							 from pp in dbContext.Person
 							 join test in dbContext.Tests
 							 on p.Id equals test.Id
+							 where (request.PersonId == 0 ? true : request.PersonId == pp.Id)
+							
 							 join testitem in dbContext.TestItems
 							on test.Id equals testitem.Id
 							 where test.TestItemId > 0

@@ -8,6 +8,7 @@ namespace LearningQA.Shared.DTO
 {
 	public class PersonInfoModel
 	{
+		public PersonInfoModel() { }
 		public string IdNumber { get; set; }
 		public string Name { get; set; }
 		public string Email { get; set; }

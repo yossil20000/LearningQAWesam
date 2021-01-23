@@ -11,9 +11,9 @@ namespace LearningQA.Shared.DTO
 	public class ExamModel
 	{
 		public int Duration { get; set; }
-		public string Title { get; set; }
-		
-		public Test<QUestionSql, int> Test { get; set; }
+		public string Title { get; set; } = "";
+
+		public Test<QUestionSql, int> Test { get; set; } = new Test<QUestionSql, int>();
 
 	}
 }
