@@ -12,7 +12,7 @@
 }
 else
 {
-    <table class="table">
+    <table class="table bg-color-9">
         <thead>
             <tr>
                 <th>Date</th>
@@ -33,9 +33,17 @@ else
             }
         </tbody>
     </table>
+    <LearningQA.Client.Components.Grid Items="fetchDataViewModel.WeatherForecast" Caption="TemperatureTable" class="table-bordered" RowClass='(row,index) => row.TemperatureF > 34 ? "table-info  bg-color-9" : ""'>
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.Date" Format="d" />
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC" />
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Title="Temp(F)">@context.TemperatureF F</LearningQA.Client.Components.GridColumn>
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast"  Expression="c => c.Summary" />
+    </LearningQA.Client.Components.Grid>
 }
 
+
+
 @code {
-    
+
 
 }
