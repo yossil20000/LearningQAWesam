@@ -1,0 +1,31 @@
+﻿<h3>This Is TabPage outside the IsActive Text: @Text</h3>
+@if (Parent.ActivePage == this)
+{
+    <h3>This Is TabPage Iam Active Text:@Text</h3>
+   
+    @ChildContent
+}
+
+@code {
+    [CascadingParameter]
+    private TabControl Parent { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+ 
+
+    [Parameter] public string Text { get; set; } = "Default Page Text";
+
+    protected override void OnInitialized()
+    {
+        if (Parent == null)
+        {
+            Console.Write("TabPage must exist with Parent");
+
+        }
+        else
+        {
+            Parent.AddPage(this);
+        }
+        base.OnInitialized();
+    }
+}

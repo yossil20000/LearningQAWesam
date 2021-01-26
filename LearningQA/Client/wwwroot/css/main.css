@@ -1494,6 +1494,91 @@ a:hover, a:active, a:focus {
   opacity: 1;
 }
 
+@media screen and (max-width: 399px) {
+  .yl-table ol {
+    list-style: none;
+  }
+  .yl-table .collection {
+    display: flex;
+    padding: 0;
+  }
+  .yl-table .collection__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  .yl-table .item {
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+  }
+  .yl-table .collection__container > li:first-child {
+    display: none;
+  }
+  .yl-table .attribute::before {
+    content: attr(data-name);
+  }
+  .yl-table .attribute {
+    display: grid;
+    grid-template-columns: minmax(9em, 30%) 1fr;
+  }
+}
+
+.yl-table .item__container:hover {
+  color: #000 !important;
+  background-color: #f4f6f9 !important;
+}
+
+@media screen and (min-width: 400px) {
+  .yl-table .item__container {
+    display: grid;
+    grid-template-columns: 8ch  1.2fr 1.3fr  0.8fr;
+  }
+  .yl-table .attribute__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr));
+  }
+  .yl-table .reservation__information {
+    --column-width-min: 6em;
+  }
+  .yl-table .date__info {
+    --column-width-min: 4em;
+  }
+  .yl-table .member__info {
+    --column-width-min: 6em;
+  }
+  .yl-table .collection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    border-top: 1px solid gray;
+  }
+  .yl-table .collection__container > .item__container:first-child {
+    /*  background-image: linear-gradient(180deg, rgb(176, 195, 231) 0%, rgb(176,195,231) 100%); */
+  }
+  .yl-table .collection__container > .item__container:first-child .attribute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: initial;
+    overflow: auto;
+    white-space: normal;
+    /*  background-color: rgba(0, 0, 0, 0.2);
+                    color: white; */
+  }
+  .yl-table .attribute {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 2px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
 .ss1 {
   grid-area: ss1;
   text-overflow: ellipsis;
@@ -1533,18 +1618,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
   grid-template-columns: minmax(auto, 0.1fr) 0.2fr 1fr;
   grid-template-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
-  grid-template-areas: "aside-header header header" 
- "aside-summary selection selection"
- "aside-summary nav nav"
- "aside question question"
- "aside question question"
- "aside option option"
- "aside answer-expend answer-expend" 
- "aside answer answer" 
- "aside supplement supplement" 
- "aside-legend supplement supplement" 
- "aside-legend supplement supplement" 
- "footer footer footer";
+  grid-template-areas: "aside-header header header"  "aside-summary selection selection" "aside-summary nav nav" "aside question question" "aside question question" "aside option option" "aside answer-expend answer-expend"  "aside answer answer"  "aside supplement supplement"  "aside-legend supplement supplement"  "aside-legend supplement supplement"  "footer footer footer";
 }
 
 .test-item__container_answer-expend {
@@ -1576,10 +1650,7 @@ a:hover, a:active, a:focus {
   padding-left: 0.5ch;
   grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr auto;
   grid-template-rows: 2ch 2ch 2ch 2ch;
-  grid-template-areas: "th th th th th th th th th th th" 
- "th-1 th-2 th-3 th-4 th-5 th-6 th-7 th-8 th-9 th-10 th-11" 
- "tt tt tt tt tt tt tt tt tt tt tt" 
- "tt-1 tt-2 tt-3 tt-4 tt-5 tt-6 tt-7 tt-8 tt-9 tt-10 tt-11";
+  grid-template-areas: "th th th th th th th th th th th"  "th-1 th-2 th-3 th-4 th-5 th-6 th-7 th-8 th-9 th-10 th-11"  "tt tt tt tt tt tt tt tt tt tt tt"  "tt-1 tt-2 tt-3 tt-4 tt-5 tt-6 tt-7 tt-8 tt-9 tt-10 tt-11";
 }
 
 .test-item__container_aside-timer .th {
@@ -1997,7 +2068,7 @@ a:hover, a:active, a:focus {
   position: relative;
   width: 1rem;
   height: 1rem;
-  background: url(../css/fonts/expand_less-24px.svg);
+  background: url(/dist/css/fonts/expand_less-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
@@ -2009,7 +2080,7 @@ a:hover, a:active, a:focus {
 }
  */
 .toggle.active {
-  background: url(../css/fonts/expand_more-24px.svg);
+  background: url(/dist/css/fonts/expand_more-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
@@ -2032,7 +2103,6 @@ a:hover, a:active, a:focus {
   width: 1ch;
   border-radius: 50%;
   margin-left: 0.1rem;
-  background-color: gray;
 }
 
 .legend-icon_answered {

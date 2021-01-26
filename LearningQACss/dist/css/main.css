@@ -1494,6 +1494,91 @@ a:hover, a:active, a:focus {
   opacity: 1;
 }
 
+@media screen and (max-width: 399px) {
+  .yl-table ol {
+    list-style: none;
+  }
+  .yl-table .collection {
+    display: flex;
+    padding: 0;
+  }
+  .yl-table .collection__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  .yl-table .item {
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+  }
+  .yl-table .collection__container > li:first-child {
+    display: none;
+  }
+  .yl-table .attribute::before {
+    content: attr(data-name);
+  }
+  .yl-table .attribute {
+    display: grid;
+    grid-template-columns: minmax(9em, 30%) 1fr;
+  }
+}
+
+.yl-table .item__container:hover {
+  color: #000 !important;
+  background-color: #f4f6f9 !important;
+}
+
+@media screen and (min-width: 400px) {
+  .yl-table .item__container {
+    display: grid;
+    grid-template-columns: 8ch  1.2fr 1.3fr  0.8fr;
+  }
+  .yl-table .attribute__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr));
+  }
+  .yl-table .reservation__information {
+    --column-width-min: 6em;
+  }
+  .yl-table .date__info {
+    --column-width-min: 4em;
+  }
+  .yl-table .member__info {
+    --column-width-min: 6em;
+  }
+  .yl-table .collection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    border-top: 1px solid gray;
+  }
+  .yl-table .collection__container > .item__container:first-child {
+    /*  background-image: linear-gradient(180deg, rgb(176, 195, 231) 0%, rgb(176,195,231) 100%); */
+  }
+  .yl-table .collection__container > .item__container:first-child .attribute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: initial;
+    overflow: auto;
+    white-space: normal;
+    /*  background-color: rgba(0, 0, 0, 0.2);
+                    color: white; */
+  }
+  .yl-table .attribute {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 2px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
 .ss1 {
   grid-area: ss1;
   text-overflow: ellipsis;

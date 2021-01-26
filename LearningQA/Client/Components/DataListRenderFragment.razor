@@ -1,0 +1,47 @@
+﻿@typeparam TItem
+<h1>DataListRenderFragment</h1>
+
+@if (ListTemplate == null)
+{
+    <ul>
+        @foreach (TItem item in Data ?? Array.Empty<TItem>())
+        {
+            @ItemTemplate(item)
+        }
+    </ul>
+}
+else
+{
+    // @:@{ is in fact two character sequences. First @: tells the Razor parser to treat the following text as Razor mark-up,
+    // //and then @{is the start of a C# code block }
+    @ListTemplate(
+        @:@{
+            foreach (TItem item in Data ?? Array.Empty<TItem>())
+            {
+                @ItemTemplate(item)
+            }
+        }
+        )
+}
+@code {
+    [Parameter] public IEnumerable<TItem> Data { get; set; }
+    [Parameter] public RenderFragment<TItem> ItemTemplate { get; set; }
+    [Parameter] public RenderFragment<RenderFragment> ListTemplate { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if(ItemTemplate == null)
+        {
+            ItemTemplate = (item) =>
+            @:@{ 
+                <li @key="item">@item.ToString()</li>
+            }
+            ;
+        }
+
+        base.OnParametersSet();
+    }
+    //Custom RenderFragment
+    //RenderFragment rf = @<h1>Hello</h1>;
+    //RenderFragment<Person<int>> rfPerson = person => @<h1>Hello @person.Name</h1>;
+}

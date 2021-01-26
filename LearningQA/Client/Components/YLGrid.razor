@@ -1,0 +1,86 @@
+﻿@typeparam TRowData
+@using Humanizer
+@using System.Linq.Expressions
+
+<CascadingValue Value="this">@ChildContent</CascadingValue>
+
+<div class="content px-2">
+    <section class="yl-table">
+        <ol class="collection collection__container">
+            <li class="item item__container current__theme-bg-image color-10">
+                @foreach (var group in groups)
+                {
+
+                    var title = group.Title;
+                    if (string.IsNullOrEmpty(title) && group.Expression != null)
+                    {
+                        title = GetMemberName(group.Expression).Humanize();
+                    }
+                    <div class="attribute__container">
+                        <div class="attribute">@title</div>
+                    </div>
+
+                }
+            </li>
+            @*@if (Items != null)
+            {
+
+
+                @foreach (var item in Items)
+                {
+                    foreach (var group in groups)
+                    {
+                        var title = group.Title;
+                        if (string.IsNullOrEmpty(title) && group.Expression != null)
+                        {
+                            title = GetMemberName(group.Expression).Humanize();
+                        }
+                        <li class="item item__container current__theme-bg-image color-10">
+
+                            <div class="attribute__container">
+
+                                <div class="attribute" data-name=@title.Humanize()>iii</div>
+                            </div>
+
+
+                        </li>
+                    }
+
+                }
+            }*@
+
+        </ol>
+    </section>
+</div>
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+    [Parameter] public ICollection<TRowData> Items { get; set; }
+    private readonly List<YLGridGroup<TRowData>> groups = new List<YLGridGroup<TRowData>>();
+
+    internal void AddGroup(YLGridGroup<TRowData> group)
+    {
+        groups.Add(group);
+    }
+
+    public string GetPropertyName<T>(Expression<Func<T>> propertyLambda)
+    {
+        var me = propertyLambda.Body as MemberExpression;
+
+        if (me == null)
+        {
+            throw new ArgumentException("You must pass a lambda of the form: '() => Class.Property' or '() => object.Property'");
+        }
+
+        return me.Member.Name;
+    }
+    private static string GetMemberName<T>(Expression<T> expression)
+    {
+        return expression.Body switch
+        {
+            MemberExpression m => m.Member.Name,
+            UnaryExpression u when u.Operand is MemberExpression m => m.Member.Name,
+            _ => throw new NotSupportedException("Expression of type '" + expression.GetType().ToString() + "' is not supported")
+        };
+    }
+}

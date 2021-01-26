@@ -37,13 +37,128 @@ else
         <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.Date" Format="d" />
         <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC" />
         <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Title="Temp(F)">@context.TemperatureF F</LearningQA.Client.Components.GridColumn>
-        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast"  Expression="c => c.Summary" />
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.Summary" />
     </LearningQA.Client.Components.Grid>
+    <LearningQA.Client.Components.YLGrid Items="fetchDataViewModel.WeatherForecast">
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.Date" />
+        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC" />
+    </LearningQA.Client.Components.YLGrid>
+       
 }
 
+<div class="content px-2">
+    <section class="yl-table">
+        <ol class="collection collection__container">
+            <!--The first list is the header of the table-->
+            <li class="item item__container current__theme-bg-image color-10">
+                    <div class="attribute__container">
+                    <div class="attribute">Aircraft</div>
+                    </div>
+                    <div class="attribute__container member__info">
+                        <div class="attribute">Name</div>
+                        <div class="attribute">Id Number</div>
+                    </div>
+                    <div class="attribute__container reservation__information">
+                        <div class="attribute__container date__info">
+                            <div class="attribute">From</div>
+                            <div class="attribute">To</div>
+                        </div>
+                    </div>
+                    <div class="attribute__container ">
+                        <div class="attribute">Action</div>
+                    </div>
+            </li>
+            <li class="item item__container bg-color-10 color-1">
+                <div class="attribute__container attribute" data-name="Aircraft">
+                    N1234567
+                </div>
+                <div class="attribute__container member__info">
+                    <div class="attribute" data-name="Name">
+                        Yosef Levy
+                    </div>
+                    <div class="attribute" data-name="Id number">059828392</div>
+                </div>
+                <div class="attribute__container reservation__information">
+                    <div class="attribute__container date__info">
+                        <div class="attribute bg-5 color-3" data-name="From">
+                            21/02/1960 10:35
+                        </div>
+                        <div class="attribute" data-name="To">
+                            21/02/1960 10:50
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attribute attribute__container" data-name="Action">
+                    <input type="button"
+                           class="btn color-2 bg-color-8"
+                           name="Edit"
+                           value="Edit" />
+                </div>
+            </li>
+            <li class="item item__container bg-color-10 color-1">
+                <div class="attribute__container attribute" data-name="Aircraft">
+                    N1234567
+                </div>
+                <div class="attribute__container member__info">
+                    <div class="attribute" data-name="Name">
+                        Yosef Levy
+                    </div>
+                    <div class="attribute" data-name="Id number">059828392</div>
+                </div>
+                <div class="attribute__container reservation__information">
+                    <div class="attribute__container date__info">
+                        <div class="attribute bg-5 color-3" data-name="From">
+                            21/02/1960 10:35
+                        </div>
+                        <div class="attribute" data-name="To">
+                            21/02/1960 10:50
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attribute attribute__container" data-name="Action">
+                    <input type="button"
+                           class="btn color-2 bg-color-8"
+                           name="Edit"
+                           value="Edit" />
+                </div>
+            </li>
+            <li class="item item__container bg-color-10 color-1">
+                <div class="attribute__container attribute" data-name="Aircraft">
+                    N1234567
+                </div>
+                <div class="attribute__container member__info">
+                    <div class="attribute" data-name="Name">
+                        Yosef Levy
+                    </div>
+                    <div class="attribute" data-name="Id number">059828392</div>
+                </div>
+                <div class="attribute__container reservation__information">
+                    <div class="attribute__container date__info">
+                        <div class="attribute bg-5 color-3" data-name="From">
+                            21/02/1960 10:35
+                        </div>
+                        <div class="attribute" data-name="To">
+                            21/02/1960 10:50
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attribute attribute__container" data-name="Action">
+                    <input type="button"
+                           class="btn color-2 bg-color-8"
+                           name="Edit"
+                           value="Edit" />
+                </div>
+            </li>
+        </ol>
+    </section>
+</div>
 
 
 @code {
 
+    
 
 }

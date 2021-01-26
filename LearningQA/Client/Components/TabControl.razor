@@ -1,0 +1,52 @@
+﻿
+
+<CascadingValue Value="this">
+    <h3>This Is TabControl</h3>
+
+    <div class="btn-group" role="group">
+        @foreach (TabPage tabPage in Pages)
+        {
+            <button type="button" class="btn @GetButtonClass(tabPage)"
+                    @onclick=@(() => ActivatePage(tabPage))>
+                @*We cn define Template for the Butonn text ByUsing RenderFragment<>*@
+                @if (TabTextTemplate != null)
+                {
+                    @TabTextTemplate(tabPage)
+                }
+                else
+                {
+                    @tabPage.Text
+                }
+
+            </button>
+        }
+    </div>
+    @ChildContent
+</CascadingValue>
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public RenderFragment<TabPage> TabTextTemplate { get; set; }
+
+    public TabPage ActivePage { get; set; }
+    List<TabPage> Pages = new List<TabPage>();
+    internal void AddPage(TabPage tabPage)
+    {
+        if(tabPage != null)
+        {
+            Pages.Add(tabPage);
+            if (Pages.Count == 1)
+                ActivePage = tabPage;
+            StateHasChanged();
+        }
+    }
+    string GetButtonClass(TabPage tabPage)
+    {
+        return tabPage == ActivePage ? "btn-primary" : "btn-secondary";
+    }
+    void ActivatePage(TabPage tabPage)
+    {
+        ActivePage = tabPage;
+    }
+}

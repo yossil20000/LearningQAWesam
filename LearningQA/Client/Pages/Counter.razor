@@ -1,14 +1,123 @@
 ﻿@page "/counter"
-
+@using LearningQA.Client.Components
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+<TabControl>
+    <TabTextTemplate>
+        Hello
+    </TabTextTemplate>
+    @*Another way to use the context to pass value*@
+    @*You can change the default context name to avoid conflict*@
+    <TabTextTemplate Context="otherName">
+        <input type="checkbox" /> @otherName.Text
+    </TabTextTemplate>
+    @* Good for one renderFragmant
+        More Then On wee need toCreate Elemnet
+        <TabPage Text="Tab 1">
+        <h1>The first Tab</h1>
+    </TabPage>
+    <TabPage Text="Tab 2">
+        <h1>The Second Tab</h1>
+    </TabPage>
+    <TabPage >
+        <h1>The Third tab</h1>
+    </TabPage>*@
+    <ChildContent>
+        <TabPage Text="Tab 1">
+            <h1>The first Tab</h1>
+        </TabPage>
+        <TabPage Text="Tab 2">
+            <h1>The Second Tab</h1>
+        </TabPage>
+        <TabPage>
+            <h1>The Third tab</h1>
+        </TabPage>
+    </ChildContent>
+</TabControl>
+
+<DataList Data="@People" Context="item">
+    @item.Id @item.IdNumber @item.Name @item.Email
+</DataList>
+
+@*Explicit supply the TItem Param type*@
+<DataList TItem="Person<int>" Data="@People" Context="item">
+    @item.Id @item.IdNumber @item.Name @item.Email 
+</DataList>
+
+
+<DataList Data="@People" Context="item">
+    <ChildContent>
+        <ul>
+            <li @key="item"> @item.Id @item.IdNumber @item.Name @item.Email</li>
+        </ul>
+        
+    </ChildContent>
+</DataList>
+
+<DataListRenderFragment Data="@People">
+    <ItemTemplate>
+        <li @key="context.Id">@context.Id @context.IdNumber @context.Email</li>
+    </ItemTemplate>
+</DataListRenderFragment>
+
+<DataListRenderFragment Data=@People>
+    <ListTemplate Context="listOfPeople">
+        <table class="table bg-color-9">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>IdNumber</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                @listOfPeople
+            </tbody>
+        </table>
+    </ListTemplate>
+    <ItemTemplate Context="person">
+        <tr @key=@person.Id>
+            <td>@person.Id</td>
+            <td>@person.IdNumber</td>
+            <td>@person.Email</td>
+        </tr>
+    </ItemTemplate>
+</DataListRenderFragment>
+
+<DataListRenderFragment Data="@People">
+
+</DataListRenderFragment>
+
+
 @code {
     private int currentCount = 0;
+    private IEnumerable<Person<int>> People;
 
+    protected override void OnInitialized()
+    {
+        People = new Person<int>[]
+        {
+            new Person<int>
+            {
+                Id = 1,
+            Name = "Yosef",
+            IdNumber = "05982888",
+            Email = "yos@gmail"
+            },
+            new Person<int>
+            {
+                Id = 2,
+            Name = "Yosef2",
+            IdNumber = "05982888-2",
+            Email = "yos2@gmail"
+            }
+
+        };
+    }
     private void IncrementCount()
     {
         currentCount++;
