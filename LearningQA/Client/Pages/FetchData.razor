@@ -1,5 +1,6 @@
 ﻿@page "/fetchdata"
 @using LearningQA.Shared
+@using LearningQA.Client.Components
 
 
 <h1>Weather forecast</h1>
@@ -40,8 +41,12 @@ else
         <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.Summary" />
     </LearningQA.Client.Components.Grid>
     <LearningQA.Client.Components.YLGrid Items="fetchDataViewModel.WeatherForecast">
-        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.Date" />
-        <LearningQA.Client.Components.GridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC" />
+        <YLGridGroup TRowData="IWeatherForecast">
+            <YLGridColumn TRowData="IWeatherForecast"  Expression="c => c.Date"/>
+        </YLGridGroup>
+        <YLGridGroup TRowData="IWeatherForecast" >
+            <YLGridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC"/>
+        </YLGridGroup>
     </LearningQA.Client.Components.YLGrid>
        
 }

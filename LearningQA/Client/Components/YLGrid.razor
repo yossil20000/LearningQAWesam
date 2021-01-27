@@ -11,48 +11,50 @@
                 @foreach (var group in groups)
                 {
 
-                    var title = group.Title;
-                    if (string.IsNullOrEmpty(title) && group.Expression != null)
-                    {
-                        title = GetMemberName(group.Expression).Humanize();
-                    }
-                    <div class="attribute__container">
-                        <div class="attribute">@title</div>
-                    </div>
+                    @if(group.GroupHeaderTemplate != null)
+                        @group.GroupHeaderTemplate
 
                 }
+            
+
             </li>
-            @*@if (Items != null)
+            @if (Items != null)
             {
 
 
                 @foreach (var item in Items)
                 {
-                    foreach (var group in groups)
-                    {
-                        var title = group.Title;
-                        if (string.IsNullOrEmpty(title) && group.Expression != null)
+                    <li class="item item__container current__theme-bg-image color-5">
+
+                        @foreach (var group in groups)
                         {
-                            title = GetMemberName(group.Expression).Humanize();
-                        }
-                        <li class="item item__container current__theme-bg-image color-10">
+                            @*var title = group.Title;
+                            if (string.IsNullOrEmpty(title) && group.Expression != null)
+                            {
+                                title = GetMemberName(group.Expression).Humanize();
+                            }
+
 
                             <div class="attribute__container">
 
-                                <div class="attribute" data-name=@title.Humanize()>iii</div>
-                            </div>
+                                <div class="attribute" data-name=@title.Humanize()>@group.</div>
+                            </div>*@
+                            @if(group.GroupCellTemplate != null)
+                                @group.GroupCellTemplate
+                        }
 
 
-                        </li>
-                    }
+                    </li>
+
 
                 }
-            }*@
+            }
 
         </ol>
     </section>
 </div>
 @code {
+    
     [Parameter] public RenderFragment ChildContent { get; set; }
 
     [Parameter] public ICollection<TRowData> Items { get; set; }
@@ -61,6 +63,17 @@
     internal void AddGroup(YLGridGroup<TRowData> group)
     {
         groups.Add(group);
+    }
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // The first render will instantiate the GridColumn defined in the ChildContent.
+            // GridColumn calls AddColumn during its initialization. This means that until
+            // the first render is completed, the columns collection is empty.
+            // Calling StateHasChanged() will re-render the component, so the second time it will know the columns
+            StateHasChanged();
+        }
     }
 
     public string GetPropertyName<T>(Expression<Func<T>> propertyLambda)

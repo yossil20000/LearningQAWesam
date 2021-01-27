@@ -1,5 +1,60 @@
 ﻿@typeparam TRowData
-
+@using System.Linq.Expressions
+@using Humanizer
 @code {
+        [CascadingParameter]
+        public YLGridGroup<TRowData> OwnerGroup { get; set; }
+        [Parameter]
+        public string Title { get; set; }
+        [Parameter]
+        public bool IsHeader { get; set; } = false;
+        [Parameter]
+        public Expression<Func<TRowData, object>> Expression { get; set; }
 
-}
+    private Func<TRowData, object> compiledExpression;
+    private Expression lastCompiledExpression;
+    private RenderFragment headerTemplate;
+    private RenderFragment<TRowData> cellTemplate;
+
+    internal RenderFragment HeaderTemplate
+    {
+        get
+        {
+            string title = Title;
+            if (string.IsNullOrEmpty(title) && Expression != null)
+            {
+                title = GetMemberName(Expression).Humanize();
+            }
+            return headerTemplate = @:@{
+                <div class="attribute" data-name=@title.Humanize()>iii</div>
+                }
+                ;
+            }
+         }
+
+        protected override void OnInitialized()
+        {
+            OwnerGroup.AddColumn(this);
+
+        }
+        protected override void OnParametersSet()
+        {
+            if (lastCompiledExpression == null || lastCompiledExpression != Expression)
+            {
+                compiledExpression = Expression?.Compile();
+                lastCompiledExpression = Expression;
+
+            }
+        }
+        private static string GetMemberName<T>
+        (Expression<T>
+            expression)
+        {
+            return expression.Body switch
+            {
+                MemberExpression m => m.Member.Name,
+                UnaryExpression u when u.Operand is MemberExpression m => m.Member.Name,
+                _ => throw new NotSupportedException("Expression of type '" + expression.GetType().ToString() + "' is not supported")
+            };
+        }
+    }
