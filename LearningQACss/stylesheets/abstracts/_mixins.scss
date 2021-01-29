@@ -92,6 +92,12 @@
   }
 }
 
+@mixin  CssParam ($class,$param,$value,$unit){
+  .#{$class}-#{$value}
+  {
+    --#{$param}: #{$value}#{$unit};
+  }
+}
 
 /*
 fluid-type from  CSS-tricks (Mike)

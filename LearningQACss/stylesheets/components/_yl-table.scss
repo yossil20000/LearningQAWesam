@@ -83,7 +83,10 @@
         .member__info{
             --column-width-min: 6em;
         }
-    
+        @for $var from 1 to 20 {
+            @include CssParam(filed-width-min,column-width-min ,$var,em)
+        }
+        
        
         .collection{
              display: grid; 

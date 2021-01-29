@@ -2,18 +2,20 @@
 @using System.Linq.Expressions
 @using Humanizer
 @code {
-        [CascadingParameter]
-        public YLGridGroup<TRowData> OwnerGroup { get; set; }
-        [Parameter]
-        public string Title { get; set; }
-        [Parameter]
-        public bool IsHeader { get; set; } = false;
-        [Parameter]
-        public Expression<Func<TRowData, object>> Expression { get; set; }
+    [CascadingParameter]
+    public YLGridGroup<TRowData> OwnerGroup { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string Format { get; set; }
+    [Parameter]
+    public Expression<Func<TRowData, object>> Expression { get; set; }
 
     private Func<TRowData, object> compiledExpression;
     private Expression lastCompiledExpression;
     private RenderFragment headerTemplate;
+
     private RenderFragment<TRowData> cellTemplate;
 
     internal RenderFragment HeaderTemplate
@@ -25,36 +27,85 @@
             {
                 title = GetMemberName(Expression).Humanize();
             }
-            return headerTemplate = @:@{
-                <div class="attribute" data-name=@title.Humanize()>iii</div>
-                }
-                ;
+            return headerTemplate =@:@{
+        <div class="attribute">@title</div>
             }
-         }
-
-        protected override void OnInitialized()
-        {
-            OwnerGroup.AddColumn(this);
-
-        }
-        protected override void OnParametersSet()
-        {
-            if (lastCompiledExpression == null || lastCompiledExpression != Expression)
-            {
-                compiledExpression = Expression?.Compile();
-                lastCompiledExpression = Expression;
-
-            }
-        }
-        private static string GetMemberName<T>
-        (Expression<T>
-            expression)
-        {
-            return expression.Body switch
-            {
-                MemberExpression m => m.Member.Name,
-                UnaryExpression u when u.Operand is MemberExpression m => m.Member.Name,
-                _ => throw new NotSupportedException("Expression of type '" + expression.GetType().ToString() + "' is not supported")
-            };
+            ;
         }
     }
+    @*internal RenderFragment<TRowData> CellTemplate
+        {
+            get
+            {
+
+                string title = Title;
+                if (string.IsNullOrEmpty(title) && Expression != null)
+                {
+                    title = GetMemberName(Expression).Humanize();
+                }
+
+
+
+                @:@{
+                    <div class="attribute" data-name=@title.Humanize()>Cell</div>
+                }
+                ;
+                return cellTemplate;
+             }
+        }*@
+    internal RenderFragment<TRowData> CellTemplate
+    {
+        get
+        {
+
+            cellTemplate = (item) =>
+    @:@{
+        
+        string title = Title;
+        if (string.IsNullOrEmpty(title) && Expression != null)
+        {
+            title = GetMemberName(Expression).Humanize();
+        }
+        if (compiledExpression != null)
+        {
+            var value = compiledExpression(item);
+            var formattedValue = string.IsNullOrEmpty(Format) ? value.ToString() : string.Format("{0:" + Format+ "}", value);
+            <div class="attribute" data-name=@title>@formattedValue</div>
+
+        }
+        else
+        {
+            <div class="attribute" data-name=@title>@ChildContent</div>
+        }
+
+    }
+    ;
+
+            return cellTemplate;
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        OwnerGroup.AddColumn(this);
+
+    }
+    protected override void OnParametersSet()
+    {
+        if (lastCompiledExpression == null || lastCompiledExpression != Expression)
+        {
+            compiledExpression = Expression?.Compile();
+            lastCompiledExpression = Expression;
+
+        }
+    }
+    private static string GetMemberName<T>(Expression<T> expression)
+    {
+        return expression.Body switch
+        {
+            MemberExpression m => m.Member.Name,
+            UnaryExpression u when u.Operand is MemberExpression m => m.Member.Name,
+            _ => throw new NotSupportedException("Expression of type '" + expression.GetType().ToString() + "' is not supported")
+        };
+    }
+}

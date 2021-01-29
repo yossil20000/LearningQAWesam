@@ -1547,6 +1547,63 @@ a:hover, a:active, a:focus {
   .yl-table .member__info {
     --column-width-min: 6em;
   }
+  .yl-table .filed-width-min-1 {
+    --column-width-min: 1em;
+  }
+  .yl-table .filed-width-min-2 {
+    --column-width-min: 2em;
+  }
+  .yl-table .filed-width-min-3 {
+    --column-width-min: 3em;
+  }
+  .yl-table .filed-width-min-4 {
+    --column-width-min: 4em;
+  }
+ .filed-width-min-5 {
+    --column-width-min: 5em;
+  }
+  .yl-table .filed-width-min-6 {
+    --column-width-min: 6em;
+  }
+  .yl-table .filed-width-min-7 {
+    --column-width-min: 7em;
+  }
+  .yl-table .filed-width-min-8 {
+    --column-width-min: 8em;
+  }
+  .yl-table .filed-width-min-9 {
+    --column-width-min: 9em;
+  }
+  .yl-table .filed-width-min-10 {
+    --column-width-min: 10em;
+  }
+  .yl-table .filed-width-min-11 {
+    --column-width-min: 11em;
+  }
+  .yl-table .filed-width-min-12 {
+    --column-width-min: 12em;
+  }
+  .yl-table .filed-width-min-13 {
+    --column-width-min: 13em;
+  }
+  .yl-table .filed-width-min-14 {
+    --column-width-min: 14em;
+  }
+  .yl-table .filed-width-min-15 {
+    --column-width-min: 15em;
+  }
+  .yl-table .filed-width-min-16 {
+    --column-width-min: 16em;
+  }
+  .yl-table .filed-width-min-17 {
+    --column-width-min: 17em;
+  }
+  .yl-table .filed-width-min-18 {
+    --column-width-min: 18em;
+  }
+  .yl-table .filed-width-min-19 {
+    --column-width-min: 19em;
+  }
   .yl-table .collection {
     display: grid;
     grid-template-columns: 1fr;

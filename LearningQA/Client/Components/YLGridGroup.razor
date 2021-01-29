@@ -3,50 +3,43 @@
 @using Humanizer
 <CascadingValue Value="this">@ChildContent</CascadingValue>
 
-
-@*@if (IsHeader)
-    {
-        var title = Title;
-        @if (string.IsNullOrEmpty(title) && Expression != null)
-        {
-            title = GetMemberName(Expression).Humanize();
-        }
-        <div class="attribute__container">
-            <div class="attribute">@title</div>
-        </div>
-    }
-    else
-    {
-        var title = Title;
-        @if (string.IsNullOrEmpty(title) && Expression != null)
-        {
-            title = GetMemberName(Expression).Humanize();
-        }
-        <div class="attribute__container">
-
-            <div class="attribute" data-name=@title>@compiledExpression</div>
-        </div>
-    }*@
 @code {
     [CascadingParameter]
     public YLGrid<TRowData> OwnerGrid { get; set; }
     [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> GroupAttributes { get; set; }
+    [Parameter]
+    public string GroupClass { get; set; }
     private List<YLGridColumn<TRowData>> Columns { get; set; } = new List<YLGridColumn<TRowData>>();
     RenderFragment groupHeaderTemplete;
     RenderFragment<TRowData> groupCellTemplate;
-
+    private string groupClass = "attribute__container";
     protected override void OnParametersSet()
     {
         groupCellTemplate = item => @:@{
-            <div class="attribute__container">
-                @foreach (YLGridColumn<TRowData> column in Columns)
-                {
-                    @column.HeaderTemplate
-                }
+                
+                <div class=@GroupCellClass()>
+                    @foreach (YLGridColumn<TRowData> column in Columns)
+                    {
+                        if (column.CellTemplate == null)
+                        {
 
-            </div>
+                        }
+                        else
+                        {
+                            @column.CellTemplate(item)
+                        }
+
+                    }
+
+                </div>
             }
-;
+            ;
+            }
+            internal string GroupCellClass()
+            {
+                return $"{groupClass} {GroupClass}";
             }
             internal RenderFragment<TRowData> GroupCellTemplate
             {
@@ -64,24 +57,28 @@
                 {
 
                     return groupHeaderTemplete = @:@{
-                <div class="attribute__container">
-                    @foreach (YLGridColumn<TRowData> column in Columns)
-                    {
-                        @column.HeaderTemplate
-                    }
-                </div>
+                
+            <div class=@GroupCellClass() >
+                @foreach (YLGridColumn<TRowData> column in Columns)
+                {
+                    @column.HeaderTemplate
                 }
-                   ;
-             }
-         }
-        protected override void OnInitialized()
-        {
-            OwnerGrid.AddGroup(this);
-
+            </div>
+            }
+            ;
         }
+    }
+                /// <summary>
+                /// 
+                /// </summary>
+    protected override void OnInitialized()
+    {
+        OwnerGrid.AddGroup(this);
 
-        public void AddColumn(YLGridColumn<TRowData> column)
-        {
-            Columns.Add(column);
-        }
+    }
+
+    public void AddColumn(YLGridColumn<TRowData> column)
+    {
+        Columns.Add(column);
+    }
 }

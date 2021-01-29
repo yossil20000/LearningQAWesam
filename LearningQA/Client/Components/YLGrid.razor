@@ -24,7 +24,7 @@
 
                 @foreach (var item in Items)
                 {
-                    <li class="item item__container current__theme-bg-image color-5">
+                    <li class="item item__container bg-color-9 color-1">
 
                         @foreach (var group in groups)
                         {
@@ -40,7 +40,7 @@
                                 <div class="attribute" data-name=@title.Humanize()>@group.</div>
                             </div>*@
                             @if(group.GroupCellTemplate != null)
-                                @group.GroupCellTemplate
+                                @group.GroupCellTemplate(item)
                         }
 
 

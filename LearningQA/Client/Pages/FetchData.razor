@@ -42,10 +42,19 @@ else
     </LearningQA.Client.Components.Grid>
     <LearningQA.Client.Components.YLGrid Items="fetchDataViewModel.WeatherForecast">
         <YLGridGroup TRowData="IWeatherForecast">
-            <YLGridColumn TRowData="IWeatherForecast"  Expression="c => c.Date"/>
+            <YLGridColumn TRowData="IWeatherForecast" Expression="c => c.Date" Format="d"/>
         </YLGridGroup>
-        <YLGridGroup TRowData="IWeatherForecast" >
-            <YLGridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC"/>
+        <YLGridGroup TRowData="IWeatherForecast">
+            <YLGridColumn TRowData="IWeatherForecast" Expression="c => c.TemperatureC" />
+        </YLGridGroup>
+        <YLGridGroup TRowData="IWeatherForecast" GroupClass="filed-width-min-5">
+            <YLGridColumn TRowData="IWeatherForecast" Title="Sumn" Expression="c => c.Summary" />
+            <YLGridColumn TRowData="IWeatherForecast" Title="Temp(f)" Expression="c => c.TemperatureF" />
+        </YLGridGroup>
+        <YLGridGroup TRowData="IWeatherForecast">
+            <YLGridColumn TRowData="IWeatherForecast" Title="Action">
+                <a href="#">edit</a>
+            </YLGridColumn>
         </YLGridGroup>
     </LearningQA.Client.Components.YLGrid>
        
