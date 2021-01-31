@@ -6,6 +6,7 @@ namespace LearningQA.Shared.Entities
 {
 	public interface IWeatherForecast
 	{
+		int Id { get; set; }
 		DateTime Date { get; set; }
 
 		int TemperatureC { get; set; }
@@ -17,6 +18,7 @@ namespace LearningQA.Shared.Entities
 	}
 	public class WeatherForecast : IWeatherForecast
 	{
+		public int Id { get; set; }
 		public DateTime Date { get; set; }
 
 		public int TemperatureC { get; set; }

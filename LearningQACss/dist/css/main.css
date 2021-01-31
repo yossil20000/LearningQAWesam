@@ -1494,6 +1494,22 @@ a:hover, a:active, a:focus {
   opacity: 1;
 }
 
+/** @format */
+.yl-table ol,
+.yl-table ul {
+  padding-left: 0;
+}
+
+.yl-table .attribute input[type=button] {
+  width: 100%;
+  height: 100%;
+}
+
+.yl-table .item__container:hover {
+  color: #000 !important;
+  background-color: #f4f6f9 !important;
+}
+
 @media screen and (max-width: 399px) {
   .yl-table ol {
     list-style: none;
@@ -1524,15 +1540,10 @@ a:hover, a:active, a:focus {
   }
 }
 
-.yl-table .item__container:hover {
-  color: #000 !important;
-  background-color: #f4f6f9 !important;
-}
-
 @media screen and (min-width: 400px) {
   .yl-table .item__container {
     display: grid;
-    grid-template-columns: 8ch  1.2fr 1.3fr  0.8fr;
+    grid-template-columns: 8ch 1.2fr 1.3fr 0.8fr;
   }
   .yl-table .attribute__container {
     display: grid;

@@ -11,12 +11,20 @@
     public string Format { get; set; }
     [Parameter]
     public Expression<Func<TRowData, object>> Expression { get; set; }
+    [Parameter]
+    public Expression<Func<TRowData, object>> Index { get; set; }
+    [Parameter]
+    public EventCallback<string> OnEdit { get; set; }
 
     private Func<TRowData, object> compiledExpression;
     private Expression lastCompiledExpression;
+    private Func<TRowData, object> compiledIndex;
+    private Expression lastCompiledIndex;
+
     private RenderFragment headerTemplate;
 
     private RenderFragment<TRowData> cellTemplate;
+    private TRowData Item;
 
     internal RenderFragment HeaderTemplate
     {
@@ -60,8 +68,9 @@
 
             cellTemplate = (item) =>
     @:@{
-        
+
         string title = Title;
+        Item = item;
         if (string.IsNullOrEmpty(title) && Expression != null)
         {
             title = GetMemberName(Expression).Humanize();
@@ -69,13 +78,26 @@
         if (compiledExpression != null)
         {
             var value = compiledExpression(item);
-            var formattedValue = string.IsNullOrEmpty(Format) ? value.ToString() : string.Format("{0:" + Format+ "}", value);
-            <div class="attribute" data-name=@title>@formattedValue</div>
+            var formattedValue = string.IsNullOrEmpty(Format) ? value.ToString() : string.Format("{0:" + Format + "}", value);
+            if (lastCompiledIndex != null)
+            {
+                var index = compiledIndex(item);
+                <div class="attribute" data-name=@title @onclick='eventArg => OnClick(eventArg,$"{index.ToString()}")'>
+                @if(ChildContent == null)@formattedValue
+                else @ChildContent</div>
+            }
+            else
+            {
+                <div class="attribute" data-name=@title @onclick='eventArg => OnClick(eventArg,$"{value.ToString()}")'>@formattedValue</div>
+            }
+
+
 
         }
         else
         {
-            <div class="attribute" data-name=@title>@ChildContent</div>
+            //var value = compiledIndex(item);
+            <div class="attribute" data-name=@title @onclick='eventArg => OnClick(eventArg,$"0")'>@ChildContent</div>
         }
 
     }
@@ -84,7 +106,12 @@
             return cellTemplate;
         }
     }
-
+    private Task OnClick(EventArgs ea, string id)
+    {
+        if (!string.IsNullOrEmpty(id))
+            return OnEdit.InvokeAsync(id);
+        return Task.CompletedTask;
+    }
     protected override void OnInitialized()
     {
         OwnerGroup.AddColumn(this);
@@ -96,6 +123,12 @@
         {
             compiledExpression = Expression?.Compile();
             lastCompiledExpression = Expression;
+
+        }
+        if (lastCompiledIndex == null || lastCompiledIndex != Index)
+        {
+            compiledIndex = Index?.Compile();
+            lastCompiledIndex = Index;
 
         }
     }
