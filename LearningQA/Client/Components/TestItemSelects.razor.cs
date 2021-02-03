@@ -14,9 +14,10 @@ namespace LearningQA.Client.Components
 	{
 
 		[Parameter]
-		public TestItemViewModelPersist TestItemViewModelPersist { get; set; }
-		[Parameter] public  EventCallback OnLoadCommand { get; set; }
-		
+		public IViewPersistanceBase TestItemViewModelPersist { get; set; }
+		[Parameter] public EventCallback OnLoadCommand { get; set; }
+		[Parameter] public EventCallback<int> OnVerify { get; set; }
+		[Parameter] public string  ButtonTitle {get;set;}
 		public TestItemSelects()
 		{
 

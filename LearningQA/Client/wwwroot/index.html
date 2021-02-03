@@ -34,26 +34,9 @@
             crossorigin="anonymous"></script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
-    <script>
-        // const menuToggle = document.querySelector('.toggle');
-        const menuSupplement = document.querySelector('#container_supplement');
-        const container_supplement = document.querySelector('.test-item__container_supplement');
-        const menueShowAnsware = document.querySelector('#show-answer');
-        const answer = document.querySelector('#answer');
-        /*  menuToggle.addEventListener('click', () => {
-           menuToggle.classList.toggle('active');
-           showcase.classList.toggle('active');
-         }) */
-
-        menuSupplement.addEventListener('click', () => {
-            menuSupplement.classList.toggle('active');
-            container_supplement.classList.toggle('expande');
-        })
-        menueShowAnsware.addEventListener('click', () => {
-            menueShowAnsware.classList.toggle('active');
-            answer.classList.toggle('visually-hidden');
-        })
-    </script>
+   
+    <script src="_content/YLBlazor/css-properties-support.js"></script>
+    <script src="_content/YLBlazor/exampleJsInterop.js"></script>
 </body>
 
 </html>

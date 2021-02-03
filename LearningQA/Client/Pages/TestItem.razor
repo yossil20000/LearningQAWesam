@@ -10,26 +10,10 @@
         <div class="test-item__container_aside-header current__theme-bg-image">
             <div>Questions</div>
         </div>
-        @if (false)
-        {
-            <div class="test-item__container_selection ">
-
-
-
-
-                <select class="ss2 bg-color-6 color-2">
-                    <option value="A">2 aaaaaaaaaaaaaaaaaaaaaaaa</option>
-                </select>
-                <select class="ss3 bg-color-6 color-2">
-                    <option value="A">3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
-                </select>
-                <button class="ss4 bg-color-6 color-2">Load</button>
-            </div>
-        }
-        else if (TestItemViewModelPersist != null)
+        @if (TestItemViewModelPersist != null)
         {
             <EditForm class="test-item__container_selection" Model="TestItemViewModelPersist">
-                <LearningQA.Client.Components.TestItemSelects TestItemViewModelPersist="TestItemViewModelPersist" OnLoadCommand="testItemViewModel.OnLoadCommand">
+                <LearningQA.Client.Components.TestItemSelects TestItemViewModelPersist="TestItemViewModelPersist" OnLoadCommand="testItemViewModel.OnLoadCommand" ButtonTitle="New Test">
 
                 </LearningQA.Client.Components.TestItemSelects>
 
@@ -62,6 +46,7 @@
                                 {
                                     <input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="EventArgs => { TestItemViewModelPersist.OnOptionChanged(i, EventArgs.Value); }">
                                 }
+                                
                                 else if (TestItemViewModelPersist.ExamState != ExamState.ExamStart)
                                 {
                                     <input class="form-check-input bg-color-2" type="checkbox" disabled checked="@IsOptionChecked(TestItemViewModelPersist.SelectedQuestion, i.TenantId)" id="question-option-2" @onchange="EventArgs => { TestItemViewModelPersist.OnOptionChanged(i, EventArgs.Value); }">
@@ -100,6 +85,7 @@
                 {
                     <button class=" bg-color-7 color-2 nav-7" @onclick="testItemViewModel.OnSaveCurrentExam">Save</button>
                 }
+                
             </div>
 
             <aside class="test-item__container_aside bg-color-5 color-2">
@@ -177,7 +163,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A reiciendis modi nobis quae blanditiis commodi rem dicta, laudantium ab quaerat est illo accusamus assumenda sunt delectus, in porro nisi doloremque voluptates voluptatum animi! Provident eligendi nulla quae placeat dolorum voluptates, tenetur doloribus illum possimus ratione enim porro obcaecati ipsum. Accusantium assumenda sunt veritatis, blanditiis laborum consequatur alias optio, iure debitis sequi possimus atque dolor culpa voluptatum eum quae quas quibusdam totam beatae in? Ea ut fugit similique rerum, sint ab nisi, doloribus molestias vero animi hic, maxime provident odit! Ut, praesentium. Molestiae, illo rerum. Reiciendis doloribus voluptatem quaerat maxime vero.</p>
         </div>
         <div class="test-item__container_aside-summary bg-color-6 color-2">
-            @if (IsTestMode && TestItemViewModelPersist.ExamState >= ExamState.ExamCreate)
+            @if (IsTestMode && TestItemViewModelPersist.CurrentTest.Answers != null && TestItemViewModelPersist.ExamState >= ExamState.ExamCreate)
             {
 
                 <div>Answered</div>

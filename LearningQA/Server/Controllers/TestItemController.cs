@@ -119,8 +119,16 @@ namespace LearningQA.Server.Controllers
 
 			
 			var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>();
-
-			var result = await _mediator.Send(new CreateRangeTestItemCommand(testitems) { CreateNewDatabase = true}, cancellationToken);
+			Person<int> person = new Person<int>()
+			{
+				IdNumber = "059828391",
+				Name = "Yosef Levy",
+				Email ="yos@gmail.com",
+				Address = "Gilon, Israel 2010300",
+				Phone = "054999888777"
+				
+			};
+			var result = await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = true}, cancellationToken);
 			foreach (var item in testitems)
 			{
 				//var result = await _mediator.Send(new CreateNewTestItemCommand(item), cancellationToken);

@@ -17,10 +17,13 @@ namespace LearningQA.Shared.MediatR.TestItem.Command
 	public class CreateRangeTestItemCommand : IRequest<int>
 	{
 		public List<TestItem<QUestionSql, int>> _testItems;
+		public Person<int> _person;
 		public bool CreateNewDatabase { get; set; } = false;
-		public CreateRangeTestItemCommand(List<TestItem<QUestionSql, int>> testItems)
+		public CreateRangeTestItemCommand(List<TestItem<QUestionSql, int>> testItems , Person<int> person = null)
 		{
 			_testItems = testItems;
+			_person = person;
+
 		}
 	}
 
@@ -43,6 +46,10 @@ namespace LearningQA.Shared.MediatR.TestItem.Command
 				{
 					dbContext.Database.EnsureDeleted();
 					dbContext.Database.EnsureCreated();
+				}
+				if(request._person != null)
+				{
+					dbContext.Person.Add(request._person);
 				}
 				dbContext.TestItems.AddRange(request._testItems);
 				var result = await dbContext.SaveChangesAsync();

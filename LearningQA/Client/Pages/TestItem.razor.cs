@@ -47,14 +47,24 @@ namespace LearningQA.Client.Pages
 				
 				await testItemViewModel.OnTestItemId(testItemId);
 				Console.WriteLine($"OnParametersSetAsync TestIdemId: {testItemId} {TestItemViewModelPersist.SelectedSubjecte}");
-				await base.OnParametersSetAsync();
+				
 			}
 			else if(testId > 0)
 			{
-				Console.WriteLine($"OnParametersSetAsync TestId: {testId} ");
-			}
+				
+				Console.WriteLine($"OnParametersSetAsync TestId: {testId} ExamState:{TestItemViewModelPersist.ExamState} ");
+				
+				//if (testId > 0)
+				//{
+				//	Console.WriteLine($"OnParametersSetAsync TestId: {testId} ");
 
-			
+				//	await testItemViewModel.OnTestId(testId);
+				//	TestItemViewModelPersist.ExamState = ExamState.ExamReview;
+				//	StateHasChanged();
+				//}
+			}
+			await base.OnParametersSetAsync();
+
 		}
 		protected override void OnAfterRender(bool firstRender)
 		{

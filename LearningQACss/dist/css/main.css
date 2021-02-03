@@ -1522,6 +1522,8 @@ a:hover, a:active, a:focus {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
+    width: 100%;
+    overflow: overlay;
   }
   .yl-table .item {
     border: 1px solid gray;
@@ -1536,7 +1538,8 @@ a:hover, a:active, a:focus {
   }
   .yl-table .attribute {
     display: grid;
-    grid-template-columns: minmax(9em, 30%) 1fr;
+    grid-template-columns: minmax(6em, 30%) 1fr;
+    width: 100%;
   }
 }
 

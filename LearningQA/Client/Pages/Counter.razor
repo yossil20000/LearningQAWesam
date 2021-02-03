@@ -1,11 +1,16 @@
 ﻿@page "/counter"
 @using LearningQA.Client.Components
+@using YLBlazor
+@inject ExampleJsInterop ExampleJs
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+<h2>From YLBlazor</h2>
+<YLBlazor.Component1/>
+@ExampleJs.Prompt("Hii From YLBlazor")
 <TabControl>
     <TabTextTemplate>
         Hello
@@ -39,24 +44,25 @@
     </ChildContent>
 </TabControl>
 
-<DataList Data="@People" Context="item">
+
+<YLDataList Data="@People" Context="item">
     @item.Id @item.IdNumber @item.Name @item.Email
-</DataList>
+</YLDataList>
 
 @*Explicit supply the TItem Param type*@
-<DataList TItem="Person<int>" Data="@People" Context="item">
+<YLDataList TItem="Person<int>" Data="@People" Context="item">
     @item.Id @item.IdNumber @item.Name @item.Email 
-</DataList>
+</YLDataList>
 
 
-<DataList Data="@People" Context="item">
+<YLDataList Data="@People" Context="item">
     <ChildContent>
         <ul>
             <li @key="item"> @item.Id @item.IdNumber @item.Name @item.Email</li>
         </ul>
         
     </ChildContent>
-</DataList>
+</YLDataList>
 
 <DataListRenderFragment Data="@People">
     <ItemTemplate>

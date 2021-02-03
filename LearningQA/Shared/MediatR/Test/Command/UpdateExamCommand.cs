@@ -41,7 +41,7 @@ namespace LearningQA.Shared.MediatR.Test.Command
 					//dbContext.ChangeTracker.Clear();
 					var person = dbContext.Person.Find(request.PersonId);
 					
-						person.Tests.Add(request.Test);
+					person.Tests.Add(request.Test);
 					dbContext.Update(person);
 
 					var result = await dbContext.SaveChangesAsync();

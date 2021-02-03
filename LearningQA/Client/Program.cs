@@ -1,3 +1,5 @@
+
+
 using LearningQA.Client.Model;
 using LearningQA.Client.ViewModel;
 
@@ -12,6 +14,8 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+
+using YLBlazor;
 
 namespace LearningQA.Client
 {
@@ -30,10 +34,14 @@ namespace LearningQA.Client
 		}
 		private static void ConfigurationServices(IServiceCollection services)
 		{
+			services.AddYLBlazor();
+			services.AddCssCustomProperties();
 			services.AddScoped<IFetchDataViewModel, FetchDataViewModel>();
 			services.AddScoped<IFetchDataModel, FetchData_Model>();
 			services.AddScoped<ITestItemModel, TestItemModel>();
+			services.AddScoped<IExamViewModel, ExamViewModel>();
 			services.AddScoped<ITestItemViewModel, TestItemViewModel>();
+			services.AddSingleton<ExamViewModelPersist>();
 			services.AddSingleton<TestItemViewModelPersist>();
 			var assemblyAll = AppDomain.CurrentDomain.GetAssemblies();
 			var assembly = assemblyAll.Where(a => a.FullName.StartsWith("LearningQA.Client")).FirstOrDefault();

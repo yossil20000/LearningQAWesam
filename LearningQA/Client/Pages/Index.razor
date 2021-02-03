@@ -1,7 +1,26 @@
 ﻿@page "/"
-
+@using YLBlazor.CssCustomProperties.Services
+@inject ICustomProperties CustomProperty
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+bgImageLinearStop = @bgImageLinearStop
+
+@code
+{
+    string bgImageLinearStop { get; set; } = "";
+    protected override async void OnInitialized()
+    {
+        this.bgImageLinearStop = await this.CustomProperty.GetRootPropertyValueAsync("--bg-image-linear-stop");
+        Console.WriteLine($"bgImageLinearStop : {bgImageLinearStop}");
+        StateHasChanged();
+
+    }
+    protected override Task OnAfterRenderAsync(bool firstRender)
+    {
+        return base.OnAfterRenderAsync(firstRender);
+    }
+
+}

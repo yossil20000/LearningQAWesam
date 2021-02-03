@@ -18,9 +18,10 @@ namespace LearningQA.Client.ViewModel
 		Task RetriveTestItemInfos(int testItemId);
 		Task<ExamModel> RetriveTest(TestItemInfo testItemInfo);
 		Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo);
+		
 		Task OnLoadCommand();
 		Task OnTestItemId(int testItemId);
-		Task OnTestId(int testId);
+		
 		//TestItem<QUestionSql, int> TestItem { get; set; }
 		void OnNext();
 		void OnPrevious();
@@ -59,6 +60,8 @@ namespace LearningQA.Client.ViewModel
 			//if (TestItemViewModelPersist.TestItem.Questions.Count > 1)
 			//	TestItemViewModelPersist.EnableNext = true;
 		}
+
+		
 
 		public async Task<ExamModel> RetriveTest(TestItemInfo testItemInfo)
 		{
@@ -236,18 +239,7 @@ namespace LearningQA.Client.ViewModel
 				
 			}
 		}
-		public async Task OnTestId(int testId)
-		{
-			try
-			{
-
-			}
-			catch (Exception ex)
-			{
-
-				
-			}
-		}
+		
 	}
 
 }

@@ -24,7 +24,7 @@ namespace LearningQA.Server.Controllers
 		{
 		}
 
-		[HttpGet]
+		[HttpGet(Name ="/GetExamById")]
 		//https://localhost:44335/api/Exam/Get?testId=2
 		public async Task<IActionResult> Get(int testId)
 		{

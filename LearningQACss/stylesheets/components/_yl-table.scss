@@ -34,6 +34,8 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 5px;
+      width: 100%;
+      overflow: overlay;
     }
     .item {
       border: 1px solid gray;
@@ -50,7 +52,8 @@
       display: -ms-grid;
       display: grid;
       -ms-grid-columns: minmax(9em, 30%) 1fr;
-      grid-template-columns: minmax(9em, 30%) 1fr;
+      grid-template-columns: minmax(6em, 30%) 1fr;
+      width: 100%;
     }
   }
 }

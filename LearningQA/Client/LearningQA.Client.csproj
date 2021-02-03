@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\YLBlazor\YLBlazor.csproj" />
     <ProjectReference Include="..\Shared\LearningQA.Shared.csproj" />
   </ItemGroup>
 

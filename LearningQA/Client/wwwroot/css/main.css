@@ -1686,7 +1686,18 @@ a:hover, a:active, a:focus {
   height: 100vh;
   grid-template-columns: minmax(auto, 0.1fr) 0.2fr 1fr;
   grid-template-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
-  grid-template-areas: "aside-header header header"  "aside-summary selection selection" "aside-summary nav nav" "aside question question" "aside question question" "aside option option" "aside answer-expend answer-expend"  "aside answer answer"  "aside supplement supplement"  "aside-legend supplement supplement"  "aside-legend supplement supplement"  "footer footer footer";
+  grid-template-areas: "aside-header header header" 
+ "aside-summary selection selection"
+ "aside-summary nav nav"
+ "aside question question"
+ "aside question question"
+ "aside option option"
+ "aside answer-expend answer-expend" 
+ "aside answer answer" 
+ "aside supplement supplement" 
+ "aside-legend supplement supplement" 
+ "aside-legend supplement supplement" 
+ "footer footer footer";
 }
 
 .test-item__container_answer-expend {
@@ -1718,7 +1729,10 @@ a:hover, a:active, a:focus {
   padding-left: 0.5ch;
   grid-template-columns: auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr auto;
   grid-template-rows: 2ch 2ch 2ch 2ch;
-  grid-template-areas: "th th th th th th th th th th th"  "th-1 th-2 th-3 th-4 th-5 th-6 th-7 th-8 th-9 th-10 th-11"  "tt tt tt tt tt tt tt tt tt tt tt"  "tt-1 tt-2 tt-3 tt-4 tt-5 tt-6 tt-7 tt-8 tt-9 tt-10 tt-11";
+  grid-template-areas: "th th th th th th th th th th th" 
+ "th-1 th-2 th-3 th-4 th-5 th-6 th-7 th-8 th-9 th-10 th-11" 
+ "tt tt tt tt tt tt tt tt tt tt tt" 
+ "tt-1 tt-2 tt-3 tt-4 tt-5 tt-6 tt-7 tt-8 tt-9 tt-10 tt-11";
 }
 
 .test-item__container_aside-timer .th {

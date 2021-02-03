@@ -33,6 +33,10 @@ namespace LearningQA.Shared.DTO
 		public string Name { get; set; }
 		public string Title { get; set; }
 		public int Mark { get; set; }
+		public ExamInfoModel()
+		{
+
+		}
 		public ExamInfoModel(Test<QUestionSql,int> test)
 		{
 
