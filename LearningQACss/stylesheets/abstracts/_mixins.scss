@@ -98,6 +98,19 @@
     --#{$param}: #{$value}#{$unit};
   }
 }
+@mixin  CssParamWithIndex ($class,$param,$index,$value,$unit){
+  :#{$class}
+  {
+    --#{$param}-#{$index}: #{$value}#{$unit};
+  }
+  
+}
+@mixin  CssClass2CssParam ($class,$param,$index,$value,$unit){
+  .#{$param}-#{$index}-#{$value}{
+    --#{$param}-#{$index}: #{$value}#{$unit};
+  }
+}
+
 
 /*
 fluid-type from  CSS-tricks (Mike)

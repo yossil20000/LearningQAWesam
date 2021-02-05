@@ -29,18 +29,17 @@
             @if (ExamViewModelPersist.ExamInfoModels != null)
             {
                 <div class="test-item__container_question bg-color-8 color-2">
-                    <YLGrid Items="ExamViewModelPersist.ExamInfoModels">
-                        <YLGridGroup TRowData="ExamInfoModel">
+                    <YLGrid Items="ExamViewModelPersist.ExamInfoModels" ColumnClass="yl-column-width-1-3 yl-column-width-2-5 yl-column-width-3-1 " >
+                        <YLGridGroup TRowData="ExamInfoModel" GroupClass="filed-width-min-5">
                             <YLGridColumn TRowData="ExamInfoModel" Expression="c => c.DateStart" Format="d" />
-                        </YLGridGroup>
-                        <YLGridGroup TRowData="ExamInfoModel">
+                            <YLGridColumn TRowData="ExamInfoModel" Expression="c => c.DateFinish" Format="d" />
                             <YLGridColumn TRowData="ExamInfoModel" Expression="c => c.Mark" />
-                            
                         </YLGridGroup>
+                    
                         <YLGridGroup TRowData="ExamInfoModel" GroupClass="filed-width-min-5">
                             <YLGridColumn TRowData="ExamInfoModel" Title="Sumn" Expression="c => c.Title" />
                         </YLGridGroup>
-                        <YLGridGroup TRowData="ExamInfoModel">
+                        <YLGridGroup TRowData="ExamInfoModel" GroupClass="filed-width-min-5">
                             <YLGridColumn TRowData="ExamInfoModel" Title="Action" OnEdit="OnEdit" Expression="c => c.TestId" Index="c => c.TestId">
                                 <input type="button"
                                        class="btn color-2 bg-color-8"

@@ -76,3 +76,6 @@ This is using with @mixin fluid-type
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1);
 }
+@function screen-size($screen){
+  @return map-get($map: $screen-size, $key: $screen);
+}

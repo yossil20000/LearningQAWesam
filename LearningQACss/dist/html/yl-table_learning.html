@@ -1,0 +1,101 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>ClubLogBook</title>
+		<base href="/" />
+		<!--<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+			integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
+			crossorigin="anonymous"
+		/>
+		<link href="/dist/css/main.css" rel="stylesheet" />
+		<link href="manifest.json" rel="manifest" />
+		<link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+	</head>
+
+	<body data-theme-container data-theme="color-11">
+
+
+			<div  class="content px-2" >
+				<section class="yl-table yl-column-width-1-1 yl-column-width-2-2 yl-column-width-3-4 yl-column-width-4-3">
+					<ol class="collection collection__container">
+						<!--The first list is the header of the table-->
+						<li class="item item__container current__theme-bg-image color-10">
+							<div class="attribute" >Mark</div>
+							
+							<div class="attribute__container filed-width-min-4">
+								<div class="attribute ">Date Start</div>
+								<div class="attribute">Date Finished</div>
+								
+							</div>
+							
+							
+						
+							<div class="attribute__container filed-width-min-6">
+								<div class="attribute">Summ</div>
+								
+							</div>
+							<div class="attribute">Action</div>
+							
+						</li>
+						<li class="item item__container bg-color-10 color-1">
+							<div class="attribute" data-name="Mark">400</div>
+							<div class="attribute__container filed-width-min-5">
+								<div class="attribute" data-name="Date Start">
+									2/2/2021
+								</div>
+								<div class="attribute" data-name="Date Finishe">2/2/2021</div>
+								
+							</div>
+							
+							
+							<div class="attribute__container ">
+									
+								<div class="attribute" data-name="Summ">
+									1.ATPL_OXFORD/1.Air Low/2.International Agreements and Organizations/0
+								</div>
+							</div>
+							
+
+							<div class="attribute attribute__container" data-name="Action">
+								<input
+									type="button"
+									class="btn color-2 bg-color-8"
+									name="Edit"
+									value="Edit"
+								/>
+							</div>
+							
+						</li>
+
+					</ol>
+				</section>
+			</div>
+	
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+			integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+			crossorigin="anonymous"
+		></script>
+		<!---->
+		<script src="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script>
+		<script src="_framework/blazor.webassembly.js"></script>
+		<script>
+			navigator.serviceWorker.register('service-worker.js');
+		</script>
+	</body>
+</html>

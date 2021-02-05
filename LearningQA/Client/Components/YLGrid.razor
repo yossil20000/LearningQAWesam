@@ -4,8 +4,8 @@
 
 <CascadingValue Value="this">@ChildContent</CascadingValue>
 
-<div class="content px-2">
-    <section class="yl-table">
+<div>
+    <section class=@YLGrisClass>
         <ol class="collection collection__container">
             <li class="item item__container current__theme-bg-image color-10">
                 @foreach (var group in groups)
@@ -54,10 +54,13 @@
     </section>
 </div>
 @code {
-    
+
     [Parameter] public RenderFragment ChildContent { get; set; }
 
     [Parameter] public ICollection<TRowData> Items { get; set; }
+    [Parameter] public string ColumnClass { get; set; }
+    private string YLGrisClass = "yl-table";
+
     private readonly List<YLGridGroup<TRowData>> groups = new List<YLGridGroup<TRowData>>();
 
     internal void AddGroup(YLGridGroup<TRowData> group)
@@ -75,7 +78,16 @@
             StateHasChanged();
         }
     }
+    protected override void OnParametersSet()
+    {
+        if(!string.IsNullOrEmpty(ColumnClass))
+        {
+            YLGrisClass = $"{YLGrisClass} {ColumnClass}";
+        }
 
+        base.OnParametersSet();
+
+    }
     public string GetPropertyName<T>(Expression<Func<T>> propertyLambda)
     {
         var me = propertyLambda.Body as MemberExpression;

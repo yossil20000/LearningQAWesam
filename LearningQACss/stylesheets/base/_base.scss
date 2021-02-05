@@ -25,7 +25,7 @@
 
 :root , body , html{
     --font-family: Sansita, Swashed;
-    --font-size: calc(1vw + 1vh + .5vmin);
+    --font-size: calc(0.7vw + 0.7vh + .5vmin);
     --font-weight: bold; 
     --shade-count: #{$shade-count};
     --bg-image-linear-stop: 120%;
@@ -50,9 +50,11 @@
  line-height: 1.15;
  text-rendering: optimizeLegibility;
 
- @media screen and (min-width :768px) {
-  --font-size: calc(0.3vw + 1vh + .5vmin); 
+ @media screen and (max-width : screen-size(tablet)) {
+  --font-size: calc(0.5vw + 1vh + .5vmin); 
 };
+
+--yoss-1: 2.5fr;
 
 }
 
