@@ -99,33 +99,4 @@
 </DataListRenderFragment>
 
 
-@code {
-    private int currentCount = 0;
-    private IEnumerable<Person<int>> People;
 
-    protected override void OnInitialized()
-    {
-        People = new Person<int>[]
-        {
-            new Person<int>
-            {
-                Id = 1,
-            Name = "Yosef",
-            IdNumber = "05982888",
-            Email = "yos@gmail"
-            },
-            new Person<int>
-            {
-                Id = 2,
-            Name = "Yosef2",
-            IdNumber = "05982888-2",
-            Email = "yos2@gmail"
-            }
-
-        };
-    }
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-}

@@ -11,9 +11,7 @@ $TableToCardBreakPointMin: calc(#{$TableToCardBreakPoint} - 1px);
     @include CssClass2CssParam(yl-column-width,yl-column-width,$index,$value,fr)
   }
 }
-.yos{
-  --yl-grid-column-2: 5.5fr;
-}
+
 .yl-table {
   
   
