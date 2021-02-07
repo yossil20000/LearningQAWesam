@@ -19,10 +19,10 @@ namespace LearningQA.Client.Model
 		Task RetriveTestItemInfos();
 		Task<TestItemInfo> RetriveTestItemInfo(int testItemId);
 		Task<TestItem<QUestionSql,int>> RetriveTestItem(TestItemInfo testItemInfo);
-		Task<List<ExamInfoModel>> RetriveExamInfoModels();
+		Task<List<ExamInfoModel>> RetriveExamInfoModels(TestItemInfo testItemInfo);
 		Task<ExamModel> RetriveTest(TestItemInfo testItemInfo);
 		Task<bool> SaveTest(Test<QUestionSql, int> test);
-		Task<Test<QUestionSql, int>> LoadTest(int testId);
+		Task<ExamModel> LoadTest(int testId);
 	}
 	public class TestItemModel : ITestItemModel
 	{
@@ -34,11 +34,11 @@ namespace LearningQA.Client.Model
 		{
 			this.httpClient = httpClient;
 		}
-		public async Task<List<ExamInfoModel>> RetriveExamInfoModels()
+		public async Task<List<ExamInfoModel>> RetriveExamInfoModels(TestItemInfo testItemInfo)
 		{
 			try
 			{
-				var result = await httpClient.GetFromJsonAsync<List<ExamInfoModel>>("api/Exam/GetExamInfo");
+				var result = await httpClient.GetFromJsonAsync<List<ExamInfoModel>>($"api/Exam/GetExamInfo?category={testItemInfo.Category}&subject={testItemInfo.Subject}&chapter={testItemInfo.Chapter}&personId={1}");
 				return result;
 			}
 			catch(Exception ex)
@@ -119,12 +119,12 @@ namespace LearningQA.Client.Model
 
 			return true;
 		}
-		public async Task<Test<QUestionSql, int>> LoadTest(int testId)
+		public async Task<ExamModel> LoadTest(int testId)
 		{
 			
 			try
 			{
-				var result = await httpClient.GetFromJsonAsync<Test<QUestionSql, int>>($"api/Exam/Get?testId={testId}");
+				var result = await httpClient.GetFromJsonAsync<ExamModel>($"api/Exam/Get?testId={testId}");
 				return result;
 			}
 			catch(Exception ex)

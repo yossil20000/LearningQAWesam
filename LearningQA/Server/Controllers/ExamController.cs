@@ -32,9 +32,19 @@ namespace LearningQA.Server.Controllers
 			return this.FromResult(result);
 		}
 		[HttpGet(Name ="/GetExamInfo")]
-		public async Task<IActionResult> GetExamInfo(int personId)
+		public async Task<IActionResult> GetExamInfo([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter,[FromQuery] int personId)
 		{
-			var result = await _mediator.Send(new GetExamsInfoQuery() { PersonId = personId});
+			var result = await _mediator.Send(new GetExamsInfoQuery()
+			{
+				PersonId = personId,
+				TestItemInfo = new TestItemInfo()
+				{
+					Category = category,
+					Subject = subject,
+					Chapter = chapter
+				}
+			}
+			);
 			return this.FromResult(result);
 		}
 		[HttpGet(Name = "/PersonsInfo")]

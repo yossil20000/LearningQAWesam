@@ -28,7 +28,7 @@
         {
             @if (ExamViewModelPersist.ExamInfoModels != null)
             {
-                <div class="test-item__container_question bg-color-8 color-2 r5-2end_c1-2end">
+                <div class="test-item__container_question bg-color-8 color-2 r5-2end_c1-2end" style="overflow-y:scroll">
                     <YLGrid Items="ExamViewModelPersist.ExamInfoModels" ColumnClass="yl-column-width-1-3 yl-column-width-2-5 yl-column-width-3-1 " >
                         <YLGridGroup TRowData="ExamInfoModel" GroupClass="filed-width-min-5">
                             <YLGridColumn TRowData="ExamInfoModel" Expression="c => c.DateStart" Format="d" />
@@ -48,31 +48,6 @@
                             </YLGridColumn>
                         </YLGridGroup>
                     </YLGrid>
-                    <table class="table bg-color-9">
-                        <thead>
-                            <tr>
-                                <th>DateStart</th>
-                                <th>DateFinish</th>
-                                <th>Title</th>
-                                <th>Mark</th>
-                                <th>TestId</th>
-                                <th>TestItemId</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var exam in ExamViewModelPersist.ExamInfoModels)
-                            {
-                                <tr>
-                                    <td>@exam.DateStart.ToShortDateString()</td>
-                                    <td>@exam.DateFinish.ToShortDateString()</td>
-                                    <td>@exam.Title</td>
-                                    <td>@exam.Mark</td>
-                                    <td>@exam.TestId</td>
-                                    <td>@exam.TestItemId</td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
                 </div>
 
             }
@@ -217,7 +192,7 @@
 
         <div class="test-item__container_answer-expend bg-color-7 color-2">
 
-            <div id="show-answer" class=@($"{(answereExpend ? "toggle active" : "toggle")}") @onclick="OnAnswerExpandToggle"></div>
+            <div id="show-answers" class=@($"{(answereExpend ? "toggle active" : "toggle")}") @onclick="OnAnswerExpandToggle"></div>
             <div>Show / Hide</div>
         </div>
 
@@ -242,14 +217,13 @@
 </div>
 
 @code {
-
     //*private RenderFragment<QuestionOption<int>> questionOptionChecbox = (i) =>  @<input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="(EventArgs) => { OnOptionChanged(i, EventArgs); }">;*/
     private bool answereExpend { get; set; } = false;
     private bool supplementExpand { get; set; } = true;
     private bool IsTestMode { get; set; } = true;
+    
 
-
-    private void OnEdit(object obj)
+    private async Task OnEdit(object obj)
     {
 
         if (obj is IWeatherForecast item)
@@ -259,7 +233,16 @@
         else if (obj is string id)
         {
             Console.WriteLine($"OnClick Edit id:{id}");
+				
+           ;
+            if( int.TryParse(id, out int testId))
+            {
+              await  ExamVM.OnTestId(testId);
+                IsViewExamsList = false;
+            }
+           
         }
+         await Task.CompletedTask;
     }
 
 

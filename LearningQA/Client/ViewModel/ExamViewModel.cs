@@ -1,5 +1,6 @@
 ﻿using LearningQA.Client.Model;
 using LearningQA.Shared.DTO;
+using LearningQA.Shared.Entities;
 
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace LearningQA.Client.ViewModel
 		ExamViewModelPersist ExamViewModelPersist { get; set; }
 		Task RetriveTestItemInfos(int testItemId);
 		
-		Task<List<ExamInfoModel>> RetriveExamInfoModels();
+		Task<List<ExamInfoModel>> RetriveExamInfoModels(TestItemInfo testItemInfo);
 		Task OnLoadCommand();
 		Task OnTestId(int testId);
 		//TestItem<QUestionSql, int> TestItem { get; set; }
@@ -32,9 +33,9 @@ namespace LearningQA.Client.ViewModel
 			ExamViewModelPersist = examViewModelPersist;
 
 		}
-		public async Task<List<ExamInfoModel>> RetriveExamInfoModels()
+		public async Task<List<ExamInfoModel>> RetriveExamInfoModels(TestItemInfo testItemInfo)
 		{
-			var ressult = await testItemModel.RetriveExamInfoModels();
+			var ressult = await testItemModel.RetriveExamInfoModels(testItemInfo);
 			return ressult;
 		}
 		public async Task RetriveTestItemInfos(int testItemId)
@@ -57,27 +58,27 @@ namespace LearningQA.Client.ViewModel
 				var result = await testItemModel.LoadTest(testId);
 				if (result != null)
 				{
-					var testItemInfo = await testItemModel.RetriveTestItemInfo(result.TestItemId);
+					var testItemInfo = await testItemModel.RetriveTestItemInfo(result.Test.TestItemId);
 					if (testItemInfo != null)
 					{
 						ExamViewModelPersist.SelectedCategory = testItemInfo.Category;
 						ExamViewModelPersist.SelectedSubjecte = testItemInfo.Subject;
 						ExamViewModelPersist.SelectedChapter = testItemInfo.Chapter;
-						//TestItemViewModelPersist.CurrentTest = result;
-						//TestItemViewModelPersist.CurrentTest.Answers = result.Answers.OrderBy(x => int.Parse(x.QUestionSql.QuestionNumber)).ToList();
-						//for (int i = 0; i < TestItemViewModelPersist.CurrentTest.Answers.Count(); i++)
-						//{
-						//	var item = TestItemViewModelPersist.CurrentTest.Answers.ElementAt(i).SelectedAnswer;
-						//	if (item == null)
-						//	{
-						//		item = new List<AnswareOption<int>>();
-						//		TestItemViewModelPersist.CurrentTest.Answers.ElementAt(i).SelectedAnswer = item;
-						//	}
-						//}
-						//TestItemViewModelPersist.CurrentQuestion = 1;
-						//TestItemViewModelPersist.CurrentTest.Duration = result.Duration;
-						//TestItemViewModelPersist.SelectedQuestion = TestItemViewModelPersist.CurrentTest.Answers.ElementAt(0).QUestionSql;
-						//TestItemViewModelPersist.Changed();
+						ExamViewModelPersist.CurrentTest = result.Test;
+						ExamViewModelPersist.CurrentTest.Answers = result.Test.Answers.OrderBy(x => int.Parse(x.QUestionSql.QuestionNumber)).ToList();
+						for (int i = 0; i < ExamViewModelPersist.CurrentTest.Answers.Count(); i++)
+						{
+							var item = ExamViewModelPersist.CurrentTest.Answers.ElementAt(i).SelectedAnswer;
+							if (item == null)
+							{
+								item = new List<AnswareOption<int>>();
+								ExamViewModelPersist.CurrentTest.Answers.ElementAt(i).SelectedAnswer = item;
+							}
+						}
+						ExamViewModelPersist.CurrentQuestion = 1;
+						ExamViewModelPersist.CurrentTest.Duration = result.Duration;
+						ExamViewModelPersist.SelectedQuestion = ExamViewModelPersist.CurrentTest.Answers.ElementAt(0).QUestionSql;
+						ExamViewModelPersist.Changed();
 					}
 
 				}
@@ -103,7 +104,7 @@ namespace LearningQA.Client.ViewModel
 					Subject = ExamViewModelPersist.SelectedSubjecte,
 					Chapter = ExamViewModelPersist.SelectedChapter
 				};
-				var result = await testItemModel.RetriveExamInfoModels();
+				var result = await testItemModel.RetriveExamInfoModels(testItemInfo);
 				if(result != null)
 				{
 					ExamViewModelPersist.ExamInfoModels = result;

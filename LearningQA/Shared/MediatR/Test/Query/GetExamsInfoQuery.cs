@@ -20,6 +20,7 @@ namespace LearningQA.Shared.MediatR.Test.Query
 	public class GetExamsInfoQuery : IRequestWrapper<IQueryable<ExamInfoModel>>
 	{
 		public int PersonId { get; set; } = 0;
+		public TestItemInfo TestItemInfo { get; set; }
 	}
 
 	public class GetExamInfoQueryHandler : BaseDBContextHandler, IHandlerWrapper<GetExamsInfoQuery, IQueryable<ExamInfoModel>>
@@ -37,7 +38,7 @@ namespace LearningQA.Shared.MediatR.Test.Query
 				//var query = from test in dbContext.Tests
 				//			join testitem in dbContext.TestItems
 				//			on test.Id equals testitem.Id
-													
+
 
 				//			select new { test, Title = $"{ testitem.Category}/{testitem.Subject}/{testitem.Chapter}/{testitem.Version}" };
 				//var query2 = from p in dbContext.Person.SelectMany(x => x.Tests)
@@ -56,20 +57,46 @@ namespace LearningQA.Shared.MediatR.Test.Query
 				//				 PersonId = pp.Id, Name = pp.Name
 				//			 };
 
-				var result = from p in dbContext.Person.SelectMany(x => x.Tests)
-							 from pp in dbContext.Person
-							 join test in dbContext.Tests
-							 on p.Id equals test.Id
-							 where (request.PersonId == 0 ? true : request.PersonId == pp.Id)
-							
-							 join testitem in dbContext.TestItems
-							on test.Id equals testitem.Id
-							 where test.TestItemId > 0
-							 select new ExamInfoModel(test,pp,testitem)
-							 {
-								
-							 };
-				return new SuccessResult<IQueryable<ExamInfoModel>>(result);
+				//var result = from p in dbContext.Person.SelectMany(x => x.Tests)
+				//			 from pp in dbContext.Person
+				//			 join test in dbContext.Tests
+				//			 on p.Id equals test.Id
+				//			
+
+				//			 join testitem in dbContext.TestItems
+				//			on test.Id equals testitem.Id
+				//			 where (test.TestItemId > 0 ) &&
+				//					(string.IsNullOrEmpty(request.TestItemInfo.Category) ? true : request.TestItemInfo.Category == testitem.Category) &&
+				//					(string.IsNullOrEmpty(request.TestItemInfo.Subject) ? true : request.TestItemInfo.Subject == testitem.Subject) &&
+				//					(string.IsNullOrEmpty(request.TestItemInfo.Chapter) ? true : request.TestItemInfo.Chapter == testitem.Chapter)
+
+				//			 select new ExamInfoModel(test,pp,testitem)
+				//			 {
+
+				//			 };
+				var persons = (from p in dbContext.Person
+							  where (request.PersonId == 0 ? true : request.PersonId == p.Id)
+							  select p ).ToList();
+
+				var result = new List<ExamInfoModel>();
+				foreach(var p in persons)
+				{
+					var tests = from pp in p.Tests
+								 
+								 join testItem in dbContext.TestItems
+								 on pp.TestItemId equals testItem.Id
+								 where (pp.TestItemId > 0) &&
+										(string.IsNullOrEmpty(request.TestItemInfo.Category) ? true : request.TestItemInfo.Category == testItem.Category) &&
+										(string.IsNullOrEmpty(request.TestItemInfo.Subject) ? true : request.TestItemInfo.Subject == testItem.Subject) &&
+										(string.IsNullOrEmpty(request.TestItemInfo.Chapter) ? true : request.TestItemInfo.Chapter == testItem.Chapter)
+								 select new ExamInfoModel(pp, p, testItem) { };
+					result.AddRange(tests);
+				}
+
+				
+				
+
+				return new SuccessResult<IQueryable<ExamInfoModel>>(result.AsQueryable<ExamInfoModel>());
 			}
 			catch(Exception ex)
 			{
