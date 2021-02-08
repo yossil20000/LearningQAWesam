@@ -9,6 +9,14 @@ using System.Threading.Tasks;
 
 namespace LearningQA.Client.ViewModel
 {
+	[Flags]
+	public enum QuestionListFilter
+	{
+		Marked = 1,
+		Wrong = 2,
+		Answered = 4,
+
+	}
 	public interface IExamViewModel
 	{
 		ExamViewModelPersist ExamViewModelPersist { get; set; }
