@@ -97,10 +97,16 @@
             </div>
 
             <aside class="test-item__container_aside bg-color-5 color-2">
-
+                <select  class="bg-color3 color-8" style="width:100%" @bind="SelectedQuestionList" >
+                        <option value="">--select</option>
+                        <option value="All">All</option>
+                        <option value="Wrong">Wrong</option>
+                        </select>
                 <input type="button" class="c123" id="aaa">
                 <div class="question-list color-5 bg-color-2">
+                   
                     <ul>
+                        
                         @if (ExamViewModelPersist.CurrentTest.Answers != null)
                         {
                             @foreach (var answer in ExamViewModelPersist.CurrentTest.Answers)

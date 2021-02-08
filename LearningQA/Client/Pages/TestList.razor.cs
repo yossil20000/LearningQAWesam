@@ -24,6 +24,11 @@ namespace LearningQA.Client.Pages
 		private bool IsViewExamsList = false;
 		private bool IsInitialize { get; set; } = false;
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
+		string _selectedQuestionList ="";
+		string SelectedQuestionList {
+			get { return _selectedQuestionList; }
+			set { _selectedQuestionList = value; OnSelectedQuestionList(); } 
+		} 
 		protected override async Task OnInitializedAsync()
 		{
 			await ExamVM?.RetriveTestItemInfos(0);
@@ -39,6 +44,10 @@ namespace LearningQA.Client.Pages
 		protected override async Task OnAfterRenderAsync(bool firstRender)
 		{
 			await base.OnAfterRenderAsync(firstRender);
+		}
+		private void OnSelectedQuestionList()
+		{
+			Console.WriteLine($"SelectedQuestionList: {SelectedQuestionList}");
 		}
 		private  async Task OnLoadExams()
 		{
