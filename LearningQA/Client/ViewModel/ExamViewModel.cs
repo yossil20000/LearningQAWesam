@@ -75,6 +75,7 @@ namespace LearningQA.Client.ViewModel
 								ExamViewModelPersist.CurrentTest.Answers.ElementAt(i).SelectedAnswer = item;
 							}
 						}
+						ExamViewModelPersist.FilteredAnsware = result.Test.Answers;
 						ExamViewModelPersist.CurrentQuestion = 1;
 						ExamViewModelPersist.CurrentTest.Duration = result.Duration;
 						ExamViewModelPersist.SelectedQuestion = ExamViewModelPersist.CurrentTest.Answers.ElementAt(0).QUestionSql;
@@ -108,6 +109,7 @@ namespace LearningQA.Client.ViewModel
 				if(result != null)
 				{
 					ExamViewModelPersist.ExamInfoModels = result;
+					
 				}
 			}
 			catch(Exception ex)

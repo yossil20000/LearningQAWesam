@@ -20,7 +20,7 @@ namespace LearningQA.Client.ViewModel
 		}
 		#region Entities
 
-		
+		public ICollection<Answer<int>> FilteredAnsware { get; set; }
 		public List<TestItemInfo> TestItemInfos
 		{
 			get => testItemInfos;
@@ -73,17 +73,17 @@ namespace LearningQA.Client.ViewModel
 		private void UpdatePagination()
 		{
 			EnablePreviouse = CurrentQuestion == 1 ? false : true;
-			EnableNext = CurrentQuestion < CurrentTest.Answers.Count ? true : false;
+			EnableNext = CurrentQuestion < FilteredAnsware.Count ? true : false;
 
 		}
 		public void OnNext()
 		{
 			try
 			{
-				if (CurrentQuestion < CurrentTest.Answers.Count)
+				if (CurrentQuestion < FilteredAnsware.Count)
 				{
 					CurrentQuestion++;
-					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+					SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
 				}
 				UpdatePagination();
 				Changed();
@@ -102,7 +102,7 @@ namespace LearningQA.Client.ViewModel
 				if (CurrentQuestion > 1)
 				{
 					CurrentQuestion--;
-					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+					SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
 				}
 				UpdatePagination();
 				Changed();
@@ -119,10 +119,10 @@ namespace LearningQA.Client.ViewModel
 			{
 				int questionNumber = 0;
 				int.TryParse(ea.Value.ToString(), out questionNumber);
-				if (questionNumber >= 1 && questionNumber <= CurrentTest.Answers.Count)
+				if (questionNumber >= 1 && questionNumber <= FilteredAnsware.Count)
 				{
 					CurrentQuestion = questionNumber;
-					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+					SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
 					UpdatePagination();
 					Changed();
 				}
@@ -135,14 +135,14 @@ namespace LearningQA.Client.ViewModel
 		}
 		public void OnQuestionIsSelected(int Id, ChangeEventArgs ea)
 		{
-			CurrentTest.Answers.Where(x => x.Id == Id).FirstOrDefault().IsSelected = (bool)ea.Value;
+			FilteredAnsware.Where(x => x.Id == Id).FirstOrDefault().IsSelected = (bool)ea.Value;
 		}
 
 		public void OnOptionChanged(QuestionOption<int> id, object checkedValue)
 		{
 			bool isChecked = (bool)checkedValue;
 			Console.WriteLine($"Option id{id.Id } status: {(bool)checkedValue} ");
-			var answer = CurrentTest.Answers
+			var answer = FilteredAnsware
 				.Where(x => x.QUestionSql.Id == SelectedQuestion.Id)
 				.FirstOrDefault();
 			var options = answer.SelectedAnswer.Where(x => x.TenantId == id.TenantId).FirstOrDefault();

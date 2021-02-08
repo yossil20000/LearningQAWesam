@@ -24,6 +24,7 @@ namespace LearningQA.Client.Pages
 		private bool IsViewExamsList = false;
 		private bool IsInitialize { get; set; } = false;
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
+		
 		string _selectedQuestionList ="";
 		string SelectedQuestionList {
 			get { return _selectedQuestionList; }
@@ -47,6 +48,18 @@ namespace LearningQA.Client.Pages
 		}
 		private void OnSelectedQuestionList()
 		{
+			if (SelectedQuestionList == "Wrong")
+			{
+				ExamViewModelPersist.FilteredAnsware = ExamViewModelPersist.CurrentTest.Answers.Where(x => (!x.IsCorrect || !x.IsAnswered)).ToList(); 
+			}
+			else
+			{
+				ExamViewModelPersist.FilteredAnsware = ExamViewModelPersist.CurrentTest.Answers;
+			}
+			ExamViewModelPersist.CurrentQuestion = 1;
+			ExamViewModelPersist.SelectedQuestion = ExamViewModelPersist.FilteredAnsware.ElementAt(0).QUestionSql;
+			ExamViewModelPersist.EnablePreviouse = false;
+			ExamViewModelPersist.EnableNext = true;
 			Console.WriteLine($"SelectedQuestionList: {SelectedQuestionList}");
 		}
 		private  async Task OnLoadExams()
@@ -79,7 +92,7 @@ namespace LearningQA.Client.Pages
 					return false;
 
 				}
-				var answer = ExamViewModelPersist.CurrentTest.Answers.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault();
+				var answer = ExamViewModelPersist.FilteredAnsware.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault();
 				if (answer != null)
 				{
 					if (answer.SelectedAnswer == null)
