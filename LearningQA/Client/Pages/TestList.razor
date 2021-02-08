@@ -60,7 +60,7 @@
                 <div class="test-item__container_question bg-color-8 color-2">
                     @if (ExamViewModelPersist.SelectedQuestion != null)
                     {
-                        <p>@ExamViewModelPersist.SelectedQuestion.Question</p>
+                       <p>@((MarkupString)ExamViewModelPersist.SelectedQuestion.Question)</p>
                     }
                 </div>
                 <div class="test-item__container_option bg-color-9 color-2">

@@ -2925,7 +2925,7 @@ a:hover, a:active, a:focus {
   position: relative;
   width: 1rem;
   height: 1rem;
-  background: url(/dist/css/fonts/expand_less-24px.svg);
+  background: url(fonts/expand_less-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
@@ -2937,7 +2937,7 @@ a:hover, a:active, a:focus {
 }
  */
 .toggle.active {
-  background: url(/dist/css/fonts/expand_more-24px.svg);
+  background: url(fonts/expand_more-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;

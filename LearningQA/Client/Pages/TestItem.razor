@@ -32,7 +32,7 @@
             <div class="test-item__container_question bg-color-8 color-2">
                 @if (TestItemViewModelPersist.SelectedQuestion != null)
                 {
-                    <p>@TestItemViewModelPersist.SelectedQuestion.Question</p>
+                    <p>@((MarkupString)TestItemViewModelPersist.SelectedQuestion.Question)</p>
                 }
             </div>
             <div class="test-item__container_option bg-color-9 color-2">
