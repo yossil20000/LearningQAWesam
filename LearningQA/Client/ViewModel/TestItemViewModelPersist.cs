@@ -212,7 +212,13 @@ namespace LearningQA.Client.ViewModel
 		{
 			CurrentTest.Answers.Where(x => x.Id == Id).FirstOrDefault().IsSelected = (bool)ea.Value;
 		}
+		public void MarkCurrentQuestion()
+		{
 
+			var answer = CurrentTest.Answers.Where(x => x.QUestionSql.Id == SelectedQuestion.Id).FirstOrDefault();//.Select(x => { return  x.IsMarked = !x.IsMarked; });
+
+			answer.IsMarked = !answer.IsMarked;
+		}
 		public void OnOptionChanged(QuestionOption<int> id, object checkedValue)
 		{
 			bool isChecked = (bool)checkedValue;

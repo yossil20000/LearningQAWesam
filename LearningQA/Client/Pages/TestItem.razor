@@ -90,16 +90,18 @@
 
             <aside class="test-item__container_aside bg-color-5 color-2">
 
-                <input type="button" class="c123" id="aaa">
+                <button type="button" class="bg-color3 color-8" style="width:100%" @onclick="OnMarkCurrentQuestion">Mark</button>
                 <div class="question-list color-5 bg-color-2">
                     <ul>
                         @if (IsTestMode && TestItemViewModelPersist.ExamState >= ExamState.ExamCreate)
                         {
                             @foreach (var answer in TestItemViewModelPersist.CurrentTest.Answers)
                             {
-                                <li class="question-list_item1">
+                                <li class="question-list_item">
                                     <div class=@($"legend-icon{(answer.IsAnswered ? "_answered" : "")}")></div>
+                                    @*<div class=@($"legend-icon{(answer.IsMarked ? "_marked" : "")}")></div>*@
                                     <div class=@($"{(answer.IsCorrect ? "bg-color-10" : "")}")>@answer.QUestionSql.QuestionNumber</div>
+                                    <div class=@($"legend-icon{(answer.IsMarked ? "_marked" : "")}")></div>
                                     @if (answer.IsSelected)
                                     {
                                         <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />
@@ -116,9 +118,10 @@
                         {
                             @foreach (var answer in TestItemViewModelPersist.CurrentTest.Answers)
                             {
-                                <li class="question-list_item1">
+                                <li class="question-list_item">
                                     <div class=@($"legend-icon{(answer.IsAnswered ? "_answered" : (answer.IsMarked ? "_marked" : ""))}")></div>
                                     <div>@answer.QUestionSql.QuestionNumber</div>
+                                    <div class=@($"legend-icon{(answer.IsMarked ? "_marked" : "")}")></div>
                                     @if (answer.IsSelected)
                                     {
                                         <input type="checkbox" title="Remove From Current Test" checked @onchange="ChangeEventArgs => { TestItemViewModelPersist.OnQuestionIsSelected(answer.QUestionSql.Id, ChangeEventArgs); }" />

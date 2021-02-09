@@ -82,6 +82,11 @@ namespace LearningQA.Client.Pages
 		{
 			supplementExpand = !supplementExpand;
 		}
+
+		private void OnMarkCurrentQuestion()
+		{
+			TestItemViewModelPersist.MarkCurrentQuestion();
+		}
 		private bool IsOptionChecked(QUestionSql questionSql, string tenantId)
 		{
 			//return questionSql?.Options.Where(x => x.TenantId == tenantId).FirstOrDefault()?.IsTrue ?? false;
