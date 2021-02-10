@@ -23,6 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="ObjectTExtensions">
+      <HintPath>..\..\..\UtilitisLibary\Bin\net5.0\ObjectTExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceResult">
       <HintPath>..\..\..\UtilitisLibary\Bin\net5.0\ServiceResult.dll</HintPath>
     </Reference>

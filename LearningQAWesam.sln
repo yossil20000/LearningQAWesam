@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicRepository.MongoDB",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YLBlazor", "YLBlazor\YLBlazor.csproj", "{E14E65B3-8478-456D-AE85-8DC56FE85DF5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectTExtensions", "..\UtilitisLibary\ObjectTExtensions\ObjectTExtensions.csproj", "{6F3A7D73-EA38-4908-B8B1-21FABFE675C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E14E65B3-8478-456D-AE85-8DC56FE85DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E14E65B3-8478-456D-AE85-8DC56FE85DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E14E65B3-8478-456D-AE85-8DC56FE85DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3A7D73-EA38-4908-B8B1-21FABFE675C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3A7D73-EA38-4908-B8B1-21FABFE675C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3A7D73-EA38-4908-B8B1-21FABFE675C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3A7D73-EA38-4908-B8B1-21FABFE675C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

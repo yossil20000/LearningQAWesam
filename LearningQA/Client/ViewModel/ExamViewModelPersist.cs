@@ -10,19 +10,22 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using ObjectTExtensions;
+using System.Threading;
 
 namespace LearningQA.Client.ViewModel
 {
 	[Flags]
-	public enum QuestionListFilter
+	public enum QuestionListFilter 
 	{
-		[Display(Name ="All")]
-		All = Marked & NotAnswered & Wrong ,
-		Marked = 1,
-		Wrong = 2,
-		NotAnswered = 4,
+		None =					0b0000,
+		Marked =				0b0001,
+		Wrong =					0b0010,
+		NotAnswered =			0b0100,
 		[Display(Name = "Marked & Wrong")]
-		MarkedAndWrong = Marked & Wrong,
+		MarkedAndWrong =		0b0011,
+		[Display(Name ="Marked & NotAnswered")]
+		MarkedAndNotAnswered =	0b0101
 
 	}
 	public class ExamViewModelPersist : PersistanceBase , IDisposable
@@ -169,6 +172,51 @@ namespace LearningQA.Client.ViewModel
 			answer.IsAnswered = answer.SelectedAnswer.Count() > 0;
 			answer.IsCorrect = answer.QUestionSql.IsCorrect(answer.SelectedAnswer);
 		}
+		#endregion
+		#region Filters
+		private QuestionListFilter questionListFilter;
+		public QuestionListFilter QuestionListFilter
+		{
+			get
+			{
+				return questionListFilter;
+			}
+			set
+			{
+				questionListFilter = value;
+				OnQuestionListFilter();
+			}
+		}
+		private void OnQuestionListFilter()
+		{
+			FilteredAnsware = CurrentTest.Answers;
+			bool isMarked = questionListFilter.IsFlagSet(QuestionListFilter.Marked);
+
+			bool isNotAnswered = questionListFilter.IsFlagSet(QuestionListFilter.NotAnswered);
+
+			bool isWrong = questionListFilter.IsFlagSet(QuestionListFilter.Wrong);
+			Console.WriteLine($"OnQuestionListFilter IsMarked:{isMarked} IsWrong:{isWrong} IsNotAnswered:{isNotAnswered}");
+			FilteredAnsware = CurrentTest.Answers.Where(x => ((isWrong ? !x.IsCorrect : false) || (isMarked ? x.IsMarked : false) || (isNotAnswered ? !x.IsAnswered : false ))).ToList();
+			
+			if(FilteredAnsware.Count > 0)
+			{
+				CurrentQuestion = 1;
+				SelectedQuestion = FilteredAnsware.ElementAt(0).QUestionSql;
+				EnablePreviouse = false;
+				EnableNext = true;
+			}
+			else
+			{
+				CurrentQuestion = 0;
+				SelectedQuestion = null;
+				EnablePreviouse = false;
+				EnableNext = false;
+				FilteredAnsware = null;
+			}
+			
+			Console.WriteLine($"SelectedQuestionList: {questionListFilter}");
+		}
+		
 		#endregion
 	}
 }

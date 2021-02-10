@@ -25,11 +25,7 @@ namespace LearningQA.Client.Pages
 		private bool IsInitialize { get; set; } = false;
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
 		
-		string _selectedQuestionList ="";
-		string SelectedQuestionList {
-			get { return _selectedQuestionList; }
-			set { _selectedQuestionList = value; OnSelectedQuestionList(); } 
-		} 
+		
 		protected override async Task OnInitializedAsync()
 		{
 			await ExamVM?.RetriveTestItemInfos(0);
@@ -46,22 +42,7 @@ namespace LearningQA.Client.Pages
 		{
 			await base.OnAfterRenderAsync(firstRender);
 		}
-		private void OnSelectedQuestionList()
-		{
-			if (SelectedQuestionList == "Wrong")
-			{
-				ExamViewModelPersist.FilteredAnsware = ExamViewModelPersist.CurrentTest.Answers.Where(x => (!x.IsCorrect || !x.IsAnswered)).ToList(); 
-			}
-			else
-			{
-				ExamViewModelPersist.FilteredAnsware = ExamViewModelPersist.CurrentTest.Answers;
-			}
-			ExamViewModelPersist.CurrentQuestion = 1;
-			ExamViewModelPersist.SelectedQuestion = ExamViewModelPersist.FilteredAnsware.ElementAt(0).QUestionSql;
-			ExamViewModelPersist.EnablePreviouse = false;
-			ExamViewModelPersist.EnableNext = true;
-			Console.WriteLine($"SelectedQuestionList: {SelectedQuestionList}");
-		}
+		
 		private  async Task OnLoadExams()
 		{
 			await ExamVM.OnLoadCommand();
