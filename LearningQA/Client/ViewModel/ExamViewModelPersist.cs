@@ -6,11 +6,25 @@ using Microsoft.AspNetCore.Components;
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace LearningQA.Client.ViewModel
 {
+	[Flags]
+	public enum QuestionListFilter
+	{
+		[Display(Name ="All")]
+		All = Marked & NotAnswered & Wrong ,
+		Marked = 1,
+		Wrong = 2,
+		NotAnswered = 4,
+		[Display(Name = "Marked & Wrong")]
+		MarkedAndWrong = Marked & Wrong,
+
+	}
 	public class ExamViewModelPersist : PersistanceBase , IDisposable
 	{
 		public List<ExamInfoModel> ExamInfoModels { get; set; } = new List<ExamInfoModel>();
