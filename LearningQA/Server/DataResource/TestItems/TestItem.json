@@ -2555,7 +2555,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "According to JAR-FCL, what classes of medical exist?",
+        "question": "<p>According to JAR-FCL,</p><p>what classes of medical exist?</p>",
         "mark": 0,
         "isActive": false,
         "answerType": 0,
@@ -3759,7 +3759,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "When, in airspace where VFR is permitted, the PIC of an IFR flight wishes to continue the flight in accordance with VFR until destination: 1. the pilot must inform the control unit of his intention using the expression “cancelling my IFR flight”. 2. the pilot must request and obtain clearance to continue under VFR. 3. the pilot must communicate the necessary changes to the current flight plan. 4. the flight plan automatically becomes a VFR flight.",
+        "question": "<p>When, in airspace where VFR is permitted, the PIC of an IFR flight wishes to continue the flight in accordance with VFR until destination:</p><p>1. the pilot must inform the control unit of his intention using the expression “cancelling my IFR flight”.</p><p>2. the pilot must request and obtain clearance to continue under VFR.</p><p>3. the pilot must communicate the necessary changes to the current flight plan.</p><p>4. the flight plan automatically becomes a VFR flight.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3794,7 +3794,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "An aircraft flying in the visual circuit at an aerodrome sees a series of red flashes from the control tower. What does this mean?",
+        "question": "<p>An aircraft flying in the visual circuit at an aerodrome sees a series of red flashes from the control tower.</p><p> What does this mean?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3829,7 +3829,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "An aircraft has flight visibility of 3 km, and is heading 355° T in an area where the variation is 6° west. There is no appreciable wind. Which of the following is the appropriate flight level?",
+        "question": "<p>An aircraft has flight visibility of 3 km, and is heading 355° T in an area where the variation is 6° west. There is no appreciable wind.</p><p>Which of the following is the appropriate flight level?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3864,7 +3864,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "An aircraft is converging from the left. Which light will you see first?",
+        "question": "<p>An aircraft is converging from the left.</p><p>Which light will you see first?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4004,7 +4004,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "Whilst airborne in the vicinity of the aerodrome, you see a flashing green light from the Tower. What does this mean?",
+        "question": "<p>Whilst airborne in the vicinity of the aerodrome, you see a flashing green light from the Tower.</p><p>What does this mean?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4039,7 +4039,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "You see a double white cross in a signal square, what does this mean?",
+        "question": "<p>You see a double white cross in a signal square,</p><p>what does this mean?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4074,7 +4074,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "You are taxiing on the manoeuvring area of an aerodrome and see a flashing green light from the tower. What does it mean?",
+        "question": "<p>You are taxiing on the manoeuvring area of an aerodrome and see a flashing green light from the tower.</p><p>What does it mean?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4109,7 +4109,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "You have been intercepted in the airspace of a foreign contracting state. What is the signal for ‘clear to proceed’ from the intercepting aircraft?",
+        "question": "<p>You have been intercepted in the airspace of a foreign contracting state.</p><p>What is the signal for ‘clear to proceed’ from the intercepting aircraft?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4249,7 +4249,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "If you are intercepted by another aircraft, what do you set on the SSR transponder?",
+        "question": "<p>If you are intercepted by another aircraft,</p><p>what do you set on the SSR transponder?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4284,7 +4284,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "You are taxiing an aircraft on the ground at an aerodrome and you see a flashing red light from the tower. What does it mean?",
+        "question": "<p>You are taxiing an aircraft on the ground at an aerodrome and you see a flashing red light from the tower.</p><p>What does it mean?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4319,7 +4319,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "Aircraft A is a VFR flight operating in a CTR under an ATC clearance. Aircraft B is entering the CTR without clearance. As they converge, which one has the right of way?",
+        "question": "<p>Aircraft A is a VFR flight operating in a CTR under an ATC clearance. Aircraft B is entering the CTR without clearance. As they converge,</p><P>which one has the right of way?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4599,7 +4599,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "Your aircraft is intercepted by a military aircraft. Instructions given by this aircraft do not comply with ATC instructions. You should:",
+        "question": "<p>Your aircraft is intercepted by a military aircraft. Instructions given by this aircraft do not comply with ATC instructions.</p><p>You should:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4634,7 +4634,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "A pilot crosses his/her hands in front of the face, palms outwards and then moves the arms outwards. What does this signal indicate?",
+        "question": "<p>A pilot crosses his/her hands in front of the face, palms outwards and then moves the arms outwards.</p><p>What does this signal indicate?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4809,7 +4809,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "If so equipped, when should an aircraft display the anti-collision light?",
+        "question": "<p>If so equipped,</p><p>when should an aircraft display the anti-collision light?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -5089,7 +5089,7 @@
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "If radio contact with an intercepting aircraft is established but not in a common language, what would the pilot of an intercepted aircraft say, if he/she is unable to comply with the instruction from the interceptor?",
+        "question": "<p>If radio contact with an intercepting aircraft is established but not in a common language,</p><p>what would the pilot of an intercepted aircraft say, if he/she is unable to comply with the instruction from the interceptor?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -5404,7 +5404,7 @@
       {
         "id": 0,
         "questionNumber": "48",
-        "question": "An aircraft is flying over the sea between 4500 ft and 9000 ft AMSL and outside CAS. To continue under VFR the meteorological conditions must remain:",
+        "question": "<p>An aircraft is flying over the sea between 4500 ft and 9000 ft AMSL and outside CAS.</p><p>To continue under VFR the meteorological conditions must remain:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

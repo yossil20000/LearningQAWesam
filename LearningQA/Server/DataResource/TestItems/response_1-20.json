@@ -1,0 +1,612 @@
+[{
+        "id": 0,
+        "category": "1.ATPL_OXFORD",
+        "subject": "2.Airframes and Systems",
+        "chapter": "1.Fuselage, Wings and Stabilizing Surfaces",
+        "version": 0,
+        "testQuestionMarking": 0,
+        "duration": 3600,
+        "questions": [{
+                "id": 0,
+                "questionNumber": "1",
+                "question": "What is the purpose of the wing main spar?",
+                "mark": 0,
+                "isActive": false,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "To withstand bending and torsional loads",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "To withstand compressive and torsional loads",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "To withstand compressive and shear loads",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "To withstand bending and shear loads",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "2",
+                "question": "What is the purpose of wing ribs?",
+                "mark": 0,
+                "isActive": false,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "To withstand the fatigue stresses",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "To shape the wing and support the skin",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "To house the fuel and the landing gear",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "To provide local support for the skin",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "3",
+                "question": "What is the purpose of stringers?",
+                "mark": 0,
+                "isActive": false,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "To absorb the torsional and compressive stresses",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "To produce stress risers and support the fatigue metres",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "To prevent buckling and bending by supporting and stiffening the skin",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "To support the primary control surfaces",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "4",
+                "question": "The airframe structure must remain substantially intact after experiencing:",
+                "mark": 0,
+                "isActive": false,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "the design ultimate load times a 1.5 safety factor",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the design limit load plus the design ultimate load",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "three times the safety factor",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the design limit load times a 1.5 factor of safety",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "5",
+                "question": "In the construction of airframes the primary purpose of frames or formers is to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "provide a means of attaching the stringers and skin panels",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "oppose hoop stresses and provide shape and form to the fuselage",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "form the entrance door posts",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "support the wings",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "6",
+                "question": "How can wing bending moments be reduced in flight?",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "By using aileron ‘up-float’ and keeping the centre section fuel tanks full for as long as possible",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "By using aileron ‘up-float’ and using the fuel in the wings last",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "By having tail-mounted engines and using aileron ‘down-float’",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "By having wing-mounted engines and using the wing fuel first",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "7",
+                "question": "<p>Regarding a safe life structure:</p><p>1. will only fail after a known number of operations or hours of use.</p><p> 2. should not fail until a predicted number of fatigue cycles has been achieved.</p><p>3. has a programmed inspection cycle to detect and rectify faults.</p><p>4. is changed before its predicted life is reached.</p>",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "1 and 2 apply",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "1 and 3 apply",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "2, 3 and 4 apply",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "all of the above apply",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "8",
+                "question": "<p>A fail-safe structure:</p><p>1. has a programmed inspection cycle to detect and rectify faults.</p><p>2. is changed before its predicted life is reached.</p><p>3. has redundant strength which will tolerate a certain amount of structuraldamage.</p><p>4. is secondary structure of no structural significance.</p>",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "1 and 2 apply",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "1 and 3 apply",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "3 and 4 apply",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "all of the above apply",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "9",
+                "question": "The skin of a modern pressurized aircraft:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is made up of light alloy steel sheets built on the monocoque principle",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "houses the crew and the payload",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "provides aerodynamic lift and prevents corrosion by keeping out adverse weather",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is primary load bearing structure carrying much of the structural loads",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "10",
+                "question": "The primary purpose of the fuselage is to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "support the wings",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "house the crew and payload",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "keep out adverse weather",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "provide access to the cockpit",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "11",
+                "question": "Station numbers (Stn) and water lines (WL) are:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "a means of locating airframe structure and components",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "passenger seat locations",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "runway markings for guiding the aircraft to the terminal",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "compass alignment markings",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "12",
+                "question": "Flight deck windows are constructed from:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "an amalgam of strengthened glass and vinyl with rubber pressure seals",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "strengthened glass with shock absorbing clear vinyl interlayers and rubber pressure seals",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "strengthened clear vinyl with an electrical conducting coat for de-icing and rubber pressure seals",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "strengthened glass with rubber seals",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "13",
+                "question": "A cantilever wing:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is externally braced with either struts and/or bracing wires",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is supported at one end only with no external bracing",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "has both an upper an lower aerofoil section",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "folds at the root section to ease storage in confined spaces",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "14",
+                "question": "A torsion box:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is a structure within the fuselage to withstand compression, bending and twisting loads",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is a structure formed between the wing spars, skin and ribs to resist bending and twisting loads",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "is a structure within the wing for housing the fuel tanks, flight controls and landing gear",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is a structure designed to reduce the weight",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "15",
+                "question": "A lightening hole in a rib:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "prevents lightning strikes damaging the fuselage",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "provides a means of passing cables and controls through a pressure bulkhead",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "collects and disposes of electrical charges",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "lightens and stiffens the structure",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "16",
+                "question": "Control surface flutter:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "provides additional lift for take-off and landing in the event of engine failure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "occurs at high angles of attack",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "is a destructive vibration that must be damped out within the flight envelope",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is a means of predicting the critical safe life of the wing",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "17",
+                "question": "Control surface flutter is minimized by:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "reducing the moment of the critical engine",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "aerodynamic balance of the control cables",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "changing the wings before they reach their critical life",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "mass balance of the control surface",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "18",
+                "question": "A damage tolerant structure:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "has degree of structural strength redundancy spread over a large area",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is light, non load bearing structure, damage to which will not adversely affect the aircraft",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "is replaced when it reaches its predicted life",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "need not be repaired until the aircraft undergoes deep maintenance",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "19",
+                "question": "Aircraft structures consists mainly of:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "light alloy steel sheets with copper rivets and titanium or steel materials at points requiring high strength",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "magnesium alloy sheets with aluminium rivets and titanium or steel at points requiring high strength",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "aluminium alloy sheets and rivets with titanium or steel materials at points requiring high strength",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "aluminium sheets and rivets with titanium or steel materials at points requiring high strength",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "20",
+                "question": "The Maximum Zero Fuel Mass (MZFM) of an aircraft is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "the maximum permissible take-off mass of the aircraft",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the maximum permissible mass of an aircraft with no usable fuel",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the maximum permissible mass of an aircraft with zero payload",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the maximum permissible landing mass",
+                        "isTrue": false
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -18,7 +18,7 @@ namespace LearningQA.Client.ViewModel
 	[Flags]
 	public enum QuestionListFilter 
 	{
-		None =					0b0000,
+		All =					0b0111,
 		Marked =				0b0001,
 		Wrong =					0b0010,
 		NotAnswered =			0b0100,

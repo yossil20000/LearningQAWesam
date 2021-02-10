@@ -1,0 +1,1512 @@
+[{
+        "id": 0,
+        "category": "1.ATPL_OXFORD",
+        "subject": "2.Airframes and Systems",
+        "chapter": "2.Basic Hydraulics",
+        "version": 0,
+        "testQuestionMarking": 0,
+        "duration": 3600,
+        "questions": [{
+                "id": 0,
+                "questionNumber": "1",
+                "question": "A force of 100 N is applied to 2 separate jacks, the area of one is 0.02 m<sup>2</sup> and the other is 0.04 m<sup>2</sup>:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "the smaller jack will exert a pressure of 2000 Pa and the larger 4000 Pa",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the smaller jack will exert a pressure of 5000 Pa and the larger 2500 Pa",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "both jacks will move at the same speed",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "both have the same load",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "2",
+                "question": "A pre charge pressure of 1000 bar of gas is shown on the accumulator gauge. The system is then pressurized to 1500 bar, so the accumulator will read:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "500 bar",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "1000 bar",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "1500 bar",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "2500 bar",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "3",
+                "question": "The pressure gauge of a hydraulic system provides information regarding the pressure of:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "the air in the accumulator",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the air and hydraulic fluid in the system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the proportional pressure in the system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the hydraulic fluid in the system",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "4",
+                "question": "A shuttle valve:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is used to replace NRVs",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "allows two supply sources to operate one unit",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "allows one source to operate two units",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "acts as a non-return valve",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "5",
+                "question": "Def. Stan 91/48 is ---------- and is ------------- based:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "red, mineral",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "red, synthetic",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "green, mineral",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "purple, synthetic",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "6",
+                "question": "A restrictor valve:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is used to restrict the number of services available after loss of system pressure",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "controls the rate of movement of a service",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "controls the rate of build-up of pressure in the system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "controls the distance a jack moves",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "7",
+                "question": "With a hyd lock there is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "flow, but no jack movement",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "no flow but jack continues to move under gravitational effects",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "no flow, jack is stationary",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "constant flow",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "8",
+                "question": "The hydraulic fluid is changed, but the wrong fluid is replaced. This would lead to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "high operating fluid temperature",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "system failure from leaks and blocked filters, high temp and possible corrosion",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "a rise in the reservoir fill level",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "normal operation, it does not matter which fluid is used",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "9",
+                "question": "Accumulator floating piston:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "pushes the fluid up when being charged",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "pushes the fluid down when being charged",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "provides a seal between the gas and fluid",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "prevents a hydraulic lock",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "10",
+                "question": "A relief valve:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "relieves below system pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "maintains pressure to a priority circuit",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "relieves at its designed pressure",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "prevents excessive pressure through increased fluid temperature",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "11",
+                "question": "The primary purpose of a hydraulic reservoir is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "to compensate for leaks, displacement and expansion",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "to allow a space into which spare fluid may be stored",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "to indicate system contents",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "to maintain fluid between a jack and the accumulator",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "12",
+                "question": "With air in the hydraulic system you would:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "ignore it because normal operation would remove it",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "bleed the air out of the system",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "allow the accumulator to automatically adjust itself",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "expect it to operate faster",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "13",
+                "question": "The pressure filter in a hydraulic system:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "filters the fluid returning to the tank",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is fitted down stream of the pump",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "can be by passed when maximum flow is required",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "clears the fluid as it leaves the reservoir",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "14",
+                "question": "Pascal’s law states that:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "pressure is inversely proportional to load",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "liquid is compressible",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "oxygen can be used to charge the accumulators",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "applied force acts equally in all directions",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "15",
+                "question": "A constant pressure hydraulic pump is governed by:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "an automatic cut-out",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "engine RPM",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "a control piston",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "a swash plate that senses the fluid temperature",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "16",
+                "question": "A high pressure hydraulic pump:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "needs a positive fluid supply",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "does not need a positive fluid supply",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "outlet pressure is governed by centrifugal force",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "does not need a cooling fluid flow",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "17",
+                "question": "Case drain filters are:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "fitted to prevent debris from the reservoir reaching the system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "designed to allow hydraulic pump lubricating fluid to drain to atmosphere",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "to enable pump lubricating fluid to be used to monitor pump condition",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "fitted in the reservoir outlet",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "18",
+                "question": "The purpose of an accumulator is to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "relieve excess pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "store fluid under pressure",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "store compressed gas for tyre inflation",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "remove air from the system",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "19",
+                "question": "With a one way check valve (NRV):",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "flow stops when input pressure is greater than output pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "flow stops when the thermal relief valve off loads the hand pump",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "flow starts when input pressure is less than output pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "flow stops when input pressure is less than output pressure",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "20",
+                "question": "A restrictor valve is physically fitted in the:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "U/C up line and flap up line",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "U/C down line and flap up line",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "U/C down line and flap down line",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "supply line to the U/C retraction actuator",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "21",
+                "question": "In the case of a failure of a cut-out valve:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "a full flow relief valve is fitted down stream of it",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "a full flow relief valve is fitted upstream of it",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "a full flow relief valve is not required",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the terminal pressure will be controlled by adjusting the pump rpm",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "22",
+                "question": "Hydraulic pressure of 3000 Pa is applied to an actuator, the piston area of which is 0.02 m<sup>2</sup> and the same pressure is exerted on actuator whose area is 0.04 m<sup>2</sup>:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "both have the same force",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "both jacks will move at the same speed",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the smaller jack will exert a force of 600 N and the larger 1200 N",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the smaller jack will exert a force of 60 N and the larger 120 N",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "23",
+                "question": "A separator in an accumulator:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "isolates the gas from the fluid",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "reduces the size of the accumulator required",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "removes the dissolved gases from the fluid",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "maintains the fluid level in the reservoir",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "24",
+                "question": "In an operating hydraulic actuator the pressure of the fluid will be:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "greatest near to the actuator due to the load imposed on the jack",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "greatest at the opposite end to the actuator due to the load imposed on the actuator",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "high initially, falling as the actuator completes its travel",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the same at all points",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "25",
+                "question": "The contents of the hydraulic fluid reservoir are checked. They indicate that the reservoir is at the full level. The system is then pressurized. The contents level will:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "fall below the “full” mark",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "fall to a position marked ‘full accs charged’",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "remain at the same level",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "rise above the “full” mark",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "26",
+                "question": "A pressure maintaining or priority valve:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "enables ground operation of services when the engines are off",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is used to ensure available pressure is directed to essential services",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "is used to control pressure to services requiring less than system pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is used to increase pressure in the system",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "27",
+                "question": "A hydraulic lock occurs:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "when the thermal RV operates",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "when fluid by passes a system and returns to the tank",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "when flow is stopped and the actuator is not able to move",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "when fluid and air enters the cylinder and only fluid is allowed to bypass to the reservoir",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "28",
+                "question": "In an enclosed system pressure is felt:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "more at the piston head than the rest of the cylinder",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "more at the cylinder end than the piston head",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "more when the piston is moving than when it is stationary",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the same at both ends between the piston and the cylinder head",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "29",
+                "question": "A non-return valve:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "can only be fitted if provided with a by-pass selector",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "closes if inlet pressure exceeds outlet pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "opens if inlet pressure equals outlet pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "closes if inlet pressure ceases",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "30",
+                "question": "Low gas pressure in accumulator causes:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "rapid jack movements",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "no effect on system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "rapid pressure fluctuations while system is operating",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "rapid and smooth operation of system",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "31",
+                "question": "Hammering in system:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is normal and does not affect the system’s efficiency",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is caused by pipe diameter fluctuations",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "is an indication that a further selection is necessary",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is detrimental to the system",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "32",
+                "question": "The specification of hydraulic fluids, mineral, vegetable or ester based is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "always distinguishable by taste and smell",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "generally distinguishable by colour",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "generally distinguishable by colour only if they are from the same manufacturer",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "cannot be distinguished by colour alone",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "33",
+                "question": "An ACOV will:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "provide an idling circuit when a selection is made",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "extend the life of the accumulator",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "provide an idling circuit when the accumulator is fully charged",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "ensure the pump is always on load",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "34",
+                "question": "The purpose of a hydraulic fuse is to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "allow the parking brake to remain on overnight if required",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "allow a reduced pressure to the wheel brake system to prevent the wheels locking",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "prevent over pressurizing the reservoir as altitude increases",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "prevent total loss of system fluid if the brake pipeline is ruptured",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "35",
+                "question": "A shuttle valve will allow:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "the accumulator to be emptied after engine shut down",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the pressure pump to off load when the system pressure is reached",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "two independent pressure sources to operate a system/component",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "high pressure fluid to return to the reservoir if the Full Flow Relief Valve fails",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "36",
+                "question": "The purpose of a reservoir is to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "compensate for temperature changes",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "compensate for small leaks, expansion and jack displacement",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "compensate for fluid loss",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "minimize pump cavitation",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "37",
+                "question": "When the hydraulic system pressure is released:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "reservoir air pressure will increase",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "reservoir fluid contents will rise if reservoir is lower than other components in the system",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "reservoir fluid contents will fall if reservoir is the highest point in the system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "reservoir contents are dumped overboard",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "38",
+                "question": "Hydraulic pressure in a closed system:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is greater in pipes of larger diameters",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is greater in pipes of smaller diameters",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "does not vary with pipe diameter",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "varies in direct proportion to the system demands",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "39",
+                "question": "Skydrol hydraulic fluid:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "needs no special safety precautions or treatment",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "is flame resistant but is harmful to skin, eyes and some paints",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "is highly flammable and harmful to skin, eyes and some paints",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is highly flammable but not harmful in any other way",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "40",
+                "question": "Skydrol hydraulic fluid can be used to replenish:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "any hydraulic system without restriction",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "hydraulic systems that have butyl rubber seals only",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "any hydraulic system in an emergency",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "hydraulic systems that have neoprene seals only",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "41",
+                "question": "A variable displacement pump on system startup will be at:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "minimum stroke",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "an optimized position depending on fluid viscosity",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "maximum stroke",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "mid stroke",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "42",
+                "question": "The purpose of a reservoir is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "to provide a housing for the instrument transmitters",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "to enable the contents to be checked",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "to allow for fluid displacements, small leaks, thermal expansion and contents monitoring",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "to provide a housing for the main system pumps and so obviate the need for backing pumps",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "43",
+                "question": "Hydraulic Thermal Relief Valves are fitted:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "to release all the pressure back to return in an overheat situation",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "to release half the pressure back to return in an overheat situation",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "to relieve excess pressure back to the actuator in an overheat situation",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "in isolated lines only to relieve excess pressure caused by temperature rises",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "44",
+                "question": "A main system hydraulic pump:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "does not need a positive fluid supply if primed before startup",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "always needs a positive fluid supply in order to prevent cavitation",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "does not need a positive fluid supply in order to prevent cavitation",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "can be run dry without causing any damage",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "45",
+                "question": "Different diameter actuators supplied with the same pressure at same rate:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "exert the same force",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "will lift equal loads",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "will move at the same speed",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "exert different forces",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "46",
+                "question": "A force of 1500 N is applied to a piston of area 0.002 m² and generates a force of-----(1)------non a piston of area 0.003 m². The pressure generated is -----(2)----- and, if the smaller piston moves 0.025 m, the work done is -----(3)------.",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "(1) 56.25 J (2) 750 000 Pa (3) 750 000 N",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "(1) 750 000 N (2) 2250 P (3) 56.25 J",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "(1) 225 N (2) 75 000 Pa (3) 562.5 J",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "(1) 2250 N (2) 750 000 Pa (3) 37.5 J",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "47",
+                "question": "<p>The following statements relate to hydraulic accumulators. The function of an accumulator is to:</p><p>1. Store fluid under pressure</p><p>2. Dampen pressure fluctuations</p><p>3. Allow for fluid expansion</p><p>4. Replace the need for a reservoir</p><p>5. Absorb some of the landing loads</p><p>6. Allow for thermal expansion</p><p>7. Prolong the period between pump cut-in and cut-out</p><p>8. Provide the initial pressure when a selection is made and the pump is cut-out</p><p>9. Provide an emergency reserve of pressure in the event of pump failure</p><p>Which of the following applies?</p>",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "All of the statements are correct",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "None of the statements are correct",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "Statements 1, 2, 3, 4, 5, 8 and 9 are correct",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "Statements 1, 2, 3, 6, 7, and 9 are correct",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "48",
+                "question": "The seal materials used with hydraulic fluids to DEF/STAN 91-48 and SKYDROL 700 specification are respectively:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "natural rubber and neoprene",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "neoprene and natural rubber",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "butyl and neoprene",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "neoprene and butyl",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "49",
+                "question": "To prevent cavitation of the pump a hydraulic reservoir may be:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "pressurized",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "bootstrapped",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "above the pump",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "all of the above",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "50",
+                "question": "A hand pump is usually fitted for:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "ground servicing purposes",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "lowering the landing gear in an emergency",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "pressurizing the oleo struts in the air",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "retracting the gear after take-off",
+                        "isTrue": false
+                    }
+                ]
+            }
+        ]
+    }
+]
