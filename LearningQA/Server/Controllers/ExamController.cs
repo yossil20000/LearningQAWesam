@@ -15,77 +15,93 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.WebSockets;
 using System.Threading.Tasks;
+using Swashbuckle.AspNetCore.Annotations;
+using AutoMapper;
+using System.Threading;
 
 namespace LearningQA.Server.Controllers
 {
-	public class ExamController : ApiControllerBase
-	{
-		public ExamController(ILogger<ApiControllerBase> logger, IMediator mediator) : base(logger, mediator)
-		{
-		}
+    public class ExamController : ApiControllerBase
+    {
+        public ExamController(ILogger<ApiControllerBase> logger, IMediator mediator, IMapper mapper) : base(logger, mediator, mapper)
+        {
+        }
+        //https://localhost:44335/api/Exam/Get?testId=2
+        [HttpGet(Name = "/GetExamById/{testId}")]
+        [SwaggerOperation(
+            Summary = "Get Exam By Id",
+            Description = "Get An Already Done Exam by it's Id",
+            OperationId = "Exam.Get",
+            Tags = new[] { "ExamEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "ExamModel", typeof(ExamModel))]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.NotFound, "ExamModel", typeof(ExamModel))]
+        public async Task<ActionResult<ExamModel>> Get(int testId, CancellationToken cancellationToken = default)
+        {
+            var result = await _mediator.Send(new GetExamByIdCommand(testId), cancellationToken);
+            return this.FromResult(result);
+        }
+        [HttpGet(Name = "/GetExamList")]
+        [SwaggerOperation(
+            Summary = "Get All Done Exam List",
+            Description = "Get An Already Done Exams by Category,Subject and Chapter. Person is option",
+            OperationId = "Exam.Get",
+            Tags = new[] { "ExamEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "ExamModel", typeof(ExamModel))]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.BadRequest, "ExamModel", typeof(ExamModel))]
+        public async Task<ActionResult<IQueryable<ExamInfoModel>>> GetExamList([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter, [FromQuery] int personId)
+        {
+            var result = await _mediator.Send(
+                new GetExamListQuery(
+                new ExamListRequest()
+                {
+                    PersonId = personId,
+                    TestItemInfo = new TestItemInfo()
+                    {
+                        Category = category,
+                        Subject = subject,
+                        Chapter = chapter
+                    }
+                }
+            ));
+            return this.FromResult(result);
+        }
+        [HttpGet(Name = "/PersonsInfo")]
+        public async Task<ActionResult<PersonInfoModel[]>> PersonsInfo()
+        {
+            var result = await _mediator.Send(new GetAllPersonsQuery());
+            return this.FromResult(result);
+        }
 
-		[HttpGet(Name ="/GetExamById")]
-		//https://localhost:44335/api/Exam/Get?testId=2
-		public async Task<IActionResult> Get(int testId)
-		{
-			var result = await _mediator.Send(new GetExamByIdCommand(testId));
-			return this.FromResult(result);
-		}
-		[HttpGet(Name ="/GetExamInfo")]
-		public async Task<IActionResult> GetExamInfo([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter,[FromQuery] int personId)
-		{
-			var result = await _mediator.Send(new GetExamsInfoQuery()
-			{
-				PersonId = personId,
-				TestItemInfo = new TestItemInfo()
-				{
-					Category = category,
-					Subject = subject,
-					Chapter = chapter
-				}
-			}
-			);
-			return this.FromResult(result);
-		}
-		[HttpGet(Name = "/PersonsInfo")]
-		public async Task<IActionResult> PersonsInfo()
-		{
-			var result =  await _mediator.Send(new GetAllPersonsQuery());
-			return this.FromResult(result);
-		}
+        [HttpPut(Name = "/UpdatePerson")]
+        public async Task<ActionResult<PersonInfoModel>> UpdatePerson([FromBody] PersonInfoModel person)
+        {
+            var result = await _mediator.Send(new UpdatePersonCommand(person));
+            return this.FromResult(result);
+        }
+        [HttpPut(Name = "/UpdateExam")]
+        public async Task<ActionResult<bool>> UpdateExam([FromBody] UpdateExamCommand updateExamCommand)
+        {
+            var result = await _mediator.Send(updateExamCommand);
 
-		[HttpPut(Name ="/UpdatePerson")]
-		public async Task<IActionResult> UpdatePerson([FromBody] PersonInfoModel person)
-		{
-			var result = await _mediator.Send(new UpdatePersonCommand(person));
-			return this.FromResult(result);
-		}
-		[HttpPost(Name = "/CreateExam")]
-		public async Task<IActionResult> CreateExam(int  personId , int testItemId)
-		{
-			var result = await _mediator.Send(new CreateExamCommand(testItemId,personId));
-			return this.FromResult(result);
-		}
+            return this.FromResult(result);
 
-		[HttpPut(Name = "/CreateExamByTitle")]
-		public async Task<ActionResult<ExamModel>> CreateExamByTitle(TestItemInfo testItemInfo)
-		{
-			//string category = "", subject = "", chapter = "";
-			int version = 0;
-			//var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = category, Subject = subject, Chapter = chapter, Version = version }));
-			//var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = category.ToString(), Subject = subject.ToString(), Chapter = chapter.ToString(), Version = version }));
-			var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = testItemInfo.Category.ToString(), Subject = testItemInfo.Subject.ToString(), Chapter = testItemInfo.Chapter.ToString(), Version = version }));
-			//return this.FromResult(result);
-			return result.Data;
-		}
+        }
 
-		[HttpPost(Name = "/UpdateExam")]
-		public async Task<IActionResult> UpdateExam([FromBody] UpdateExamCommand updateExamCommand)
-		{
-			var result = await _mediator.Send(updateExamCommand);
+        [HttpPost(Name = "/CreateExam")]
+        public async Task<ActionResult<ExamModel>> CreateExam(int personId, int testItemId)
+        {
+            var result = await _mediator.Send(new CreateExamCommand(testItemId, personId));
+            return this.FromResult(result);
+        }
 
-			return this.FromResult(result);
+        [HttpPost(Name = "/CreateExamByTitle")]
+        public async Task<ActionResult<ExamModel>> CreateExamByTitle(TestItemInfo testItemInfo)
+        {
+            int version = 0;
+            var result = await _mediator.Send(new CreateExamByTitlesCommand(new TestItemInfo() { Category = testItemInfo.Category.ToString(), Subject = testItemInfo.Subject.ToString(), Chapter = testItemInfo.Chapter.ToString(), Version = version }));
+            return result.Data;
+        }
 
-		}
-	}
+       
+    }
 }

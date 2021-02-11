@@ -17,19 +17,22 @@ using System.Threading.Tasks;
 
 namespace LearningQA.Shared.MediatR.Test.Query
 {
-	public class GetExamsInfoQuery : IRequestWrapper<IQueryable<ExamInfoModel>>
+	public class GetExamListQuery : IRequestWrapper<IQueryable<ExamInfoModel>>
 	{
-		public int PersonId { get; set; } = 0;
-		public TestItemInfo TestItemInfo { get; set; }
+		public ExamListRequest ExamListRequest { get; set; }
+		public GetExamListQuery(ExamListRequest examListRequest)
+		{
+			ExamListRequest = examListRequest;
+		}
 	}
 
-	public class GetExamInfoQueryHandler : BaseDBContextHandler, IHandlerWrapper<GetExamsInfoQuery, IQueryable<ExamInfoModel>>
+	public class GetExamInfoQueryHandler : BaseDBContextHandler, IHandlerWrapper<GetExamListQuery, IQueryable<ExamInfoModel>>
 	{
 		public GetExamInfoQueryHandler(LearningQAContext context, ILogger<BaseDBContextHandler> logger) : base(context, logger)
 		{
 		}
 
-		public async Task<Result<IQueryable<ExamInfoModel>>> Handle(GetExamsInfoQuery request, CancellationToken cancellationToken)
+		public async Task<Result<IQueryable<ExamInfoModel>>> Handle(GetExamListQuery request, CancellationToken cancellationToken)
 		{
 			try
 			{
@@ -74,11 +77,11 @@ namespace LearningQA.Shared.MediatR.Test.Query
 				//			 {
 
 				//			 };
-				var persons = (from p in dbContext.Person
-							  where (request.PersonId == 0 ? true : request.PersonId == p.Id)
-							  select p ).ToList();
+				var persons =await  (from p in dbContext.Person
+							  where (request.ExamListRequest.PersonId == 0 ? true : request.ExamListRequest.PersonId == p.Id)
+							  select p ).ToListAsync();
 
-				var result = new List<ExamInfoModel>();
+				List<ExamInfoModel> result = null;
 				foreach(var p in persons)
 				{
 					var tests = from pp in p.Tests
@@ -86,10 +89,11 @@ namespace LearningQA.Shared.MediatR.Test.Query
 								 join testItem in dbContext.TestItems
 								 on pp.TestItemId equals testItem.Id
 								 where (pp.TestItemId > 0) &&
-										(string.IsNullOrEmpty(request.TestItemInfo.Category) ? true : request.TestItemInfo.Category == testItem.Category) &&
-										(string.IsNullOrEmpty(request.TestItemInfo.Subject) ? true : request.TestItemInfo.Subject == testItem.Subject) &&
-										(string.IsNullOrEmpty(request.TestItemInfo.Chapter) ? true : request.TestItemInfo.Chapter == testItem.Chapter)
+										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Category) ? true : request.ExamListRequest.TestItemInfo.Category == testItem.Category) &&
+										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Subject) ? true : request.ExamListRequest.TestItemInfo.Subject == testItem.Subject) &&
+										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Chapter) ? true : request.ExamListRequest.TestItemInfo.Chapter == testItem.Chapter)
 								 select new ExamInfoModel(pp, p, testItem) { };
+					result = new List<ExamInfoModel>();
 					result.AddRange(tests);
 				}
 

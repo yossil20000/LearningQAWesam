@@ -38,7 +38,7 @@ namespace LearningQA.Client.Model
 		{
 			try
 			{
-				var result = await httpClient.GetFromJsonAsync<List<ExamInfoModel>>($"api/Exam/GetExamInfo?category={testItemInfo.Category}&subject={testItemInfo.Subject}&chapter={testItemInfo.Chapter}&personId={1}");
+				var result = await httpClient.GetFromJsonAsync<List<ExamInfoModel>>($"api/Exam/GetExamList?category={testItemInfo.Category}&subject={testItemInfo.Subject}&chapter={testItemInfo.Chapter}&personId={1}");
 				return result;
 			}
 			catch(Exception ex)
@@ -98,7 +98,7 @@ namespace LearningQA.Client.Model
 
 				//var personinfo = await httpClient.GetFromJsonAsync<PersonInfoModel[]>($"api/Exam/PersonsInfo");
 				//examModel = await httpClient.GetFromJsonAsync<ExamModel>($"api/Exam/CreateExamByTitle?category={testItemInfo.Category}&subject={testItemInfo.Subject}&chapter={testItemInfo.Chapter}");
-				var result = await httpClient.PutAsJsonAsync($"api/Exam/CreateExamByTitle",testItemInfo);
+				var result = await httpClient.PostAsJsonAsync($"api/Exam/CreateExamByTitle",testItemInfo);
 				examModel = await result.Content.ReadFromJsonAsync<ExamModel>();
 
 			}
@@ -115,7 +115,7 @@ namespace LearningQA.Client.Model
 		}
 		public async Task<bool> SaveTest(Test<QUestionSql,int> test)
 		{
-			var result = await httpClient.PostAsJsonAsync($"api/Exam/UpdateExam", new UpdateExamCommand(test,1));
+			var result = await httpClient.PutAsJsonAsync($"api/Exam/UpdateExam", new UpdateExamCommand(test,1));
 
 			return true;
 		}

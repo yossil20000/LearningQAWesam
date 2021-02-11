@@ -47,7 +47,7 @@ namespace LearningQA.Shared.MediatR.Test.Query
 					//ExamModel examModel = new ExamModel() { Test = result };
 					return new SuccessResult<ExamModel>(result);
 				}
-				return new InvalidResult<ExamModel>($"Failed in GetExamByIdCommand testid:{request.TestId} not found");
+				return new ServiceResult.NotFoundResult<ExamModel>($"{request.GetType().Name} Command Entity  testid:{request.TestId} not found");
 			}
 			catch(Exception ex)
 			{

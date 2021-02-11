@@ -63,6 +63,12 @@ namespace LearningQA.Server
 			services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
 
 			//
+
+			//
+			//AutoMapper
+			services.AddAutoMapper(typeof(Startup));
+			//
+
 			//Applicatiob DBContext
 			services.AddApplicationDbConext();
 			//

@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using AutoMapper;
+
+using MediatR;
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -17,11 +19,14 @@ namespace LearningQA.Server.Controllers
 	{
 		public readonly ILogger<ApiControllerBase> _logger;
 		public readonly IMediator _mediator;
+		public readonly IMapper _mapper;
 		public CancellationToken cancellationToken = new CancellationToken();
-		public ApiControllerBase(ILogger<ApiControllerBase> logger, IMediator mediator)
+
+		public ApiControllerBase(ILogger<ApiControllerBase> logger, IMediator mediator, IMapper mapper)
 		{
 			_logger = logger;
 			_mediator = mediator;
+			_mapper = mapper;
 		}
 	}
 }

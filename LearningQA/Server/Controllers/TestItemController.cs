@@ -1,4 +1,6 @@
-﻿using Castle.Core.Logging;
+﻿using AutoMapper;
+
+using Castle.Core.Logging;
 
 using LearningQA.Server.Configuration;
 using LearningQA.Server.Infrasructure;
@@ -27,33 +29,30 @@ namespace LearningQA.Server.Controllers
 	public class TestItemController : ApiControllerBase
 	{
 		private readonly IOptions<LeaningConfig> _learningConfig;
-		public TestItemController(ILogger<ApiControllerBase> logger,IMediator mediator, IOptions<LeaningConfig> learningConfig) :base(logger,mediator)
+		public TestItemController(ILogger<ApiControllerBase> logger,IMediator mediator, IOptions<LeaningConfig> learningConfig , IMapper mapper) :base(logger,mediator,mapper)
 		{
 			_learningConfig = learningConfig;
 		}
-		/// <summary>
-		/// Create New TestItem
-		/// </summary>
-		/// <param name="newTestItem"></param>
-		/// <returns>Suceed if id > 0 </returns>
-		[HttpPost]
-		//https://localhost:44335/TestItem?Category=Yossi&Subject=Pop&Chapter=1&Version=12&NumOfQuestions=50
-		public async Task<IActionResult> CreatEmptyTest([FromQuery] TestItemInfo newTestItem)
+        //https://localhost:44335/TestItem?Category=Yossi&Subject=Pop&Chapter=1&Version=12&NumOfQuestions=50
+        /// <summary>
+        /// Create New TestItem
+        /// </summary>
+        /// <param name="newTestItem"></param>
+        /// <returns>Suceed if id > 0 </returns>
+        [HttpPost]
+		
+		public async Task<ActionResult<TestItem<QUestionSql,int>>> CreatEmptyTest([FromQuery] TestItemInfo newTestItem)
 		{
 			var result = await _mediator.Send(new CreateNewTestItemInfoCommand(newTestItem), cancellationToken);
-			return Ok(newTestItem);
+			return Ok(result);
 		}
 
 		[HttpGet]
-		public async Task<IEnumerable<TestItemInfo>> TestItemsInfo()
+		public async Task<ActionResult<IEnumerable<TestItemInfo>>> TestItemsInfo(CancellationToken cancellationToken = default)
 		{
-			List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
-			CancellationToken cancellationToken = new CancellationToken();
-			testItemInfos.Add(new TestItemInfo() { Id = 1,Subject="S1",Category="C1",Chapter="c1",NumOfQuestions=31, Version=1});
-			testItemInfos.Add(new TestItemInfo() { Id = 2, Subject = "S2", Category = "C2", Chapter = "c2", NumOfQuestions = 32, Version = 2 });
 			var result  = await _mediator.Send(new TestItemsInfoQuery(),cancellationToken);
 			var list = result.Data;
-			return  await Task.FromResult(list);
+			return   Ok(list);
 		}
 
 		[HttpGet(Name = "/TestItemInfo")]
@@ -96,7 +95,7 @@ namespace LearningQA.Server.Controllers
 		public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
 		{
 			var result = await _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);
-			return Ok(true);
+			return Ok(result);
 		}
 		
 		
@@ -104,21 +103,13 @@ namespace LearningQA.Server.Controllers
 		public async Task<IActionResult> CreateTestItem([FromBody] TestItem<QUestionSql, int> testItem)
 		{
 			var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>();
-
-			var result = await _mediator.Send(new CreateRangeTestItemCommand(testitems), cancellationToken);
-			foreach (var item in testitems)
-			{
-				//var result = await _mediator.Send(new CreateNewTestItemCommand(item), cancellationToken);
-			}
-			
+			await _mediator.Send(new CreateRangeTestItemCommand(testitems), cancellationToken);
 			return Ok(true);
 		}
 		[HttpPost(Name = "/LoadNewFromFile")]
-		public async Task<IActionResult> LoadNewFromFile()
+		public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, string fileName = "")
 		{
-
-			
-			var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>();
+            var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>(fileName);
 			Person<int> person = new Person<int>()
 			{
 				IdNumber = "059828391",
@@ -128,12 +119,7 @@ namespace LearningQA.Server.Controllers
 				Phone = "054999888777"
 				
 			};
-			var result = await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = true}, cancellationToken);
-			foreach (var item in testitems)
-			{
-				//var result = await _mediator.Send(new CreateNewTestItemCommand(item), cancellationToken);
-			}
-
+			await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = createNewDatabase}, cancellationToken);
 			return Ok(true);
 		}
 

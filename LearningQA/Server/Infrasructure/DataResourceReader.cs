@@ -14,24 +14,32 @@ namespace LearningQA.Server.Infrasructure
 	{
         public static List<T> LoadJson<T>(string file = "TestItems.TestItem.json")
         {
+            if(string.IsNullOrEmpty(file))
+			{
+                file = "TestItems.TestItem.json";
+            }
+			else
+			{
+                file = $@"TestItems\{file}"; 
+			}
             var thisAssembly = Assembly.GetExecutingAssembly();
             try
 			{
-                using (StreamReader r = new StreamReader(thisAssembly.GetManifestResourceStream($"LearningQA.Server.DataResource.{file}")))
+                string filename = $@"{System.IO.Directory.GetCurrentDirectory()}\DataResource\{file}";
+                var json = System.IO.File.ReadAllText(filename);
+                //using (StreamReader r = new StreamReader(thisAssembly.GetManifestResourceStream($"LearningQA.Server.DataResource.{file}")))
                 {
-                    var json = r.ReadToEnd();
+                    //var json = r.ReadToEnd();
                     JsonSerializerOptions option = new JsonSerializerOptions();
                     option.IncludeFields = true;
                     option.PropertyNameCaseInsensitive = true;
                     var items = JsonSerializer.Deserialize<List<T>>(json,option).ToList();
-
-
                     return items;
                 }
             }
             catch(Exception ex)
 			{
-
+                Console.WriteLine(ex.Message);
 			}
             return null;
         }

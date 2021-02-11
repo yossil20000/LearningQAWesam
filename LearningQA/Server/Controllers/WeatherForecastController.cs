@@ -1,4 +1,6 @@
-﻿using LearningQA.Shared.Entities;
+﻿using AutoMapper;
+
+using LearningQA.Shared.Entities;
 
 using MediatR;
 
@@ -22,7 +24,7 @@ namespace LearningQA.Server.Controllers
 
 		//private readonly ILogger<WeatherForecastController> _logger;
 
-		public WeatherForecastController(ILogger<ApiControllerBase> logger, IMediator mediator) :base(logger,mediator)
+		public WeatherForecastController(ILogger<ApiControllerBase> logger, IMediator mediator, IMapper mapper) :base(logger,mediator,mapper)
 		{
 			_logger.LogInformation($"WeatherForecastController statr");
 		}

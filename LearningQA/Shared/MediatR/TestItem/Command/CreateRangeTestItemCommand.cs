@@ -47,9 +47,10 @@ namespace LearningQA.Shared.MediatR.TestItem.Command
 					dbContext.Database.EnsureDeleted();
 					dbContext.Database.EnsureCreated();
 				}
-				if(request._person != null)
+				if(request._person != null && request._person.Id == 0)
 				{
-					dbContext.Person.Add(request._person);
+					if(!dbContext.Person.Where(x => x.IdNumber == request._person.IdNumber).Any())
+						dbContext.Person.Add(request._person);
 				}
 				dbContext.TestItems.AddRange(request._testItems);
 				var result = await dbContext.SaveChangesAsync();
