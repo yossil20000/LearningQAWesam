@@ -1,0 +1,732 @@
+[{
+        "id": 0,
+        "category": "1.ATPL_OXFORD",
+        "subject": "2.Airframes and Systems",
+        "chapter": "6.Aircraft Brakes",
+        "version": 0,
+        "testQuestionMarking": 0,
+        "duration": 3600,
+        "questions": [{
+                "id": 0,
+                "questionNumber": "1",
+                "question": "Oil is used in an oleo strut to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "support the weight of the aircraft",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "limit the speed of compression of the strut",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "lubricate the piston within the cylinder",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "limit the speed of extension and compression of the strut",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "2",
+                "question": "The nose wheel assembly must be centred before retraction because:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "there is limited space in the nose wheel bay",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the aircraft may swerve on the next landing if the nose wheel is not straight",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the tyres may be damaged on landing if the nose wheel is not straight",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "it will remove any slush or debris which may have accumulated on take-off",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "3",
+                "question": "The movement of the gear on lowering is normally damped to:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "prevent the fluid becoming aerated",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "counteract the force of gravity which would bring the gear down too fast",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "make the lowering time greater than the raising time",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "prevent the hydraulic fluid becoming overheated",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "4",
+                "question": "Inadvertent retraction of the landing gear on the ground is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "not possible because the system is not powerful enough",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "prevented by the ground/air logic system",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "always a danger after the ground locks have been removed",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the responsibility of the first officer when he is on the aircraft",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "5",
+                "question": "Creep (slippage):",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "is not a problem with tubeless tyres",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "refers to the movement of the aircraft against the brakes",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "alignment can rip out the inflation valve on tubed tyres, and deflate the tyre",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "can be prevented by painting lines on the wheel and tyre",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "6",
+                "question": "Tyre wear when taxiing can be reduced by:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "restricting the use of brakes and using thrust reversers",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "taxiing at less than 40 kph",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "staying on the smoothest parts of the taxiway",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "taxiing at less than 25 knots",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "7",
+                "question": "To prevent scrubbing the tyres while taxiing , you should:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "use tyres with fusible plugs",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "make sharp turns only if you have high speed tyres fitted",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "turn no sharper than the minimum specified radius",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "deflate the tyres to a minimum pressure",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "8",
+                "question": "The best extinguishant to use on a wheel or brake fire is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "CO<sub>2</sub>",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "dry powder",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "freon",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "water",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "9",
+                "question": "When inflating a tyre fitted to an aircraft, the tyre pressure reading on the gauge should be modified by:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "10 psi",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "10%",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "4 psi",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "4%",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "10",
+                "question": "The most likely cause of brake fade is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "oil or grease on the brake drums",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "worn stators",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the pilot reducing the brake pressure",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the brake pads overheating",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "11",
+                "question": "The pressure needed to operate the wheel brakes on a large aircraft comes from:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "the aircraft main hydraulic system",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the pilots brake pedals",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "a self-contained power pack",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "the hydraulic reservoir",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "12",
+                "question": "<p>Which of the following statements will produce the shortest landing run?</p><p>i. Crossing the threshold at the correct height and speed</p><p>ii. Applying full anti-skid braking as quickly as possible after touchdown</p><p>iii. Using maximum pedal pressure but releasing the pressure as the wheels start to skid</p><p>iv. The use of cadence braking</p><p>v. Use of minimum braking pressure early in the landing run and maximum pressure towards the end</p><p>vi. Application of reverse thrust as early as possible in the landing run</p><p>vii. Deployment of the lift dumpers/speed brakes as early as possible in the landing run</p>",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "(i), (ii), (vi), (vii)",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "(i), (iii), (vi), (vii)",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "(i), (iv), (vi), (vii)",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "(i), (v), (vi), (vii)",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "13",
+                "question": "The formula which gives the minimum speed (VP) at which aquaplaning may occur is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "V<sub>P</sub> = 9 × vP where P is kg/cm<sup>2</sup> and V<sub>P</sub> is in knots",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "V<sub>P</sub> = 9 × vP where P is psi and V<sub>P</sub> is in mph",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "VP = 9 × vP where P is psi and VP is in knots",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "VP = 34 × vP where P is kg/cm2 and VP is in mph",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "14",
+                "question": "An aircraft has a tyre pressure of 225 psi, its minimum aquaplaning speed will be:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "135 mph",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "135 knots",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "145 knots",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "145 mph",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "15",
+                "question": "Landing gear ground locking pins are:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "fitted before flight to ensure the landing gear locks are fully cocked",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "removed prior to flight and returned to stores",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "fitted after flight to maintain a hydraulic lock in the downlock jack",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "removed prior to flight and stowed on the aircraft where they are visible to the crew",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "16",
+                "question": "The most likely cause of brake unit dragging is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "dirt between the rotor and stator assemblies",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "grease on the rotor assembly",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the brake pressure being too high",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "incorrect operation of the adjuster assemblies",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "17",
+                "question": "A likely cause of nose wheel shimmy is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "aircraft is overweight",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "the tyre pressures are too high",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "the aircraft is incorrectly loaded",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "a torque link is worn or damaged",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "18",
+                "question": "Creep (slippage):",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "can damage the braking system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "can be measured by painting marks on the tyre and wheel rim",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "may cause excess wear",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "never occurs on new tyres",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "19",
+                "question": "The anti-skid system would be used:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "on landing runs only",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "on take-off runs only",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "for take-off on icy runways",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "for both take off and landing runs",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "20",
+                "question": "A hydraulic gear extension/retraction mechanism consists of sequence valves,uplocks and:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "an anti-skid braking system",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "downlocks",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "torque links",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "a shock absorber",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "21",
+                "question": "A nose wheel steering control system:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "prevents the nose wheel from castoring at all times",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "allows the nose wheel to castor within preset limits about the neutral position",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "allows the nose wheel to castor freely at all times",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "prevents the nose gear from lowering if the nose wheels are not centralized",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "22",
+                "question": "At an aircraft taxiing speed of 10 mph the anti-skid braking system is:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "inoperative",
+                        "isTrue": true
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "operative",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "operative only on the nose wheel brakes",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "operative only on the main wheel brakes",
+                        "isTrue": false
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "23",
+                "question": "The tyre pressures are checked after a long taxi to the ramp following landing. The pressures will have:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "fallen by 15% from their rated value",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "risen by 15% from their rated value",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "remained constant",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "risen by 10% of their original weight-on-wheels value",
+                        "isTrue": true
+                    }
+                ]
+            }, {
+                "id": 0,
+                "questionNumber": "24",
+                "question": "The ply rating of a tyre:",
+                "mark": 0,
+                "isActive": true,
+                "answerType": 0,
+                "supplements": [],
+                "options": [{
+                        "id": 0,
+                        "tenantId": "A",
+                        "content": "always indicates the number of cords or plies in the tyre carcass",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "B",
+                        "content": "never indicates the number of cords or plies in the tyre carcass",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "C",
+                        "content": "indicates whether or not an inner tube should be fitted",
+                        "isTrue": false
+                    }, {
+                        "id": 0,
+                        "tenantId": "D",
+                        "content": "is the index of the tyre strength",
+                        "isTrue": true
+                    }
+                ]
+            }
+        ]
+    }
+]
