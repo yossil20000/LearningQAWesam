@@ -1,0 +1,1203 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "2.Airframes and Systems",
+    "chapter": "16.Aircraft Fuel Systems",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "Baffles are fitted in aircraft fuel tanks:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "to assist in correct fuel distribution",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "to prevent fuel surging during aircraft manoeuvres",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "to prevent the static build-up in the tank during refuelling",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "to channel fuel to the vent valve",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "A power failure to a capacitive fuel contents system would cause the gauge to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "show full scale deflection high",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "fluctuate between high and low readings",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "remain fixed on the last contents noted before failure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "show full scale deflection low",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "A fuel booster pump, besides pumping fuel to the engine, can also be utilized to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "jettison and transfer fuel",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "jettison and heat the fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "transfer and heat the fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "transfer and recycle the fuel",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "During fuel jettison, the aircraft is protected against running out of fuel by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "high level float switches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "preset jettison quantity switches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the crew remaining alert",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "low level float switches",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "To indicate that a refuelling bowser carries JET A1 aviation kerosene:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "yellow and black stripes are marked on the refuelling hose",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "JET A1 would be painted in 30 cm high symbols on the side of the containe",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "JET A1 is printed in white on a black background label positioned prominently on the vehicle",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the driver wears a straw yellow water and fuel proof jacket",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "Adjutments may have to made to an aircraft’s engine fuel system if it has been refuelled with JET B instead of its normal JET A1 fuel, these adjustments are to cater for:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the change in the specific gravity of the fuel",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the change in the calorific value of the fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the change in the viscosity of the fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the lack of HITEC lubricant in the fuel",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>The differences between AVGAS 100 and AVGAS 100LL are:</p><p>Colour Anti-knock value</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Same Same",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Same Different",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Different Same",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Different Different",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "The aircraft cannot be refuelled while:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a ground power unit is operating on the ramp",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "passengers are walking through the refuelling zones",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "passengers are boarding",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the APU is running",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "The disadvantage of refuelling the aircraft to “tanks full” the night before a departure in the heat of the day is that:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the change in the specific gravity may cause the aircraft to be overweight",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the change in the volume of the fuel may cause it to spill through the vent system",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the change in calorific value may reduce engine power to below sufficient",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the rpm governor will be rendered inoperative",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "An aircraft using MOGAS:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is likely to be affected by detonation at cruise power",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "must have booster pumps fitted in the fuel tanks",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is more likely to be affected by vapour locking and carburettor icing",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "will suffer from a loss of power during take-off",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "If a fuel sample appears cloudy or hazy, the most probable cause is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "water contamination",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "anti-microbiological additives",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "mixing different fuel grades",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "oil in the fuel",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "<p>On an aircraft equipped with a compensated capacitance type fuel quantity indication system graduated to read in kg, the temperature increases just after the tanks are half filled with fuel.</p><p>If the fuel expands by 10%, the gauges will show:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "an increase of 10%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a decrease of 10% of the volume factored by the new specific gravity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a decrease",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the same amount",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "The exhaust gases from the APU go into the refuelling zone. The APU:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "must be switched OFF throughout the refuelling operation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "can be started while refuelling is carried out.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "must be started before fuelling is carried out, and can be run throughout the refuelling operation",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "can be started only after the refuelling operation has been terminated",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "De-fuelled fuel:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "can only be used in domestic heating systems",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "can only be used by aircraft from the same operators fleet",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "must be put back into storage",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "cannot be re-used until its quality has been verified",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "<p>The background colour scheme for fuelling system pipelines carrying the following fuels is:</p><p><u>JET A1</u> <u>AVGAS</u></p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Red Black",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Black Red",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Red Yellow",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Yellow Red",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "AVGAS:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is coloured red for identification purposes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is coloured green if it is a leaded fuel and blue if it is a low lead fuel",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "has no artificial colouring and appears either clear or a straw yellow colour",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "can only be used in piston engines if oil is added to improve its anti-knock properties",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "Information relating to the use of MOGAS can be found in:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "CAA General Aviation Safety Sense Leaflets",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Advisory Information Circulars",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "NOTAM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "CAA Airworthiness Publications",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "The fuel cross-feed valves are fitted in order to facilitate:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the use of fuel from any tank to any engine",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "refuelling when only one bowser is in use",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "isolation of the engine from the fuel system in the case of an engine fire",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "transfer of fuel between the main fuel tanks",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "19",
+        "question": "Refuelling with passengers on board is not permissible:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "on a fixed wing aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "if AVGAS is being used",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "if the aircraft has more than twenty seats and the ratio of cabin attendants to passengers is greater than 1:50 and it is a wide bodied jet",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "in any of the above cases",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "20",
+        "question": "While refuelling with passengers on board, when a loading bridge is in use:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "two sets of extra steps must be provided, one of which must be at the rear of the aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the rear left or right door must be manned constantly by a cabin attendant ready for use as an emergency exit using the inflatable escape slide",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "ground servicing must not be carried out",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "catering and cleaning must not be carried out",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "Modern jet aircraft fuel tanks are pressurized:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "by air from the engine compressor to prevent cavitation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "by air from the air conditioning system to prevent cavitation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "by ram air to prevent cavitation",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "by ram air to stabilize the boiling point",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "A &#8246;wide-cut&#8243; fuel is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "more flammable than a kerosene type fuel",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "less volatile than a kerosene type fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "coloured red for identification purposes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "commonly used in civilian transport aircraft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "23",
+        "question": "The purpose of fitting baffles in fuel tanks is to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "prevent longitudinal movement of the fuel during acceleration",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "allow the booster pump to remain covered by fuel irrespective of the aircraft attitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "dampen lateral movement of the fuel in the wing tanks during a sideslip",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "maintain a pre-determined quantity of fuel in the outboard section of the wing tanks",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "24",
+        "question": "Fuel is heated:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "to stop cavitation in the High Pressure fuel pump",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "to maintain a constant viscosity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "to prevent water contamin",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "to stop ice blocking the Low Pressure fuel filter",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "25",
+        "question": "What is the function of a collector tank (feeder box)?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Prevent detonation during take-off",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Prevent cavitation of the booster pumps",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Prevent fuel surge due to extreme aircraft attitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Allow suction feeding of the engine pump",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "26",
+        "question": "Fuel tank booster pumps are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "centrifugal, low pressure",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "centrifugal, high pressure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "gear type, low pressure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "gear type, high pressure",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "27",
+        "question": "The advantage of a capacitor type fuel contents gauging system is that the circuit:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "responds to changes in specific gravity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "compensates for high altitude flight",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "responds automatically to extremely low temperatures",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "compensates for aircraft attitude changes",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "28",
+        "question": "The Low Pressure engine driven pump:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "backs up in case the engine High Pressure pump fails",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "backs up in case of a double booster pump failure",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "assists in the refuelling operation if only low pressure refuelling systems are available",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "pressurizes the fuel tanks to assist flow to the booster pumps",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "29",
+        "question": "The purpose of the fuel cooled oil cooler is to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "heat the oil and cool the fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "heat the fuel and cool the oil",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "cool the oil",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "heat the fuel",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "30",
+        "question": "If a fuel tank with a capacitive quantity system was filled with water instead of fuel, the gauge would indicate:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "full scale low (zero)",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "it would indicate the same as if it were filled with fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "full scale high (max)",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "it would freeze at the last known indication",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "31",
+        "question": "AVTUR or JET A1:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "varies in colour between clear and straw yellow",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is a wide-cut fuel which is not normally used in civilian transport aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is a gasoline type fuel with a high flash point",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is a 97 octane fuel which prevents detonation in gas turbine engines",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "32",
+        "question": "When using which of the following fuels can refuelling be carried out with passengers on board?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Avtag",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Jet B",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Wide-cut",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Jet A1",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "33",
+        "question": "With an increase in altitude the boiling point of fuel will:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "stay the same",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "increase",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "decrease",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "increase up to FL80 then remain the same",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "34",
+        "question": "When refuelling an aircraft:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the refuelling nozzle must be bonded to the fuel tank",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the bonding plug must be connected to the earth terminal",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the continuity between nozzle and hose must be infinity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "only use plastic nozzles",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

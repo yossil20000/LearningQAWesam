@@ -1,0 +1,924 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "2.Airframes and Systems",
+    "chapter": "13.Aircraft Oxygen Equipment",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "Without added oxygen the time of useful consciousness at 30 000 ft is approximately:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "twenty seconds",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "eighty seconds",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "one to two minutes",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "six minutes",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "Without added oxygen the time of useful consciousness at 40 000 ft is approximately:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "twenty seconds",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "three minutes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "eighty seconds",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "six minutes",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "The maximum altitude without oxygen at which flying efficiency is not seriously impaired is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10000 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "17500 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "25000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "30000 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "In a pressure demand oxygen system:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "each member of the crew has a regulator",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "each member of the crew has a continuous oxygen supply",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "oxygen is supplied with a continuous pressure flow",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "oxygen demand will cause the pressure to rise",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "In a continuous flow oxygen system, oxygen is supplied:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "only when the mask is plugged into the socket connection",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "only on passenger inhalation through the mask",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "only when the cabin altitude is above 18 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "only when the supply has been regulated by the pilot",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "In a diluter demand system, selection of emergency on this regulator will result in:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "air mix supplied at emergency pressure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "100% oxygen supply as called for by the user",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "100% oxygen at positive pressure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "100% oxygen continuous flow at positive pressure",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "If the aircraft suffers a decompression passenger oxygen masks:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "are released by the passengers",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "automatically drop to a half-hung (ready position)",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "are handed out by the cabin staff",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "must be removed from the life jacket storage",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "Oxygen cylinders are normally charged to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1000 psi",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1200 psi",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1800 psi",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "2000 psi",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "Rate of flow of oxygen is given in:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "litres/minute",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "pounds/minute",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "litres/second",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "kilos/hour",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "The colour of American and European oxygen cylinders is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "red",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "blue",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "green",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "brown",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "Dangerous pressure rise in oxygen cylinders:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is relieved by a thermostat",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is relieved by under pressurizing the bottle",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is relieved by a bursting disc",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is controlled by a thermal relief valve",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "To leak test an oxygen system use:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "fairy liquid and de-ionized water",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "thin oil",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "acid free soap and distilled water",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "acid free soap and water",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "Lubrication of an oxygen component thread is by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "soap water",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "grease",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "oil",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "graphite",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "Satisfactory operation of the oxygen system is indicated by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "flow indicators",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "lack of anoxia",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "aural reassurance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "pressure indicators",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "If the pressurization system fails and the cabin starts to climb, then at 14 000 ft oxygen will be available to the passengers by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the stewardess who will hand out masks",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the passengers grabbing a mask from the overhead lockers",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "portable oxygen bottles located in the seat backs",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "masks automatically ejected to a half-hung position",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "When air is pressurized the % of oxygen:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "increases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "decreases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "remains the same",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "nil",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "In an emergency chemically produced oxygen is supplied for a given period by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "sodium chlorate, iron power, an electrical firing system and a filter",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "potassium chlorate, iron powder, an electrical firing system and a filter",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "sodium chlorate, iron powder which is chemically activated by air and then filtered",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "sodium chlorate and an electrical firing system",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "Passenger oxygen masks will present:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "only when the cabin altitude reaches 14 000",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "only if selected by the crew",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "only if selected by the cabin staff",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "if selected manually / electrically / barometrically",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "19",
+        "question": "The charged pressure of a portable oxygen cylinder is normally:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "500 psi",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1200 psi",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1800 psi",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3000 psi",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "20",
+        "question": "With the control knob set to high, a 120 litre portable bottle will provide oxygen for a period of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "60 mins",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "30 mins",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "12 mins",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3 mins",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "At what altitude will the diluter-demand oxygen regulator provide 100% pure oxygen:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "14 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "24 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "34 000 ft",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "A flow indicator fitted to an oxygen regulator indicates:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "that exactly the correct amount of oxygen is being used by the crew member",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "that oxygen is flowing through the regulator",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "that the crew member is correctly connected to the regulator",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "that the system pressure reducing valve is supplying the correct pressure to the regulator",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "23",
+        "question": "<p>What is the approximate time of useful consciousness when hypoxia develops at the specified altitudes?</p><p>20 000 ft 30 000 ft</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2-3 min 10-15 sec",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10 min 2 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "30 min 90-60 secs",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "40 min 5 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "24",
+        "question": "What is the effect on cabin temperature of a rapid de-compression at 30 000 ft?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Sudden and extreme drop",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Insignificant change over the first 2 minutes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A gradual decrease to ambient over a period of about 10 minutes if the cabin heating ceases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "A gradual decrease to ambient temperature over a period of about 30 minutes if cabin heating continues",
+            "isTrue": false
+          }
+        ]
+      }
+	  ,
+      {
+        "id": 0,
+        "questionNumber": "25",
+        "question": "Susceptibility to hypoxia is increased by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "heat",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "noise",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "smoking",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "under-breathing",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "26",
+        "question": "What is the approximate cabin altitude above which you must breath 100% oxygen if you are to maintain an alveolar partial pressure equal to that at sea level?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "26 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "30 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "34 000 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "38 000 ft",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

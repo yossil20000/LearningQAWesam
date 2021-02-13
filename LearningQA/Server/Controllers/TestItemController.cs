@@ -134,11 +134,11 @@ namespace LearningQA.Server.Controllers
 				testItems[i] = new TestItem<QUestionSql, int>();
 
 				testItems[i].Questions = new List<QUestionSql>();
-
+                
 				for(var j=0; j < questionCount;j++)
 				{
 					QUestionSql q = new QUestionSql();
-
+                    q.IsActive = true;
 					q.QuestionNumber = (j + 1).ToString();
 					q.Options = new List<QuestionOption<int>>();
 					q.Supplements = new List<Supplement<int>>();
