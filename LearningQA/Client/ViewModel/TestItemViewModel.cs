@@ -99,9 +99,9 @@ namespace LearningQA.Client.ViewModel
 							TestItemViewModelPersist.CurrentTest.Answers.ElementAt(i).SelectedAnswer = item; 
 						}
 					}
-					TestItemViewModelPersist.CurrentQuestion = 1;
+					TestItemViewModelPersist.SetCurrentQuestion(1);
 					TestItemViewModelPersist.CurrentTest.Duration = result.Test.Duration;
-					TestItemViewModelPersist.SelectedQuestion = TestItemViewModelPersist.CurrentTest.Answers.ElementAt(0).QUestionSql;
+					//TestItemViewModelPersist.SelectedQuestion = TestItemViewModelPersist.CurrentTest.Answers.ElementAt(0).QUestionSql;
 					
 				}
 			}

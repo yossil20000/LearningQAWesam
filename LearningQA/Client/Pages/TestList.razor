@@ -40,11 +40,17 @@
                             <YLGridColumn TRowData="ExamInfoModel" Title="Sumn" Expression="c => c.Title" />
                         </YLGridGroup>
                         <YLGridGroup TRowData="ExamInfoModel" GroupClass="filed-width-min-5">
-                            <YLGridColumn TRowData="ExamInfoModel" Title="Action" OnEdit="OnEdit" Expression="c => c.TestId" Index="c => c.TestId">
+                            <YLGridColumn TRowData="ExamInfoModel" Title="Action" OnEdit="OnExamLoad" Expression="c => c.TestId" Index="c => c.TestId">
                                 <input type="button"
                                        class="btn color-2 bg-color-8"
                                        name="Load"
                                        value="Load" />
+                            </YLGridColumn>
+                             <YLGridColumn TRowData="ExamInfoModel" Title="Action" OnEdit="OnExamDelete" Expression="c => c.TestId" Index="c => c.TestId">
+                                <input type="button"
+                                       class="btn color-2 bg-color-8"
+                                       name="Delete"
+                                       value="Delete" />
                             </YLGridColumn>
                         </YLGridGroup>
                     </YLGrid>
@@ -206,7 +212,7 @@
     private bool IsTestMode { get; set; } = true;
     
 
-    private async Task OnEdit(object obj)
+    private async Task OnExamLoad(object obj)
     {
 
         if (obj is IWeatherForecast item)
@@ -220,14 +226,34 @@
            ;
             if( int.TryParse(id, out int testId))
             {
-              await  ExamVM.OnTestId(testId);
+              await  ExamVM.OnExamLoad(testId);
                 IsViewExamsList = false;
             }
            
         }
          await Task.CompletedTask;
     }
+     private async Task OnExamDelete(object obj)
+    {
 
+        if (obj is IWeatherForecast item)
+        {
+            Console.WriteLine($"OnClick Edit whether {item.Date} {item.TemperatureC}");
+        }
+        else if (obj is string id)
+        {
+            Console.WriteLine($"OnClick Delete id:{id}");
+				
+           ;
+            if( int.TryParse(id, out int testId))
+            {
+              await  ExamVM.OnExamDelete(testId);
+                IsViewExamsList = true;
+            }
+           
+        }
+         await Task.CompletedTask;
+    }
 
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@
 }

@@ -167,17 +167,17 @@
                 "options": [{
                         "id": 0,
                         "tenantId": "A",
-                        "content": "By using aileron ‘up-float’ and keeping the centre section fuel tanks full for as long as possible",
+                        "content": "By using aileron &#8216;up-float&#8217; and keeping the centre section fuel tanks full for as long as possible",
                         "isTrue": false
                     }, {
                         "id": 0,
                         "tenantId": "B",
-                        "content": "By using aileron ‘up-float’ and using the fuel in the wings last",
+                        "content": "By using aileron &#8219;up-float&#8219; and using the fuel in the wings last",
                         "isTrue": true
                     }, {
                         "id": 0,
                         "tenantId": "C",
-                        "content": "By having tail-mounted engines and using aileron ‘down-float’",
+                        "content": "By having tail-mounted engines and using aileron &#8216;down-float&#8217;",
                         "isTrue": false
                     }, {
                         "id": 0,

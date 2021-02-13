@@ -39,7 +39,7 @@
             }, {
                 "id": 0,
                 "questionNumber": "2",
-                "question": "A pre charge pressure of 1000 bar of gas is shown on the accumulator gauge. The system is then pressurized to 1500 bar, so the accumulator will read:",
+                "question": "<p>A pre charge pressure of 1000 bar of gas is shown on the accumulator gauge.</p><p>The system is then pressurized to 1500 bar, so the accumulator will read:</p>",
                 "mark": 0,
                 "isActive": true,
                 "answerType": 0,
@@ -93,7 +93,7 @@
                         "id": 0,
                         "tenantId": "D",
                         "content": "the hydraulic fluid in the system",
-                        "isTrue": false
+                        "isTrue": true
                     }
                 ]
             }, {
@@ -113,7 +113,7 @@
                         "id": 0,
                         "tenantId": "B",
                         "content": "allows two supply sources to operate one unit",
-                        "isTrue": false
+                        "isTrue": true
                     }, {
                         "id": 0,
                         "tenantId": "C",
@@ -123,7 +123,7 @@
                         "id": 0,
                         "tenantId": "D",
                         "content": "acts as a non-return valve",
-                        "isTrue": true
+                        "isTrue": false
                     }
                 ]
             }, {
@@ -138,12 +138,12 @@
                         "id": 0,
                         "tenantId": "A",
                         "content": "red, mineral",
-                        "isTrue": false
+                        "isTrue": true
                     }, {
                         "id": 0,
                         "tenantId": "B",
                         "content": "red, synthetic",
-                        "isTrue": true
+                        "isTrue": false
                     }, {
                         "id": 0,
                         "tenantId": "C",
@@ -168,7 +168,7 @@
                         "id": 0,
                         "tenantId": "A",
                         "content": "is used to restrict the number of services available after loss of system pressure",
-                        "isTrue": true
+                        "isTrue": false
                     }, {
                         "id": 0,
                         "tenantId": "B",
@@ -399,7 +399,7 @@
             }, {
                 "id": 0,
                 "questionNumber": "14",
-                "question": "Pascal’s law states that:",
+                "question": "Pascal&#8219;s law states that:",
                 "mark": 0,
                 "isActive": true,
                 "answerType": 0,
@@ -737,12 +737,12 @@
                 "options": [{
                         "id": 0,
                         "tenantId": "A",
-                        "content": "fall below the “full” mark",
+                        "content": "fall below the &#8220;full&#8221; mark",
                         "isTrue": true
                     }, {
                         "id": 0,
                         "tenantId": "B",
-                        "content": "fall to a position marked ‘full accs charged’",
+                        "content": "fall to a position marked &#8219;full accs charged&#8219;",
                         "isTrue": false
                     }, {
                         "id": 0,
@@ -752,7 +752,7 @@
                     }, {
                         "id": 0,
                         "tenantId": "D",
-                        "content": "rise above the “full” mark",
+                        "content": "rise above the &#8220;full&#8221; mark",
                         "isTrue": false
                     }
                 ]
@@ -917,7 +917,7 @@
                 "options": [{
                         "id": 0,
                         "tenantId": "A",
-                        "content": "is normal and does not affect the system’s efficiency",
+                        "content": "is normal and does not affect the system&#8219;s efficiency",
                         "isTrue": false
                     }, {
                         "id": 0,
@@ -1359,7 +1359,7 @@
             }, {
                 "id": 0,
                 "questionNumber": "46",
-                "question": "A force of 1500 N is applied to a piston of area 0.002 m² and generates a force of-----(1)------non a piston of area 0.003 m². The pressure generated is -----(2)----- and, if the smaller piston moves 0.025 m, the work done is -----(3)------.",
+                "question": "<p>A force of 1500 N is applied to a piston of area 0.002 m<sup>2</sup> and generates a force of-----(1)------non a piston of area 0.003 m<sup>2</sup>.</p><p>The pressure generated is -----(2)----- and, if the smaller piston moves 0.025 m, the work done is -----(3)------.</p>",
                 "mark": 0,
                 "isActive": true,
                 "answerType": 0,

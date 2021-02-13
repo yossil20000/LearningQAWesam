@@ -88,26 +88,15 @@ namespace LearningQA.Client.ViewModel
 
 		private void ProcessTestItemInfo()
 		{
-			Categories = testItemInfos.Select(x => x.Category).Distinct().ToList();
+			Categories = testItemInfos.Select(x => x.Category).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
 
 
-			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().ToList();
-			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().ToList();
+			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
 
 			Changed();
 		}
-		//private void OnSubjectChanged()
-		//{
-		//	Chapteres = TestItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().ToList();
-		//	SelectedChapter = Chapteres.FirstOrDefault();
-		//	Changed();
-		//}
-		//private void OnCategoryChanged()
-		//{
-		//	Subjectes = TestItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().ToList();
-		//	SelectedSubjecte = Subjectes.FirstOrDefault();
-		//	Changed();
-		//}
+		
 		public int CurrentQuestion { get; set; } = 1;
 
 		private Test<QUestionSql, int> currentTest = new Test<QUestionSql, int>();
@@ -129,18 +118,13 @@ namespace LearningQA.Client.ViewModel
 
 		#region Entities
 
-		
 		public List<TestItemInfo> TestItemInfos { 
 			get => testItemInfos; 
 			set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); } }
 
-		
 		#endregion
 
-
-
-
-
+		#region Question Navigation
 		public bool EnablePreviouse { get; set; } = true;
 		public bool EnableNext { get; set; } = true;
 
@@ -151,6 +135,16 @@ namespace LearningQA.Client.ViewModel
 			EnableNext = CurrentQuestion < CurrentTest.Answers.Count  ? true : false;
 			
 		}
+		public void SetCurrentQuestion(int index)
+		{
+			CurrentQuestion = index;
+			if (CurrentQuestion < CurrentTest.Answers.Count)
+			{
+				SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+			}
+			UpdatePagination();
+			Changed();
+		}
 		public void OnNext()
 		{
 			try
@@ -158,10 +152,8 @@ namespace LearningQA.Client.ViewModel
 				if (CurrentQuestion < CurrentTest.Answers.Count)
 				{
 					CurrentQuestion++;
-					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
 				}
-				UpdatePagination();
-				Changed();
+				SetCurrentQuestion(CurrentQuestion);
 			}
 			catch (Exception ex)
 			{
@@ -177,10 +169,9 @@ namespace LearningQA.Client.ViewModel
 				if (CurrentQuestion > 1)
 				{
 					CurrentQuestion--;
-					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+					
 				}
-				UpdatePagination();
-				Changed();
+				SetCurrentQuestion(CurrentQuestion);
 			}
 			catch (Exception ex)
 			{
@@ -197,9 +188,7 @@ namespace LearningQA.Client.ViewModel
 				if (questionNumber >= 1 && questionNumber <= CurrentTest.Answers.Count)
 				{
 					CurrentQuestion = questionNumber;
-					SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
-					UpdatePagination();
-					Changed();
+					SetCurrentQuestion(CurrentQuestion);
 				}
 			}
 			catch (Exception ex)
@@ -236,5 +225,6 @@ namespace LearningQA.Client.ViewModel
 			answer.IsAnswered = answer.SelectedAnswer.Count() > 0;
 			answer.IsCorrect = answer.QUestionSql.IsCorrect(answer.SelectedAnswer);
 		}
+		#endregion
 	}
 }

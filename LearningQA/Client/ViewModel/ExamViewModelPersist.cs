@@ -54,11 +54,11 @@ namespace LearningQA.Client.ViewModel
 		}
 		private void ProcessTestItemInfo()
 		{
-			Categories = testItemInfos.Select(x => x.Category).Distinct().ToList();
+			Categories = testItemInfos.Select(x => x.Category).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
 
 
-			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().ToList();
-			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().ToList();
+			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
 
 			Changed();
 		}

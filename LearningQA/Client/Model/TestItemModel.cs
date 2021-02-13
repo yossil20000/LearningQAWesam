@@ -23,6 +23,7 @@ namespace LearningQA.Client.Model
 		Task<ExamModel> RetriveTest(TestItemInfo testItemInfo);
 		Task<bool> SaveTest(Test<QUestionSql, int> test);
 		Task<ExamModel> LoadTest(int testId);
+		Task<bool> DeleteExam(int testId);
 	}
 	public class TestItemModel : ITestItemModel
 	{
@@ -131,6 +132,21 @@ namespace LearningQA.Client.Model
 			{
 				Console.WriteLine($"LoadTest({testId}) {ex.Message}");
 				return null;
+			}
+		}
+		public async Task<bool> DeleteExam(int examId)
+		{
+
+			try
+			{
+				var result = await httpClient.DeleteAsync($"api/Exam/DeleteExamById?id={examId}");
+				result.EnsureSuccessStatusCode();
+				return true;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"LoadTest({examId}) {ex.Message}");
+				return false;
 			}
 		}
 	}

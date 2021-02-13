@@ -27,15 +27,21 @@ namespace LearningQA.Client.PageBase
 		}
 		private void OnSubjectChanged()
 		{
-			Chapteres = testItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().ToList();
+			Chapteres = testItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
 			SelectedChapter = Chapteres.FirstOrDefault();
 			Changed();
 		}
 		private void OnCategoryChanged()
 		{
-			Subjectes = testItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().ToList();
+			Subjectes = testItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
 			SelectedSubjecte = Subjectes.FirstOrDefault();
 			Changed();
+		}
+		protected int TestTitleFilter(string title)
+		{
+			var str = title.Split(".");
+			int index = int.Parse(str[0]);
+			return index;
 		}
 		public List<string> Subjectes { get; set; } = new List<string>();
 		//Chapter

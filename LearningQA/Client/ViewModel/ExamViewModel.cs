@@ -17,10 +17,11 @@ namespace LearningQA.Client.ViewModel
 		
 		Task<List<ExamInfoModel>> RetriveExamInfoModels(TestItemInfo testItemInfo);
 		Task OnLoadCommand();
-		Task OnTestId(int testId);
+		Task OnExamLoad(int testId);
+		Task OnExamDelete(int testId);
 		//TestItem<QUestionSql, int> TestItem { get; set; }
-	
-		
+
+
 
 
 	}
@@ -52,7 +53,16 @@ namespace LearningQA.Client.ViewModel
 			//if (TestItemViewModelPersist.TestItem.Questions.Count > 1)
 			//	TestItemViewModelPersist.EnableNext = true;
 		}
-		public async Task OnTestId(int testId)
+		public async Task OnExamDelete(int id)
+		{
+			var result = await testItemModel.DeleteExam(id);
+			if(result)
+			{
+				var exam = ExamViewModelPersist.ExamInfoModels.Where(x => x.TestId == id).FirstOrDefault();
+				ExamViewModelPersist.ExamInfoModels.Remove(exam);
+			}
+		}
+		public async Task OnExamLoad(int testId)
 		{
 			try
 			{

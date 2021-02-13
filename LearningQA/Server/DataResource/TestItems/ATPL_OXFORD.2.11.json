@@ -347,13 +347,13 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "‘b’ is only correct if synthetic oil is used",
+            "content": "&#8216;b&#8216; is only correct if synthetic oil is used",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "‘a’ will be correct only if the aircraft is inverted",
+            "content": "&#8216;a&#8216; will be correct only if the aircraft is inverted",
             "isTrue": false
           }
         ]
@@ -1096,7 +1096,7 @@
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "The term “pressurization cycle” means:",
+        "question": "The term &#8220;pressurization cycle&#8221; means:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

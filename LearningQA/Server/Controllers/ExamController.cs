@@ -102,6 +102,13 @@ namespace LearningQA.Server.Controllers
             return result.Data;
         }
 
+        [HttpDelete(Name ="DeleteExamById/{id}")]
+
+        public async Task<ActionResult<int>> DeleteExamById(int id)
+        {
+            var result = await _mediator.Send(new DeleteExamByIdCommand(id));
+            return this.FromResult(result);
+        }
        
     }
 }

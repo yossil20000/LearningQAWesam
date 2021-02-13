@@ -369,7 +369,7 @@
             }, {
                 "id": 0,
                 "questionNumber": "13",
-                "question": "The formula which gives the minimum speed (VP) at which aquaplaning may occur is:",
+                "question": "The formula which gives the minimum speed (V<sub>P</sub>) at which aquaplaning may occur is:",
                 "mark": 0,
                 "isActive": true,
                 "answerType": 0,
@@ -377,22 +377,22 @@
                 "options": [{
                         "id": 0,
                         "tenantId": "A",
-                        "content": "V<sub>P</sub> = 9 × vP where P is kg/cm<sup>2</sup> and V<sub>P</sub> is in knots",
+                        "content": "V<sub>P</sub> = 9 &#8727; &#8730;P where P is kg/cm<sup>2</sup> and V<sub>P</sub> is in knots",
                         "isTrue": false
                     }, {
                         "id": 0,
                         "tenantId": "B",
-                        "content": "V<sub>P</sub> = 9 × vP where P is psi and V<sub>P</sub> is in mph",
+                        "content": "V<sub>P</sub> = 9 &#8727; &#8730;P where P is psi and V<sub>P</sub> is in mph",
                         "isTrue": false
                     }, {
                         "id": 0,
                         "tenantId": "C",
-                        "content": "VP = 9 × vP where P is psi and VP is in knots",
+                        "content": "V<sub>P</sub> = 9 &#8727; &#8730;P where P is psi and V<sub>P</sub> is in knots",
                         "isTrue": true
                     }, {
                         "id": 0,
                         "tenantId": "D",
-                        "content": "VP = 34 × vP where P is kg/cm2 and VP is in mph",
+                        "content": "V<sub>P</sub> = 34 &#8727; &#8730;P where P is kg/cm<sup>2</sup> and V<sub>P</sub> is in mph",
                         "isTrue": false
                     }
                 ]
@@ -669,7 +669,7 @@
             }, {
                 "id": 0,
                 "questionNumber": "23",
-                "question": "The tyre pressures are checked after a long taxi to the ramp following landing. The pressures will have:",
+                "question": "<p>The tyre pressures are checked after a long taxi to the ramp following landing.</p><p>The pressures will have:</p>",
                 "mark": 0,
                 "isActive": true,
                 "answerType": 0,
