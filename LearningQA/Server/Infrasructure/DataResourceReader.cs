@@ -43,5 +43,20 @@ namespace LearningQA.Server.Infrasructure
 			}
             return null;
         }
+
+        public static  string LoadImageForDisplay(string file)
+        {
+            string filename = $@"{System.IO.Directory.GetCurrentDirectory()}\{file}";
+            byte[] fileContent = null;
+            System.IO.FileStream fs = new System.IO.FileStream(filename, System.IO.FileMode.Open, System.IO.FileAccess.Read);
+            System.IO.BinaryReader binaryReader = new System.IO.BinaryReader(fs);
+            long byteLength = new System.IO.FileInfo(filename).Length;
+            fileContent = binaryReader.ReadBytes((Int32)byteLength);
+            var x = Convert.ToBase64String(fileContent);
+            fs.Close();
+            fs.Dispose();
+            binaryReader.Close();
+            return x;
+        }
     }
 }

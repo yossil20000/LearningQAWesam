@@ -1,0 +1,177 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "7.SERIESFLIGHT PLANNING AND MONITORING",
+    "chapter": "4.Single-engine Piston Aeroplane",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>Refer to CAP 697 SEP1, fig 2.1</p><p>Given: Aerodrome elevation 2500 ft,</p><p>OAT +10&#xb0;C</p><p>Initial weight 3500 lb</p><p>Climb to FL140 OAT -5&#xb0;C</p><p>What is the climb time, fuel, NAM?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "",
+            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69717.jpg"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "22 min 6.5 g 46 NAM",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "24 min 7.5 g 50 NAM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2 min 1.0 g 4 NAM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "26 min 8.5 g 54 NAM",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>Refer to CAP 697 SEP1, fig 2.2.3</p><p>Given FL75</p><p>OAT +10&#xb0;C</p><p>Lean mixture</p><p>2300 rpm</p><p>Find fuel flow (GPH) gallons per hour and TAS.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "",
+            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69720.jpg"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "68.5 GPH 160 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "11.6 GPH 160 kt",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "71.1 GPH 143 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "11.6 GPH 143 kt",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>Refer to CAP 697 SEP1 fig 2.4</p><p>Given: Aeroplane mass at start up 3663 lb</p><p>Fuel load (density 6 lb/gal) 74 gal</p><p>Take-off altitude sea level</p><p>Headwind 40 kt</p><p>Cruise altitude 8000 ft</p><p>Power settings full throttle</p><p>2300 rpm</p><p>20&#xb0;C lean of peak</p><p>Calculate the range</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "",
+            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69722.jpg"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "548 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "844 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "730 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "633 NM",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>Refer to CAP 697, SEP1, fig 2.5</p><p>Given FL75</p><p>Lean mixture</p><p>Full throttle / 2300 rpm</p><p>Take-off fuel 444 lb</p><p>Take-off from MSL</p><p>Find endurance in hours</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": "",
+            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69723.jpg"
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "5 h 20 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "4 h 42 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "5 h 12 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5 h 23 min",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -24,6 +24,7 @@ using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -192,6 +193,7 @@ namespace LearningQA.Server.Controllers
 					q.QuestionNumber = (j + 1).ToString();
 					q.Options = new List<QuestionOption<int>>();
 					q.Supplements = new List<Supplement<int>>();
+                    q.Supplements.Add(new Supplement<int>());
 					for(var k=0; k < 4; k++)
 					{
 						QuestionOption<int> qo = new QuestionOption<int>();
@@ -204,7 +206,14 @@ namespace LearningQA.Server.Controllers
 			}
 			return await Task.FromResult(testItems);
 		}
-		private static List<T> CreateList<T>(int capacity)
+        [HttpGet(Name = "/LoadImageFromFile")]
+        public async  Task<ActionResult<string>> LoadImageFromFile( string fileName = "")
+        {
+            var image = DataResourceReader.LoadImageForDisplay(fileName);
+            return Ok(image);
+        }
+
+        private static List<T> CreateList<T>(int capacity)
 		{
 			return Enumerable.Repeat(default(T), capacity).ToList();
 		}
