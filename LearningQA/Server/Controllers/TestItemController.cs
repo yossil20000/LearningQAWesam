@@ -18,6 +18,9 @@ using Microsoft.Extensions.Options;
 
 using ServiceResult;
 using ServiceResult.ApiExtensions;
+
+using Swashbuckle.AspNetCore.Annotations;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,15 +43,26 @@ namespace LearningQA.Server.Controllers
         /// <param name="newTestItem"></param>
         /// <returns>Suceed if id > 0 </returns>
         [HttpPost]
-		
-		public async Task<ActionResult<TestItem<QUestionSql,int>>> CreatEmptyTest([FromQuery] TestItemInfo newTestItem)
+        [SwaggerOperation(
+            Summary = "CreatEmptyTest",
+            Description = "CreatEmptyTest By TestItemInfo(Category, Subject,Chapter)",
+            OperationId = "TestItem.Post",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "TestItem<QUestionSql, int>", typeof(TestItem<QUestionSql, int>))]
+        public async Task<ActionResult<TestItem<QUestionSql,int>>> CreatEmptyTest([FromQuery] TestItemInfo newTestItem)
 		{
 			var result = await _mediator.Send(new CreateNewTestItemInfoCommand(newTestItem), cancellationToken);
 			return Ok(result);
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<TestItemInfo>>> TestItemsInfo(CancellationToken cancellationToken = default)
+        [SwaggerOperation(
+            Summary = "TestItemsInfo",
+            Description = "Get All the testitems titles, Category,Subject,Chapter,Version",
+            OperationId = "TestItem.Get",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "IEnumerable<TestItemInfo>", typeof(IEnumerable<TestItemInfo>))]
+        public async Task<ActionResult<IEnumerable<TestItemInfo>>> TestItemsInfo(CancellationToken cancellationToken = default)
 		{
 			var result  = await _mediator.Send(new TestItemsInfoQuery(),cancellationToken);
 			var list = result.Data;
@@ -56,11 +70,19 @@ namespace LearningQA.Server.Controllers
 		}
 
 		[HttpGet(Name = "/TestItemInfo")]
-		public async Task<IActionResult> TestItemInfo( int testItemId)
+        [SwaggerOperation(
+            Summary = "TestItemsInfo",
+            Description = "Get TestItemsInfo of TestItem by id)",
+            OperationId = "TestItem.Get",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "TestItemInfo", typeof(TestItemInfo))]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.NotFound, "TestItemInfo", typeof(TestItemInfo))]
+        public async Task<IActionResult> TestItemInfo( int testItemId)
 		{
 			var result = await _mediator.Send(new TestItemInfoQuery(testItemId));
 			return this.FromResult(result);
 		}
+
 		/// <summary>
 		/// Get TestItem 
 		/// </summary>
@@ -69,8 +91,14 @@ namespace LearningQA.Server.Controllers
 		/// <param name="chapter"></param>
 		/// <returns>"<questionsql,int>"</returns>
 		[HttpGet]
-
-		public async Task<IActionResult> TestItem([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter)
+        [SwaggerOperation(
+            Summary = "TestItems",
+            Description = "Get TestItems by Category,Subject,Chapter)",
+            OperationId = "TestItem.Get",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "TestItem<QUestionSql,int>", typeof(TestItem<QUestionSql,int>))]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.NotFound, "TestItem<QUestionSql,int>", typeof(TestItem<QUestionSql, int>))]
+        public async Task<IActionResult> TestItem([FromQuery] string category, [FromQuery] string subject, [FromQuery] string chapter)
 		{
 			TestItemQuery testItemQuery = new TestItemQuery()
 			{
@@ -85,29 +113,45 @@ namespace LearningQA.Server.Controllers
 
 			return this.FromResult(result);
 		}
+        [HttpGet]
+        [SwaggerOperation(
+            Summary = "TestItems",
+            Description = "Get All TestItems)",
+            OperationId = "TestItem.Get",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "List<TestItem<QUestionSql, int>>", typeof(List<TestItem<QUestionSql, int>>))]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.NotFound, "List<TestItem<QUestionSql, int>>", typeof(List<TestItem<QUestionSql, int>>))]
+        public async Task<ActionResult<List<TestItem<QUestionSql,int>>>> Get()
+        {
+            var result = await _mediator.Send(new GetAllTestItemsQuery());
+            return this.FromResult(result);
+        }
 		/// <summary>
 		/// Update TestItem from a TestItem instance
 		/// </summary>
 		/// <param name="testItem"></param>
 		/// <returns>bool</returns>
 		[HttpPut]
-		
-		public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
+        [SwaggerOperation(
+            Summary = "TestItems",
+            Description = "Update TestItems)",
+            OperationId = "TestItem.Put",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "bool", typeof(bool))]
+        public async Task<IActionResult> UpdateTestItem([FromBody] TestItem<QUestionSql,int> testItem)
 		{
 			var result = await _mediator.Send(new UpdateTestItemCommand(testItem), cancellationToken);
 			return Ok(result);
 		}
 		
-		
-		[HttpPost(Name = "/CreateTestItem")]
-		public async Task<IActionResult> CreateTestItem([FromBody] TestItem<QUestionSql, int> testItem)
-		{
-			var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>();
-			await _mediator.Send(new CreateRangeTestItemCommand(testitems), cancellationToken);
-			return Ok(true);
-		}
 		[HttpPost(Name = "/LoadNewFromFile")]
-		public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, string fileName = "")
+        [SwaggerOperation(
+            Summary = "LoadNewFromFile",
+            Description = "Load file in json format, and create new testitems, can be also reset database",
+            OperationId = "TestItem.Post",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "bool", typeof(bool))]
+        public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, string fileName = "")
 		{
             var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>(fileName);
 			Person<int> person = new Person<int>()
@@ -124,11 +168,17 @@ namespace LearningQA.Server.Controllers
 		}
 
 		[HttpGet(Name = "/EmptyTestItem")]
-		public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int test, int questionCount)
+        [SwaggerOperation(
+            Summary = "EmptyTestItem",
+            Description = "Get List of Empty TestItems count for each test create empty questionCount )",
+            OperationId = "TestItem.Get",
+            Tags = new[] { "TestItemEndpoint" })]
+        [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "List<TestItem<QUestionSql,int>>", typeof(List<TestItem<QUestionSql, int>>))]
+        public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int testCount, int questionCount)
 		{
 			string[] option = new string[4] { "A", "B", "C", "D" };
 			List<TestItem<QUestionSql, int>> testItems = new List<TestItem<QUestionSql, int>>();
-			testItems = CreateList<TestItem<QUestionSql, int>>(test);
+			testItems = CreateList<TestItem<QUestionSql, int>>(testCount);
 			for(int i =0; i < testItems.Count();i++)
 			{
 				testItems[i] = new TestItem<QUestionSql, int>();
@@ -152,8 +202,6 @@ namespace LearningQA.Server.Controllers
 				}
 		
 			}
-
-
 			return await Task.FromResult(testItems);
 		}
 		private static List<T> CreateList<T>(int capacity)
