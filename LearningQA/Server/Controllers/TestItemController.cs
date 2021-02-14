@@ -164,6 +164,7 @@ namespace LearningQA.Server.Controllers
 				Phone = "054999888777"
 				
 			};
+            ConverSupplement(testitems);
 			await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = createNewDatabase}, cancellationToken);
 			return Ok(true);
 		}
@@ -217,6 +218,30 @@ namespace LearningQA.Server.Controllers
 		{
 			return Enumerable.Repeat(default(T), capacity).ToList();
 		}
+        private void ConverSupplement(List<TestItem<QUestionSql,int>> items)
+        {
+            for (int item = 0; item < items.Count; item++)
+            {
+                for (int qIndex = 0; qIndex < items.ElementAt(item).Questions.Count; qIndex++)
+                {
+                    var supplement = items.ElementAt(item).Questions.ElementAt(qIndex).Supplements;
+                    if (supplement != null && supplement.Count > 0)
+                    {
+                        if (supplement.ElementAt(0).OriginalcontentType == ContentType.ImageFileName)
+                        {
+                            var content = supplement.ElementAt(0).OriginalContent.Split(";");
+                            if(content.Length > 0 )
+                            {
+                                var src = content[0].Split(":")[1];
+                                supplement.ElementAt(0).Content = DataResourceReader.LoadImageForDisplay(src);
+                                supplement.ElementAt(0).ContentType = ContentType.ImageBase64String;
+                            }
+                          
+                        }
+                    }
+                }
+            }
+        }
 	}
 
 }

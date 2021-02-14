@@ -19,7 +19,10 @@
           {
             "id": 0,
             "tenantId": "",
-            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69717.jpg"
+            "content": "",			
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69717.jpg;rotate:90",
+            "originalcontentType": 2,
+            "contentType": 0
           }
         ],
         "options": [
@@ -60,7 +63,10 @@
           {
             "id": 0,
             "tenantId": "",
-            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69720.jpg"
+            "content": "",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69720.jpg;rotate:0",
+            "originalcontentType": 2,
+            "contentType": 0
           }
         ],
         "options": [
@@ -101,7 +107,10 @@
           {
             "id": 0,
             "tenantId": "",
-            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69722.jpg"
+            "content": "",			
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69722.jpg;rotate:90",
+            "originalcontentType": 2,
+            "contentType": 0
           }
         ],
         "options": [
@@ -142,7 +151,10 @@
           {
             "id": 0,
             "tenantId": "",
-            "content": "src:DataResource\\TestItems\\CAP697JPG\\CAP69723.jpg"
+            "content": "",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69723.jpg;rotate:90",
+            "originalcontentType": 2,
+            "contentType": 0
           }
         ],
         "options": [

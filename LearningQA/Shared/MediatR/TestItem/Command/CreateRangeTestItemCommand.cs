@@ -52,6 +52,7 @@ namespace LearningQA.Shared.MediatR.TestItem.Command
 					if(!dbContext.Person.Where(x => x.IdNumber == request._person.IdNumber).Any())
 						dbContext.Person.Add(request._person);
 				}
+				
 				dbContext.TestItems.AddRange(request._testItems);
 				var result = await dbContext.SaveChangesAsync();
 				return result;
