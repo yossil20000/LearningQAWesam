@@ -5,12 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace LearningQA.Client.PageBase
 {
 	public class PersistanceBase : IDisposable, IViewPersistanceBase
 	{
 		protected List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
+		
 		private string _selectedCategory = "";
 		public string SelectedCategory
 		{

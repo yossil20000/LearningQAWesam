@@ -93,5 +93,24 @@ a {
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  transform-origin: bottom;
+}
+.fill {
+  object-fit: fill;
 }
 
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
+
+.none {
+  object-fit: none;
+}

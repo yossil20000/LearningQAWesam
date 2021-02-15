@@ -21,8 +21,6 @@ namespace LearningQA.Client.ViewModel
 		
 		Task OnLoadCommand();
 		Task OnTestItemId(int testItemId);
-		
-		//TestItem<QUestionSql, int> TestItem { get; set; }
 		void OnNext();
 		void OnPrevious();
 		void OnStartTest();
@@ -39,8 +37,6 @@ namespace LearningQA.Client.ViewModel
 		
 		public ITestItemModel testItemModel;
 		public TestItemViewModelPersist TestItemViewModelPersist { get; set; }
-		public TestItem<QUestionSql, int> TestItem { get; set; }
-
 		public TestItemViewModel(ITestItemModel testItemModel, TestItemViewModelPersist testItemViewModelPersist)
 		{
 			this.testItemModel = testItemModel;
@@ -54,14 +50,7 @@ namespace LearningQA.Client.ViewModel
 			await testItemModel.RetriveTestItemInfos();
 			TestItemViewModelPersist.TestItemInfos = testItemModel.TestItemInfos.ToList();
 
-			//TestItemViewModelPersist.SelectedQuestion = TestItemViewModelPersist.TestItem.Questions.ElementAt(0);
-			//TestItemViewModelPersist.CurrentQuestion = 1;
-			//TestItemViewModelPersist.EnablePreviouse = false;
-			//if (TestItemViewModelPersist.TestItem.Questions.Count > 1)
-			//	TestItemViewModelPersist.EnableNext = true;
 		}
-
-		
 
 		public async Task<ExamModel> RetriveTest(TestItemInfo testItemInfo)
 		{
@@ -71,7 +60,6 @@ namespace LearningQA.Client.ViewModel
 		public async Task<TestItem<QUestionSql, int>> RetriveTestItem(TestItemInfo testItemInfo)
 		{
 			var result = await testItemModel.RetriveTestItem(testItemInfo);
-			//TestItemViewModelPersist.SelectedQuestion = result.Questions.FirstOrDefault();
 			return result;
 		}
 		public async Task OnLoadCommand()
@@ -101,7 +89,6 @@ namespace LearningQA.Client.ViewModel
 					}
 					TestItemViewModelPersist.SetCurrentQuestion(1);
 					TestItemViewModelPersist.CurrentTest.Duration = result.Test.Duration;
-					//TestItemViewModelPersist.SelectedQuestion = TestItemViewModelPersist.CurrentTest.Answers.ElementAt(0).QUestionSql;
 					
 				}
 			}

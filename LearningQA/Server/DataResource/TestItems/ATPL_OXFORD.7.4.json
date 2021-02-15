@@ -19,8 +19,9 @@
           {
             "id": 0,
             "tenantId": "",
-            "content": "",			
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69717.jpg;rotate:90",
+            "content": "",
+			"rotateContent": 0,			
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69717R90.jpg",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -64,7 +65,8 @@
             "id": 0,
             "tenantId": "",
             "content": "",
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69720.jpg;rotate:0",
+			"rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69720.jpg",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -107,8 +109,9 @@
           {
             "id": 0,
             "tenantId": "",
-            "content": "",			
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69722.jpg;rotate:90",
+            "content": "",
+			"rotateContent": 0,			
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69722R90.jpg",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -152,7 +155,8 @@
             "id": 0,
             "tenantId": "",
             "content": "",
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69723.jpg;rotate:90",
+			 "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69723R90.jpg",
             "originalcontentType": 2,
             "contentType": 0
           }

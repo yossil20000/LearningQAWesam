@@ -420,6 +420,33 @@ a:hover, a:active, a:focus {
 .rotate90 {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.none {
+  -o-object-fit: none;
+     object-fit: none;
 }
 
 /** @format */
