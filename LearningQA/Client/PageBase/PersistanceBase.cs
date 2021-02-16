@@ -12,7 +12,12 @@ namespace LearningQA.Client.PageBase
 	public class PersistanceBase : IDisposable, IViewPersistanceBase
 	{
 		protected List<TestItemInfo> testItemInfos = new List<TestItemInfo>();
-		
+		public List<TestItemInfo> TestItemInfos
+		{
+			get => testItemInfos;
+			set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); }
+		}
+		TextInfo myTI = new CultureInfo("en-US", false).TextInfo;
 		private string _selectedCategory = "";
 		public string SelectedCategory
 		{
@@ -30,20 +35,28 @@ namespace LearningQA.Client.PageBase
 		private void OnSubjectChanged()
 		{
 			Chapteres = testItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			
 			SelectedChapter = Chapteres.FirstOrDefault();
 			Changed();
 		}
 		private void OnCategoryChanged()
 		{
 			Subjectes = testItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			
 			SelectedSubjecte = Subjectes.FirstOrDefault();
 			Changed();
 		}
 		protected int TestTitleFilter(string title)
 		{
 			var str = title.Split(".");
-			int index = int.Parse(str[0]);
-			return index;
+			if (str.Length > 0)
+			{
+				
+				if(int.TryParse(str[0], out var index))
+				return index;
+			}
+			return 0;
+
 		}
 		public List<string> Subjectes { get; set; } = new List<string>();
 		//Chapter
@@ -77,6 +90,25 @@ namespace LearningQA.Client.PageBase
 		public void Dispose()
 		{
 			
+		}
+		protected void ProcessTestItemInfo()
+		{
+			for(int i=0;i < testItemInfos.Count;i++)
+			{
+				testItemInfos[i].Category = myTI.ToTitleCase(testItemInfos[i].Category);
+				testItemInfos[i].Subject = myTI.ToTitleCase(testItemInfos[i].Subject);
+				testItemInfos[i].Chapter = myTI.ToTitleCase(testItemInfos[i].Chapter);
+			}
+
+			Categories = testItemInfos.Select(x => x.Category).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			
+			Console.WriteLine($"ToTitleCase: {Categories == null}");
+			
+			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+		
+			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			
+			Changed();
 		}
 	}
 }

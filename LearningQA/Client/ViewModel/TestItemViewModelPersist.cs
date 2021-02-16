@@ -1,17 +1,11 @@
 ﻿using LearningQA.Client.PageBase;
-using LearningQA.Shared.DTO;
 using LearningQA.Shared.Entities;
 using LearningQA.Shared.Extentions;
 
 using Microsoft.AspNetCore.Components;
 
 using System;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 
 namespace LearningQA.Client.ViewModel
 {
@@ -57,7 +51,7 @@ namespace LearningQA.Client.ViewModel
 			CountDownTimer.Stop();
 			CountDownTimer.Dispose();
 		}
-		TextInfo myTI = new CultureInfo("en-US", false).TextInfo;
+		
 		#endregion
 		#region States
 		public bool Initialize { get; set; } = false;
@@ -86,25 +80,7 @@ namespace LearningQA.Client.ViewModel
 		#endregion
 
 		#region Test Selection
-		//Category
-
-		private void Totitle(string x)
-		{
-			x = myTI.ToTitleCase(x);
-		}
-		private void ProcessTestItemInfo()
-		{
-			Categories = testItemInfos.Select(x => x.Category).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-			Categories?.ForEach(x => x = myTI.ToTitleCase(x));
-
-
-			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-			Subjectes?.ForEach(x => x = myTI.ToTitleCase(x));
-			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-			Chapteres?.ForEach(x => x = myTI.ToTitleCase(x));
-			Changed();
-		}
-		
+				
 		public int CurrentQuestion { get; set; } = 1;
 
 		private Test<QUestionSql, int> currentTest = new Test<QUestionSql, int>();
@@ -126,9 +102,7 @@ namespace LearningQA.Client.ViewModel
 
 		#region Entities
 
-		public List<TestItemInfo> TestItemInfos { 
-			get => testItemInfos; 
-			set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); } }
+		
 
 		#endregion
 

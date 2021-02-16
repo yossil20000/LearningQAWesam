@@ -45,9 +45,10 @@ namespace LearningQA.Client.ViewModel
 		}
 		public async Task RetriveTestItemInfos(int testItemId)
 		{
-			if (TestItemViewModelPersist.Initialize)
-				return;
+			//if (TestItemViewModelPersist.Initialize)
+			//	return;
 			await testItemModel.RetriveTestItemInfos();
+			
 			TestItemViewModelPersist.TestItemInfos = testItemModel.TestItemInfos.ToList();
 
 		}

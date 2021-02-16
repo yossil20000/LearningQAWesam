@@ -38,11 +38,7 @@ namespace LearningQA.Client.ViewModel
 		#region Entities
 
 		public ICollection<Answer<int>> FilteredAnsware { get; set; }
-		public List<TestItemInfo> TestItemInfos
-		{
-			get => testItemInfos;
-			set { testItemInfos = value; Initialize = true; ProcessTestItemInfo(); }
-		}
+		
 
 
 		#endregion
@@ -52,16 +48,7 @@ namespace LearningQA.Client.ViewModel
 		{
 			_ = Task.CompletedTask;
 		}
-		private void ProcessTestItemInfo()
-		{
-			Categories = testItemInfos.Select(x => x.Category).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-
-
-			Subjectes = testItemInfos.Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-			Chapteres = testItemInfos.Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-
-			Changed();
-		}
+		
 		
 		public int CurrentQuestion { get; set; } = 1;
 
