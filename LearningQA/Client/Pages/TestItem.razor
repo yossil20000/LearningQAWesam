@@ -2,7 +2,8 @@
 @page "/testitem/{testItemId:int?}"
 @page "/testitem/test/{testId:int}"
 @inject LearningQA.Client.ViewModel.TestItemViewModelPersist TestItemViewModelPersist
-
+@inject IJSRuntime JSRuntime
+@using System.Net
 
 <div class="bg-color-6 color-6">
     <div class="test-item__container bg-color-7 color-2">
@@ -33,7 +34,7 @@
                 @if (TestItemViewModelPersist.SelectedQuestion != null)
                 {
                     <h4>Question: @TestItemViewModelPersist.SelectedQuestion.QuestionNumber</h4>
-                    <p>@((MarkupString)TestItemViewModelPersist.SelectedQuestion.Question)</p>
+                    <p style="line-height: 0.4">@((MarkupString)TestItemViewModelPersist.SelectedQuestion.Question)</p>
                 }
             </div>
             <div class="test-item__container_option bg-color-9 color-2">
@@ -159,17 +160,19 @@
             </div>
 
         }
-    <div class=@($"test-item__container_supplement {(supplementExpand ? "" : "expande")} bg-color-9 color-2")>
-        <div id="container_supplement" class=@($"{(supplementExpand ? "toggle" : "toggle active")}") @onclick="OnSupplementExpandToggle">
-
-        </div>
+    <div class=@($"test-item__container_supplement {(supplementExpand ? "" : "expande")} {(supplementFullExpand ? "" : "full-expande")} bg-color-9 color-2")>
+        <div class="operation">
+            <div id="container_supplement" class=@($"{(supplementExpand ? "toggle" : "toggle active")}") @onclick="OnSupplementExpandToggle"></div>
+            <div id="container_supplement" class=@($"{(supplementFullExpand ? "toggle-full" : "toggle-full active")}") @onclick="OnSupplementFullExpandToggle">        </div>
+            
+        </div>    
         @if (TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Supplements != null)
         {
             @foreach (var supp in TestItemViewModelPersist.SelectedQuestion.Supplements)
             {
                 @if (supp.ContentType == ContentType.ImageBase64String)
                 {
-                    <img class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") width="100%" height="100%" alt="base64 test">
+                    <img @ondblclick="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}")  alt="base64 test" style=" width:100%;">
                 }
             }
         }
@@ -226,13 +229,28 @@
 </div>
 
 @code {
-
     //*private RenderFragment<QuestionOption<int>> questionOptionChecbox = (i) =>  @<input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="(EventArgs) => { OnOptionChanged(i, EventArgs); }">;*/
     private bool answereExpend { get; set; } = false;
     private bool supplementExpand { get; set; } = true;
+    private bool supplementFullExpand { get; set; } = true;
     private bool IsTestMode { get; set; } = true;
-
-
+    private string SupplementExpandClass = "";
+    private string SupplementToggleClass = "";
+    private async void OnImageDoubleClick()
+	{
+        try
+        {
+            string urlParam = testItemViewModel.UrlEncoder(TestItemViewModelPersist.SelectedQuestion.Supplements.ElementAt(0).Content);
+        string url = $@"Supplement/Image/{urlParam}";
+        Console.WriteLine($"urlParam:{urlParam} => {url}");
+        //await JSRuntime.InvokeAsync<object>("open", url, "_blank");
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        
+    }
 
 
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@

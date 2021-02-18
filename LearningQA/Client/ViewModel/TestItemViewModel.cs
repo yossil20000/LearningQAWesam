@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net;
+using System.Text.Encodings.Web;
 
 namespace LearningQA.Client.ViewModel
 {
@@ -26,7 +28,8 @@ namespace LearningQA.Client.ViewModel
 		void OnStartTest();
 		void OnFinishTest();
 		void OnCheckTest();
-		public void OnSaveCurrentExam();
+		 void OnSaveCurrentExam();
+		 string UrlEncoder(string url);
 		
 
 	}
@@ -227,7 +230,10 @@ namespace LearningQA.Client.ViewModel
 				
 			}
 		}
-		
+		public  string UrlEncoder(string url)
+		{
+			return UrlEncoder(url);
+		}
 	}
 
 }

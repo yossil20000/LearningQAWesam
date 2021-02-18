@@ -375,7 +375,7 @@ template {
   font-size: var(--font-size);
   font-family: var(--font-family);
   font-weight: var(--font-weight);
-  line-height: 1.15;
+  line-height: 0.9;
   text-rendering: optimizeLegibility;
   --yoss-1: 2.5fr;
 }
@@ -409,6 +409,42 @@ a {
 a:hover, a:active, a:focus {
   color: #222222;
   text-decoration: underline;
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+  transform-origin: bottom;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
+
+.none {
+  object-fit: none;
+}
+
+/* Quick-zoom Container */
+.quick-img-zoom img {
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+/* The Transformation */
+.quick-img-zoom:hover img {
+  transform: scale(2);
 }
 
 /** @format */
@@ -2473,6 +2509,7 @@ a:hover, a:active, a:focus {
  "aside-legend supplement supplement" 
  "aside-legend supplement supplement" 
  "footer footer footer";
+  padding-top: 1ch;
 }
 
 .test-item__container_answer-expend {
@@ -2718,6 +2755,7 @@ a:hover, a:active, a:focus {
 .test-item__container_aside:hover {
   grid-column: 1 / 3;
   grid-row: 4 / -1;
+  z-index: 1002;
 }
 
 .test-item__container_aside input[type="button"] {
@@ -2874,8 +2912,10 @@ a:hover, a:active, a:focus {
 
 .test-item__container_supplement {
   display: grid;
-  grid-template-rows: 4vh auto;
+  grid-template-areas: "operation" "content";
+  grid-template-rows: minmax(auto, 50px) auto;
   grid-area: supplement;
+  padding-left: 1ch;
   padding-left: 1ch;
   overflow-y: scroll;
   /*            scrollbar-width: thin;
@@ -2893,6 +2933,15 @@ a:hover, a:active, a:focus {
 .test-item__container_supplement::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+.test-item__container_supplement .operation {
+  display: flex;
+  grid-area: operation;
+}
+
+.test-item__container_supplement .content {
+  grid-area: content;
 }
 
 .test-item__container_footer {
@@ -2923,6 +2972,7 @@ a:hover, a:active, a:focus {
 
 .toggle {
   position: relative;
+  align-self: center;
   width: 1rem;
   height: 1rem;
   background: url(fonts/expand_less-24px.svg);
@@ -2930,6 +2980,7 @@ a:hover, a:active, a:focus {
   background-size: 2rem;
   background-position: center;
   cursor: pointer;
+  margin: 0 2ch 0 1ch;
 }
 
 /* .toggle::after{
@@ -2944,12 +2995,43 @@ a:hover, a:active, a:focus {
   cursor: pointer;
 }
 
+.toggle-full {
+  position: relative;
+  align-self: center;
+  width: 1rem;
+  height: 1rem;
+  background: url(fonts/arrow_circle_up-24px.svg);
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: center;
+  cursor: pointer;
+  margin: 0 2ch 0 1ch;
+}
+
+/* .toggle::after{
+    content: 'Expande';
+}
+ */
+.toggle-full.active {
+  background: url(fonts/arrow_circle_down-24px.svg);
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: center;
+  cursor: pointer;
+}
+
 /* .toggle.active::before{
     content: 'hide';
 } */
 .test-item__container_supplement.expande {
   z-index: 1000;
   grid-row: 6 / -1;
+  grid-column: 1 / -1;
+}
+
+.test-item__container_supplement.full-expande {
+  z-index: 1000;
+  grid-row: 1 / -1;
   grid-column: 1 / -1;
 }
 
@@ -2991,10 +3073,3 @@ a:hover, a:active, a:focus {
   grid-template-rows: auto;
 }
 /*# sourceMappingURL=main.css.map */
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}

@@ -47,7 +47,7 @@
  font-size: var(--font-size);
  font-family: var(--font-family);
  font-weight: var(--font-weight);
- line-height: 1.15;
+ line-height: 0.9;
  text-rendering: optimizeLegibility;
 
  @media screen and (max-width : screen-size(tablet)) {
@@ -113,4 +113,14 @@ a {
 
 .none {
   object-fit: none;
+}
+
+/* Quick-zoom Container */
+.quick-img-zoom img {
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+/* The Transformation */
+.quick-img-zoom:hover img {
+  transform: scale(2);
 }

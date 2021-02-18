@@ -1,0 +1,68 @@
+﻿@page "/Supplement/{Image}"
+@inject TestItemViewModelPersist TestItemViewModelPersist
+<h3>Supplement</h3>
+@if (true)
+{
+    <img class=@(rotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{Image}") width="100%" height="100%" alt="base64 test">
+}
+
+@code {
+    [Parameter] public string Image { get; set; } = "Loading";
+    private int rotateContent { get; set; } = 90;
+    private bool IsInitialized { get; set; } = false;
+    protected override void OnParametersSet()
+    {
+        
+       if(TestItemViewModelPersist == null || TestItemViewModelPersist?.SelectedQuestion == null)
+        {
+            
+           Console.WriteLine("TestItemViewModelPersist == null");
+        }
+        else
+        {
+            
+            if(TestItemViewModelPersist?.SelectedQuestion.Supplements != null )
+            {
+                Console.WriteLine("TestItemViewModelPersist?.SelectedQuestion.Supplements != null ");
+                /*
+             Image = TestItemViewModelPersist?.SelectedQuestion?.Supplements.ElementAt(0).Content;
+            rotateContent = TestItemViewModelPersist.SelectedQuestion.Supplements.ElementAt(0).RotateContent;
+            IsInitialized = true;*/
+            }
+            else
+            {
+
+
+            Console.WriteLine("TestItemViewModelPersist?.SelectedQuestion.Supplements == null ");
+            }
+           
+        }
+    }
+    protected override void OnInitialized()
+    {
+
+        if (TestItemViewModelPersist == null || TestItemViewModelPersist?.SelectedQuestion == null)
+        {
+
+            Console.WriteLine("TestItemViewModelPersist == null");
+        }
+        else
+        {
+
+            if (TestItemViewModelPersist?.SelectedQuestion.Supplements != null)
+            {
+                Console.WriteLine("TestItemViewModelPersist?.SelectedQuestion.Supplements != null ");
+					/*
+				 Image = TestItemViewModelPersist?.SelectedQuestion?.Supplements.ElementAt(0).Content;
+				rotateContent = TestItemViewModelPersist.SelectedQuestion.Supplements.ElementAt(0).RotateContent;
+				IsInitialized = true;*/
+            }
+            else
+            {
+
+
+                Console.WriteLine("TestItemViewModelPersist?.SelectedQuestion.Supplements == null ");
+            }
+        }
+    }
+}

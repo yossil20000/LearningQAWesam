@@ -42,9 +42,9 @@ namespace LearningQA.Shared.MediatR.Test.Command
 				//dbContext.ChangeTracker.Clear();
 				var testItem = await dbContext.TestItems
 					.Where(x => 
-					x.Category == request.TestItemInfo.Category && 
-					x.Subject == request.TestItemInfo.Subject && 
-					x.Chapter == request.TestItemInfo.Chapter &&
+					x.Category.ToUpper() == request.TestItemInfo.Category.ToUpper() && 
+					x.Subject.ToUpper() == request.TestItemInfo.Subject.ToUpper() && 
+					x.Chapter.ToUpper() == request.TestItemInfo.Chapter.ToUpper() &&
 					x.Version == request.TestItemInfo.Version).FirstOrDefaultAsync();
 
 				if (testItem == null)

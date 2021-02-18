@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using System.Net;
 namespace LearningQA.Client.Pages
 {
 	public partial class TestItem : ComponentBase
@@ -37,6 +37,7 @@ namespace LearningQA.Client.Pages
 
 			//}
 			IsInitialize = true;
+			
 			
 		}
 		protected override  async Task OnParametersSetAsync()
@@ -82,7 +83,10 @@ namespace LearningQA.Client.Pages
 		{
 			supplementExpand = !supplementExpand;
 		}
-
+		private void OnSupplementFullExpandToggle()
+		{
+			supplementFullExpand = !supplementFullExpand;
+		}
 		private void OnMarkCurrentQuestion()
 		{
 			TestItemViewModelPersist.MarkCurrentQuestion();
