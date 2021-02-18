@@ -173,8 +173,10 @@
                     <div id="container_supplement" class="toggle active">
 
                     </div>                   
-                    
-                    <img class="rotate90 contain" src="data:image/jpeg;base64,
+                    <Canvas id="supp">
+                        
+                    </Canvas>
+<!--                     <img class=" contain" src="data:image/jpeg;base64,
                     /9j/4AAQSkZJRgABAQEAkACQAAD/4S90RXhpZgAATU0AKgAAAAgABgALAAIAAAAmAAAIYgESAAMA
 AAABAAEAAAExAAIAAAAmAAAIiAEyAAIAAAAUAAAIrodpAAQAAAABAAAIwuocAAcAAAgMAAAAVgAA
 EUYc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -7913,7 +7915,7 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
 AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
 UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
 RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
-FABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z"    alt="base64 test">
+FABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z"    alt="base64 test"> -->
 
                 </div>
                
@@ -8023,6 +8025,20 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z"    alt="base64 test">
                  menueShowAnsware.classList.toggle('active');
                  answer.classList.toggle('visually-hidden');
              })
+
+       </script>
+       <script>
+           var canvas = document.getElementById("supp");
+           canvas.addEventListener('click',(source) => {
+               
+           })
+           var ctx = canvas.getContext("2d");
+           var img = new Image();
+           img.onload= function(source){
+            ctx.drawImage(img,0,0);
+            img.src = source;
+           };
+           
        </script>
 	</body>
 </html>

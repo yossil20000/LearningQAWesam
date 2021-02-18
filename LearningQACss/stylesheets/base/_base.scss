@@ -25,7 +25,7 @@
 
 :root , body , html{
     --font-family: Sansita, Swashed;
-    --font-size: calc(0.7vw + 0.7vh + .5vmin);
+    --font-size: calc(0.5vw + 0.5vh + .5vmin);
     --font-weight: bold; 
     --shade-count: #{$shade-count};
     --bg-image-linear-stop: 120%;
