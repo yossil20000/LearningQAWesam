@@ -12,6 +12,24 @@ namespace LearningQA.Server.Infrasructure
 {
 	public static class DataResourceReader
 	{
+        private static string DataResource = "DataResource";
+        private static string DefaultDirectory = "TestItem";
+        public static string[] GetAllJsonFiles( string pattern=null, string directory = "TestItems")
+        {
+            try
+            {
+                pattern = string.IsNullOrEmpty(pattern) ? "*.json" : pattern; 
+                string filename = $@"{System.IO.Directory.GetCurrentDirectory()}\{DataResource}\{directory}";
+                var files = System.IO.Directory.GetFiles(filename,pattern);
+                return files;
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
+        }
         public static List<T> LoadJson<T>(string file = "TestItems.TestItem.json")
         {
             if(string.IsNullOrEmpty(file))
@@ -25,7 +43,7 @@ namespace LearningQA.Server.Infrasructure
             var thisAssembly = Assembly.GetExecutingAssembly();
             try
 			{
-                string filename = $@"{System.IO.Directory.GetCurrentDirectory()}\DataResource\{file}";
+                string filename = $@"{System.IO.Directory.GetCurrentDirectory()}\{DataResource}\{file}";
                 var json = System.IO.File.ReadAllText(filename);
                 //using (StreamReader r = new StreamReader(thisAssembly.GetManifestResourceStream($"LearningQA.Server.DataResource.{file}")))
                 {
@@ -43,7 +61,32 @@ namespace LearningQA.Server.Infrasructure
 			}
             return null;
         }
-
+        public static List<T> LoadJsonFullName<T>(string file )
+        {
+            if (string.IsNullOrEmpty(file))
+            {
+                return null;
+            }
+            var thisAssembly = Assembly.GetExecutingAssembly();
+            try
+            {
+                var json = System.IO.File.ReadAllText(file);
+                //using (StreamReader r = new StreamReader(thisAssembly.GetManifestResourceStream($"LearningQA.Server.DataResource.{file}")))
+                {
+                    //var json = r.ReadToEnd();
+                    JsonSerializerOptions option = new JsonSerializerOptions();
+                    option.IncludeFields = true;
+                    option.PropertyNameCaseInsensitive = true;
+                    var items = JsonSerializer.Deserialize<List<T>>(json, option).ToList();
+                    return items;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
+        }
         public static  string LoadImageForDisplay(string file)
         {
             string filename = $@"{System.IO.Directory.GetCurrentDirectory()}\{file}";

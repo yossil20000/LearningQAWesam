@@ -26,7 +26,7 @@ namespace LearningQA.Client.Pages
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
 		private bool answereExpend { get; set; } = false;
 		private bool supplementExpand { get; set; } = true;
-
+		private bool supplementFullExpand { get; set; } = true;
 		protected override async Task OnInitializedAsync()
 		{
 			await ExamVM?.RetriveTestItemInfos(0);

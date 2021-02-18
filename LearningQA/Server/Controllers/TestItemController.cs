@@ -152,20 +152,45 @@ namespace LearningQA.Server.Controllers
             OperationId = "TestItem.Post",
             Tags = new[] { "TestItemEndpoint" })]
         [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "bool", typeof(bool))]
-        public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, string fileName = "")
+        [SwaggerResponse((int)System.Net.HttpStatusCode.BadRequest, "string", typeof(string))]
+        public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, bool loadAll = false ,string fileName = "")
 		{
-            var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>(fileName);
-			Person<int> person = new Person<int>()
-			{
-				IdNumber = "059828391",
-				Name = "Yosef Levy",
-				Email ="yos@gmail.com",
-				Address = "Gilon, Israel 2010300",
-				Phone = "054999888777"
-				
-			};
-            ConverSupplement(testitems);
-			await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = createNewDatabase}, cancellationToken);
+            string[] filestoLoad = null;
+            if(loadAll && createNewDatabase == false)
+            {
+               
+                return BadRequest("Input createNewDatabase == false while loadAll");
+            }
+            if (loadAll)
+                filestoLoad = DataResourceReader.GetAllJsonFiles(fileName);
+            else
+                filestoLoad = new string[]{
+                    fileName
+                };
+            Person<int> person = new Person<int>()
+            {
+                IdNumber = "059828391",
+                Name = "Yosef Levy",
+                Email = "yos@gmail.com",
+                Address = "Gilon, Israel 2010300",
+                Phone = "054999888777"
+
+            };
+
+            foreach (var file in filestoLoad)
+            {
+                
+                var result = DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file);
+                if (result == null) continue;
+                ConverSupplement(result);
+                await _mediator.Send(new CreateRangeTestItemCommand(result, person) { CreateNewDatabase = createNewDatabase }, cancellationToken);
+                createNewDatabase = false;
+            }
+
+            //var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>(fileName);
+			
+            //ConverSupplement(testitems);
+			//await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = createNewDatabase}, cancellationToken);
 			return Ok(true);
 		}
 

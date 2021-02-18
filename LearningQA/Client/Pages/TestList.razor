@@ -46,7 +46,7 @@
                                        name="Load"
                                        value="Load" />
                             </YLGridColumn>
-                             <YLGridColumn TRowData="ExamInfoModel" Title="Action" OnEdit="OnExamDelete" Expression="c => c.TestId" Index="c => c.TestId">
+                            <YLGridColumn TRowData="ExamInfoModel" Title="Action" OnEdit="OnExamDelete" Expression="c => c.TestId" Index="c => c.TestId">
                                 <input type="button"
                                        class="btn color-2 bg-color-8"
                                        name="Delete"
@@ -66,7 +66,7 @@
                 <div class="test-item__container_question bg-color-8 color-2">
                     @if (ExamViewModelPersist.SelectedQuestion != null)
                     {
-                        <h4>Question: @ExamViewModelPersist.SelectedQuestion.QuestionNumber</h4>
+                        <h5>Question: @ExamViewModelPersist.SelectedQuestion.QuestionNumber</h5>
                         <p>@((MarkupString)ExamViewModelPersist.SelectedQuestion.Question)</p>
                     }
                 </div>
@@ -171,6 +171,25 @@
                 }
             }
         </div>
+        <div class=@($"test-item__container_supplement {(supplementExpand ? "" : "expande")} {(supplementFullExpand ? "" : "full-expande")} bg-color-9 color-2")>
+            <div class="operation">
+                <div id="container_supplement" class=@($"{(supplementExpand ? "toggle" : "toggle active")}") @onclick="OnSupplementExpandToggle"></div>
+                <div id="container_supplement" class=@($"{(supplementFullExpand ? "toggle-full" : "toggle-full active")}") @onclick="OnSupplementFullExpandToggle">        </div>
+
+            </div>
+            @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
+            {
+                @foreach (var supp in ExamViewModelPersist.SelectedQuestion.Supplements)
+                {
+                    @if (supp.ContentType == ContentType.ImageBase64String)
+                    {
+                        <img  class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") alt="base64 test" style=" width:100%;">
+                    }
+                }
+            }
+
+
+        </div>
         <div class="test-item__container_aside-summary bg-color-6 color-2">
             @if (IsTestMode && ExamViewModelPersist.CurrentTest?.Answers != null)
             {
@@ -185,7 +204,7 @@
                 <div>Mark</div>
                 <div>@ExamViewModelPersist.CurrentTest?.Mark</div>
             }
-         </div>
+        </div>
 
 
         <div class="test-item__container_answer-expend bg-color-7 color-2">
@@ -216,9 +235,9 @@
 
 @code {
     //*private RenderFragment<QuestionOption<int>> questionOptionChecbox = (i) =>  @<input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="(EventArgs) => { OnOptionChanged(i, EventArgs); }">;*/
-   
+
     private bool IsTestMode { get; set; } = true;
-    
+
 
     private async Task OnExamLoad(object obj)
     {
@@ -230,18 +249,18 @@
         else if (obj is string id)
         {
             Console.WriteLine($"OnClick Edit id:{id}");
-				
-           ;
+
+            ;
             if( int.TryParse(id, out int testId))
             {
-              await  ExamVM.OnExamLoad(testId);
+                await  ExamVM.OnExamLoad(testId);
                 IsViewExamsList = false;
             }
-           
+
         }
-         await Task.CompletedTask;
+        await Task.CompletedTask;
     }
-     private async Task OnExamDelete(object obj)
+    private async Task OnExamDelete(object obj)
     {
 
         if (obj is IWeatherForecast item)
@@ -251,17 +270,20 @@
         else if (obj is string id)
         {
             Console.WriteLine($"OnClick Delete id:{id}");
-				
-           ;
+
+            ;
             if( int.TryParse(id, out int testId))
             {
-              await  ExamVM.OnExamDelete(testId);
+                await  ExamVM.OnExamDelete(testId);
                 IsViewExamsList = true;
             }
-           
-        }
-         await Task.CompletedTask;
-    }
 
+        }
+        await Task.CompletedTask;
+    }
+    private void OnSupplementFullExpandToggle()
+    {
+        supplementFullExpand = !supplementFullExpand;
+    }
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@
 }

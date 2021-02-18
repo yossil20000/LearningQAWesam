@@ -89,9 +89,9 @@ namespace LearningQA.Shared.MediatR.Test.Query
 								 join testItem in dbContext.TestItems
 								 on pp.TestItemId equals testItem.Id
 								 where (pp.TestItemId > 0) &&
-										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Category) ? true : request.ExamListRequest.TestItemInfo.Category == testItem.Category) &&
-										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Subject) ? true : request.ExamListRequest.TestItemInfo.Subject == testItem.Subject) &&
-										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Chapter) ? true : request.ExamListRequest.TestItemInfo.Chapter == testItem.Chapter)
+										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Category) ? true : request.ExamListRequest.TestItemInfo.Category.ToUpper() == testItem.Category.ToUpper()) &&
+										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Subject) ? true : request.ExamListRequest.TestItemInfo.Subject.ToUpper() == testItem.Subject.ToUpper()) &&
+										(string.IsNullOrEmpty(request.ExamListRequest.TestItemInfo.Chapter) ? true : request.ExamListRequest.TestItemInfo.Chapter.ToUpper() == testItem.Chapter.ToUpper())
 								 select new ExamInfoModel(pp, p, testItem) { };
 					result = new List<ExamInfoModel>();
 					result.AddRange(tests);
