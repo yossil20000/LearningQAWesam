@@ -365,7 +365,7 @@ template {
  */
 :root, body, html {
   --font-family: Sansita, Swashed;
-  --font-size: calc(0.7vw + 0.7vh + .5vmin);
+  --font-size: calc(0.5vw + 0.5vh + .5vmin);
   --font-weight: bold;
   --shade-count: 10;
   --bg-image-linear-stop: 120%;
@@ -2677,6 +2677,16 @@ a:hover, a:active, a:focus {
       grid-template-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
       grid-template-areas: "aside-header header header"  "aside-summary selection selection" "aside-summary nav nav" "aside question question" "aside question question" "aside option option" "aside answer-expend answer-expend"  "aside answer answer"  "aside supplement supplement"  "aside-legend supplement supplement"  "aside-legend supplement supplement"  "footer footer footer";
   padding-top: 1ch;
+}
+
+@media screen and (min-width: 1440px) {
+  .test-item__container {
+    -ms-grid-columns: minmax(auto, 0.1fr) 0.2fr 2fr 1fr;
+        grid-template-columns: minmax(auto, 0.1fr) 0.2fr 2fr 1fr;
+    -ms-grid-rows: 5ch 5ch 5ch  auto auto 4ch auto 1fr 5ch auto auto;
+        grid-template-rows: 5ch 5ch 5ch  auto auto 4ch auto 1fr 5ch auto auto;
+        grid-template-areas: "aside-header header header header" "aside-summary selection selection selection" "aside-summary nav nav nav" "aside question question option" "aside question question option" "aside answer-expend answer-expend answer-expend" "aside answer answer answer" "aside supplement supplement supplement" "aside-legend supplement supplement supplement" "aside-legend supplement supplement supplement" "footer footer footer footer";
+  }
 }
 
 .test-item__container_answer-expend {
