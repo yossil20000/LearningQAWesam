@@ -236,20 +236,21 @@
     private bool IsTestMode { get; set; } = true;
     private string SupplementExpandClass = "";
     private string SupplementToggleClass = "";
+    
     private async void OnImageDoubleClick()
-	{
+    {
         try
         {
             string urlParam = testItemViewModel.UrlEncoder(TestItemViewModelPersist.SelectedQuestion.Supplements.ElementAt(0).Content);
-        string url = $@"Supplement/Image/{urlParam}";
-        Console.WriteLine($"urlParam:{urlParam} => {url}");
-        //await JSRuntime.InvokeAsync<object>("open", url, "_blank");
+            string url = $@"Supplement/Image/{urlParam}";
+            Console.WriteLine($"urlParam:{urlParam} => {url}");
+            //await JSRuntime.InvokeAsync<object>("open", url, "_blank");
         }
         catch(Exception ex)
         {
             Console.WriteLine(ex.Message);
         }
-        
+
     }
 
 

@@ -11,15 +11,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net;
+using YLBlazor;
+using Microsoft.JSInterop;
+
 namespace LearningQA.Client.Pages
 {
 	public partial class TestItem : ComponentBase
 	{
 		[Inject]
+		IJSRuntime jSRuntime { get; set; }
+		[Inject]
 		ITestItemViewModel testItemViewModel { get; set; }
 		[Parameter] public int testItemId { get; set; }
 		[Parameter] public int testId { get; set; }
 		private bool IsInitialize { get; set; } = false;
+		private CanvasJsInterop canvasJsInterop;
 		public TestItem()
 		{
 
@@ -27,6 +33,7 @@ namespace LearningQA.Client.Pages
 		protected override async  Task OnInitializedAsync()
 		{
 			 await testItemViewModel?.RetriveTestItemInfos(testItemId);
+			 canvasJsInterop = new CanvasJsInterop(jSRuntime);
 			//if(testItemId > 0)
 			//{
 			//	Console.WriteLine($"OnInitializedAsync TestIdemId: {testItemId}");

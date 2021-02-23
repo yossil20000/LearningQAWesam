@@ -4,6 +4,7 @@ using LearningQA.Shared.DTO;
 using LearningQA.Shared.Entities;
 
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 using System;
 using System.Collections.Generic;
@@ -11,10 +12,14 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
+using YLBlazor;
+
 namespace LearningQA.Client.Pages
 {
 	public partial class TestList : ComponentBase
 	{
+		[Inject]
+		IJSRuntime JSRuntime { get; set; }
 		[Inject]
 		IExamViewModel ExamVM { get; set; }
 		[Inject]
@@ -26,9 +31,12 @@ namespace LearningQA.Client.Pages
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
 		private bool answereExpend { get; set; } = false;
 		private bool supplementExpand { get; set; } = true;
+		private CanvasJsInterop canvasJsInterop;
 		private bool supplementFullExpand { get; set; } = true;
 		protected override async Task OnInitializedAsync()
 		{
+			canvasJsInterop = new CanvasJsInterop(JSRuntime);
+			await canvasJsInterop.Prompt("Hi From canvasJsInterop ");
 			await ExamVM?.RetriveTestItemInfos(0);
 			IsInitialize = true;
 			await base.OnInitializedAsync();
