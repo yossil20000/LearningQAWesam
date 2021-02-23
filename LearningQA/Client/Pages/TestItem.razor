@@ -170,9 +170,11 @@
         {
             @foreach (var supp in TestItemViewModelPersist.SelectedQuestion.Supplements)
             {
-                @if (supp.ContentType == ContentType.ImageBase64String)
+                @if (supp.ContentType == ContentType.ImageBase64String && RenderSupp())
                 {
-                    <img @ondblclick="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}")  alt="base64 test" style=" width:100%;">
+                   
+                    <img id="canvasimg" @ondblclick="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}")  alt="base64 test" style="width:100%; display:none">
+                    <canvas id="can" @onmousemove="@(eventArg => CanvasOnMoseMove(eventArg) )" @onmousedown="@(eventArg => CanvasMousedown(eventArg) )" @onmouseup="@(eventArg => CanvasMouseUp(eventArg) )"></canvas>
                 }
             }
         }

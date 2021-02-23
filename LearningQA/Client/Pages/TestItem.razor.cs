@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Net;
 using YLBlazor;
 using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace LearningQA.Client.Pages
 {
@@ -25,7 +26,14 @@ namespace LearningQA.Client.Pages
 		[Parameter] public int testItemId { get; set; }
 		[Parameter] public int testId { get; set; }
 		private bool IsInitialize { get; set; } = false;
-		private CanvasJsInterop canvasJsInterop;
+		private CanvasJsInterop canvasJsInterop = null;
+		private string message = "";
+		private string drawMessage = "";
+		private bool mouseUp = false;
+		private bool mouseDown = false;
+		private MouseEventArgs lastMouseEventArgs = new MouseEventArgs();
+		private MouseEventArgs lastMouseDownEventArgs = new MouseEventArgs();
+		private bool newLine = true;
 		public TestItem()
 		{
 
@@ -74,14 +82,20 @@ namespace LearningQA.Client.Pages
 			await base.OnParametersSetAsync();
 
 		}
-		protected override void OnAfterRender(bool firstRender)
+		protected override async Task OnAfterRenderAsync(bool firstRender)
 		{
 			//TestItemViewModelPersist.OnChanged(
 			//	() => base.StateHasChanged());
-			base.OnAfterRender(firstRender);
+			
+			
 		}
 
-
+		private bool RenderSupp()
+		{
+			if (canvasJsInterop != null)
+				_ =  canvasJsInterop.InitCanvas("can", "canvasimg");
+			return true;
+		}
 		private void OnAnswerExpandToggle()
 		{
 			answereExpend = !answereExpend;
@@ -130,6 +144,54 @@ namespace LearningQA.Client.Pages
 				Console.WriteLine(ex.Message);
 				return false;
 			}
+		}
+		private async Task ClearCanvas()
+		{
+
+
+			await canvasJsInterop.ClearCanvas(false);
+
+		}
+		private async Task CanvasOnMoseMove(MouseEventArgs ea)
+		{
+			message = $"Mouse: Client:{lastMouseEventArgs.ClientX} offsetx:{lastMouseEventArgs.OffsetX} ScreenX:{lastMouseEventArgs.ScreenX}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
+			lastMouseEventArgs = ea;
+			Console.WriteLine(message);
+			await Task.CompletedTask;
+		}
+		private void newline()
+		{
+			newLine = true;
+		}
+		private async Task CanvasMouseUp(MouseEventArgs ea)
+		{
+			mouseUp = true;
+			await Task.CompletedTask;
+		}
+		private async Task CanvasMousedown(MouseEventArgs ea)
+		{
+
+
+			mouseDown = true;
+			if (!newLine)
+			{
+				await Draw(lastMouseDownEventArgs, ea);
+			}
+			lastMouseDownEventArgs = ea;
+			newLine = false;
+			await Task.CompletedTask;
+		}
+		private async Task Draw(MouseEventArgs firstPoint, MouseEventArgs secondPoint)
+		{
+			drawMessage = $"Draw Line:(({firstPoint.ClientX},{firstPoint.ClientY})({secondPoint.ClientX}, {secondPoint.ClientY}) )";
+			await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
+			await Task.CompletedTask;
+			if (canvasJsInterop != null)
+			{
+				
+			}
+
+			
 		}
 	}
 }
