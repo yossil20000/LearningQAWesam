@@ -34,6 +34,7 @@ namespace LearningQA.Client.Pages
 		private MouseEventArgs lastMouseEventArgs = new MouseEventArgs();
 		private MouseEventArgs lastMouseDownEventArgs = new MouseEventArgs();
 		private bool newLine = true;
+		private bool bRenderSupp = false;
 		public TestItem()
 		{
 
@@ -92,8 +93,12 @@ namespace LearningQA.Client.Pages
 
 		private bool RenderSupp()
 		{
-			if (canvasJsInterop != null)
-				_ =  canvasJsInterop.InitCanvas("can", "canvasimg");
+			if (canvasJsInterop != null && bRenderSupp == false)
+			{
+				_ = canvasJsInterop.InitCanvas("can", "canvasimg");
+				bRenderSupp = true;
+			}
+				
 			return true;
 		}
 		private void OnAnswerExpandToggle()
@@ -156,10 +161,10 @@ namespace LearningQA.Client.Pages
 		{
 			message = $"Mouse: Client:{lastMouseEventArgs.ClientX} offsetx:{lastMouseEventArgs.OffsetX} ScreenX:{lastMouseEventArgs.ScreenX}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
 			lastMouseEventArgs = ea;
-			Console.WriteLine(message);
+			//Console.WriteLine(message);
 			await Task.CompletedTask;
 		}
-		private void newline()
+		private void NewLine()
 		{
 			newLine = true;
 		}
@@ -171,7 +176,9 @@ namespace LearningQA.Client.Pages
 		private async Task CanvasMousedown(MouseEventArgs ea)
 		{
 
+			message = $"Mouse Down: Client:{lastMouseEventArgs.ClientX} , {lastMouseEventArgs.ClientY} offsetx:{lastMouseEventArgs.OffsetX}, {lastMouseEventArgs.OffsetY} ScreenX:{lastMouseEventArgs.ScreenX} , {lastMouseEventArgs.ScreenY}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
 
+			Console.WriteLine(message); 
 			mouseDown = true;
 			if (!newLine)
 			{

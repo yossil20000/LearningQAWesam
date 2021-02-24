@@ -2,28 +2,38 @@
 // wrapped in a .NET API
 var w, h;
 var img;
-var canvas, ctx;
+var canvas, ctx, BRectLeft, BRectTop,  canvasId;
+window.addEventListener('resize', windowResize);
+window.onscroll = function (e) { windowResize(); }
 export function showPrompt(message) {
     return prompt(message, 'Type anything here');
 }
 function windowResize() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    erase(false);
+    GetCanvasBoundingRect();
+/* erase(false);*/
+    scaleToFit(img);
+};
+function GetCanvasBoundingRect() {
+    BRectLeft = document.getElementById(canvasId).getBoundingClientRect().left;
+    BRectTop = document.getElementById(canvasId).getBoundingClientRect().top;
 };
 
-window.addEventListener('resize', windowResize);
+
 export function init(id, imageId) {
+    canvasId = id;
     canvas = document.getElementById(id);
     ctx = canvas.getContext("2d");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
+    
     w = canvas.width;
     h = canvas.height;
     img = document.getElementById(imageId);
     scaleToFit(img);
     /*ctx.drawImage(img, 0, 0, w, h, 0, 0, w, h);*/
-
+    GetCanvasBoundingRect();
     return "";
     //canvas.addEventListener("mousemove", function (e) {
     //    findxy('move', e)
@@ -69,9 +79,16 @@ export function color(obj) {
 }
 
 export function draw(prevX, prevY, currX, currY) {
+    
     ctx.beginPath();
-    ctx.moveTo(prevX - canvas.offsetLeft, prevY - canvas.offsetTop);
-    ctx.lineTo(currX - canvas.offsetLeft, currY - canvas.offsetTop);
+    //ctx.moveTo(prevX - canvas.offsetLeft, prevY - canvas.offsetTop);
+    //ctx.lineTo(currX - canvas.offsetLeft, currY - canvas.offsetTop);
+    //ctx.moveTo(prevX - canvas.offsetLeft - BRectLeft, prevY - canvas.offsetTop - BRectTop);
+    //ctx.lineTo(currX - canvas.offsetLeft - BRectLeft, currY - canvas.offsetTop - BRectTop);
+    ctx.moveTo(prevX - BRectLeft, prevY - BRectTop);
+    ctx.lineTo(currX - BRectLeft, currY - BRectTop);
+    //ctx.moveTo(prevX - BRectLeft, prevY - BRectTop);
+    //ctx.lineTo(currX - BRectLeft, currY - BRectTop);
     ctx.strokeStyle = "red";
     ctx.lineWidth = 2;
     ctx.stroke();
