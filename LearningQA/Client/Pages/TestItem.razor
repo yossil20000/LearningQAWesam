@@ -174,9 +174,9 @@
             {
                 @if (supp.ContentType == ContentType.ImageBase64String && RenderSupp())
                 {
-    <div class="content">
+    <div class="content" style="position:relative">
         <img id="canvasimg" @ondblclick="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") alt="base64 test" style="width:100%; display:none">
-        <canvas id="can" @onmousemove="@(eventArg => CanvasOnMoseMove(eventArg) )" @onmousedown="@(eventArg => CanvasMousedown(eventArg) )" @onmouseup="@(eventArg => CanvasMouseUp(eventArg) )"></canvas>
+        <canvas id="can" class="canvas" @onmousemove="@(eventArg => CanvasOnMoseMove(eventArg) )" @onmousedown="@(eventArg => CanvasMousedown(eventArg) )" @onmouseup="@(eventArg => CanvasMouseUp(eventArg) )"></canvas>
     </div>
                     
                 }

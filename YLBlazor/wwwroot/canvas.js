@@ -85,8 +85,14 @@ export function draw(prevX, prevY, currX, currY) {
     //ctx.lineTo(currX - canvas.offsetLeft, currY - canvas.offsetTop);
     //ctx.moveTo(prevX - canvas.offsetLeft - BRectLeft, prevY - canvas.offsetTop - BRectTop);
     //ctx.lineTo(currX - canvas.offsetLeft - BRectLeft, currY - canvas.offsetTop - BRectTop);
-    ctx.moveTo(prevX - BRectLeft, prevY - BRectTop);
-    ctx.lineTo(currX - BRectLeft, currY - BRectTop);
+    var scaleX, scaleY, rect;
+    rect = document.getElementById(canvasId).getBoundingClientRect();
+
+    scaleX = canvas.width / rect.width;
+    scaleY = canvas.height / rect.height;
+
+    ctx.moveTo((prevX - BRectLeft) * scaleX, (prevY - BRectTop) * scaleY);
+    ctx.lineTo((currX - BRectLeft) * scaleX, (currY - BRectTop) * scaleY);
     //ctx.moveTo(prevX - BRectLeft, prevY - BRectTop);
     //ctx.lineTo(currX - BRectLeft, currY - BRectTop);
     ctx.strokeStyle = "red";
