@@ -111,7 +111,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734B.jpg",
             "originalcontentType": 0,
             "contentType": 0
           }
@@ -381,7 +381,16 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -426,10 +435,20 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+		  {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
+		  
         ],
         "options": [
           {
@@ -471,10 +490,28 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69739R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69733AR0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69739R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
-          }
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69733AR0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }		  
         ],
         "options": [
           {
@@ -606,7 +643,25 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69743R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69744R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69743R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69744R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -651,7 +706,25 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69737R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69739R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69737R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69739R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -786,7 +859,25 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69743R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69744R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69743R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69744R0.jpg;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
