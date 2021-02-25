@@ -1,0 +1,823 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "7.SERIESFLIGHT PLANNING AND MONITORING",
+    "chapter": "6.Medium Range Jet Transport (MRJT) Simplified Flight Planning",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>Refer CAP 697 Figure 4.1 Given:</p><p>Brake release mass of 55 000 kg Cruising at M 0.74</p><p>What is the optimum altitude?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "34 800 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "34 700 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "35 800 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "34 300 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>Refer CAP 697 Figure 4.1 Given:</p><p>Cruise mass of 50 000 kg</p><p>Cruising at M 0.78</p><p>What is the optimum altitude?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "35 850 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "34 500 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "35 500 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "35 900 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>Refer CAP 697 Figure 4.2 Given:</p><p>Brake release mass of 60 000 kg</p><p>Distance 150 NAM</p><p>ISA +10&#8451</p><p>What is the short distance cruise altitude?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\",
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "25 200 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "22 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "23 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "24 000 ft",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>Refer CAP 697 Figure 4.2 Given:</p><p>Brake release mass of 40 000 kg</p><p>Distance 100 NAM</p><p>ISA +20&#8451</p><p>What is the short distance cruise altitude?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734B.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "20 900 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "20 500 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "21 500 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "20 900 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 45 000 kg</p><p>Distance 600 NGM</p><p>ISA +20&#8451</p><p>Cruise using LRC &#64 FL370</p><p>50 kt headwind</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "4000 kg 1 h 50 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "4000 kg 1 h 40 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "4000 kg 1 h 42 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "4000 kg 1 h 52 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 55 000 kg</p><p>Distance 600 NGM</p><p>ISA -10&#8451</p><p>Cruise using LRC &#64 FL370</p><p>50 kt headwind</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "4550 kg 1 h 49 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "4550 kg 1 h 50 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "4550 kg 1 h 51 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "45320 kg 1 h 51 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 35 000 kg</p><p>Distance 600 NGM</p><p>ISA</p><p>Cruise using LRC &#64 FL250</p><p>50 kt tailwind</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3200 kg 1 h 30 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "3200 kg 1 h 27 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "3100 kg 1 h 26 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3100 kg 1 h 27 min",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 37 000 kg</p><p>Fuel available 4500 kg</p><p>ISA</p><p>Cruise using LRC &#64 FL370</p><p>75 kt headwind</p><p>How far could you fly?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "700 NGM",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "690 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "720 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "710 NGM",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "<p>Refer CAP 697 Figure 4.1 and 4.3.3 Given:</p><p>Landing mass of 47 500 kg</p><p>Cruise mass of 58 000 kg</p><p>Distance 1750 NGM</p><p>ISA +10&#8451</p><p>Cruise using M 0.78</p><p>Wind light & variable</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL330 what is your trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a. 32 300 ft  b. 10 600 kg 3 h 57 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a. 32 200 ft  b. 10 600 kg 3 h 57 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a. 32 200 ft  b. 10 600 kg 3 h 56 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a. 32 200 ft  b. 10 600 kg 3 h 59 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "<p>Refer CAP 697 Figure 4.1 and 4.3.1 Given:</p><p>Landing mass of 50 000 kg</p><p>Cruise mass of 54 000 kg</p><p>Distance 800 NGM</p><p>ISA +20&#8451</p><p>Cruise using LRC</p><p>50 kt tailwind</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL350 what is your trip fuel and time?</p><p>c. With FMS in ECON mode with a cost index of 100; what are the fuel and time correction factors?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 45 min, c. Fuel +7% Time -4%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 43 min, c. Fuel +7% Time -4%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 44 min, c. Fuel -7% Time -4%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a. 34 600 ft, b. 4500 kg 1 h 45 min, c. Fuel +7% Time +4%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "<p>Refer CAP 697 Figure 4.1, 4.3.1 and Table 4.1 Given:</p><p>Landing mass of 45 000 kg</p><p>Brake release mass of 60 000 kg</p><p>Distance 2000 NGM</p><p>ISA -10&#8451</p><p>Cruise using LRC</p><p>100 kt headwind</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL350 what is your trip fuel and time?</p><p>c. If ATC restrict you to FL280; what is the fuel/mileage penalty factor?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69739R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69733AR0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a. 32 900 ft, b. 15 400 kg 6 h 44 min, c. Off optimum by 5000 ft 5.5%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a. 32 900 ft, b. 15 500 kg 6 h 45 min, c. Off optimum by 5200 ft 5.5%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a. 32 900 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 5.5%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a. 32 800 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 6.5%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "<p>Refer CAP 697 Figure 4.3.2 Given:</p><p>Landing mass of 35 000 kg</p><p>Distance 2000 NGM</p><p>ISA</p><p>Cruise using M 0.74 &#64 FL290</p><p>Nil wind</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69742R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10 900 kg 4 h 45 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10 900 kg 4 h 44 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "11 000 kg 4 h 45 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "10 700 4 h 45 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "<p>Refer CAP 697 300 KIAS cruise Given:</p><p>Landing mass of 55 000 kg</p><p>Distance 500 NGM</p><p>ISA +10&#8451</p><p>Cruise &#64 FL240</p><p>50 kt tailwind</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69741R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3550 kg 1 h 12 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "3450 kg 1 h 13 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "3450 kg 1 h 12 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3460 kg 1 h 13 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "<p>Refer CAP 697 Figure 4.3.3 Given:</p><p>Landing mass of 35 000 kg</p><p>Fuel available 5000 kg ISA</p><p>Cruise using M 0.78 &#64 FL350</p><p>50 kt tailwind</p><p>What is the estimated trip distance?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69743R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69744R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1055 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1025 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1045 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1035 NGM",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "<p>Refer CAP 697 Figure 4.3.1 Given:</p><p>Landing mass of 45 000 kg</p><p>Distance 300 NGM</p><p>ISA -10&#8451</p><p>Cruise using LRC &#64 FL330</p><p>120 kt tailwind</p><p>TAS 423 kt</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69737R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69739R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1700 kg 43 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1700 kg 44 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1600 kg 42 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1700 kg 42 min",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "<p>Refer CAP 697 Figure 4.3.5 Stepped Climb Cruise Given:</p><p>Brake release mass of 62 500 kg</p><p>Distance 3000 NGM</p><p>50 kt tailwind</p><p>ISA +20&#8451</p><p>What is the trip fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69747R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "15 700 kg 6 hours",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "15 700 kg 6.1 hours",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "15 500 kg 6 hours",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 500 kg 6.1 hours",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "<p>Refer CAP 697 Figure 4.3.6 Alternate Planning Given:</p><p>Landing mass at the alternate of 47 500 kg</p><p>Distance 250 NGM</p><p>50 kt headwind</p><p>What is the alternate fuel and time?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69748R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2100 kg 50 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "2000 kg 50 min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2000 kg 49 min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "2000 kg 48 min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "<p>Refer CAP 697 Figure 4.3.3 Given:</p><p>Landing mass of 50 000 kg</p><p>Distance 700 NGM</p><p>ISA</p><p>Cruise using M 0.78 at FL250</p><p>Wind light & variable</p><p>What is the trip fuel and time when engine anti-ice required for the whole flight?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69743R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69744R0.jpg;src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69745R0.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "5150 kg plus 1.65 h &#64 70 kg/h (116) = 5266 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

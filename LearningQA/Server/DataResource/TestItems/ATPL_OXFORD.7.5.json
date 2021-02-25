@@ -1,0 +1,148 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "7.SERIESFLIGHT PLANNING AND MONITORING",
+    "chapter": "5.Multi-engine Piston Aeroplane (MEP)",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>Refer to CAP 697, MEP, Fig 3.1.</p><p>A flight is to be made from an airfield (elevation 3000 ft) to another. The cruising level is FL120, temp ISA. The OAT at the departure airfield is +10°C, the wind component in the climb is +30 kt.</p><p>Calculate the fuel used, time and distance flown in the climb.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69727R90.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "8 gal 13 min 26 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "8 gal 14 min 33 NGM",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "7 gal 14 min 19 NGM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "11 gal 19 min 34 NGM",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>Refer to CAP 697 MEP Fig 3.6.</p><p>A flight is to be made to an airfield, pressure altitude 3000 ft, in a MEP aircraft. The forecast OAT for the airfield is +1°C and the cruising level will be FL110, OAT -10°C.</p><p>Calculate the still air distance in the descent and the ngm covered with a 20 kt headwind.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69732R90.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "29 NM/26 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "21 NM/23 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "20 NM/18 NM",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "20 NM/20 NM",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>Refer to CAP 697 MEP1 Fig 3.2.</p><p>Given:</p><p>Cruising level 11 000 ft</p><p>OAT in the cruise -15°C</p><p>Usable fuel 123 US gallons</p><p>The power is set to economy cruise</p><p>Find the range in NM with 45 min reserve fuel at 45% power.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69728R90.jpg",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "752 NM",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "852 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "760 NM",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "602 NM",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

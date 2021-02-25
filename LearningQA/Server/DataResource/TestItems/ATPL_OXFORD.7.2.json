@@ -1,0 +1,328 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "7.SERIESFLIGHT PLANNING AND MONITORING",
+    "chapter": "2.Fuel Policy and Fuel Monitoring",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>Given:</p><p>Dry Op Mass = 33 510 kg</p><p>Traffic Load = 7600 kg</p><p>Final reserve fuel = 983 kg</p><p>Alternate fuel = 1100 kg</p><p>Contingency fuel = 102 kg</p><p>The estimated landing mass at the alternate should be:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "42 312 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "42 093 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "42 210 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "42 195 kg",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "What is the purpose of Decision Point Procedure?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Carry minimum fuel to increase Traffic Load",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Increase safety of the flight",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Reduce landing mass to avoid stressing the aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Reduce contingency fuel to below that required from Decision Point to destination",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>What is Decision Point Procedure?</p><p>It is a procedure to reduce the amount of fuel carried on a flight by:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "reducing contingency fuel from 10% to 5% of trip fuel",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "reducing contingency fuel to only that required from Decision Point to destination",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "reducing contingency fuel to below that required from Decision Point to destination",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>Turbojet a/c; taxi fuel 600 kg; fuel flow cruise 10 000 kg/h; fuel flow hold 8000 kg/h;</p><p>alternate fuel 10 200 kg; flight time 6 hours; visibility at destination 2000 m</p><p>What is the minimum ramp fuel?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "80 500 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "79 200 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "77 800 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "76 100 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>Given: DOM 33 510 kg; Traffic load 7600 kg. Trip fuel 2040 kg. Final reserve 983 kg.</p><p>Alternate fuel 1100 kg. Contingency 5% of trip fuel.</p><p>Which of the following is correct?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Est. landing mass at destination 43 193 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Est. landing mass at destination 43 295 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Est. take-off mass 43 295 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Est. take-off mass 45 233 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>Multi-engine a/c on IFR flight. Given: trip fuel 65 US gal; contingency 5% trip;</p><p>Alternate fuel including final reserve 17 US gal; Usable fuel at departure 93 US gal. At a point halfway to destination, fuel consumed is 40 US gal.</p><p>Assuming fuel consumption is unchanged</p><p>which of the following is correct?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "At departure reserve fuel was 28 US gal",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "At destination required reserves remain intact",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Remaining fuel is insufficient to reach destination with reserves intact",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "At destination there will be 30 gal in tanks",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>Minimum planned take-off fuel is 160 kg (30% total reserve is included)</p><p>Assume the ground speed on this trip is constant. When half the distance has been flown, the remaining fuel is 70 kg.</p><p>Is it necessary to divert to a nearby alternate?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": null,
+            "originalcontentType": 0,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Diversion to a nearby alternate is necessary, because the remaining fuel is not sufficient",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Diversion to a nearby alternate is not necessary, because the reserve fuel has not been used completely",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Diversion to a nearby alternate is necessary, because it is allowed to calculate the fuel without reserve",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Diversion to a nearby alternate is necessary, unless the captain decides to continue on his own responsibility",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
