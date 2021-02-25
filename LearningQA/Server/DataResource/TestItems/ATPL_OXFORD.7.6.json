@@ -21,7 +21,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -66,7 +66,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734A.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -111,8 +111,8 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734B.jpg",
-            "originalcontentType": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734B.jpg;",
+            "originalcontentType": 2,
             "contentType": 0
           }
         ],
@@ -156,7 +156,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734B.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69734B.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -201,7 +201,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -246,7 +246,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -291,7 +291,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }
@@ -336,7 +336,7 @@
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
-            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg",
+            "originalContent": "src-relative:DataResource\\TestItems\\CAP697JPG\\CAP69738R0.jpg;",
             "originalcontentType": 2,
             "contentType": 0
           }

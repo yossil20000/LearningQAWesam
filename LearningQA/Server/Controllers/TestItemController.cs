@@ -182,7 +182,8 @@ namespace LearningQA.Server.Controllers
                 
                 var result = DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file);
                 if (result == null) continue;
-                ConverSupplement(result);
+                if (!ConverSupplement(result))
+                    return Ok("ConverSupplement Failed");
                 await _mediator.Send(new CreateRangeTestItemCommand(result, person) { CreateNewDatabase = createNewDatabase }, cancellationToken);
                 createNewDatabase = false;
             }
@@ -243,29 +244,43 @@ namespace LearningQA.Server.Controllers
 		{
 			return Enumerable.Repeat(default(T), capacity).ToList();
 		}
-        private void ConverSupplement(List<TestItem<QUestionSql,int>> items)
+        private bool ConverSupplement(List<TestItem<QUestionSql,int>> items)
         {
-            for (int item = 0; item < items.Count; item++)
+            try
             {
-                for (int qIndex = 0; qIndex < items.ElementAt(item).Questions.Count; qIndex++)
+                for (int item = 0; item < items.Count; item++)
                 {
-                    var supplement = items.ElementAt(item).Questions.ElementAt(qIndex).Supplements;
-                    if (supplement != null && supplement.Count > 0)
+                    for (int qIndex = 0; qIndex < items.ElementAt(item).Questions.Count; qIndex++)
                     {
-                        if (supplement.ElementAt(0).OriginalcontentType == ContentType.ImageFileName)
+                        var supplement = items.ElementAt(item).Questions.ElementAt(qIndex).Supplements;
+                        
+                        for (int suppIndex = 0; suppIndex < supplement.Count; suppIndex++)
                         {
-                            var content = supplement.ElementAt(0).OriginalContent.Split(";");
-                            if(content.Length > 0 )
+                            if (supplement.ElementAt(suppIndex).OriginalcontentType == ContentType.ImageFileName)
                             {
-                                var src = content[0].Split(":")[1];
-                                supplement.ElementAt(0).Content = DataResourceReader.LoadImageForDisplay(src);
-                                supplement.ElementAt(0).ContentType = ContentType.ImageBase64String;
+                                Console.WriteLine($"ConverSupplement: item:{item}, Question:{items.ElementAt(item).Questions.ElementAt(qIndex).QuestionNumber} Supp:{supplement.ElementAt(suppIndex).OriginalContent}");
+                                var content = supplement.ElementAt(suppIndex).OriginalContent.Split(";");
+                                if (content.Length > 0)
+                                {
+                                    var src = content[0].Split(":")[1];
+                                    supplement.ElementAt(suppIndex).Content = DataResourceReader.LoadImageForDisplay(src);
+                                    supplement.ElementAt(suppIndex).ContentType = ContentType.ImageBase64String;
+                                }
+
                             }
-                          
                         }
+
                     }
                 }
+                return true;
             }
+            catch(Exception ex)
+            {
+               
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+           
         }
 	}
 
