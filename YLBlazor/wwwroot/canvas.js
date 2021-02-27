@@ -1,8 +1,12 @@
 ﻿// This file is to show how a library package may provide JavaScript interop features
 // wrapped in a .NET API
+var scaleMode = 2;
+var lastDraw = { x: -1, y: -1 };
 var w, h;
 var img;
-var canvas, ctx, BRectLeft, BRectTop,  canvasId;
+var canvas, ctx, BRectLeft, BRectTop, canvasId;
+let pathsarray = [];
+let points = [];
 window.addEventListener('resize', windowResize);
 window.onscroll = function (e) { windowResize(); }
 export function showPrompt(message) {
@@ -22,6 +26,7 @@ function GetCanvasBoundingRect() {
 
 
 export function init(id, imageId) {
+    
     canvasId = id;
     canvas = document.getElementById(id);
     ctx = canvas.getContext("2d");
@@ -77,7 +82,47 @@ export function color(obj) {
     else y = 2;
 
 }
+export function drawPreview(x, y) {
 
+    if (lastDraw.x != -1) {
+        ctx.strokeStyle = "blue";
+        drawPath();
+        ctx.beginPath();
+        var dpoint = GetDrawingPoint(lastDraw);
+        ctx.moveTo(dpoint.x, dpoint.y);
+        dpoint = GetDrawingPoint({ x: x, y: y });
+        ctx.lineTo(dpoint.x, dpoint.y);
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+}
+function drawPath() {
+    erase(false);
+    var dpoint;
+    ctx.beginPath();
+    pathsarray.forEach(path => {
+        
+        dpoint = GetDrawingPoint(path[0]);
+        ctx.moveTo(dpoint.x, dpoint.y);
+        for (let i = 1; i < path.length; i++) {
+            dpoint = GetDrawingPoint(path[i]);
+            ctx.lineTo(dpoint.x, dpoint.y);
+        }
+        ctx.stroke();
+    })
+    ctx.closePath();
+}
+
+function GetDrawingPoint(point) {
+    var scaleX, scaleY, rect;
+    rect = document.getElementById(canvasId).getBoundingClientRect();
+
+    scaleX = canvas.width / rect.width;
+    scaleY = canvas.height / rect.height;
+    return {
+        x: (point.x - BRectLeft) * scaleX, y: (point.y - BRectTop) * scaleY    }
+}
 export function draw(prevX, prevY, currX, currY) {
     
     ctx.beginPath();
@@ -99,16 +144,37 @@ export function draw(prevX, prevY, currX, currY) {
     ctx.lineWidth = 2;
     ctx.stroke();
     ctx.closePath();
-
+    lastDraw.x = currX;
+    lastDraw.y = currY;
+    points = [];
+    points.push({x: prevX, y: prevY });
+    points.push({ x: currX, y: currY });
+    pathsarray.push(points);
     return "";
 }
 function scaleToFit(img) {
     // get the scale
-    var scale = Math.min(canvas.width / img.width, canvas.height / img.height);
-    // get the top left position of the image
-    var x = (canvas.width / 2) - (img.width / 2) * scale;
-    var y = (canvas.height / 2) - (img.height / 2) * scale;
-    ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
+    if (scaleMode == 0) {
+        ctx.drawImage(img, 0, 0);
+    }
+    else if (scaleMode == 1) {
+        var scaleWidth = canvas.width / img.width;
+        ctx.drawImage(img, 0, 0, img.width * scaleWidth, img.height * scaleWidth);
+    }
+    else if (scaleMode = 2) {
+        var scaleWidth = canvas.width / img.width;
+        var scaleHeight = canvas.height / img.height;
+        ctx.drawImage(img, 0, 0, img.width * scaleWidth, img.height * scaleHeight);
+    }
+    else {
+        var scale = Math.min(canvas.width / img.width, canvas.height / img.height);
+        // get the top left position of the image
+        var x = (canvas.width / 2) - (img.width / 2) * scale;
+        var y = (canvas.height / 2) - (img.height / 2) * scale;
+        ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
+    }
+   
+    
 }
 export function erase(isconfirm) {
     var m = true;
@@ -123,11 +189,20 @@ export function erase(isconfirm) {
 }
 function clearCanvas() {
     ctx.clearRect(0, 0, w, h);
+   
+
     /*document.getElementById("canvasimg").style.display = "none";*/
     scaleToFit(img);
 }
+export function ClearDraw() {
+    points = [];
+    pathsarray = [];
+    newline();
+    drawPath();
+}
 export function newline() {
-    first = true;
+   
+    lastDraw = { x: -1, y: -1 };
 }
 
 export function save() {

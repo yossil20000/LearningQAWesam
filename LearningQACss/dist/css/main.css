@@ -2681,11 +2681,11 @@ a:hover, a:active, a:focus {
 
 @media screen and (min-width: 1440px) {
   .test-item__container {
-    -ms-grid-columns: minmax(auto, 0.1fr) 0.2fr 2fr 1fr;
-        grid-template-columns: minmax(auto, 0.1fr) 0.2fr 2fr 1fr;
-    -ms-grid-rows: 5ch 5ch 5ch  auto auto 4ch auto 1fr 5ch auto auto;
-        grid-template-rows: 5ch 5ch 5ch  auto auto 4ch auto 1fr 5ch auto auto;
-        grid-template-areas: "aside-header header header header" "aside-summary selection selection selection" "aside-summary nav nav nav" "aside question question option" "aside question question option" "aside answer-expend answer-expend answer-expend" "aside answer answer answer" "aside supplement supplement supplement" "aside-legend supplement supplement supplement" "aside-legend supplement supplement supplement" "footer footer footer footer";
+    -ms-grid-columns: minmax(auto, 0.1fr) 0.2fr 1fr 2fr;
+        grid-template-columns: minmax(auto, 0.1fr) 0.2fr 1fr 2fr;
+    -ms-grid-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
+        grid-template-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
+        grid-template-areas: "aside-header header header header"  "aside-summary selection selection selection" "aside-summary nav nav nav" "aside question question supplement" "aside question question supplement" "aside option option supplement" "aside answer-expend answer-expend supplement"  "aside answer answer supplement"  "aside answer answer supplement"  "aside-legend answer answer supplement"  "aside-legend answer answer supplement"  "footer footer footer footer";
   }
 }
 

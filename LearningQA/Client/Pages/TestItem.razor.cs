@@ -154,7 +154,7 @@ namespace LearningQA.Client.Pages
 		{
 
 
-			await canvasJsInterop.ClearCanvas(false);
+			await canvasJsInterop.ClearDraw();
 
 		}
 		private async Task CanvasOnMoseMove(MouseEventArgs ea)
@@ -162,11 +162,19 @@ namespace LearningQA.Client.Pages
 			message = $"Mouse: Client:{lastMouseEventArgs.ClientX} offsetx:{lastMouseEventArgs.OffsetX} ScreenX:{lastMouseEventArgs.ScreenX}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
 			lastMouseEventArgs = ea;
 			//Console.WriteLine(message);
+			if(ea.AltKey)
+				await canvasJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
 			await Task.CompletedTask;
 		}
-		private void NewLine()
+		private async Task  NewLine()
 		{
 			newLine = true;
+			await canvasJsInterop.NewLine();
+
+		}
+		private async Task ClearDraw()
+		{
+
 		}
 		private async Task CanvasMouseUp(MouseEventArgs ea)
 		{

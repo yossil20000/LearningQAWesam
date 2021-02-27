@@ -54,19 +54,23 @@ $TestItemBreakPoint: screen-size(desktop);
         "aside-legend supplement supplement" 
         "footer footer footer";
         @media screen and (min-width: $TestItemBreakPoint) {
-            grid-template-columns: minmax(auto, 0.1fr) 0.2fr 2fr 1fr;
-            grid-template-rows: 5ch 5ch 5ch  auto auto 4ch auto 1fr 5ch auto auto;
-             grid-template-areas: "aside-header header header header"
-             "aside-summary selection selection selection"
-             "aside-summary nav nav nav"
-             "aside question question option"
-             "aside question question option"
-             "aside answer-expend answer-expend answer-expend"
-             "aside answer answer answer"
-             "aside supplement supplement supplement"
-             "aside-legend supplement supplement supplement"
-             "aside-legend supplement supplement supplement"
-             "footer footer footer footer";
+
+  
+            grid-template-columns: minmax(auto ,0.1fr) .2fr 1fr 2fr;
+            grid-template-rows: 5ch 5ch 5ch auto auto auto 4ch auto 1fr 5ch auto auto;
+            grid-template-areas: 
+            "aside-header header header header" 
+            "aside-summary selection selection selection"
+            "aside-summary nav nav nav"
+            "aside question question supplement"
+            "aside question question supplement"
+            "aside option option supplement"
+            "aside answer-expend answer-expend supplement" 
+            "aside answer answer supplement" 
+            "aside answer answer supplement" 
+            "aside-legend answer answer supplement" 
+            "aside-legend answer answer supplement" 
+            "footer footer footer footer";
         }
         padding-top: 1ch;
         &_answer-expend{

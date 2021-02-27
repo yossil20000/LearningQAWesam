@@ -175,7 +175,7 @@
                 @if (supp.ContentType == ContentType.ImageBase64String && RenderSupp())
                 {
     <div class="content" style="position:relative">
-        <img id="canvasimg" @ondblclick="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") alt="base64 test" style="width:100%; display:none">
+        <img id="canvasimg" @onchange="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") alt="base64 test" style="width:100%; display:none">
         <canvas id="can" class="canvas" @onmousemove="@(eventArg => CanvasOnMoseMove(eventArg) )" @onmousedown="@(eventArg => CanvasMousedown(eventArg) )" @onmouseup="@(eventArg => CanvasMouseUp(eventArg) )"></canvas>
     </div>
                     
@@ -247,10 +247,11 @@
     {
         try
         {
-            string urlParam = testItemViewModel.UrlEncoder(TestItemViewModelPersist.SelectedQuestion.Supplements.ElementAt(0).Content);
-            string url = $@"Supplement/Image/{urlParam}";
-            Console.WriteLine($"urlParam:{urlParam} => {url}");
+            //string urlParam = testItemViewModel.UrlEncoder(TestItemViewModelPersist.SelectedQuestion.Supplements.ElementAt(0).Content);
+            //string url = $@"Supplement/Image/{urlParam}";
+            //Console.WriteLine($"urlParam:{urlParam} => {url}");
             //await JSRuntime.InvokeAsync<object>("open", url, "_blank");
+            await canvasJsInterop.ClearDraw();
         }
         catch(Exception ex)
         {
