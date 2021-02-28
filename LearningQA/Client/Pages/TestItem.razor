@@ -272,10 +272,11 @@
     {
         TestItemViewModelPersist.SelectedSupplement = TestItemViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).FirstOrDefault();
         Console.WriteLine(TestItemViewModelPersist.SelectedSupplement.Title);
-        RenderSupp(true);
+
         await canvasJsInterop.ClearDraw();
         await canvasJsInterop.ClearCanvas(false);
-
+        bImageChanged = true ;
+        StateHasChanged();
         await Task.CompletedTask;
     }
 

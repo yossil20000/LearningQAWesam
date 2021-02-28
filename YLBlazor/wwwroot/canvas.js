@@ -23,7 +23,10 @@ function GetCanvasBoundingRect() {
     BRectLeft = document.getElementById(canvasId).getBoundingClientRect().left;
     BRectTop = document.getElementById(canvasId).getBoundingClientRect().top;
 };
-
+export function UpdateImage(imageId) {
+    img = document.getElementById(imageId);
+    scaleToFit(img);
+}
 
 export function init(id, imageId) {
     

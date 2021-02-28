@@ -35,6 +35,7 @@ namespace LearningQA.Client.Pages
 		private MouseEventArgs lastMouseDownEventArgs = new MouseEventArgs();
 		private bool newLine = true;
 		private bool bRenderSupp = false;
+		private bool bImageChanged = false;
 		public TestItem()
 		{
 
@@ -87,8 +88,12 @@ namespace LearningQA.Client.Pages
 		{
 			//TestItemViewModelPersist.OnChanged(
 			//	() => base.StateHasChanged());
-			
-			
+			if(bImageChanged && canvasJsInterop != null)
+			{
+				_ = await canvasJsInterop.UpdateImage("canvasimg");
+				bImageChanged = false;
+			}
+
 		}
 
 		private bool RenderSupp(bool bRenderAlways = false)
