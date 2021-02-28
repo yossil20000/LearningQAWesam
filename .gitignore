@@ -353,3 +353,4 @@ MigrationBackup/
 .ionide/
 LearningQA/Server/LearningQAContext.db-shm
 LearningQA/Server/LearningQAContext.db-wal
+LearningQA/Server/LearningQAContext.db
