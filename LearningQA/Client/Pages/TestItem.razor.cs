@@ -91,9 +91,9 @@ namespace LearningQA.Client.Pages
 			
 		}
 
-		private bool RenderSupp()
+		private bool RenderSupp(bool bRenderAlways = false)
 		{
-			if (canvasJsInterop != null && bRenderSupp == false)
+			if (canvasJsInterop != null && (bRenderSupp == false || bRenderAlways))
 			{
 				_ = canvasJsInterop.InitCanvas("can", "canvasimg");
 				bRenderSupp = true;

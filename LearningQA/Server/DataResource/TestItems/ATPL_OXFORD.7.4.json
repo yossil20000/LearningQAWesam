@@ -18,6 +18,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 2.1",
             "tenantId": "",
             "content": "",
 			"rotateContent": 0,			
@@ -63,6 +64,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 2.2.3",
             "tenantId": "",
             "content": "",
 			"rotateContent": 0,
@@ -108,6 +110,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 2.4",
             "tenantId": "",
             "content": "",
 			"rotateContent": 0,			
@@ -153,6 +156,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 2.5",
             "tenantId": "",
             "content": "",
 			 "rotateContent": 0,

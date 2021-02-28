@@ -296,7 +296,7 @@ $TestItemBreakPoint: screen-size(desktop);
         &_supplement{
             display: grid;
             grid-template-areas: "operation" "content";
-            grid-template-rows: minmax(auto,50px) auto;
+            grid-template-rows: minmax(auto,3ch) auto;
             grid-area: supplement;
             padding-left: 1ch;
             padding-left: 1ch;

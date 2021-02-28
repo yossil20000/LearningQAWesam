@@ -93,6 +93,14 @@ namespace LearningQA.Client.ViewModel
 			}
 		}
 		public QUestionSql SelectedQuestion { get; set; } = new QUestionSql();
+		private Supplement<int> selectedSupplement = null;
+		public Supplement<int> SelectedSupplement { 
+			get {
+				if (selectedSupplement == null)
+					selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
+				return selectedSupplement; 
+			} 
+			set { selectedSupplement = value; } } 
 		public Person<int> CurretPerson { get; set; } = new Person<int>()
 		{
 			Name = "Yosef",

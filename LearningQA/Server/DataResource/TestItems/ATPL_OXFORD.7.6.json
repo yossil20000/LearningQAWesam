@@ -18,6 +18,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -63,6 +64,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -108,6 +110,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.2",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -153,6 +156,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.2",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -198,6 +202,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -243,6 +248,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -288,6 +294,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -333,6 +340,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -378,6 +386,8 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.3",
+			"title": "",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -387,6 +397,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -432,6 +443,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -441,6 +453,7 @@
           },
 		  {
             "id": 0,
+			"title": "Figure 4.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -487,6 +500,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -496,6 +510,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -505,6 +520,7 @@
           },
           {
             "id": 0,
+			"title": "Table 4.1",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -550,6 +566,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.2",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -595,6 +612,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.2",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -640,6 +658,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.3a",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -649,6 +668,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.3.3.b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -658,6 +678,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.3.3.c",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -703,6 +724,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.1a",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -712,6 +734,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.3.1b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -721,6 +744,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.3.1c",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -766,6 +790,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.5",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -811,6 +836,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.6",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -856,6 +882,7 @@
         "supplements": [
           {
             "id": 0,
+			"title": "Figure 4.3.3a",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -865,6 +892,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.3.3b",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,
@@ -874,6 +902,7 @@
           },
           {
             "id": 0,
+			"title": "Figure 4.3.3c",
             "tenantId": null,
             "content": null,
             "rotateContent": 0,

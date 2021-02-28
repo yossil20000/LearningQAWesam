@@ -382,7 +382,6 @@ template {
   font-weight: var(--font-weight);
   line-height: 0.9;
   text-rendering: optimizeLegibility;
-  --yoss-1: 2.5fr;
 }
 
 @media screen and (max-width: 768px) {
@@ -3291,8 +3290,8 @@ a:hover, a:active, a:focus {
   display: -ms-grid;
   display: grid;
       grid-template-areas: "operation" "content";
-  -ms-grid-rows: minmax(auto, 50px) auto;
-      grid-template-rows: minmax(auto, 50px) auto;
+  -ms-grid-rows: minmax(auto, 3ch) auto;
+      grid-template-rows: minmax(auto, 3ch) auto;
   -ms-grid-row: 9;
   -ms-grid-row-span: 3;
   -ms-grid-column: 2;

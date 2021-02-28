@@ -18,11 +18,12 @@ namespace LearningQA.Shared.Entities
 	public class Supplement<Tdb> : ISupplement<Tdb>
 	{
 		public Tdb Id { get; set; }
-		public string TenantId { get; set; }
+		public string Title { get; set; } = "";
+		public string TenantId { get; set; } = "";
 		/// <summary>
 		/// The Conntent to present
 		/// </summary>
-		public string Content { get; set; }
+		public string Content { get; set; } = "";
 		/// <summary>
 		/// Rotate content in Degree
 		/// </summary>
@@ -30,7 +31,7 @@ namespace LearningQA.Shared.Entities
 		/// <summary>
 		/// The Original content
 		/// </summary>
-		public string OriginalContent {get;set;}
+		public string OriginalContent { get; set; } = "";
 		public ContentType OriginalcontentType { get; set; }
 		/// <summary>
 		/// Content type like text, image , image as string 

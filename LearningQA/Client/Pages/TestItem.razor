@@ -34,7 +34,7 @@
                 @if (TestItemViewModelPersist.SelectedQuestion != null)
                 {
                     <h5>Question: @TestItemViewModelPersist.SelectedQuestion.QuestionNumber</h5>
-                    <p style="line-height: 0.4">@((MarkupString)TestItemViewModelPersist.SelectedQuestion.Question)</p>
+                    <p style="line-height: 2.5ch">@((MarkupString)TestItemViewModelPersist.SelectedQuestion.Question)</p>
                 }
             </div>
             <div class="test-item__container_option bg-color-9 color-2">
@@ -166,22 +166,31 @@
             <div id="container_supplement" class=@($"{(supplementFullExpand ? "toggle-full" : "toggle-full active")}") @onclick="OnSupplementFullExpandToggle"></div>
             <button @onclick="ClearCanvas">Clear</button>
             <button @onclick="NewLine">New Line</button>
-            
-        </div>    
-        @if (TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Supplements != null)
-        {
-            @foreach (var supp in TestItemViewModelPersist.SelectedQuestion.Supplements)
+            @if (TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Supplements != null)
             {
-                @if (supp.ContentType == ContentType.ImageBase64String && RenderSupp())
+                @foreach (var supp in TestItemViewModelPersist.SelectedQuestion.Supplements)
                 {
-    <div class="content" style="position:relative">
-        <img id="canvasimg" @onchange="OnImageDoubleClick" class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") alt="base64 test" style="width:100%; display:none">
-        <canvas id="can" class="canvas" @onmousemove="@(eventArg => CanvasOnMoseMove(eventArg) )" @onmousedown="@(eventArg => CanvasMousedown(eventArg) )" @onmouseup="@(eventArg => CanvasMouseUp(eventArg) )"></canvas>
-    </div>
-                    
+                    <button @onclick=@(() => SelectedImage(supp.Id))>@supp.Title</button>
                 }
             }
-        }
+
+        </div>
+        @if (TestItemViewModelPersist.SelectedQuestion != null && TestItemViewModelPersist.SelectedQuestion.Supplements != null)
+        {
+            
+            @if(TestItemViewModelPersist.SelectedSupplement != null && RenderSupp())
+            {
+                <div class="content" style="position:relative">
+                    <img id="canvasimg" @onchange="OnImageDoubleClick" class=@(TestItemViewModelPersist.SelectedSupplement.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{TestItemViewModelPersist.SelectedSupplement.Content}") alt="base64 test" style="width:100%; display:none">
+                    <canvas id="can" class="canvas" @onmousemove="@(eventArg => CanvasOnMoseMove(eventArg) )" @onmousedown="@(eventArg => CanvasMousedown(eventArg) )" @onmouseup="@(eventArg => CanvasMouseUp(eventArg) )"></canvas>
+                </div>
+
+            }
+    @foreach (var supp in TestItemViewModelPersist.SelectedQuestion.Supplements)
+    {
+
+    }
+}
 
 
     </div>
@@ -242,7 +251,7 @@
     private bool IsTestMode { get; set; } = true;
     private string SupplementExpandClass = "";
     private string SupplementToggleClass = "";
-    
+
     private async void OnImageDoubleClick()
     {
         try
@@ -259,7 +268,16 @@
         }
 
     }
+    private async void SelectedImage(int id)
+    {
+        TestItemViewModelPersist.SelectedSupplement = TestItemViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).FirstOrDefault();
+        Console.WriteLine(TestItemViewModelPersist.SelectedSupplement.Title);
+        RenderSupp(true);
+        await canvasJsInterop.ClearDraw();
+        await canvasJsInterop.ClearCanvas(false);
 
+        await Task.CompletedTask;
+    }
 
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@
 }
