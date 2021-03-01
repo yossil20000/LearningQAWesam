@@ -39,6 +39,10 @@ namespace LearningQA.Client.Components
 			base.OnAfterRender(firstRender);
 		}
 		
+		public void OnPropertyChanged()
+		{
+			StateHasChanged();
+		}
 
 		public void Dispose()
 		{

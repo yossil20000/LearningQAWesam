@@ -14,6 +14,7 @@ using System.Net;
 using YLBlazor;
 using Microsoft.JSInterop;
 using Microsoft.AspNetCore.Components.Web;
+using System.Globalization;
 
 namespace LearningQA.Client.Pages
 {
@@ -36,6 +37,12 @@ namespace LearningQA.Client.Pages
 		private bool newLine = true;
 		private bool bRenderSupp = false;
 		private bool bImageChanged = false;
+		private bool answereExpend { get; set; } = false;
+		private bool supplementExpand { get; set; } = true;
+		private bool supplementFullExpand { get; set; } = true;
+		private bool IsTestMode { get; set; } = true;
+		private string SupplementExpandClass = "";
+		private string SupplementToggleClass = "";
 		public TestItem()
 		{
 
@@ -44,6 +51,8 @@ namespace LearningQA.Client.Pages
 		{
 			 await testItemViewModel?.RetriveTestItemInfos(testItemId);
 			 canvasJsInterop = new CanvasJsInterop(jSRuntime);
+			
+			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, UpdateImage());
 			//if(testItemId > 0)
 			//{
 			//	Console.WriteLine($"OnInitializedAsync TestIdemId: {testItemId}");
@@ -93,15 +102,26 @@ namespace LearningQA.Client.Pages
 				_ = await canvasJsInterop.UpdateImage("canvasimg");
 				bImageChanged = false;
 			}
+			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, ShowMessage());
 
 		}
-
+		private async Task ShowMessage()
+		{
+			await canvasJsInterop.Prompt("Hi from event");
+		}
+		private void UpdateImage()
+		{
+			bImageChanged = true;
+			StateHasChanged();
+			
+		}
 		private bool RenderSupp(bool bRenderAlways = false)
 		{
 			if (canvasJsInterop != null && (bRenderSupp == false || bRenderAlways))
 			{
 				_ = canvasJsInterop.InitCanvas("can", "canvasimg");
 				bRenderSupp = true;
+				TestItemViewModelPersist.OnChanged(UpdateImage);
 			}
 				
 			return true;

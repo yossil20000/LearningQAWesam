@@ -131,6 +131,8 @@ namespace LearningQA.Client.ViewModel
 			if (CurrentQuestion <= CurrentTest.Answers.Count)
 			{
 				SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+				selectedSupplement = SelectedQuestion.Supplements.Count > 0 ? SelectedQuestion.Supplements.ElementAt(0) : null;
+				OnEventChanged(PageBase.RegisterEvent.SelectedSupplement);
 			}
 			UpdatePagination();
 			Changed();

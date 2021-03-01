@@ -33,6 +33,7 @@ namespace YLBlazor
 			var module = await moduleTask.Value;
 			return await module.InvokeAsync<string>("UpdateImage", imageId);
 		}
+		
 		public async ValueTask<string> NewLine()
 		{
 			var module = await moduleTask.Value;
