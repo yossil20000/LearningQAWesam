@@ -202,7 +202,7 @@ namespace LearningQA.Server.Controllers
             OperationId = "TestItem.Get",
             Tags = new[] { "TestItemEndpoint" })]
         [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "List<TestItem<QUestionSql,int>>", typeof(List<TestItem<QUestionSql, int>>))]
-        public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int testCount, int questionCount)
+        public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int testCount, int questionCount, int supplementCount = 0)
 		{
 			string[] option = new string[4] { "A", "B", "C", "D" };
 			List<TestItem<QUestionSql, int>> testItems = new List<TestItem<QUestionSql, int>>();
@@ -220,7 +220,8 @@ namespace LearningQA.Server.Controllers
 					q.QuestionNumber = (j + 1).ToString();
 					q.Options = new List<QuestionOption<int>>();
 					q.Supplements = new List<Supplement<int>>();
-                    q.Supplements.Add(new Supplement<int>());
+                    for(int supp =0;supp < supplementCount;supp++)
+                        q.Supplements.Add(new Supplement<int>());
 					for(var k=0; k < 4; k++)
 					{
 						QuestionOption<int> qo = new QuestionOption<int>();
