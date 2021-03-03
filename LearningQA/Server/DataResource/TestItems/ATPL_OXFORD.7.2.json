@@ -123,7 +123,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "reducing contingency fuel from 10% to 5% of trip fuel",
+            "content": "reducing contingency fuel from 10&#37; to 5&#37; of trip fuel",
             "isTrue": false
           },
           {
@@ -195,7 +195,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "<p>Given: DOM 33 510 kg; Traffic load 7600 kg. Trip fuel 2040 kg. Final reserve 983 kg.</p><p>Alternate fuel 1100 kg. Contingency 5% of trip fuel.</p><p>Which of the following is correct?</p>",
+        "question": "<p>Given: DOM 33 510 kg; Traffic load 7600 kg. Trip fuel 2040 kg. Final reserve 983 kg.</p><p>Alternate fuel 1100 kg. Contingency 5&#37; of trip fuel.</p><p>Which of the following is correct?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -241,7 +241,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "<p>Multi-engine a/c on IFR flight. Given: trip fuel 65 US gal; contingency 5% trip;</p><p>Alternate fuel including final reserve 17 US gal; Usable fuel at departure 93 US gal. At a point halfway to destination, fuel consumed is 40 US gal.</p><p>Assuming fuel consumption is unchanged</p><p>which of the following is correct?</p>",
+        "question": "<p>Multi-engine a/c on IFR flight. Given: trip fuel 65 US gal; contingency 5&#37; trip;</p><p>Alternate fuel including final reserve 17 US gal; Usable fuel at departure 93 US gal. At a point halfway to destination, fuel consumed is 40 US gal.</p><p>Assuming fuel consumption is unchanged</p><p>which of the following is correct?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -287,7 +287,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "<p>Minimum planned take-off fuel is 160 kg (30% total reserve is included)</p><p>Assume the ground speed on this trip is constant. When half the distance has been flown, the remaining fuel is 70 kg.</p><p>Is it necessary to divert to a nearby alternate?</p>",
+        "question": "<p>Minimum planned take-off fuel is 160 kg (30&#37; total reserve is included)</p><p>Assume the ground speed on this trip is constant. When half the distance has been flown, the remaining fuel is 70 kg.</p><p>Is it necessary to divert to a nearby alternate?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

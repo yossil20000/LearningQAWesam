@@ -13,6 +13,6 @@ src-relative:DataResource\\TestItems\\CAP697JPG\\
 √	8730	221A	&radic;	SQUARE ROOT
 ℃	&#8451;	&#x2103	 	DEGREE CELSIUS
 @ &#64 	&#64;	&#x40;
-% &#37;
+&#37; &#37;
 Double quotes 9	“ ”	&#8220; &#8221;
 +- &#177;

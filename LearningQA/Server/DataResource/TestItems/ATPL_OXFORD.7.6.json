@@ -467,25 +467,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a. 34 600 ft, b. 4400 kg 1 h 45 min, c. Fuel +7% Time -4%",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 45 min, c. Fuel +7&#37; Time -4&#37;",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a. 34 600 ft, b. 4400 kg 1 h 43 min, c. Fuel +7% Time -4%",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 43 min, c. Fuel +7&#37; Time -4&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "a. 34 600 ft, b. 4400 kg 1 h 44 min, c. Fuel -7% Time -4%",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 44 min, c. Fuel -7&#37; Time -4&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "a. 34 600 ft, b. 4500 kg 1 h 45 min, c. Fuel +7% Time +4%",
+            "content": "a. 34 600 ft, b. 4500 kg 1 h 45 min, c. Fuel +7&#37; Time +4&#37;",
             "isTrue": false
           }
         ]
@@ -533,25 +533,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a. 32 900 ft, b. 15 400 kg 6 h 44 min, c. Off optimum by 5000 ft 5.5%",
+            "content": "a. 32 900 ft, b. 15 400 kg 6 h 44 min, c. Off optimum by 5000 ft 5.5&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a. 32 900 ft, b. 15 500 kg 6 h 45 min, c. Off optimum by 5200 ft 5.5%",
+            "content": "a. 32 900 ft, b. 15 500 kg 6 h 45 min, c. Off optimum by 5200 ft 5.5&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "a. 32 900 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 5.5%",
+            "content": "a. 32 900 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 5.5&#37;",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "a. 32 800 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 6.5%",
+            "content": "a. 32 800 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 6.5&#37;",
             "isTrue": false
           }
         ]

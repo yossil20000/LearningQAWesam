@@ -445,25 +445,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Regular and raise the pulse by 100% for at least 20 minutes 2 times a week",
+            "content": "Regular and raise the pulse by 100&#37; for at least 20 minutes 2 times a week",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Raise the pulse by 100% for at least 20 minutes 3 times a week",
+            "content": "Raise the pulse by 100&#37; for at least 20 minutes 3 times a week",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Raise the pulse by 100% for at least 30 minutes 3 times a week",
+            "content": "Raise the pulse by 100&#37; for at least 30 minutes 3 times a week",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Regular and raise the pulse by 100% for at least 20 minutes 3 times a week",
+            "content": "Regular and raise the pulse by 100&#37; for at least 20 minutes 3 times a week",
             "isTrue": true
           }
         ]

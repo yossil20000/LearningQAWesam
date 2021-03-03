@@ -3,7 +3,7 @@
     "id": 0,
     "category": "1.ATPL_OXFORD",
     "subject": "8.SERIESHUMAN PERFORMANCE AND LIMITATIONS",
-    "chapter": "18P1.Specimen Questions Paper 1",
+    "chapter": "18P3.Specimen Questions Paper 3",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "The composition of the atmosphere from sea level to about 70 000 ft retains proportions of:",
+        "question": "The part of the retina with the highest visual acuity is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -20,743 +20,8 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "50&#37; Nitrogen, 40&#37; Oxygen, 10&#37; other gases",
+            "content": "the optic nerve entry point",
             "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "78&#37; Oxygen, 21&#37; Nitrogen, 1&#37; other gases",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "78&#37; Nitrogen, 21&#37; Oxygen, 1&#37; other gases",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "76&#37; Nitrogen, 14&#37; Oxygen, 10&#37; other gases",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "2",
-        "question": "Oxygen is required by the human body to:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "clear the blood of impurities produced in the body",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "derive energy from food by oxidation",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "produce carbon dioxide to maintain the correct acidity of the blood",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "to ensure the conversion of fats and proteins to carbohydrates required for tissue regeneration",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "3",
-        "question": "Gas exchange between the air and blood takes place:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "through the mucous lining of the trachea and bronchi",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "between the interior of the alveoli and the capillaries on the alveoli walls",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "from the whole surface of the lungs via the fluid in the thoracic cavity",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "by means of the Pulmonary artery, linking the lungs directly to the heart",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "4",
-        "question": "Oxygen is transported in the blood:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "dissolved in the blood plasma",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "in chemical combination with haemoglobin in the white blood cells",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "as microscopic bubbles linked to blood platelets",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "in combination with haemoglobin in the red blood cells",
-            "isTrue": true
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "5",
-        "question": "An individual who is short of oxygen may try to compensate by increasing the rate and depth of breathing. This process is called:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "hypoxic compensation",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "presbycusis",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "hyperventilation",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "carbonic dysrhythmia",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "6",
-        "question": "A free running circadian rhythm exhibits a periodicity of about:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "23 hours",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "24 hours",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "25 hours",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "26 hours",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "7",
-        "question": "Constantly seeking information to anticipate situations and to take the right decisions:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "can be dangerous, as it may distract attention from flying the aircraft",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "is impossible for pilots as they can only absorb a limited amount of information at any one time",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "enables maintenance of situational awareness",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "always carries the risk of constructing a false mental model",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "8",
-        "question": "Safety in commercial air transport:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "is better than road safety, but not as good as rail safety",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "though effective, lagging behind road and rail safety",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "increasing each year, due to the increasing automation of modern aircraft",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "better than road safety and rail safety",
-            "isTrue": true
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "9",
-        "question": "&#8220;Slow wave&#8221; sleep occurs:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "during low voltage high frequency delta brain wave activity",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "sleep stages 3 and 4",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "as an individual first starts to fall asleep",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "during the dreaming stage of REM sleep",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "10",
-        "question": "Strengthening and organizing the human memory when learning new tasks is believed to occur in:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "REM sleep",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "slow wave sleep",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "sleep stages 3 and 4",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "stages 1 and 2 sleep",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "11",
-        "question": "The most common form of amnesia affects:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "episodic memory",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "short-term or working memory",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "semantic memory",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "echoic and iconic memory",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "12",
-        "question": "The time of useful consciousness for a pilot, undertaking moderate activity, when exposed to progressive decompression at 20 000 ft is:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "30 minutes",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "5 minutes",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "12 seconds",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "2 to 3 minutes",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "13",
-        "question": "Required oxygen for an individual experiencing a moderate workload at 37 000 ft can be provided by breathing:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "100&#37; oxygen under pressure",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "an oxygen/air mixture",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "100&#37; oxygen",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "a mixture of oxygen and helium to balance the partial pressure in the lungs",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "14",
-        "question": "The General Adaptation Syndrome has in sequence the following phases:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "alarm phase – denial phase – acceptance phase",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "alarm phase – resistance phase – exhaustion phase",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "stressor – resistance phase – adaptation phase",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "resistance phase – exhaustion phase – recovery phase",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "15",
-        "question": "With a large aircraft maintaining a standard 3° approach to a runway, the touchdown point will be:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "at the visual aiming point",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "further into the runway than the visual aiming point",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "short or long from the visual aiming point depending on the runway slope",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "short of the visual aiming point",
-            "isTrue": true
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "16",
-        "question": "&#8220;Risky shift&#8221; is:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "a flight or task undertaken at a time when the body&#8221;s circadian rhythms are at their lowest point of efficiency",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "the process by which the central decision maker will ignore any information which does not fit the mental model created by the situation",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "the tendency of a group of individuals to accept a higher risk than any individual member of the group",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "the natural tendency of the human mind to blame outside agencies for any errors made in an emergency situation",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "17",
-        "question": "The eye datum or design eye position in the cockpit is established:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "so that the pilot can maintain an adequate view of all the important displays inside, and of the world outside with minimum head or body movements",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "to enable the pilot to see all his flight instruments within minimum scan movements of the head",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "at the centre of the artificial horizon or flight director indicator",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "to determine the eventual size of the flight deck and where the window frames will be positioned so as to give minimum interference to the pilot&#8221;s field of view",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "18",
-        "question": "The most dangerous characteristic of a false mental model is that:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "it will mainly occur under conditions of low arousal",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "it will mainly occur under conditions of stress",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "it is extremely resistant to change",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "it will always be modified to meet the expectations of the individual",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "19",
-        "question": "Which of the following is NOT one of the 5 hazardous attitudes?",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "Macho",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "Anti-authority",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "Impulsivity",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "Domination",
-            "isTrue": true
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "20",
-        "question": "To facilitate and reduce the time taken to access information in long-term memory, it is necessary to:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "learn to store information in a logical way",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "mentally rehearse information before it is needed",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "structure the information as much as possible before committing it to memory",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "avoid pointlessly activating information, which we know will soon be needed",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "21",
-        "question": "If a stimulus is expected and the response prepared; when an unexpected stimulus is received:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "the prepared response is likely to be carried out",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "the mind will &#8220;freeze&#8221; and will require a reminder a reminder from its data store before actioning the new demand",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "the prepared response will be transferred to the long-term memory store",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "D",
-            "content": "the mind will &#8220;switch off&#8221; and ignore the unexpected stimulus",
-            "isTrue": false
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "questionNumber": "22",
-        "question": "The area on the retina where the optic nerve receives all the information from the light sensitive cells of the retina is:",
-        "mark": 0,
-        "isActive": true,
-        "answerType": 0,
-        "supplements": [],
-        "options": [
-          {
-            "id": 0,
-            "tenantId": "A",
-            "content": "the blind spot",
-            "isTrue": true
           },
           {
             "id": 0,
@@ -767,13 +32,748 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "the rod/cone intersection point",
+            "content": "the retinal optical focus point",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the most sensitive part of the retina with the highest visual acuity",
+            "content": "the rod/cone balance point",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The effect on an individual of smoking 20 cigarettes a day is to increase the experienced altitude by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2 to 3000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "5 to 6000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a factor of about 20% of the ambient pressure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5 to 800 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "Small amounts of carbon monoxide present in the air causes:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "an improvement in the ability of the blood to carry oxygen",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a reduction in oxygen carrying capacity of the blood due to its blocking action on the diffusion of oxygen through the walls of the alveoli",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a tarring and blackening of the lungs leading to a reduced ability to allow gas passage across the lung surface",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a reduction in oxygen carrying capacity of the blood due to the much greater affinity of haemoglobin to carbon monoxide than to oxygen",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "Breathing 100% oxygen will supply sufficient oxygen for normal respiration up to an altitude of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "24 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "33 700 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "10 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "40 000 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "stretching of the small bowel if gas is present. This possibility may be reduced by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "limiting the amounts of liquids taken during the flight to sufficient to relieve dryness of the mouth",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "following a lifestyle which leads to regular bowel movement",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "avoiding before flight the foodstuffs that cause the production of intestinal gases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "taking mild antacid tablets when the problem first arises",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "One of the classes of effects of stress is cognitive stress. Cognitive effects can be identified as:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "forgetfulness, lack of concentration, difficulty in ‘switching off’",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "sleep disorders, increased heart rate and dry mouth",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "sweating, mental block, disassociation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "fatigue, apathy, anxiety",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>The composition of the atmosphere at sea level is 78% nitrogen, 21% oxygen, 1% other gases.</p><p>These proportions will:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "remain constant up to the tropopause",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "remain constant up to about 70 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "vary as the aircraft climbs",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "remain constant to about 20 000 ft when the proportion of oxygen will reduce considerably as more of the oxygen will be converted to ozone",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "The capacity of the working memory may be expanded by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "constant repetition of the material",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "‘chunking’ the material",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "immediate transfer of the material to the long-term memory",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "practice of the use of mnemonics as memory aids",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "<p>Professional languages have certain characteristics. They:</p><p>1. use a limited vocabulary (a maximum of about 500 words)</p><p>2. are rich and adapted to the context which sometimes leads to ambiguities</p><p>3. have technical characteristics allowing them to have a strong syntax</p><p>4. have a context which provides meaning and reduces the risk of ambiguities</p><p>The correct statement(s) is/are?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "4",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1 and 3",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2 and 3",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1 and 4",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "Discussing private matters in the cockpit:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "decreases the captain’s role in leadership",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "should be avoided in flight",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "can improve team spirit",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is appropriate at any stage of the flight",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "Co-action is a mode of coordination that involves:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "working in parallel to achieve individual objectives with independent and unrelated aims",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "sustained cooperation on actions and the formulation of commitments concerning flight situations",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "working in parallel to achieve one common objective, with independent but specified aims",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the application of procedural knowledge in the conduct of specific actions",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "A pilot suffering from decompression sickness should:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "descend to a lower level where the symptoms will disappear and continue the flight at this or a lower leve",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "decrease the cabin pressure to relieve the symptoms",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "continue the flight at a lower altitude and carry out exercises to relieve pain in the affected site",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "land as soon as possible and seek medical assistance",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "A pilot can improve the probability of detecting other aircraft by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "minimizing the duration of eye rests and making as many eye movements as possible",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "moving the head frequently to alter the apparent motion of any distant object",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "maximizing the time spent looking in each sector to allow the maximum chance of detecting movement",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "maintaining as far as possible a lookout ahead of the aircraft and relying on peripheral vision to detect any movement from the side",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "The temperature range of a flight deck to be comfortable should be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "15°C to 30°C with a relative humidity of 40 - 60%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10°C to 25°C with a relative humidity of 20 - 30%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "15°C to 30°C with a relative humidity of 70 - 80%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "30°C to 40°C with a relative humidity of 30 - 40%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "Confirmation bias:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "tends to make the pilot accept information that confirms his diagnosis of a situation and reject information that does not fit into his theory",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "makes the pilot look for the most probable solution to a problem to avoid using the full checklist",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "will cause the pilot to believe in a particular solution if the other crew members agree with him",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is the reinforcement of any idea by any past experience of a similar problem",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "The four primary flight instruments arranged in the standard ‘T’ consists of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "ASI, AH/FDI, ALT, T’SLIP",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "ASI, AH/FDI, DI/RMI, RMI",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "ASI, AH/FDI, ALT, DI/HIS",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "ASI, ALT, DI/HIS, RMI",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "The sunglasses used by a pilot should have a luminance transmittance of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "50 to 60%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10 to 15%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "20 to 40%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5 to 8%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "19",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "20",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -781,7 +781,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "The eye can adjust to changing light intensities by varying the diameter of the pupil. This can change the intensity of the light falling on the retina by a factor of:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -790,25 +790,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "10:1",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "2:1",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "5:1",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "20:1",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -816,7 +816,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "Following a flight that transits numerous time zones, the associated shifting of Zeitgebers helps resynchronization to the new local time at the average rate of:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -825,25 +825,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "2.5 hours per day",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "1.5 hours per day",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "4 hours per day",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "1 hour per day if the flight has been westward and 2 hours per day if the flight has been eastward",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -851,7 +851,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "A man is considered to be obese if his Body Mass Index (BMI) is over:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -860,33 +860,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "18",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "25",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "22",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "30",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "Divided attention:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -895,25 +895,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "is a fallacy, a pilot can only concentrate on one thing at a time",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "makes it possible to detect abnormal values for flight parameters even though they are not the pilot&#8221;s immediate concern",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "makes it possible to increase the number of simultaneously managed tasks in safety",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "makes it possible to carry out several cognitive processes at the same time",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -921,7 +921,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "The human body can tolerate short duration acceleration forces of up to 45g:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -930,25 +930,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "in the vertical axis",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "in the fore and aft axis",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "in the lateral axis",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "when suitable anti-g straining techniques are employed",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -956,7 +956,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "Barotrauma of the cranial sinuses is most likely to occur:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -965,25 +965,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "during the descent",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "among elderly passengers",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "in the climb",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "in persons with a history of cardiovascular problems",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -991,7 +991,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "Motor programmes:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1000,33 +1000,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "are stored as working rules in long-term memory",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "require conscious thought to engage",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "can be retained for only a few minutes",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the behavioural sub routines",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "During visual scanning the eye movements should be:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1035,25 +1035,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "large and frequent",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "small and infrequent",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "small and frequent",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "large and infrequent",
+            "content": "",
             "isTrue": false
           }
         ]

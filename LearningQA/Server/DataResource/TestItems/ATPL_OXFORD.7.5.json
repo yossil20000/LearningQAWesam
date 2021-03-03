@@ -103,7 +103,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "<p>Refer to CAP 697 MEP1 Fig 3.2.</p><p>Given:</p><p>Cruising level 11 000 ft</p><p>OAT in the cruise -15°C</p><p>Usable fuel 123 US gallons</p><p>The power is set to economy cruise</p><p>Find the range in NM with 45 min reserve fuel at 45% power.</p>",
+        "question": "<p>Refer to CAP 697 MEP1 Fig 3.2.</p><p>Given:</p><p>Cruising level 11 000 ft</p><p>OAT in the cruise -15°C</p><p>Usable fuel 123 US gallons</p><p>The power is set to economy cruise</p><p>Find the range in NM with 45 min reserve fuel at 45&#37; power.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

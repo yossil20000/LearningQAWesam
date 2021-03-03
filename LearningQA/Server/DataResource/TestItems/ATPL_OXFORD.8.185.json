@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "1.ATPL_OXFORD",
-    "subject": "8.SERIESHUMAN PERFORMANCE AND LIMITATIONS",
-    "chapter": "15.Decision Making and Risk",
+    "category": "",
+    "subject": null,
+    "chapter": "",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "What are the categories of risk?",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -20,25 +20,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Objective/Sudden and Subjective/Gradual",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Sudden/Impromptu and Gradual/Planned",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "External/Objective and Internal/Subjective",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Impromptu/Objective and Planned/Subjective",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -46,7 +46,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "The Commander is ultimately responsible for all decisions made in the cockpit.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -55,13 +55,13 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
+            "content": "",
             "isTrue": false
           },
           {
@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "There is no difference between &#8220;deciding&#8221; and &#8220;decision making&#8221;.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -90,14 +90,14 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "A decision is &#8220;good&#8221; when:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -125,25 +125,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "it can be implemented within the available time",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "time is not an issue. The decision must be correct",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "time can be an issue but the correct perception is the important factor",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "when other members of the crew agree",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "Preparation is essential for good decision making when time is an issue.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -160,13 +160,13 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
+            "content": "",
             "isTrue": false
           },
           {
@@ -186,7 +186,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "One of the possible problems of preparation is:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,25 +195,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "action slip",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "confirmation bias",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "error of commission",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "environment capture",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -221,7 +221,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "A person will tend to overestimate the frequency of:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -230,25 +230,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a common but negative occurrence",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a common but beneficial occurrence",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "a rare but beneficial occurrence",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "a rare but negative occurrence",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -256,7 +256,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "Negative events tend to be overestimated when:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,25 +265,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "they are well published",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "obvious",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "under published",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the results are unclear",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -291,7 +291,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "The risk of an Airprox is normally:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -300,25 +300,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "overestimated",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "underestimated",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "discounted",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "accurately assessed",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -326,7 +326,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "Evaluation of options in the decision-making process involves:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -335,25 +335,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "positive and negative considerations",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "values and costs",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "planned and impromptu considerations",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "assigning tasks",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -361,7 +361,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "People tend to be biased to make a:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -370,25 +370,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "risky loss rather than a certain loss even if the expected loss from the former is greater",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "risky loss rather than a certain loss even if the expected loss from the former is less",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "risky loss rather than a certain loss even if the expected loss from the latter is greater",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "risky loss rather than a certain loss even if the expected loss from the latter is far greater",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -396,7 +396,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "&#8220;Press-on-itis&#8221; is a:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -405,25 +405,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "common dilemma faced by all pilots",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "is only experienced by skilled pilots",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "only happens to inexperienced pilots",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "is rarely faced by good pilots",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -431,7 +431,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "The co-pilot is responsible for monitoring the implementation of the Commander&#8221;s decision.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -440,14 +440,14 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
@@ -466,7 +466,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "People tend to focus on salient cues.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -475,13 +475,13 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
+            "content": "",
             "isTrue": false
           },
           {
@@ -501,7 +501,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "Fatigue/overload:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -510,33 +510,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "sometimes affects decision making",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "rarely affects decision making",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "never affects decision making",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "always affects decision making",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "In the decision-making process, what should follow &#8220;review and feedback&#8221;?",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,33 +545,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Assign tasks",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Decide",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Risk assessment",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Diagnose and define objective",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "Man is extremely capable of accurate risk assessment.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -580,14 +580,14 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
@@ -606,7 +606,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "Input from the crew is an important factor in the decision-making process.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -615,13 +615,13 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
+            "content": "",
             "isTrue": false
           },
           {
@@ -641,7 +641,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "Lack of experience will have the following effect on the decision-making process:",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,25 +650,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "will speed it up (leaping in at the deep end)",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "slow it down",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "have no effect",
+            "content": "",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "disrupt the process",
+            "content": "",
             "isTrue": false
           }
         ]
@@ -676,7 +676,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "The decision process should include the crew.",
+        "question": "",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -685,13 +685,363 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "True",
-            "isTrue": true
+            "content": "",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "False",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "23",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "24",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "25",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "26",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "27",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "28",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "29",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "30",
+        "question": "",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
             "isTrue": false
           },
           {

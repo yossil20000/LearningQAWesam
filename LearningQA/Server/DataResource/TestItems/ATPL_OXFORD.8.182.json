@@ -3,7 +3,7 @@
     "id": 0,
     "category": "1.ATPL_OXFORD",
     "subject": "8.SERIESHUMAN PERFORMANCE AND LIMITATIONS",
-    "chapter": "18P1.Specimen Questions Paper 1",
+    "chapter": "18P2.Specimen Questions Paper 2",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "The composition of the atmosphere from sea level to about 70 000 ft retains proportions of:",
+        "question": "The &#8220;time of useful consciousness&#8221; for an individual experiencing rapid decompression at an altitude of 30 000 ft is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -20,25 +20,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "50&#37; Nitrogen, 40&#37; Oxygen, 10&#37; other gases",
+            "content": "45 – 75 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "78&#37; Oxygen, 21&#37; Nitrogen, 1&#37; other gases",
+            "content": "30 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "78&#37; Nitrogen, 21&#37; Oxygen, 1&#37; other gases",
+            "content": "1 - 2 minutes",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "76&#37; Nitrogen, 14&#37; Oxygen, 10&#37; other gases",
+            "content": "12 seconds",
             "isTrue": false
           }
         ]
@@ -46,7 +46,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "Oxygen is required by the human body to:",
+        "question": "During scanning of both the instruments and the exterior, the approximate duration of a saccade is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -55,25 +55,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "clear the blood of impurities produced in the body",
+            "content": "0.1 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "derive energy from food by oxidation",
+            "content": "1/3 second",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "produce carbon dioxide to maintain the correct acidity of the blood",
+            "content": "1.0 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "to ensure the conversion of fats and proteins to carbohydrates required for tissue regeneration",
+            "content": "variable, depending on the angular difference between the two objects to be scanned",
             "isTrue": false
           }
         ]
@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "Gas exchange between the air and blood takes place:",
+        "question": "Rule-based behaviours are stored in the brain:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -90,25 +90,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "through the mucous lining of the trachea and bronchi",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "between the interior of the alveoli and the capillaries on the alveoli walls",
+            "content": "as sets of rules in long-term memory",
             "isTrue": true
           },
           {
             "id": 0,
+            "tenantId": "B",
+            "content": "as &#8220;bits&#8221; in the working memory",
+            "isTrue": false
+          },
+          {
+            "id": 0,
             "tenantId": "C",
-            "content": "from the whole surface of the lungs via the fluid in the thoracic cavity",
+            "content": "as conditioned responses in motor programmes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "by means of the Pulmonary artery, linking the lungs directly to the heart",
+            "content": "as rule-giving automatic linkage between the semantic and working memories",
             "isTrue": false
           }
         ]
@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "Oxygen is transported in the blood:",
+        "question": "The cabin pressure in commercial pressurized aircraft is normally maintained at an equivalent atmospheric pressure:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -125,33 +125,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "dissolved in the blood plasma",
+            "content": "always equivalent to sea level",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "in chemical combination with haemoglobin in the white blood cells",
+            "content": "normally not exceeding 2000 to 3000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "as microscopic bubbles linked to blood platelets",
-            "isTrue": false
+            "content": "normally not exceeding 6000 to 8000 ft",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "in combination with haemoglobin in the red blood cells",
-            "isTrue": true
+            "content": "normally not exceeding 10 000 to 12 000 ft",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "An individual who is short of oxygen may try to compensate by increasing the rate and depth of breathing. This process is called:",
+        "question": "&#8220;Environment capture&#8221; is the process whereby:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -160,33 +160,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "hypoxic compensation",
+            "content": "the pilot becomes fixated on the outside environment and neglects to monitor the instruments in the cockpit",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "presbycusis",
+            "content": "the pilot keeps &#8220;head in cockpit&#8221; to an extreme degree and may therefore miss vital cues from the external environment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "hyperventilation",
-            "isTrue": true
+            "content": "the pilot is unable to allocate priorities between the exterior and interior environments causing confusion and the possibility of mistakes",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "carbonic dysrhythmia",
-            "isTrue": false
+            "content": "the fact of being at a particular stage of flight may cause an automatic response to checks when the actions have not actually been completed",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "A free running circadian rhythm exhibits a periodicity of about:",
+        "question": "At altitude the necessary oxygen requirements may be provided for normal respiration by an oxygen/air mix up to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,33 +195,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "23 hours",
+            "content": "30 800 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "24 hours",
+            "content": "40 000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "25 hours",
-            "isTrue": true
+            "content": "24 000 ft",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "26 hours",
-            "isTrue": false
+            "content": "33 700 ft",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "Constantly seeking information to anticipate situations and to take the right decisions:",
+        "question": "The partial pressures of various gases in the alveoli differs from those in atmospheric air because:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -230,25 +230,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "can be dangerous, as it may distract attention from flying the aircraft",
+            "content": "chest muscles and diaphragm raise the lung pressure to above atmospheric pressure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "is impossible for pilots as they can only absorb a limited amount of information at any one time",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "enables maintenance of situational awareness",
+            "content": "there is a significant increase of carbon dioxide and water vapour in the alveoli",
             "isTrue": true
           },
           {
             "id": 0,
+            "tenantId": "C",
+            "content": "oxygen is removed at a higher rate from alveolar air than carbon dioxide replaces it",
+            "isTrue": false
+          },
+          {
+            "id": 0,
             "tenantId": "D",
-            "content": "always carries the risk of constructing a false mental model",
+            "content": "the venturi effect of air passing through the trachea and bronchi causes a reduction of pressure in the alveoli",
             "isTrue": false
           }
         ]
@@ -256,7 +256,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "Safety in commercial air transport:",
+        "question": "In respiration the functions of the nasal passages are to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,33 +265,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "is better than road safety, but not as good as rail safety",
+            "content": "enable the detection of possible noxious gases and trigger the body&#8221;s defences",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "though effective, lagging behind road and rail safety",
+            "content": "trap harmful particles and bacteria in their mucous membranes so that they will not pass into the very delicate lung tissue",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "increasing each year, due to the increasing automation of modern aircraft",
-            "isTrue": false
+            "content": "filter, warm and humidify air drawn in during inspiration",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "better than road safety and rail safety",
-            "isTrue": true
+            "content": "sample the air to enable the respiratory mechanism to adjust the rate and depth of breathing",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "&#8220;Slow wave&#8221; sleep occurs:",
+        "question": "Any individual who has been scuba diving should avoid flying:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -300,33 +300,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "during low voltage high frequency delta brain wave activity",
+            "content": "within 36 hours of the last dive",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "sleep stages 3 and 4",
-            "isTrue": true
+            "content": "within 24 hours or 48 hours if a depth of 30 ft has been exceeded",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "as an individual first starts to fall asleep",
+            "content": "only after consultation with a doctor if a depth of 30 ft has been exceeded",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "during the dreaming stage of REM sleep",
-            "isTrue": false
+            "content": "within 12 hours, or 24 hours if a depth of 30 ft has been exceeded",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "Strengthening and organizing the human memory when learning new tasks is believed to occur in:",
+        "question": "The major factor in the general population which predisposes an individual to heart attack is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -335,25 +335,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "REM sleep",
+            "content": "family history",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "slow wave sleep",
+            "content": "smoking",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "sleep stages 3 and 4",
+            "content": "the amount of saturated fats in the diet",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "stages 1 and 2 sleep",
+            "content": "hypertension (high blood pressure)",
             "isTrue": false
           }
         ]
@@ -361,7 +361,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "The most common form of amnesia affects:",
+        "question": "Loss of hearing due to damage or defects in the eardrum or auditory ossicles is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -370,25 +370,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "episodic memory",
-            "isTrue": true
+            "content": "presbycusis",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "short-term or working memory",
+            "content": "noise induced hearing loss (NIHL)",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "semantic memory",
-            "isTrue": false
+            "content": "conductive deafness",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "echoic and iconic memory",
+            "content": "middle ear disconnection",
             "isTrue": false
           }
         ]
@@ -396,7 +396,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "The time of useful consciousness for a pilot, undertaking moderate activity, when exposed to progressive decompression at 20 000 ft is:",
+        "question": "The common illusion created by linear acceleration or deceleration is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -405,33 +405,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "30 minutes",
+            "content": "a false banking sensation due to disturbance in the endolymph of the inner ear",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "5 minutes",
-            "isTrue": true
+            "content": "a combined pitch up and banking sensation",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "12 seconds",
+            "content": "a feeling of pitch up when the aircraft decelerates causing an automatic attempt to push the nose of the aircraft down",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "2 to 3 minutes",
-            "isTrue": false
+            "content": "a pitch up feeling when the aircraft accelerates",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "Required oxygen for an individual experiencing a moderate workload at 37 000 ft can be provided by breathing:",
+        "question": "<p>What means can be used to combat human error?</p><p>1. Reducing error-prone mechanisms</p><p>2. Improving the way in which error is taken into account in training</p><p>3. Sanctions against the initiators of errors</p><p>4. Improving recovery from error and its consequences</p><p>The combination of correct statements is:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -440,33 +440,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "100&#37; oxygen under pressure",
+            "content": "3 and 4",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "an oxygen/air mixture",
+            "content": "1 and 2",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "100&#37; oxygen",
-            "isTrue": true
+            "content": "2, 3, and 4",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "a mixture of oxygen and helium to balance the partial pressure in the lungs",
-            "isTrue": false
+            "content": "1, 2 and 4",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "The General Adaptation Syndrome has in sequence the following phases:",
+        "question": "A system can be said to be tolerant of error when:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -475,25 +475,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "alarm phase – denial phase – acceptance phase",
+            "content": "its safety system is too subject to error",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "alarm phase – resistance phase – exhaustion phase",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "stressor – resistance phase – adaptation phase",
+            "content": "its safety system has taken into account all statistically probable errors",
             "isTrue": false
           },
           {
             "id": 0,
+            "tenantId": "C",
+            "content": "the consequence of error will not seriously jeopardize safety",
+            "isTrue": true
+          },
+          {
+            "id": 0,
             "tenantId": "D",
-            "content": "resistance phase – exhaustion phase – recovery phase",
+            "content": "latent errors do not entail serious consequences for safety",
             "isTrue": false
           }
         ]
@@ -501,7 +501,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "With a large aircraft maintaining a standard 3° approach to a runway, the touchdown point will be:",
+        "question": "The physiological responses to high levels of stress are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -510,33 +510,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "at the visual aiming point",
+            "content": "fear, anxiety, depression",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "further into the runway than the visual aiming point",
-            "isTrue": false
+            "content": "sweating, dryness of the mouth, breathing difficulties",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "short or long from the visual aiming point depending on the runway slope",
+            "content": "indecision, inattention, withdrawal",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "short of the visual aiming point",
-            "isTrue": true
+            "content": "temporary mental confusion, restlessness",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "&#8220;Risky shift&#8221; is:",
+        "question": "The term &#8220;atmospheric perspective&#8221; in aviation means:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,25 +545,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a flight or task undertaken at a time when the body&#8221;s circadian rhythms are at their lowest point of efficiency",
+            "content": "a change in the attitude of the aircraft could lead to misinterpretation of the runway length",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "the process by which the central decision maker will ignore any information which does not fit the mental model created by the situation",
-            "isTrue": false
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "the tendency of a group of individuals to accept a higher risk than any individual member of the group",
+            "content": "the tendency for objects to become indistinct with distance",
             "isTrue": true
           },
           {
             "id": 0,
+            "tenantId": "C",
+            "content": "the tendency of objects of certain colours to remain in view for longer periods during differing light conditions",
+            "isTrue": false
+          },
+          {
+            "id": 0,
             "tenantId": "D",
-            "content": "the natural tendency of the human mind to blame outside agencies for any errors made in an emergency situation",
+            "content": "the presence of a sloping cloud bank may be mistaken for a horizon, causing a pilot who is flying VMC to bank the aircraft to align it with the cloud bank",
             "isTrue": false
           }
         ]
@@ -571,7 +571,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "The eye datum or design eye position in the cockpit is established:",
+        "question": "The &#8220;fight or flight&#8221; response occurs when:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -580,25 +580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "so that the pilot can maintain an adequate view of all the important displays inside, and of the world outside with minimum head or body movements",
-            "isTrue": true
+            "content": "a normal non-aggressive person suffers stress as result of shock, turns pale, trembles and chooses to flee rather than fight",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "to enable the pilot to see all his flight instruments within minimum scan movements of the head",
+            "content": "in anger a person becomes red in the face, aggressive and chooses to fight rather than flee",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "at the centre of the artificial horizon or flight director indicator",
-            "isTrue": false
+            "content": "the sympathetic nervous system provides an individual with the resources to cope with a new and sudden source of stress",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "to determine the eventual size of the flight deck and where the window frames will be positioned so as to give minimum interference to the pilot&#8221;s field of view",
+            "content": "the parasympathetic nervous system provides extra resources for an individual to cope with a new and sudden source of stress",
             "isTrue": false
           }
         ]
@@ -606,7 +606,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "The most dangerous characteristic of a false mental model is that:",
+        "question": "The working memory is limited in its capacity to store unrelated items. The number of such items that may be stored with full attention is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -615,25 +615,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "it will mainly occur under conditions of low arousal",
-            "isTrue": false
+            "content": "7 &#177; 2",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "it will mainly occur under conditions of stress",
+            "content": "7",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "it is extremely resistant to change",
-            "isTrue": true
+            "content": "5 &#177; 2",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "it will always be modified to meet the expectations of the individual",
+            "content": "4",
             "isTrue": false
           }
         ]
@@ -641,7 +641,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "Which of the following is NOT one of the 5 hazardous attitudes?",
+        "question": "If information in the working memory is not rehearsed it will be lost in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,25 +650,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Macho",
+            "content": "1 to 2 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Anti-authority",
+            "content": "8 to 12 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Impulsivity",
+            "content": "5 to 10 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Domination",
+            "content": "10 to 20 seconds",
             "isTrue": true
           }
         ]
@@ -676,7 +676,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "To facilitate and reduce the time taken to access information in long-term memory, it is necessary to:",
+        "question": "Anthropometry is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -685,33 +685,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "learn to store information in a logical way",
+            "content": "the study of human behaviour in response to stress",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "mentally rehearse information before it is needed",
-            "isTrue": true
+            "content": "the study of sleep patterns and circadian rhythms",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "structure the information as much as possible before committing it to memory",
+            "content": "the study of the relationship between man and his working environment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "avoid pointlessly activating information, which we know will soon be needed",
-            "isTrue": false
+            "content": "the study of human measurement",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "If a stimulus is expected and the response prepared; when an unexpected stimulus is received:",
+        "question": "In the event of a rapid decompression, the venturi effect of the airflow passing the fuselage may lead to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -720,25 +720,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "the prepared response is likely to be carried out",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "B",
-            "content": "the mind will &#8220;freeze&#8221; and will require a reminder a reminder from its data store before actioning the new demand",
+            "content": "a restriction of vision due to the sudden pressure drop causing water vapour to condense in the cabin",
             "isTrue": false
           },
           {
             "id": 0,
+            "tenantId": "B",
+            "content": "the cabin altitude being at a higher altitude than the aircraft altitude",
+            "isTrue": true
+          },
+          {
+            "id": 0,
             "tenantId": "C",
-            "content": "the prepared response will be transferred to the long-term memory store",
+            "content": "a sudden rise in the skin temperature of the fuselage with the danger of igniting any fuel spillage",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the mind will &#8220;switch off&#8221; and ignore the unexpected stimulus",
+            "content": "a decrease in the rate at which the cabin depressurizes as the aircraft speed increases",
             "isTrue": false
           }
         ]
@@ -746,7 +746,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "The area on the retina where the optic nerve receives all the information from the light sensitive cells of the retina is:",
+        "question": "The generally accepted model for the acquisition of expertise or skill comprises three stages:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -755,25 +755,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "the blind spot",
+            "content": "cognitive, associative and automatic",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "the fovea",
+            "content": "cognitive, associative and expert",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "the rod/cone intersection point",
+            "content": "associative, automatic and expert",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the most sensitive part of the retina with the highest visual acuity",
+            "content": "automatic, cognitive and expert",
             "isTrue": false
           }
         ]
@@ -781,7 +781,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "The eye can adjust to changing light intensities by varying the diameter of the pupil. This can change the intensity of the light falling on the retina by a factor of:",
+        "question": "According to Rasmussen&#8221;s activity model, errors are of the following type in skillbased mode:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -790,25 +790,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "10:1",
-            "isTrue": false
+            "content": "routine errors",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "2:1",
+            "content": "errors of technical knowledge",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "5:1",
-            "isTrue": true
+            "content": "handling errors",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "20:1",
+            "content": "creative errors",
             "isTrue": false
           }
         ]
@@ -816,7 +816,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "Following a flight that transits numerous time zones, the associated shifting of Zeitgebers helps resynchronization to the new local time at the average rate of:",
+        "question": "Stress may be defined as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -825,25 +825,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "2.5 hours per day",
+            "content": "a poorly controlled emotion which leads to a reduction in capabilities",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "1.5 hours per day",
+            "content": "a psychological phenomenon which affects only fragile personalities",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "4 hours per day",
-            "isTrue": false
+            "content": "a normal phenomenon that enables an individual to adapt to situations encountered",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "1 hour per day if the flight has been westward and 2 hours per day if the flight has been eastward",
+            "content": "a human reaction which individuals must manage to eliminate",
             "isTrue": false
           }
         ]
@@ -851,7 +851,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "A man is considered to be obese if his Body Mass Index (BMI) is over:",
+        "question": "Which behaviour is most likely to promote a constructive solution to interpersonal conflicts?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -860,33 +860,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "18",
+            "content": "responding with logical counter arguments",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "25",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "22",
+            "content": "steadfastly maintaining one&#8221;s own point of view",
             "isTrue": false
           },
           {
             "id": 0,
-            "tenantId": "D",
-            "content": "30",
+            "tenantId": "C",
+            "content": "active listening",
             "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "surrendering one&#8221;s own point of view",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "Divided attention:",
+        "question": "The speed of any learning process can be increased by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -895,25 +895,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "is a fallacy, a pilot can only concentrate on one thing at a time",
+            "content": "gradually increasing the psychological pressure on the students",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "makes it possible to detect abnormal values for flight parameters even though they are not the pilot&#8221;s immediate concern",
-            "isTrue": true
-          },
-          {
-            "id": 0,
-            "tenantId": "C",
-            "content": "makes it possible to increase the number of simultaneously managed tasks in safety",
+            "content": "punishing the learner for unsuccessful trials",
             "isTrue": false
           },
           {
             "id": 0,
+            "tenantId": "C",
+            "content": "reinforcing successful trials",
+            "isTrue": true
+          },
+          {
+            "id": 0,
             "tenantId": "D",
-            "content": "makes it possible to carry out several cognitive processes at the same time",
+            "content": "reinforcing errors made during the learning process",
             "isTrue": false
           }
         ]
@@ -921,7 +921,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "The human body can tolerate short duration acceleration forces of up to 45g:",
+        "question": "Decision making in emergency situations requires primarily:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -930,25 +930,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "in the vertical axis",
+            "content": "speed of reaction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "in the fore and aft axis",
+            "content": "the distribution of tasks and crew coordination",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "in the lateral axis",
+            "content": "strong situational awareness",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "when suitable anti-g straining techniques are employed",
+            "content": "the whole crew to focus on the immediate problem",
             "isTrue": false
           }
         ]
@@ -956,7 +956,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "Barotrauma of the cranial sinuses is most likely to occur:",
+        "question": "Sinuses in the skull are required to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -965,33 +965,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "during the descent",
-            "isTrue": true
+            "content": "act as a reservoir for those fluids necessary to maintain the mucous membranes of the respiratory system in a healthy state",
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "among elderly passengers",
+            "content": "provide a system that allows any sudden pressure changes to be over the whole skull",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "in the climb",
+            "content": "act as a drain system to allow cranial fluids to maintain correct pressure during altitude changes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "in persons with a history of cardiovascular problems",
-            "isTrue": false
+            "content": "to make the skull lighter and the voice resonant",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "Motor programmes:",
+        "question": "The red blood cells are produced in the body by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1000,33 +1000,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "are stored as working rules in long-term memory",
-            "isTrue": false
+            "content": "the bone marrow",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "require conscious thought to engage",
+            "content": "the spleen when triggered by hormone secretion",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "can be retained for only a few minutes",
+            "content": "the liver and pancreas",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the behavioural sub routines",
-            "isTrue": true
+            "content": "the liver and spleen",
+            "isTrue": false
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "During visual scanning the eye movements should be:",
+        "question": "On the retina of the eye, the rod cells are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1035,25 +1035,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "large and frequent",
+            "content": "used primarily during daylight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "small and infrequent",
+            "content": "highly sensitive to colour changes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "small and frequent",
+            "content": "sensitive to much lower light levels than the cone cells",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "large and infrequent",
+            "content": "concentrated in the area of the fovea",
             "isTrue": false
           }
         ]
