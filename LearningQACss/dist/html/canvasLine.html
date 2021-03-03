@@ -2,6 +2,47 @@
 
  <html>
     <script type="text/javascript">
+    let canvasClasses = new Map();
+
+class CanvasClass {
+    canvas;
+    ctx;
+    prevX;
+    currX;
+    prevY;
+    currY;
+    
+    constructor(canvasId) {
+        this.canvasId = canvasId;
+       this.canvas =  document.getElementById(canvasId);
+        this.ctx = this.canvas.getContext("2d");
+        this.canvas.width = window.innerWidth;
+        this.canvas.height = window.innerHeight;
+        
+        
+    }
+    move(e)
+    {
+        prevX = currX;
+                prevY = currY;
+                currX = e.clientX - this.canvas.offsetLeft;
+                currY = e.clientY - this.canvas.offsetTop;
+                this.draw();
+    }
+    draw() {
+        this.ctx.beginPath();
+        this.ctx.moveTo(prevX, prevY);
+        this.ctx.lineTo(currX, currY);
+        this.ctx.strokeStyle = x;
+        this.ctx.lineWidth = y;
+        this.ctx.stroke();
+        this.ctx.closePath();
+    }
+    
+    
+}   
+   
+
     var canvas, ctx, flag = false,
         prevX = 0,
         currX = 0,
@@ -11,8 +52,18 @@
         first = true;
     var x = "black",
         y = 2;
-    
-    function init() {
+    var cmap;
+    function init()
+    {
+         c1 = new CanvasClass("can", canvas);
+    canvasClasses.set('can',c1);
+     c2 = new CanvasClass("can2");
+      canvasClasses.set('can2',c2);
+        cmap = canvasClasses.get('can');
+        cmap.canvas.addEventListener("mousemove", function(e) {c1.move(e)}, false);
+        canvasClasses.get('can2').canvas.addEventListener("mousemove", function(e) {c2.move(e)}, false);
+    }
+    /* function init() {
         canvas = document.getElementById('can');
         ctx = canvas.getContext("2d");
         w = canvas.width;
@@ -30,7 +81,7 @@
         canvas.addEventListener("mouseout", function (e) {
             findxy('out', e)
         }, false);
-    }
+    } */
     
     function color(obj) {
         switch (obj.id) {
@@ -61,15 +112,7 @@
     
     }
     
-    function draw() {
-        ctx.beginPath();
-        ctx.moveTo(prevX, prevY);
-        ctx.lineTo(currX, currY);
-        ctx.strokeStyle = x;
-        ctx.lineWidth = y;
-        ctx.stroke();
-        ctx.closePath();
-    }
+    
     
     function erase() {
         var m = confirm("Want to clear");
@@ -91,51 +134,10 @@
         document.getElementById("canvasimg").style.display = "inline";
     }
     
-    function findxy(res, e) {
-        if (res == 'down') {
-            prevX = currX;
-            prevY = currY;
-            currX = e.clientX - canvas.offsetLeft;
-            currY = e.clientY - canvas.offsetTop;
     
-            flag = true;
-            dot_flag = true;
-            if (dot_flag) {
-                ctx.beginPath();
-                ctx.fillStyle = x;
-                ctx.fillRect(currX, currY, 2, 2);
-                ctx.closePath();
-                dot_flag = false;
-            }
-        }
-        if (res == 'up' || res == "out") {
-            flag = false;
-           
-           
-        }
-        if (res == 'up') {
-           
-            if(first){
-                first = false;
-            }
-            else{
-                draw();
-            }
-           
-        }
-        if (res == 'move') {
-            if (flag) {
-                prevX = currX;
-                prevY = currY;
-                currX = e.clientX - canvas.offsetLeft;
-                currY = e.clientY - canvas.offsetTop;
-                draw();
-            }
-        }
-    }
     </script>
     <body onload="init()">
-        <canvas id="can" width="400" height="400" style="position:absolute;top:10%;left:10%;border:2px solid;"></canvas>
+        <canvas id="can" width="40" height="40" style="position:absolute;top:10%;left:10%;border:2px solid;"></canvas>
         <div style="position:absolute;top:12%;left:43%;">Choose Color</div>
         <div style="position:absolute;top:15%;left:45%;width:10px;height:10px;background:green;" id="green" onclick="color(this)"></div>
         <div style="position:absolute;top:15%;left:46%;width:10px;height:10px;background:blue;" id="blue" onclick="color(this)"></div>
@@ -149,5 +151,6 @@
         <input type="button" value="save" id="btn" size="30" onclick="save()" style="position:absolute;top:55%;left:10%;">
         <input type="button" value="clear" id="clr" size="23" onclick="erase()" style="position:absolute;top:55%;left:15%;">
         <input type="button" value="new line" id="clr" size="23" onclick="newline()" style="position:absolute;top:55%;left:25%;">
+        <canvas id="can2" width="40" height="40" style="position:absolute;top:70%;left:10%;border:2px solid;"></canvas>
     </body>
     </html>
