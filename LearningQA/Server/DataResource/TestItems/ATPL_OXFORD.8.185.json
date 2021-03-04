@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "8.SERIESHUMAN PERFORMANCE AND LIMITATIONS",
+    "chapter": "18P5.Specimen Questions Paper 5",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "With regard to communication in cockpits, which of the following statements is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -20,25 +20,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Communication is always sufficiently automated to enable an activity with a high workload element to be carried out at the same time",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Communication uses resources, thus limiting resources allocated to work in progress",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Communication is only effective if messages are kept short and sufficiently precise to limit their number",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "All the characteristics of communication, namely output, duration, precision, clarity, etc. are stable and are not much affected changes in workload",
             "isTrue": false
           }
         ]
@@ -46,7 +46,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The term &#8220;attitudes&#8221; is used to describe:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -55,25 +55,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the predisposition for acting in a particular manner",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a synonym for ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a synonym for behaviour",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the conditions necessary for carrying out an activity",
             "isTrue": false
           }
         ]
@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "Stress management is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -90,25 +90,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the effect on an individual in a managerial, or other responsible, position of the pressures of that job",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the stress upon an employee caused by the pressures imposed by the management or his superiors at work",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the process by which individuals adopt systems to assist in coping with stress",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the use of a process, such as relaxation techniques, to remove the stress source",
             "isTrue": false
           }
         ]
@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "Individuals are more likely to comply with a decision made by a person who they perceive as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -125,25 +125,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "larger than they are",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "of a higher status",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "having a better education than themselves",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "being of a greater age",
             "isTrue": false
           }
         ]
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "A pilot who is diagnosed as having an alcohol problem can:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -160,33 +160,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "continue to fly as an operating pilot whilst he receives treatment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "never fly again as an operating pilot",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "fly as a pilot only if he is supervised by another pilot",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "return to flying duties after a suitable course of treatment is complete",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "Risky shift is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,25 +195,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the tendency for extroverts to take more risks than introverts",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the tendency for military pilots to take more risks than civilian pilots",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the tendency of a group to make a more risky decision than the average individual within the group",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the tendency for individuals to take more risky decisions when transferred to a different aircraft type",
             "isTrue": false
           }
         ]
@@ -221,7 +221,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "Very high ambition and a need for achievement:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -230,25 +230,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "meets the requirement for stress resistance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "disturbs the climate of cooperation",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "always promotes effective teamwork",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "makes it easier for an individual to cope with personal failures",
             "isTrue": false
           }
         ]
@@ -256,7 +256,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Reducing alcohol in an individual&#8221;s blood:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,25 +265,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "is only achieved by the passage of time",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "can be accelerated by the use of coffee or other drinks containing caffeine",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "is more rapid when the individual is a regular alcohol user",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "can be speeded up by the use of medication",
             "isTrue": false
           }
         ]
@@ -291,7 +291,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "Long or short sightedness is normally caused by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -300,25 +300,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "distortion of the cornea",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the shape of the whole eyeball",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "distortion of the lens",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a malfunction of the iris",
             "isTrue": false
           }
         ]
@@ -326,7 +326,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "Barotrauma caused by the inability of the eustachian tube to equalize external and internal pressure in the descent will lead to a pressure difference between the outside air and:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -335,25 +335,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the inner ear",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the vestibular apparatus",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the middle ear",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the cochlea",
             "isTrue": false
           }
         ]
@@ -361,7 +361,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "&#8220;Environment capture&#8221; may lead to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -370,33 +370,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "errors of rule-based behaviour",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "errors of knowledge based behaviour",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "errors of semantic memory",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "errors of skill-based behaviour",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "A runway that slopes downwards when approaching may induce the pilot to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -405,25 +405,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "land long into the runway",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "make a shallow approach",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "land short",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "go around",
             "isTrue": false
           }
         ]
@@ -431,7 +431,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "When a pilot has no external visual references, a deceleration in straight and level flight can give the impression of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -440,25 +440,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the nose of the aircraft pitching up",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the nose of the aircraft pitching down",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a sudden height loss",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a banking of the aircraft",
             "isTrue": false
           }
         ]
@@ -466,7 +466,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "Episodic memory is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -475,33 +475,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a memory of events, held in short-term memory",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a memory of information, held in short-term memory",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a memory of information, held in long-term memory",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "a memory of events, held in long-term memory",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "The use of alcohol, drugs or tobacco to counter the effects of stress is an example of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -510,25 +510,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "action coping",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "cognitive coping",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "symptom directed coping",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "biofeedback technique",
             "isTrue": false
           }
         ]
@@ -536,7 +536,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "A cockpit warning of an emergency should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,33 +545,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "startle to gain attention",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "illuminate a flashing red light",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "make a noise symptomatic of the problem",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "be attention getting without being startling",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "In processing information an attentional mechanism is required because:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -580,25 +580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "working memory has a limited capacity",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "processing capacity is limited",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "echoic and iconic memories have a very short retention time",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "it will activate a selection from episodic or semantic memory",
             "isTrue": false
           }
         ]
@@ -606,7 +606,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "The function of slow wave sleep is believed to be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -615,25 +615,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "a period of rest to allow restoration of the body tissues",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a period to rest and refresh the mind",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a period when vivid dreams can take place",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "helpful in the learning process especially if a new or difficult procedures have been learned during the day",
             "isTrue": false
           }
         ]
@@ -641,7 +641,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "<p>A pilot is rostered for the following duty period:</p><p>Awake 0700 UTC</p><p>Depart 1000 UTC</p><p>Leg time 10 hours</p><p>Local time UTC + 7 hours</p><p>Off duty 24 hours</p><p>Next leg 10 hours</p><p>The best rest pattern for time on the ground would be:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,25 +650,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "keep in time with UTC during stop for sleep times and nap for 2 - 3 hours before cal",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "do not sleep until 8 - 9 hours before call",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "stay awake for 2 - 3 hours after landing, sleep for 3 - 4 hours then stay awake until 8 hours before call",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "after 1 hours unwind time sleep for 8 hours then ensure 3 - 4 hours sleep prior to call",
             "isTrue": false
           }
         ]
@@ -676,7 +676,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "The iconic memory is the visual store of the short-term memory. It will hold information for:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -685,33 +685,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 to 8 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "0.5 to 1 minute",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 to 15 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "0.5 to 1 second",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "Oxygen is carried in the blood:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -720,33 +720,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "in combination with haemoglobin in the white blood cells",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "dissolved in the plasma",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "as microscopic bubbles attached to blood platelets",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "within the red blood cells",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "Anthropomorphic data table measurements should be taken from:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -755,33 +755,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a large selection of the general population static and dynamic measurements",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a specific population using static measurements",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a large selection of the general population using static measurements",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "a specific population using dynamic and static measureme",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "Situational insomnia is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -790,25 +790,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an inability to sleep in normal favourable conditions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a condition which may be eased by taking many short naps",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "an inability to sleep due to circadian dysrhythmia",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an inability to sleep due to environmental noise",
             "isTrue": false
           }
         ]
@@ -816,7 +816,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Sleep apnoea:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -825,33 +825,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "occurs more often in older individuals",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "occurs when an individual cannot prevent falling asleep even when in sleep credit",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "most often occurs during REM sleep",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "is a cessation of breathing whilst asleep",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "If colours are used in a cockpit display, yellow should signify:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -860,25 +860,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "it is acceptable to proceed to the next stage of a process",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "advisory information",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "non-critical functions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an alert",
             "isTrue": false
           }
         ]
@@ -886,7 +886,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "In standardized controls a handle used to open a valve should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -895,25 +895,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "always rotate in an anticlockwise direction",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "only rotate anticlockwise if placed on an overhead panel",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "rotate clockwise if used from the left hand seat and anticlockwise if used from the right hand seat",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "always rotate clockwise",
             "isTrue": false
           }
         ]
@@ -921,7 +921,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "&#8220;Body language&#8221; on the flight deck should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -930,25 +930,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "not be used",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "be restricted to non-aggressive facial expressions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "used to supplement oral communication",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "never used to touch an individual",
             "isTrue": false
           }
         ]
@@ -956,7 +956,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "A circular instrument with a fixed pointer and a moving scale is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -965,25 +965,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "an analogue display",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ideal for displaying range information",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "ideal for displaying bearing information",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a digital display instrument",
             "isTrue": false
           }
         ]
@@ -991,7 +991,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "A pilot is permitted to use bifocal contact lenses:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1000,25 +1000,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "only during the cruise stage of the flight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "never when flying",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "only when a pair of bifocal spectacles are carried for emergency use",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "only when flying in daylight hours in VMC conditions",
             "isTrue": false
           }
         ]
@@ -1026,7 +1026,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "Donating blood by an operating flight deck crew member is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1035,25 +1035,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "permitted, subject to at least 24 hours elapsing before one&#8221;s next flight",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "not permitted for aircrew who are actively flying",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "only permitted within 12 hours of one&#8221;s next flight when cleared by a qualified aviation doctor",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "allowable with no restrictions on subsequent flying",
             "isTrue": false
           }
         ]

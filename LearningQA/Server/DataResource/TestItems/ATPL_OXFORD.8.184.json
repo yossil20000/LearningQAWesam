@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "An individual who has consumed a moderate amount of alcohol prior to sleep is likely to have:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -20,25 +20,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a longer sleep",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "less REM sleep",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "more slow wave sleep",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "more REM sleep",
             "isTrue": false
           }
         ]
@@ -46,7 +46,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "If a pilot’s seat is set too low on the approach, the effect would be to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -55,25 +55,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "obscure the overshoot",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "obscure the flight instruments",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "obscure the undershoot",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "all of the above",
             "isTrue": false
           }
         ]
@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "In the late stages of an approach, ground proximity is judged by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -90,25 +90,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "colour and contrast of ground features",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "position of the aircraft nose relative to the horizon",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "texture and relative speed of ground features",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "position of the aircraft nose relative to the visual aiming point",
             "isTrue": false
           }
         ]
@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "Which of the following graphs represents the relationship between arousal and performance?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -125,25 +125,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Inverted &#8220;U&#8221;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "&#8220;U&#8221; shaped",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Straight line rising at 45&#8451; angle",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Straight line descending at 45&#8451; angle",
             "isTrue": false
           }
         ]
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "An individual’s performance is adversely affected by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -160,33 +160,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "high arousal state",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "low arousal state",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "neither high nor low arousal state",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "both high and low arousal states",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "Following a sudden decompression at 30 000 ft, the time of useful consciousness would be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,25 +195,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1 to 2 minutes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "12 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4 to 5 minutes",
             "isTrue": false
           }
         ]
@@ -221,7 +221,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "A motor programme is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -230,33 +230,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "one that is based on knowledge and experience",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the way that a checklist is actioned",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "one that requires conscious thought throughout its action",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "one that is learned by practice and repetition and which may be executed without conscious thought",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "The main factor in the focusing of the human eye is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,25 +265,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the cornea",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the lens",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the iris",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the internal fluid in the eyeball",
             "isTrue": false
           }
         ]
@@ -291,7 +291,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "Which of the following statements is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -300,33 +300,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Poor communications are of little significance in incidents and accidents",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Coding communication behaviour improves flight safety",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Interpersonal communications have little significance in the modern cockpit as all situations are covered by manuals",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Problems in the personal relations between crew members hamper their communication process",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "In decision making the decision of an average group member is usually:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -335,25 +335,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "worse than the group decision",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "better than the group decision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the same as the group decision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "excluded from the group decision",
             "isTrue": false
           }
         ]
@@ -361,7 +361,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "Referring to the Body Mass Index, a man weighing 81 kg who is 175 cm tall would be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -370,25 +370,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "considered to be within the normal weight range",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "considered to be overweight",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "considered to be obese",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "considered to be underweight",
             "isTrue": false
           }
         ]
@@ -396,7 +396,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "Once an individual has made a decision regarding a situation, he is most likely to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -405,25 +405,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "give too much weight to information that tends to confirm the original decision",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "give equal weight to information that confirms or contradicts that decision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "give insufficient weight to information that confirms the original decision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "give too much weight to information that goes against the original decision",
             "isTrue": false
           }
         ]
@@ -431,7 +431,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "An individual’s body temperature will be at its lowest at:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -440,25 +440,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "0900 body time",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2300 body time",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "0500 body time",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1100 body time",
             "isTrue": false
           }
         ]
@@ -466,7 +466,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "Hypertension is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -475,33 +475,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a high level of stress",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "low blood pressure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a high workload",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "high blood pressure",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "A pilot suffering disorientation should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -510,25 +510,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "rely on the vestibular apparatus",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "rely on his somatosensory system (&#8220;seat of the pants&#8221;)",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "line up with a visual reference (e.g. horizon)",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "re-erect the flight instruments",
             "isTrue": false
           }
         ]
@@ -536,7 +536,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "An individual with an introverted personality is likely to be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,25 +545,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "cautious",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "sociable",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "uninhibited",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "outgoing",
             "isTrue": false
           }
         ]
@@ -571,7 +571,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "During a general briefing at the preflight stage the captain should emphasize:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -580,25 +580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the complete delegation of all duties",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the importance of crew coordination",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the priority of departing on schedule",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the avoidance of inadequate handling of controls",
             "isTrue": false
           }
         ]
@@ -606,7 +606,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "Mental training is helpful in improving flying skills:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -615,25 +615,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "mainly for student pilots",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "mainly for pilots undertaking instructional duties",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "at all levels of flying experience",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "only when the student has reached a certain level of flying experience",
             "isTrue": false
           }
         ]
@@ -641,7 +641,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "The response by the receiver to the sender by confirming the reception of the message is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,33 +650,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "synchronization",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "redundancy",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "transference",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "feedback",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "The group of small bones (the ossicles) in the ear:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -685,25 +685,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "transmit air vibrations from the outer ear to the middle ear",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "convert vibrations in the inner ear to small electric currents for detection by the auditory nerve",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "convert air vibrations to vibrations in the liquid of the cochlea",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "transmit vibrations of the ear drum to the semicircular canals of the inner ear",
             "isTrue": false
           }
         ]
@@ -711,7 +711,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "Gastroenteritis would prevent an individual from flying as a crew member:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -720,25 +720,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "always",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "possibly, if severe",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "if not treated by an aviation specialist doctor",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "never",
             "isTrue": false
           }
         ]
@@ -746,7 +746,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "An ideal leader would be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -755,25 +755,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "goal directed and person directed",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "goal directed only",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "person directed only",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "neither goal nor person directed, but moderate and accommodating",
             "isTrue": false
           }
         ]
@@ -781,7 +781,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "The severity of noise induced hearing loss (NIHL) is determined by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -790,33 +790,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the volume of noise experienced",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the duration of high noise levels experienced",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a breakdown in the conducting system of the ear",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the volume and duration of the noise experienced",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Which of the following diseases causes the greatest number of deaths each year?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -825,25 +825,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Bubonic plague",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Malaria",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AIDS",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Smallpox",
             "isTrue": false
           }
         ]
@@ -851,7 +851,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "The time elapsed before flying as crew or passenger after diving using compressed air if a depth of over 30 ft has been exceeded is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -860,25 +860,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "48 hours",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "12 hours",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "24 hours",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "no limitation",
             "isTrue": false
           }
         ]
@@ -886,7 +886,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "The major contribution to our perception of orientation is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -895,25 +895,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the visual sense",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the vestibular apparatus",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "our previous experience",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the somatosensory system",
             "isTrue": false
           }
         ]
@@ -921,7 +921,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "An authoritarian individual tends to be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -930,25 +930,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a weak leader and bad underling",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a forceful leader and a good underling",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "a forceful leader and a submissive underling",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a weak leader but a good underling",
             "isTrue": false
           }
         ]
@@ -956,7 +956,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "If an individual is awakened after a short sleep, then the next period of sleep will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -965,25 +965,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "be a normal sleep pattern",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "contain a higher than normal amount of REM sleep",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "contain a greater proportion of slow wave sleep",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "contain more stages one and two sleep",
             "isTrue": false
           }
         ]
@@ -991,7 +991,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "Human behaviour is determined by which of the following?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1000,25 +1000,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Biological characteristics, social environment and cultural influences",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Biological characteristics",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The social environment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Cultural influences and heredity",
             "isTrue": false
           }
         ]
@@ -1026,7 +1026,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "<p>What are the various means which allow for better detection of errors?</p><p>1. Improvement of the man-machine interface.</p><p>2 Development of systems for checking the consistency of situations.</p><p>3 Compliance with crossover redundant procedures on the part of crews.</p><p>4 Adaptation of visual alarms for all systems.</p><p>The correct statements are:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1035,25 +1035,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 and 3",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2, 3 and 4",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2 and 3",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 and 4",
             "isTrue": false
           }
         ]

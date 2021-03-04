@@ -27,7 +27,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "the fovea",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -62,12 +62,12 @@
             "id": 0,
             "tenantId": "B",
             "content": "5 to 6000 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "a factor of about 20% of the ambient pressure",
+            "content": "a factor of about 20&#37; of the ambient pressure",
             "isTrue": false
           },
           {
@@ -109,14 +109,14 @@
             "id": 0,
             "tenantId": "D",
             "content": "a reduction in oxygen carrying capacity of the blood due to the much greater affinity of haemoglobin to carbon monoxide than to oxygen",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "Breathing 100% oxygen will supply sufficient oxygen for normal respiration up to an altitude of:",
+        "question": "Breathing 100&#37; oxygen will supply sufficient oxygen for normal respiration up to an altitude of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -144,7 +144,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "40 000 ft",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -173,7 +173,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "avoiding before flight the foodstuffs that cause the production of intestinal gases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -195,8 +195,8 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "forgetfulness, lack of concentration, difficulty in ‘switching off’",
-            "isTrue": false
+            "content": "forgetfulness, lack of concentration, difficulty in &#8220;switching off&#8221;",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -221,7 +221,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "<p>The composition of the atmosphere at sea level is 78% nitrogen, 21% oxygen, 1% other gases.</p><p>These proportions will:</p>",
+        "question": "<p>The composition of the atmosphere at sea level is 78&#37; nitrogen, 21&#37; oxygen, 1&#37; other gases.</p><p>These proportions will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,7 +237,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "remain constant up to about 70 000 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -271,8 +271,8 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "‘chunking’ the material",
-            "isTrue": false
+            "content": "&#8220;chunking&#8221; the material",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -319,7 +319,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "1 and 4",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -335,7 +335,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "decreases the captain’s role in leadership",
+            "content": "decreases the captain&#8221;s role in leadership",
             "isTrue": false
           },
           {
@@ -348,7 +348,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "can improve team spirit",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -383,7 +383,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "working in parallel to achieve one common objective, with independent but specified aims",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -424,7 +424,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "land as soon as possible and seek medical assistance",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -441,7 +441,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "minimizing the duration of eye rests and making as many eye movements as possible",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -475,25 +475,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "15°C to 30°C with a relative humidity of 40 - 60%",
-            "isTrue": false
+            "content": "15°C to 30°C with a relative humidity of 40 - 60&#37;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "10°C to 25°C with a relative humidity of 20 - 30%",
+            "content": "10°C to 25°C with a relative humidity of 20 - 30&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "15°C to 30°C with a relative humidity of 70 - 80%",
+            "content": "15°C to 30°C with a relative humidity of 70 - 80&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "30°C to 40°C with a relative humidity of 30 - 40%",
+            "content": "30°C to 40°C with a relative humidity of 30 - 40&#37;",
             "isTrue": false
           }
         ]
@@ -511,7 +511,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "tends to make the pilot accept information that confirms his diagnosis of a situation and reject information that does not fit into his theory",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -536,7 +536,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "The four primary flight instruments arranged in the standard ‘T’ consists of:",
+        "question": "The four primary flight instruments arranged in the standard &#8220;T&#8221; consists of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,7 +545,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "ASI, AH/FDI, ALT, T’SLIP",
+            "content": "ASI, AH/FDI, ALT, T&#8221;SLIP",
             "isTrue": false
           },
           {
@@ -558,7 +558,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "ASI, AH/FDI, ALT, DI/HIS",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -580,25 +580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "50 to 60%",
+            "content": "50 to 60&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "10 to 15%",
-            "isTrue": false
+            "content": "10 to 15&#37;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "20 to 40%",
+            "content": "20 to 40&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "5 to 8%",
+            "content": "5 to 8&#37;",
             "isTrue": false
           }
         ]
@@ -606,7 +606,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "The time of useful consciousness when suffering an explosive decompression at 40 000 ft is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -615,33 +615,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 minute",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2 to 3 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "45 to 75 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "about 15 to 20 seconds",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "The greatest source of incapacitation in flight is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,25 +650,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "motion sickness",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "heart attack or circulatory problems",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "acute gastroenteritis",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "spatial disorientation",
             "isTrue": false
           }
         ]
@@ -676,7 +676,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "The heart muscle requires its own blood supply. This is provided by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -685,33 +685,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the pulmonary artery",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "direct diffusion from the interior of the heart",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the aortic arch",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the coronary arteries",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "Raised blood pressure (hypertension) is the main risk factor in the development of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -720,25 +720,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "strokes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "angina",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "coronary infarcts",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "ferric haemoglobin poisoning",
             "isTrue": false
           }
         ]
@@ -746,7 +746,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "A man is considered to be overweight if his Body Mass Index (BMI) is over:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -755,25 +755,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "20",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "25",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "30",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "35",
             "isTrue": false
           }
         ]
@@ -781,7 +781,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "Physical stimuli received by the sensory organs may be stored for a brief period of time after the input has ceased. The visual and auditory sensory stores are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -790,25 +790,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "visual – echoic memory lasting about 0.5 to 1 second. auditory – iconic memory lasting up to 7 seconds",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "auditory – echoic lasting 2 to 8 seconds. visual – iconic lasting 0.5 to 1 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "visual – iconic lasting 2 to 8 seconds auditory – echoic lasting 0.5 to 1 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "visual – iconic lasting 3 to 4 seconds. auditory – echoic about 3 to 8 seconds",
             "isTrue": false
           }
         ]
@@ -816,7 +816,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Thinking on human reliability is changing. Which of the following statements is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -825,25 +825,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Human errors are now considered as being inherent to the cognitive functions of humans and are generally inescapable",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Human errors can be avoided. They will however extend one&#8221;s knowledge and extreme vigilance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "The individual view of safety has gradually replaced the systemic view",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "It is believed that it will be possible to eliminate all errors in the future",
             "isTrue": false
           }
         ]
@@ -851,7 +851,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "How would one interpret the following statement; &#8220;one cannot avoid communication&#8221;?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -860,25 +860,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Every situation requires communication",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "One can not influence one&#8221;s own communications",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Being silent or inactive are also non-verbal behaviour patterns that are meaningful",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Differences in language or culture may prevent any meaningful communication",
             "isTrue": false
           }
         ]
@@ -886,7 +886,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "Information in the short-term memory:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -895,33 +895,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "is not affected by the arrival of new information",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "is only retained for 2 to 3 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "can be retained for long periods",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "must be actively rehearsed to ensure long-term retention",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "The permanent denial of a flying licence will be the result of the pilot suffering from:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -930,33 +930,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "depression",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "anxiety and phobic states",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "obsessional disorders",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "schizophrenia or manic depression",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "A function of the vestibular apparatus is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -965,25 +965,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "assist in maintaining spatial orientation",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "control motion sickness",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "maintain visual orientation",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "enhance hearing ability, especially at high frequencies",
             "isTrue": false
           }
         ]
@@ -991,7 +991,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "The amount of stress experienced with a particular task is dependent on:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1000,33 +1000,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the actual demand and the actual ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the perceived demand and the actual ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the actual demand and the perceived ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the perceived demand and the perceived ability",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "An excessive noise level would increase reaction and performance:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1035,25 +1035,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "during periods of low arousal",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "during periods of high arousal",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "never",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "during periods of boredom or fatigue",
             "isTrue": false
           }
         ]

@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "8.SERIESHUMAN PERFORMANCE AND LIMITATIONS",
+    "chapter": "18P6.Specimen Questions Paper 6",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "Hyperventilation:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -20,25 +20,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "is unlikely below 2000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "is likely to result in death if not corrected",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "may be caused by having too little carbon dioxide in the blood",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "can result from an inadequate partial pressure of oxygen",
             "isTrue": false
           }
         ]
@@ -46,7 +46,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Following the donation of bone marrow a pilot may not operate an aircraft for:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -55,25 +55,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "72 hours",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "48 hours",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "24 hours",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "12 hours",
             "isTrue": false
           }
         ]
@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "The bronchi:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -90,25 +90,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "split from the trachea to the left and right lungs",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "are easily damaged during rapid decompression",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "are thin sacs which allow the passage of gases from the lungs to the blood",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "connect the middle ear to the nose/throat to allow pressure equalization during climb and descent",
             "isTrue": false
           }
         ]
@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "On the retina of the eye, the rod cells are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -125,25 +125,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "used primarily during daylight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "highly sensitive to colour changes particularly those at the blue end of the spectrum",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "sensitive to much lower light levels than the cone cells",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "concentrated in the area of the fovea",
             "isTrue": false
           }
         ]
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Light levels at high altitude may be considered dangerous because:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -160,33 +160,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "they cause the pupil to contract thereby reducing peripheral vision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "they will cause excessive glare in the windscreen reflections",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the associated closing of the iris will tend to focus the light onto the optic nerve",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "they contain more high energy blue and ultra violet light",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "Long sightedness is normally caused by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,25 +195,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the eyeball being shorter than normal",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the retina being too concave",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the eyeball being longer than normal",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the retina being too convex",
             "isTrue": false
           }
         ]
@@ -221,7 +221,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "The most obvious sign of an individual suffering from carbon monoxide poisoning is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -230,33 +230,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "muscular impairment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "cyanosis of the lips and fingernails",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "sensory loss, particularly tunnelling of vision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "cherry-red lips and flushed cheeks",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Decompression sickness is caused by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,25 +265,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "lack of oxygen at high cabin altitudes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the presence of carbon monoxide from leaking exhausts",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "nitrogen bubbles coming out of solution in the blood to form bubbles in the body tissues",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "overbreathing, thereby exceeding the breathing rate needed to maintain the correct amount of carbon dioxide in the blood",
             "isTrue": false
           }
         ]
@@ -291,7 +291,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "When on a collision course with an aircraft on a reciprocal track, the apparent size of the approaching aircraft:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -300,33 +300,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "does not change",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "increases only slowly and moves only slowly across the windscreen",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "is easier to detect if the pilot continually moves his/her head",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "increases very rapidly just prior to impact",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "The body&#8221;s internal biological clocks take longer to adjust to local time when flying:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -335,25 +335,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "East",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "West",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "North",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "South",
             "isTrue": false
           }
         ]
@@ -361,7 +361,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "A blocked Eustachian tube:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -370,25 +370,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "can cause severe pain in the descent",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "is not a problem when flying in a modern pressurized aircraft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "normally only causes severe pain during the climb",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "can cause problems with balancing the pressures of the inner ear and the outside air",
             "isTrue": false
           }
         ]
@@ -396,7 +396,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "A function of the vestibular apparatus is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -405,25 +405,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "enhance hearing ability, especially at high frequencies",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "control motion sickness",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "maintain spatial awareness",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "maintain visual orientation",
             "isTrue": false
           }
         ]
@@ -431,7 +431,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "The permanent denial of a flying licence will be the result of a pilot suffering from:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -440,25 +440,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "anxiety and phobic states",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "schizophrenia and manic depression",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "obsessional disorders",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "depression",
             "isTrue": false
           }
         ]
@@ -466,7 +466,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "A trained pilot, observing an aircraft accident, will, in comparison to a lay observer:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -475,25 +475,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "have a much better recollection of the events",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "be a reliable expert witness at any accident inquiry",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "have stronger expectations about likely set of events",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "automatically discount any any previous accident experience",
             "isTrue": false
           }
         ]
@@ -501,7 +501,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "<p>During visual glide slope maintenance the pilot selects an aiming point on the runway.</p><p>He will know he is maintaining the correct path if:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -510,25 +510,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the texture flow is parallel to the point and the visual angle between the point and the horizon remains constant",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "there is no texture flow in the vicinity of the point and the visual angle remains constant",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the texture flow is away from the point and the visual angle remains constant",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the texture flow is towards the aiming point and the visual angle remains constant",
             "isTrue": false
           }
         ]
@@ -536,7 +536,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "The amount of stress experienced with a particular task is dependent on:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,33 +545,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the actual demands of the task and the pilot&#8221;s perception of his ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the perceived demands of the task and the pilot&#8221;s actual ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the actual demands of the task and the pilot&#8221;s actual ability",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the perceived demands of the task and the pilot&#8221;s perception of his ability",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "The alerting system for an important system failure should be fulfilled by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -580,25 +580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "an audio warning",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a flashing red light",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a large dolls eye indicator",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a steady bright red light",
             "isTrue": false
           }
         ]
@@ -606,7 +606,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "The cycle of REM sleep and stages 1 to 4 sleep occurs:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -615,33 +615,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "about every hour",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "about every 90 minutes with REM sleep and slow wave sleep equally balanced in each cycle",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "about every 90 minutes with the majority of REM sleep taking place in the early cycles",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "about every 90 minutes with the majority of slow wave sleep taking place in the first two cycles",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "One of the problems encountered when using a routine checklist is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,33 +650,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the use of coloured pages to highlight emergency information is rendered useless in low light conditions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the use of mixed upper and lower case characters makes the checklist difficult to read in turbulent conditions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "too much information in the lists removes the need for pilots to know their immediate actions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "individual responses may become automatic rather than diligent",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "Situational awareness may well be inhibited by the introduction of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -685,25 +685,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "computer generated checklists",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "&#8220;intelligent&#8221; flight decks",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "prerecorded voice warnings",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "moving tape displays",
             "isTrue": false
           }
         ]
@@ -711,7 +711,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "The elapsed time to be allowed before flying, when one has been diving using compressed air to a depth of 20 feet, is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -720,25 +720,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "no restriction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "12 hours",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "24 hours",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "36 hours",
             "isTrue": false
           }
         ]
@@ -746,7 +746,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "During visual search the duration of an eye movement/rest cycle (saccade) is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -755,25 +755,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "0.2 seconds",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "0.33 seconds",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "0.75 seconds",
             "isTrue": false
           }
         ]
@@ -781,7 +781,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "The normal reaction time for a simple response to a single stimulus is about:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -790,25 +790,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "0.5 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "0.2 second",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "0.75 second",
             "isTrue": false
           }
         ]
@@ -816,7 +816,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "With no visual references outside the cockpit the human eye will normally adjust to a focal length of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -825,25 +825,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "infinity",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "less than 2 metres",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "about 5 metres",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a few centimetres",
             "isTrue": false
           }
         ]
@@ -851,7 +851,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "The greatest source of incapacitation in flight is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -860,25 +860,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "acute gastroenteritis",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "angina",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "malaria",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "heart attack",
             "isTrue": false
           }
         ]
@@ -886,7 +886,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "Presbycusis is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -895,25 +895,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the deterioration of hearing as the result of the normal aging process",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "loss of hearing due to excessive noise levels",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "deterioration of vision due to the normal aging process",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "deterioration in vision due to the formation of cataracts in the cornea",
             "isTrue": false
           }
         ]
@@ -921,7 +921,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "Low blood pressure (hypotension) can have the following harmful effect:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -930,25 +930,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "it can increase the chances of developing a stroke",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "it can be a major factor in the development of a heart attack",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "it can reduce the ability of an individual to withstand high positive g-forces",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "it encourages the formation of cholesterol within the blood",
             "isTrue": false
           }
         ]
@@ -956,7 +956,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "At sea level the percentage of oxygen within the alveoli of the lungs is about:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -965,33 +965,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "78&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "40&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "21&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "14&#37;",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "In communications one &#8220;bit&#8221; is the quantity of information which.",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1000,25 +1000,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "can be contained in one sentence",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "can be transmitted by verbal communication only",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "reduces the uncertainty of the receiver by 50&#37;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "can be transferred by non-verbal communication only",
             "isTrue": false
           }
         ]
@@ -1026,7 +1026,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "The term &#8220;synergy&#8221; is the state:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1035,25 +1035,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "where the individual performance exceeds the performance of the group",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "where the group performance exceeds the sum of the individual performances",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "where the group performance is dependent on the leadership style of individuals within the group",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "of increase in reasoning power when extra oxygen is supplied at a time of emergency",
             "isTrue": false
           }
         ]
