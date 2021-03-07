@@ -1,6 +1,7 @@
 
 
 using LearningQA.Client.Model;
+using LearningQA.Client.Services;
 using LearningQA.Client.ViewModel;
 
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -29,7 +30,14 @@ namespace LearningQA.Client
 
 			
 			builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
+			builder.Services.AddHttpClient("TestItemClient", config => 
+			{ 
+				config.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress);
+				config.DefaultRequestHeaders.Clear();
+				config.Timeout = new TimeSpan(0,0,30);
+			});
+			builder.Services.AddHttpClient<TestItemClient>(option => option.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
+			builder.Services.AddScoped<IHttpClientServiceImplementation, HttpClientServiceImplementation>();
 			await builder.Build().RunAsync();
 		}
 		private static void ConfigurationServices(IServiceCollection services)
@@ -45,6 +53,8 @@ namespace LearningQA.Client
 			services.AddSingleton<TestItemViewModelPersist>();
 			var assemblyAll = AppDomain.CurrentDomain.GetAssemblies();
 			var assembly = assemblyAll.Where(a => a.FullName.StartsWith("LearningQA.Client")).FirstOrDefault();
+
+			
 
 		}
 	}

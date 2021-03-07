@@ -35,6 +35,9 @@ namespace LearningQA.Client.Model
 		{
 			this.httpClient = httpClient;
 		}
+
+
+		
 		public async Task<List<ExamInfoModel>> RetriveExamInfoModels(TestItemInfo testItemInfo)
 		{
 			try

@@ -6,20 +6,43 @@
 
 class CanvasClass {
     canvas;
+    canvasId;
     ctx;
     prevX;
     currX;
     prevY;
     currY;
-    
+    bDrawOnMove = false;
+    BRectLeft;
+    BRectTop;
+    scaleMode = 2;
+     pathsarray = [];
+    points = [];
     constructor(canvasId) {
         this.canvasId = canvasId;
        this.canvas =  document.getElementById(canvasId);
         this.ctx = this.canvas.getContext("2d");
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
-        
-        
+        this.canvas.addEventListener("mousemove", (e) => {this.move(e)}, false);
+        this.canvas.addEventListener("mousedown", (e) => {this.onMouseDown(e)}, false);
+        this.canvas.addEventListener("mouseup", (e) => {this.bDrawOnMove = false}, false);
+        window.onscroll = this.onScroll;
+    }
+    onScroll()
+    {
+        this.windowResize();
+    }
+    windowResize() {
+    this.canvas.width = window.innerWidth;
+    this.canvas.height = window.innerHeight;
+    GetCanvasBoundingRect();
+/* erase(false);*/
+    scaleToFit(img);
+    }
+    GetCanvasBoundingRect() {
+    this.BRectLeft = document.getElementById(this.canvasId).getBoundingClientRect().left;
+    this.BRectTop = document.getElementById(this.canvasId).getBoundingClientRect().top;
     }
     move(e)
     {
@@ -29,16 +52,71 @@ class CanvasClass {
                 currY = e.clientY - this.canvas.offsetTop;
                 this.draw();
     }
+    onMouseDown(e)
+    {
+        this.bDrawOnMove = true;
+
+    }
     draw() {
-        this.ctx.beginPath();
+        if(this.bDrawOnMove)
+        {
+            this.ctx.beginPath();
         this.ctx.moveTo(prevX, prevY);
         this.ctx.lineTo(currX, currY);
         this.ctx.strokeStyle = x;
         this.ctx.lineWidth = y;
         this.ctx.stroke();
         this.ctx.closePath();
+        }
+        
     }
+
+    drawPath() {
+        erase(false);
+        var dpoint;
+        this.ctx.beginPath();
+        pathsarray.forEach(path => {
+            
+            dpoint = GetDrawingPoint(path[0]);
+            this.ctx.moveTo(dpoint.x, dpoint.y);
+            for (let i = 1; i < path.length; i++) {
+                dpoint = GetDrawingPoint(path[i]);
+                ctx.lineTo(dpoint.x, dpoint.y);
+            }
+            ctx.stroke();
+        })
+        ctx.closePath();
+    }
+
+    clearCanvas() {
+        this.ctx.clearRect(0, 0, w, h);
+        scaleToFit(img);
+
+    }
+     scaleToFit(img) {
+    // get the scale
+    if (this.scaleMode == 0) {
+        this.ctx.drawImage(img, 0, 0);
+    }
+    else if (scaleMode == 1) {
+        var scaleWidth = canvas.width / img.width;
+        this.ctx.drawImage(img, 0, 0, img.width * scaleWidth, img.height * scaleWidth);
+    }
+    else if (scaleMode = 2) {
+        var scaleWidth = canvas.width / img.width;
+        var scaleHeight = canvas.height / img.height;
+        this.ctx.drawImage(img, 0, 0, img.width * scaleWidth, img.height * scaleHeight);
+    }
+    else {
+        var scale = Math.min(canvas.width / img.width, canvas.height / img.height);
+        // get the top left position of the image
+        var x = (canvas.width / 2) - (img.width / 2) * scale;
+        var y = (canvas.height / 2) - (img.height / 2) * scale;
+        this.ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
+    }
+   
     
+}
     
 }   
    
@@ -60,8 +138,8 @@ class CanvasClass {
      c2 = new CanvasClass("can2");
       canvasClasses.set('can2',c2);
         cmap = canvasClasses.get('can');
-        cmap.canvas.addEventListener("mousemove", function(e) {c1.move(e)}, false);
-        canvasClasses.get('can2').canvas.addEventListener("mousemove", function(e) {c2.move(e)}, false);
+       // cmap.canvas.addEventListener("mousemove", function(e) {c1.move(e)}, false);
+       // canvasClasses.get('can2').canvas.addEventListener("mousemove", function(e) {c2.move(e)}, false);
     }
     /* function init() {
         canvas = document.getElementById('can');
