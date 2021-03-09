@@ -53,7 +53,7 @@
 			}
 			onCanvasSizeChange() {
                
-				this.windowResize;
+				this.windowResize();
 			}
 			move(e) {
 				if (this.bDrawOnMove) {
@@ -84,6 +84,7 @@
 				this.GetCanvasBoundingRect();
 				/* erase(false);*/
 				//this.scaleToFit(img);
+				this.drawPath();
 			}
 			GetCanvasBoundingRect() {
 				this.BRectLeft = document
@@ -114,7 +115,7 @@
 				this.lastDraw.y = currY;
 				this.points = [];
 				this.points.push({ x: this.prevX, y: this.prevY });
-				this.points.push({ x: this.currX, y: this.currY });
+				this.points.push({ x: currX, y: currY });
                 
 				this.pathsarray.push(this.points);
                 this.prevX = currX;
@@ -134,24 +135,33 @@
 			} */
 
 			drawPath() {
-				erase(false);
+				this.clearCanvas();
 				var dpoint;
 				this.ctx.beginPath();
-				pathsarray.forEach((path) => {
-					dpoint = GetDrawingPoint(path[0]);
+				this.pathsarray.forEach((path) => {
+					dpoint = this.GetDrawingPoint(path[0]);
 					this.ctx.moveTo(dpoint.x, dpoint.y);
 					for (let i = 1; i < path.length; i++) {
-						dpoint = GetDrawingPoint(path[i]);
+						dpoint = this.GetDrawingPoint(path[i]);
 						this.ctx.lineTo(dpoint.x, dpoint.y);
 					}
 					this.ctx.stroke();
 				});
 				this.ctx.closePath();
 			}
+			GetDrawingPoint(point) {
+			var scaleX, scaleY, rect;
+			rect = document.getElementById(this.canvasId).getBoundingClientRect();
+
+			scaleX = this.canvas.width / rect.width;
+			scaleY = this.canvas.height / rect.height;
+			return {
+				x: (point.x - this.BRectLeft) * scaleX, y: (point.y - this.BRectTop) * scaleY    }
+		}
 
 			clearCanvas() {
-				this.ctx.clearRect(0, 0, w, h);
-				scaleToFit(img);
+				this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+				//this.scaleToFit(img);
 			}
 			scaleToFit(img) {
 				// get the scale
@@ -208,13 +218,14 @@
 			canvasClasses.set('can2', c2);
 			cmap = canvasClasses.get('can');
 			// cmap.canvas.addEventListener("mousemove", function(e) {c1.move(e)}, false);
-			canvasClasses.get('can').canvas.addEventListener("resize", function(e) {CanvasRedraw()}, false);
-          
+			//canvasClasses.get('can').canvas.addEventListener("resize", function(e) {onCanvasSizeChange()}, false);
+          //canvasClasses.get('can').canvas.addEventListener("scroll", function(e) {onCanvasSizeChange()}, false);
+          //window.onscroll = canvasClasses.get('can').onCanvasSizeChange();
        
 		}
-        window.onscroll = function (e) { CanvasRedraw(); }  
+        //window.onscroll = function (e) { CanvasRedraw(); }  
           // window.onresize = function (e) { CanvasRedraw(); } 
-           window.addEventListener('resize', CanvasRedraw);
+        //   window.addEventListener('resize', CanvasRedraw);
 		/* function init() {
         canvas = document.getElementById('can');
         ctx = canvas.getContext("2d");
@@ -276,10 +287,11 @@
             /* canvasClasses.forEach(
                (value,key) => { value.onCanvasSizeChange}
             ) */
-            for(var i; i<canvasClasses.length;i++)
+            for(var i=0; i<canvasClasses.length;i++)
             {
-                i.onCanvasSizeChange();
+                canvasClasses[i].onCanvasSizeChange();
             }
+			canvasClasses.get('can').onCanvasSizeChange();
         }
 		function OnNewline(canvasId) {
 			var id = canvasClasses.get(canvasId);
@@ -304,7 +316,7 @@
 			document.getElementById('canvasimg').style.display = 'inline';
 		}
 	</script>
-	<body onload="init()" onresize="CanvasRedrawb()">
+	<body onload="init()" onresize="CanvasRedraw()" onscroll="CanvasRedraw()">
 		<canvas 
 			id="can"
 			width="40"
