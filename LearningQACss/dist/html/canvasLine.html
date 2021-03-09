@@ -51,6 +51,11 @@
                
 				
 			}
+			unDo()
+			{
+				this.pathsarray.pop();
+				this.drawPath();
+			}
 			onCanvasSizeChange() {
                
 				this.windowResize();
@@ -122,17 +127,6 @@
                 this.prevY = currY;
 				return '';
 			}
-			/* draw() {
-				if (this.bDrawOnMove) {
-					this.ctx.beginPath();
-					this.ctx.moveTo(prevX, prevY);
-					this.ctx.lineTo(currX, currY);
-					this.ctx.strokeStyle = x;
-					this.ctx.lineWidth = y;
-					this.ctx.stroke();
-					this.ctx.closePath();
-				}
-			} */
 
 			drawPath() {
 				this.clearCanvas();
@@ -144,10 +138,13 @@
 					for (let i = 1; i < path.length; i++) {
 						dpoint = this.GetDrawingPoint(path[i]);
 						this.ctx.lineTo(dpoint.x, dpoint.y);
+						this.prevX = path[i].x;
+						this.prevY = path[i].y;
 					}
 					this.ctx.stroke();
 				});
 				this.ctx.closePath();
+				
 			}
 			GetDrawingPoint(point) {
 			var scaleX, scaleY, rect;
@@ -212,7 +209,7 @@
 			y = 2;
 		var cmap;
 		function init() {
-			c1 = new CanvasClass('can', canvas);
+			c1 = new CanvasClass('can');
 			canvasClasses.set('can', c1);
 			c2 = new CanvasClass('can2');
 			canvasClasses.set('can2', c2);
@@ -301,6 +298,13 @@
                 id.lastDraw = {x: -1, y:-1};
 			}
 			first = true;
+		}
+		function OnUnDo(canvasId)
+		{
+			var id = canvasClasses.get(canvasId);
+			if (id) {
+				id.unDo();
+			}
 		}
 		function mouseDraw(canvasId) {
 			var id = canvasClasses.get(canvasId);
@@ -446,6 +450,14 @@
 			size="23"
 			onclick="mouseDraw('can')"
 			style="position: absolute; top: 55%; left: 35%"
+		/>
+			<input
+			type="button"
+			value="unDo"
+			id="mouseDraw"
+			size="23"
+			onclick="OnUnDo('can')"
+			style="position: absolute; top: 55%; left: 40%"
 		/>
 		<canvas
 			id="can2"
