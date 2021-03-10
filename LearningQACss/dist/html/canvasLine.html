@@ -88,18 +88,17 @@
             /* canvasClasses.forEach(
                (value,key) => { value.onCanvasSizeChange}
             ) */
-            for(var i=0; i<canvasClasses.length;i++)
-            {
-                canvasClasses[i].onCanvasSizeChange();
-            }
-			canvasClasses.get('can').onCanvasSizeChange();
+           
+			for (let value of canvasClasses.values())
+			{
+				value.onCanvasSizeChange()
+			}
+			//canvasClasses.get('can').onCanvasSizeChange();
         }
 		function OnNewline(canvasId) {
 			var id = canvasClasses.get(canvasId);
 			if (id) {
-				id.newLine = true;
-				id.bDrawOnMove = false;
-                id.lastDraw = {x: -1, y:-1};
+				id.SetNewLine();
 			}
 			first = true;
 		}

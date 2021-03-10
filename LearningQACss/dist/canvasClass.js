@@ -156,6 +156,17 @@ class CanvasClass {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.scaleToFit(this.img);
     }
+    clearDraw() {
+    this.points = [];
+    this.pathsarray = [];
+    //newline();
+    this.drawPath();
+    }
+    SetNewLine() {
+        this.newLine = true;
+		this.bDrawOnMove = false;
+        this.lastDraw = {x: -1, y:-1};
+    }
     setImage(imagId)
     {
         this.img = document.getElementById(imagId);
