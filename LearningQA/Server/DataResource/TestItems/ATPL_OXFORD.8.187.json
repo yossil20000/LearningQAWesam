@@ -4227,7 +4227,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "pupil becomes smaller",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4262,7 +4262,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Rods",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4297,7 +4297,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "should possess reasonable luminance",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4326,7 +4326,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "1 and 2",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4379,7 +4379,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "1 & 3 are correct. 2 & 4 are false",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4408,7 +4408,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "are generally forbidden for use in flight",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4431,7 +4431,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "up to 3000 m",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4472,7 +4472,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "high levels of illumination in 10 seconds and darkness in 30 minutes",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4501,7 +4501,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "myopia",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4548,7 +4548,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "increased pressure of the eye",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4583,7 +4583,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "convert light signals into electrical impulses",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4612,7 +4612,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Go onto oxyge",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4641,7 +4641,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "excess pressure within the eye",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4694,7 +4694,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "no distortion of aircraft windscreens",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4723,7 +4723,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "the fovea",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4764,7 +4764,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "6",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4781,7 +4781,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "electrical nerve signals",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4828,7 +4828,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "2 only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4851,7 +4851,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "1 only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4892,7 +4892,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "binocular vision",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4927,7 +4927,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "decreases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4962,7 +4962,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "receives light and, through electrical reactions, coverts it into electrical signals",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5009,7 +5009,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "the autonomic (vegetative) nervous system",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5032,7 +5032,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "rods",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5067,7 +5067,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "The rods",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5096,7 +5096,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "turn off the strobe lights",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5149,7 +5149,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Gradual",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5178,7 +5178,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "insidious",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5201,7 +5201,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "influenced by time",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5248,7 +5248,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "sinus pain",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5277,7 +5277,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "descend",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5324,7 +5324,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Upwards and vertical",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5359,7 +5359,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "the pilot will be more susceptible to hypoxia",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5376,7 +5376,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "2 & 3",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5417,7 +5417,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "+3g z",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5452,7 +5452,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "40 milligrams per 100 millilitres",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5481,7 +5481,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "20 milligrams per 100 millilitres",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5528,7 +5528,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "barotrauma",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5557,7 +5557,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "even a small amount will effect performance",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5604,7 +5604,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "1, 2 & 3",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5627,7 +5627,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "You can suffer from dizziness and disorientation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5662,7 +5662,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "radial acceleration",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5703,7 +5703,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "stratosphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5732,7 +5732,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "level off and, if necessary, climb to the level where it first occurred",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5761,7 +5761,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "is affected by time",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5796,7 +5796,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "2 and 3 only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5831,7 +5831,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Grey out",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5866,7 +5866,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "2, 3 & 4",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5907,7 +5907,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "drink only from sealed containers",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5942,7 +5942,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Increase of pressure in the ear causing pain",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5983,7 +5983,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "a pilot should eat regularly and ensure a balanced diet",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6018,7 +6018,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "central nervous system depressant",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6041,7 +6041,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "rarely causes spatial disorientation in pilots",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6094,7 +6094,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "using ozone converters",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6129,7 +6129,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "grey out",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6164,7 +6164,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "greyout, tunnel vision, blackout and unconsciousness",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6187,7 +6187,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Barotrauma is caused by pressure differentials between the ambient pressure and the gases in the cavities of the body",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6234,7 +6234,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "all",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6257,7 +6257,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "increase in the demand for oxygen and eventually lends to unconsciousness",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6304,7 +6304,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "1 and 2",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6327,7 +6327,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "1, 2 and 3 are correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6356,7 +6356,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Above 38&#8451;C Below 35&#8451;C",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6391,7 +6391,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "take as much time as he/she needs within the available time to make up his/ her mind",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6432,7 +6432,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Neither",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6473,7 +6473,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "both external and internal factors",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6502,7 +6502,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "a moderate amount of stress",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6531,7 +6531,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "alarm resistance exhaustion",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6584,7 +6584,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "35&#8451;C",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6619,7 +6619,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "5 - 15 &#37;",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6654,7 +6654,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "resonance between 1 - 100 Hz",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6683,7 +6683,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "distress",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6724,7 +6724,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "3 and 4 only",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6741,7 +6741,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "distress",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6794,7 +6794,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "The relationship is in the shape of an inverted U",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6823,7 +6823,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Stress can be good, fatigue is always bad",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6846,7 +6846,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "the skin, lungs and kidneys",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6899,7 +6899,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "contentment or apathy",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6928,7 +6928,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "1, 2 & 3 are correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6964,7 +6964,7 @@ it",
             "id": 0,
             "tenantId": "C",
             "content": "is the subjective evaluation of a situation and the perceived ability to cope with it",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6987,7 +6987,7 @@ it",
             "id": 0,
             "tenantId": "A",
             "content": "A pilot who is very experienced on one type of aircraft in which the fuel control is selected forward for the ON position may select this control to the incorrect position when flying a new aircraft in which the ON position is selected to the rear",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7040,7 +7040,7 @@ it",
             "id": 0,
             "tenantId": "D",
             "content": "the prevention and the removal of stress",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7075,7 +7075,7 @@ it",
             "id": 0,
             "tenantId": "D",
             "content": "10 – 20 seconds",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7104,7 +7104,7 @@ it",
             "id": 0,
             "tenantId": "C",
             "content": "sensitivity is reduced",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7139,7 +7139,7 @@ it",
             "id": 0,
             "tenantId": "C",
             "content": "70&#37; of information processed by man enters the visual channel",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7162,7 +7162,7 @@ it",
             "id": 0,
             "tenantId": "A",
             "content": "reinforcing successful endeavours",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7203,7 +7203,7 @@ it",
             "id": 0,
             "tenantId": "B",
             "content": "are behavioural subroutines",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7244,7 +7244,7 @@ it",
             "id": 0,
             "tenantId": "C",
             "content": "1 in 1000",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7273,7 +7273,7 @@ it",
             "id": 0,
             "tenantId": "B",
             "content": "1 in 100",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7314,7 +7314,7 @@ it",
             "id": 0,
             "tenantId": "C",
             "content": "4 only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7327,8 +7327,7 @@ it",
       {
         "id": 0,
         "questionNumber": "210",
-        "question": "Which of the following can you do simultaneously without mutually affecting the
-other?",
+        "question": "Which of the following can you do simultaneously without mutually affecting the other?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -7338,7 +7337,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "Manually maintaining straight and level flight and solving a complex problem",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7385,7 +7384,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "generally has little effect on a pilot&#8221;s performance since it is compensated for by experience",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7414,7 +7413,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "1 and 4",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7461,7 +7460,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "1 & 2 are correct",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7484,7 +7483,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "it has been accepted that human error will always be made but can be decreased by training and technology",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7513,7 +7512,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "improves the chance of recall and makes the performance of a task more resistance to stress and is an important concept of aviation training",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7566,7 +7565,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "2 & 3 are correct",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7601,7 +7600,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "the more behaviour is automated, the less attention is required and the more resources are available",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7618,7 +7617,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "past experiences and sensory information",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7653,7 +7652,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "1, 2 and 4 are correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7706,7 +7705,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "past experiences and sensory information received",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7741,7 +7740,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "undue weight to information that confirms the model",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7770,7 +7769,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "routine errors",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7793,7 +7792,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "all pilots",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7828,7 +7827,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "1, 2 & 3 are correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7875,7 +7874,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "Unsuitability of known rules for the problem posed",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7916,7 +7915,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "1, 3 & 5 only",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7945,7 +7944,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "When rules do not apply",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7980,7 +7979,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "Motivation can lead to trying to attain an unrealistic goal which will cause stress and which will lead to a reduction in performance",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8003,7 +8002,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "conflict in the cockpit",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8038,7 +8037,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "motives lower in the hierarchy are aroused first and must be satisfied first",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8079,7 +8078,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "spatial orientation of the body",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8108,7 +8107,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "fly a too high an approach and overshoot",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8149,7 +8148,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "perception and organization",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8184,7 +8183,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "move",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8213,7 +8212,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "objects appear further away than they really are",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8266,7 +8265,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "erroneous mental model resulting from a misinterpretation of sensory inputs",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8301,7 +8300,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "rely on your instruments",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8330,7 +8329,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "In the carotid sinus",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8365,7 +8364,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "rain and a headwind",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8388,7 +8387,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "snow",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8441,7 +8440,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "look for other references inside and outside the cockpit and use peripheral vision",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8470,7 +8469,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "muscles and joints sensitive to the movement and position of the body",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8493,7 +8492,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "Objects appear to be further away than they actually are",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8528,7 +8527,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "The aircraft is too high",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8569,7 +8568,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "faster than it actually is",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8604,7 +8603,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "is not reliable and does not indicate spatial orientation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8651,7 +8650,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "1, 2, 3 & 4",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8686,7 +8685,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "Neither",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8703,7 +8702,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "1, 2 & 3",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8738,7 +8737,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "2 & 4 only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8785,7 +8784,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "2 & 4",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8808,7 +8807,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "local time",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8855,7 +8854,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "16",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8884,7 +8883,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "1 and 2 only are correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8919,7 +8918,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "Crew member tends to do their own jobs independently without keeping other informed",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8966,7 +8965,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "How a person responds to another person, situation or organization either positively or negatively",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8995,7 +8994,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "all of the above",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9030,7 +9029,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "emphasize areas requiring good crew coordination",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9059,7 +9058,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "a person&#8221;s response to a situation, person or object",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9106,7 +9105,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "3 & 4 only",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9141,7 +9140,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "He should stop discussion and return to the issue during the debrief at the end of the flight",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9158,7 +9157,7 @@ other?",
             "id": 0,
             "tenantId": "A",
             "content": "2, 3 and 4 are correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9205,7 +9204,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "Behaviour is the outward result of personality and attitude",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9234,7 +9233,7 @@ other?",
             "id": 0,
             "tenantId": "B",
             "content": "1 & 3 are only correct",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9281,7 +9280,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "complement verbal communications",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9310,7 +9309,7 @@ other?",
             "id": 0,
             "tenantId": "C",
             "content": "Specifically target each individual&#8221;s failings",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9351,7 +9350,7 @@ other?",
             "id": 0,
             "tenantId": "D",
             "content": "Using commonly understood context, language and metacommunications",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9385,9 +9384,8 @@ other?",
           {
             "id": 0,
             "tenantId": "D",
-            "content": "They form information about the flight and allocate responsibilities and
-reactions to likely or problematic events",
-            "isTrue": false
+            "content": "They form information about the flight and allocate responsibilities and reactions to likely or problematic events",
+            "isTrue": true
           }
         ]
       },
@@ -9404,7 +9402,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "have a good command of the English language",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9457,7 +9455,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "D",
             "content": "1 & 3 only",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9486,7 +9484,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "C",
             "content": "Expectation (what you expect to hear)",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9527,7 +9525,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "D",
             "content": "1 and 2 are correct",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9556,7 +9554,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "C",
             "content": "Feedback",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9579,7 +9577,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "Mishearing the contents of an air traffic controller&#8221;s non-standard clearance when a standard procedure was anticipated",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9632,7 +9630,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "D",
             "content": "1, 2 and 4",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9661,7 +9659,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "C",
             "content": "Reduces pilot&#8221;s attention since they can be out of the loop",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9684,7 +9682,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "working in parallel towards a common goal",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9725,7 +9723,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "B",
             "content": "1, 2, 3, & 4",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9760,7 +9758,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "B",
             "content": "if a system can be operated incorrectly, sooner or later it will be",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9801,7 +9799,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "C",
             "content": "an audio warning",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9842,7 +9840,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "D",
             "content": "L and H",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9859,7 +9857,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "can sometimes be detrimental to performance as some systems provide poor quality feedback to pilots",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9906,7 +9904,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "C",
             "content": "To systematically analyse the occurrences of errors to improve the future design of systems and ergonomics",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9929,7 +9927,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "L – H",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9970,7 +9968,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "B",
             "content": "flying an aircraft with which you are not familiar and when under stress",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10005,7 +10003,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "B",
             "content": "liveware to software",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10040,7 +10038,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "B",
             "content": "2 and 3 only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10081,7 +10079,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "C",
             "content": "be shared by the members of the crew and modified/updated so as to maintain as much synergy as possible",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10122,7 +10120,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "D",
             "content": "unjustified self-confidence resulting in careless negligence",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10139,7 +10137,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "it can lead to complacency of the aircrew",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10192,7 +10190,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "D",
             "content": "a systematic and analytical process",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10209,7 +10207,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "respect each other&#8221;s decision and views",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10244,7 +10242,7 @@ reactions to likely or problematic events",
             "id": 0,
             "tenantId": "A",
             "content": "to ignore information which indicates that a hypothesis or decision is poor",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
