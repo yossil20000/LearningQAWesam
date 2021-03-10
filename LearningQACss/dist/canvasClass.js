@@ -154,7 +154,18 @@ class CanvasClass {
 
     clearCanvas() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        //this.scaleToFit(img);
+        this.scaleToFit(this.img);
+    }
+    setImage(imagId)
+    {
+        this.img = document.getElementById(imagId);
+        if (this.img != null)
+        {
+            this.imageId = imagId;
+            this.scaleToFit(this.img);
+        }
+        
+
     }
     scaleToFit(img) {
         if(img === undefined)
