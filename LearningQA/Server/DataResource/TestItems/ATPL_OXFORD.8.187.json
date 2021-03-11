@@ -516,7 +516,7 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "the pressure of O</sub>2</sub> in the blood",
+            "content": "the pressure of O<sub>2</sub> in the blood",
             "isTrue": false
           },
           {
@@ -685,25 +685,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "8 – 10&#37;",
+            "content": "8 &#45; 10&#37;",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "12 – 18&#37;",
+            "content": "12 &#45; 18&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "20 – 25&#37;",
+            "content": "20 &#45; 25&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "0.2 – 2&#37;",
+            "content": "0.2 &#45; 2&#37;",
             "isTrue": false
           }
         ]
@@ -851,7 +851,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "What is the main factor concerning smoking that reduces the red bloods cells&#8221;  capability to carry oxygen?",
+        "question": "What is the main factor concerning smoking that reduces the red bloods cells&#715;  capability to carry oxygen?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,7 +921,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "<p>The pressoreceptors have signalled low blood pressure. The body&#8221;s response is to:</p><p>1. increase rate of breathing</p><p>2. increase cardiac output</p><p>3. increase heart rate</p><p>4. relax of the blood vessels</p><p>5. decrease heart rate</p><p>6. tighten of the blood vessels</p>",
+        "question": "<p>The pressoreceptors have signalled low blood pressure. The body&#715;s response is to:</p><p>1. increase rate of breathing</p><p>2. increase cardiac output</p><p>3. increase heart rate</p><p>4. relax of the blood vessels</p><p>5. decrease heart rate</p><p>6. tighten of the blood vessels</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1061,7 +1061,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "Which of the following is correct concerning O2 and blood?",
+        "question": "Which of the following is correct concerning O<sub>2</sub> and blood?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1140,25 +1140,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Boyle&#8221;s",
+            "content": "Boyle&#715;s",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Charles&#8221;",
+            "content": "Charle&#715; s",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Henry&#8221;s",
+            "content": "Henry&#715; s",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Gas Diffusion Law – Fick&#8221;s Law",
+            "content": "Gas Diffusion Law &#45; Fick&#715;s Law",
             "isTrue": true
           }
         ]
@@ -1228,7 +1228,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "temperatures greater than 24&#8451;C at altitudes of over 2000 ft",
+            "content": "temperatures greater than 24&#8451; at altitudes of over 2000 ft",
             "isTrue": false
           }
         ]
@@ -1236,7 +1236,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "Dalton&#8221;s Law is associated with:",
+        "question": "Dalton&#715;s Law is associated with:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1280,7 +1280,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "can have a severe affect on a pilot&#8221;s abilities when receiving exposure for a relatively short period of time",
+            "content": "can have a severe affect on a pilot&#715;s abilities when receiving exposure for a relatively short period of time",
             "isTrue": true
           },
           {
@@ -1376,7 +1376,7 @@
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "Boyle&#8221;s Law has a role to play in:",
+        "question": "Boyle&#715;s Law has a role to play in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2435,13 +2435,13 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Boyle&#8221;s Law",
+            "content": "Boyle&#715;s Law",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Henry&#8221;s Law",
+            "content": "Henry&#715;s Law",
             "isTrue": true
           },
           {
@@ -2453,7 +2453,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Dalton&#8221;s Law",
+            "content": "Dalton&#715;s Law",
             "isTrue": false
           }
         ]
@@ -2811,7 +2811,7 @@
       {
         "id": 0,
         "questionNumber": "81",
-        "question": "Flight for pilots following scuba diving, using compressed air, to a depth of 10 m is ……………",
+        "question": "Flight for pilots following scuba diving, using compressed air, to a depth of 10 m is .......",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3147,7 +3147,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "10 000 – 12 000 ft",
+            "content": "10 000 &#45; 12 000 ft",
             "isTrue": true
           },
           {
@@ -3532,7 +3532,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "avoid moving one&#8221;s head whilst turning",
+            "content": "avoid moving one&#715;s head whilst turning",
             "isTrue": true
           },
           {
@@ -4115,7 +4115,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "the pilot&#8221;s seat harness is too tight not allowing the pilot to sense the aircraft&#8221;s attitude changes",
+            "content": "the pilot&#715;s seat harness is too tight not allowing the pilot to sense the aircraft&#715;s attitude changes",
             "isTrue": false
           },
           {
@@ -4197,7 +4197,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "pilot&#8221;s vertigo",
+            "content": "pilot&#715;s vertigo",
             "isTrue": true
           },
           {
@@ -4687,7 +4687,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "for the pilot&#8221;s individual needs",
+            "content": "for the pilot&#715;s individual needs",
             "isTrue": false
           },
           {
@@ -4757,7 +4757,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "4",
             "isTrue": false
           },
           {
@@ -5296,7 +5296,7 @@
       {
         "id": 0,
         "questionNumber": "152",
-        "question": "If a pilot experiences negative acceleration (-gz) what is the effect on the pilot&#8221;s inertia?",
+        "question": "If a pilot experiences negative acceleration (-gz) what is the effect on the pilot&#715;s inertia?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -5813,7 +5813,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 and 4 only",
             "isTrue": false
           }
         ]
@@ -6565,25 +6565,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "20&#8451;C",
+            "content": "20&#8451;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "25&#8451;C",
+            "content": "25&#8451;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "30&#8451;C",
+            "content": "30&#8451;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "35&#8451;C",
+            "content": "35&#8451;",
             "isTrue": true
           }
         ]
@@ -6906,7 +6906,7 @@
       {
         "id": 0,
         "questionNumber": "198",
-        "question": "<p>According to the &#8220;General Adaptation Syndrome&#8221; which of the following statement/s is/are correct?</p><p>During the alarm phase adrenalin will cause a large release of glucose into the blood, a raised heartbeat and blood pressure plus an increase in the rate and depth of breathing</p><p>During the resistance phase the parasympathetic system releases cortisol helping in the conversion of fat into sugar</p><p>During the exhaustion phase the body has to be given time to eliminate the waste products which have been generated excessively</p>",
+        "question": "<p>According to the &#8220;General Adaptation Syndrome&#8221; which of the following statement/s is/;are correct?</p><p>During the alarm phase adrenalin will cause a large release of glucose into the blood, a raised heartbeat and blood pressure plus an increase in the rate and depth of breathing</p><p>During the resistance phase the parasympathetic system releases cortisol helping in the conversion of fat into sugar</p><p>During the exhaustion phase the body has to be given time to eliminate the waste products which have been generated excessively</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -6941,7 +6941,7 @@
       {
         "id": 0,
         "questionNumber": "199",
-        "question": "An individual&#8221;s perception of stress:",
+        "question": "An individual&#715;s perception of stress:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -6956,8 +6956,7 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "is the objective evaluation of a situation and the perceived ability to cope with
-it",
+            "content": "is the objective evaluation of a situation and the perceived ability to cope with it",
             "isTrue": false
           },
           {
@@ -6969,7 +6968,7 @@ it",
           {
             "id": 0,
             "tenantId": "D",
-            "content": "depends on the individual&#8221;s arousal",
+            "content": "depends on the individual&#715;s arousal",
             "isTrue": false
           }
         ]
@@ -7371,19 +7370,19 @@ it",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "generally decreases a pilot&#8221;s performance",
+            "content": "generally decreases a pilot&#715;s performance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "generally increases a pilot&#8221;s performance",
+            "content": "generally increases a pilot&#715;s performance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "generally has little effect on a pilot&#8221;s performance since it is compensated for by experience",
+            "content": "generally has little effect on a pilot&#715;s performance since it is compensated for by experience",
             "isTrue": true
           },
           {
@@ -7887,7 +7886,7 @@ it",
       {
         "id": 0,
         "questionNumber": "226",
-        "question": "<p>Which of the following are included in Maslow&#8221;s Hierarchy of Needs:</p><p>1. self-fulfilment through expression of capacities and talents</p><p>2. self-esteem through self respect</p><p>3. safety through avoidance of danger</p><p>4. achievement through group efforts</p><p>5. self-esteem through a job</p>",
+        "question": "<p>Which of the following are included in Maslow&#715;s Hierarchy of Needs:</p><p>1. self-fulfilment through expression of capacities and talents</p><p>2. self-esteem through self respect</p><p>3. safety through avoidance of danger</p><p>4. achievement through group efforts</p><p>5. self-esteem through a job</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -8027,7 +8026,7 @@ it",
       {
         "id": 0,
         "questionNumber": "230",
-        "question": "With respect to Maslow&#8221;s Hierarchy of Needs (1943) he expounded that:",
+        "question": "With respect to Maslow&#715;s Hierarchy of Needs (1943) he expounded that:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -8587,7 +8586,7 @@ it",
       {
         "id": 0,
         "questionNumber": "246",
-        "question": "Flying by the &#8220;seat of one&#8221;s pants&#8221;:",
+        "question": "Flying by the &#8220;seat of one&#715;s pants&#8221;:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -8867,7 +8866,7 @@ it",
       {
         "id": 0,
         "questionNumber": "254",
-        "question": "<p>What would disrupt the biological clock?</p><p>1. A night flight from New York to Amsterdam</p><p>2. A day flight from Amsterdam to New York</p><p>3. A day flight from Amsterdam to Johannesburg</p><p>4. A poor night&#8221;s sleep</p>",
+        "question": "<p>What would disrupt the biological clock?</p><p>1. A night flight from New York to Amsterdam</p><p>2. A day flight from Amsterdam to New York</p><p>3. A day flight from Amsterdam to Johannesburg</p><p>4. A poor night&#715;s sleep</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -9057,7 +9056,7 @@ it",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a person&#8221;s response to a situation, person or object",
+            "content": "a person&#715;s response to a situation, person or object",
             "isTrue": true
           },
           {
@@ -9112,7 +9111,7 @@ it",
       {
         "id": 0,
         "questionNumber": "261",
-        "question": "During the cruise, the Captain of an aircraft starts to smoke a cigarette. The copilot is a non-smoker and asks him to stop. The Captain ignores his request saying &#8220;That&#8221;s your problem&#8221;. What should the co-pilot do about the situation?",
+        "question": "During the cruise, the Captain of an aircraft starts to smoke a cigarette. The copilot is a non-smoker and asks him to stop. The Captain ignores his request saying &#8220;That&#715;s your problem&#8221;. What should the co-pilot do about the situation?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -9133,7 +9132,7 @@ it",
           {
             "id": 0,
             "tenantId": "C",
-            "content": "He must accept his Captain&#8221;s behaviour since it is the Captain who is responsible",
+            "content": "He must accept his Captain&#715;s behaviour since it is the Captain who is responsible",
             "isTrue": false
           },
           {
@@ -9308,7 +9307,7 @@ it",
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Specifically target each individual&#8221;s failings",
+            "content": "Specifically target each individual&#715;s failings",
             "isTrue": true
           },
           {
@@ -9477,7 +9476,7 @@ it",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "The Receiver&#8221;s mood",
+            "content": "The Receiver&#715;s mood",
             "isTrue": false
           },
           {
@@ -9489,7 +9488,7 @@ it",
           {
             "id": 0,
             "tenantId": "D",
-            "content": "The Sender&#8221;s nationality",
+            "content": "The Sender&#715;s nationality",
             "isTrue": false
           }
         ]
@@ -9576,7 +9575,7 @@ it",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Mishearing the contents of an air traffic controller&#8221;s non-standard clearance when a standard procedure was anticipated",
+            "content": "Mishearing the contents of an air traffic controller&#715;s non-standard clearance when a standard procedure was anticipated",
             "isTrue": true
           },
           {
@@ -9658,7 +9657,7 @@ it",
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Reduces pilot&#8221;s attention since they can be out of the loop",
+            "content": "Reduces pilot&#715;s attention since they can be out of the loop",
             "isTrue": true
           },
           {
@@ -9742,7 +9741,7 @@ it",
       {
         "id": 0,
         "questionNumber": "279",
-        "question": "Murphy&#8221;s Law states that:",
+        "question": "Murphy&#715;s Law states that:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -9792,7 +9791,7 @@ it",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a doll&#8221;s eye indicator",
+            "content": "a doll&#715;s eye indicator",
             "isTrue": false
           },
           {
@@ -10072,7 +10071,7 @@ it",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "follow implicitly the manufacturer&#8221;s suggestions and not reflect the operator&#8221;s cockpit procedures",
+            "content": "follow implicitly the manufacturer&#715;s suggestions and not reflect the operator&#715;s cockpit procedures",
             "isTrue": false
           },
           {
@@ -10084,7 +10083,7 @@ it",
           {
             "id": 0,
             "tenantId": "D",
-            "content": "be tailored to the individual pilot&#8221;s needs and requirements",
+            "content": "be tailored to the individual pilot&#715;s needs and requirements",
             "isTrue": false
           }
         ]
@@ -10206,7 +10205,7 @@ it",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "respect each other&#8221;s decision and views",
+            "content": "respect each other&#715;s decision and views",
             "isTrue": true
           },
           {
@@ -10218,7 +10217,7 @@ it",
           {
             "id": 0,
             "tenantId": "C",
-            "content": "respect each other&#8221;s political and religious persuasions",
+            "content": "respect each other&#715;s political and religious persuasions",
             "isTrue": false
           },
           {

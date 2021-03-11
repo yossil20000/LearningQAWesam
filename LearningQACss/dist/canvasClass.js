@@ -16,10 +16,12 @@ class CanvasClass {
     points = [];
     newLine = true;
     lastDraw = { x: -1, y: -1 };
+    cuurentStrokStyle = 'red';
     constructor(canvasId) {
         this.canvasId = canvasId;
         this.canvas = document.getElementById(canvasId);
         this.ctx = this.canvas.getContext('2d');
+        this.ctx.strokeStyle = this.cuurentStrokStyle;
         this.GetCanvasBoundingRect();
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
@@ -108,7 +110,7 @@ class CanvasClass {
         this.ctx.lineTo((currX - this.BRectLeft) * scaleX, (currY - this.BRectTop) * scaleY);
         //ctx.moveTo(prevX - BRectLeft, prevY - BRectTop);
         //ctx.lineTo(currX - BRectLeft, currY - BRectTop);
-        this.ctx.strokeStyle = 'red';
+        this.ctx.strokeStyle = this.cuurentStrokStyle;;
         this.ctx.lineWidth = 2;
         this.ctx.stroke();
         this.ctx.closePath();
@@ -128,6 +130,7 @@ class CanvasClass {
         this.clearCanvas();
         var dpoint;
         this.ctx.beginPath();
+        this.ctx.strokeStyle = this.cuurentStrokStyle;
         this.pathsarray.forEach((path) => {
             dpoint = this.GetDrawingPoint(path[0]);
             this.ctx.moveTo(dpoint.x, dpoint.y);

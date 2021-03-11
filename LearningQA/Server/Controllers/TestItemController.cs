@@ -148,25 +148,21 @@ namespace LearningQA.Server.Controllers
 		[HttpPost(Name = "/LoadNewFromFile")]
         [SwaggerOperation(
             Summary = "LoadNewFromFile",
-            Description = "Load file in json format, and create new testitems, can be also reset database",
+            Description = "Load TestITem file in json format and save ti DB, can be also reset database",
             OperationId = "TestItem.Post",
             Tags = new[] { "TestItemEndpoint" })]
         [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "bool", typeof(bool))]
         [SwaggerResponse((int)System.Net.HttpStatusCode.BadRequest, "string", typeof(string))]
-        public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, bool loadAll = false ,string fileName = "")
+        public async Task<IActionResult> LoadNewFromFile(bool createNewDatabase = false, bool confirmCreate = false ,string fileName = "")
 		{
             string[] filestoLoad = null;
-            if(loadAll && createNewDatabase == false)
+            if(createNewDatabase && !confirmCreate)
             {
                
                 return BadRequest("Input createNewDatabase == false while loadAll");
             }
-            if (loadAll)
-                filestoLoad = DataResourceReader.GetAllJsonFiles(fileName);
-            else
-                filestoLoad = new string[]{
-                    fileName
-                };
+            
+            filestoLoad = DataResourceReader.GetAllJsonFiles(fileName);
             Person<int> person = new Person<int>()
             {
                 IdNumber = "059828391",
