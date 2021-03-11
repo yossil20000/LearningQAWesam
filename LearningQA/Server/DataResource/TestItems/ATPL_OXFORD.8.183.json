@@ -475,25 +475,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "15°C to 30°C with a relative humidity of 40 - 60&#37;",
+            "content": "15&#8451; to 30&#8451; with a relative humidity of 40 - 60&#37;",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "10°C to 25°C with a relative humidity of 20 - 30&#37;",
+            "content": "10&#8451; to 25&#8451; with a relative humidity of 20 - 30&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "15°C to 30°C with a relative humidity of 70 - 80&#37;",
+            "content": "15&#8451; to 30&#8451; with a relative humidity of 70 - 80&#37;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "30°C to 40°C with a relative humidity of 30 - 40&#37;",
+            "content": "30&#8451; to 40&#8451; with a relative humidity of 30 - 40&#37;",
             "isTrue": false
           }
         ]
@@ -545,7 +545,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "ASI, AH/FDI, ALT, T&#8221;SLIP",
+            "content": "ASI, AH/FDI, ALT, T&#715;SLIP",
             "isTrue": false
           },
           {
@@ -790,25 +790,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "visual – echoic memory lasting about 0.5 to 1 second. auditory – iconic memory lasting up to 7 seconds",
+            "content": "visual &#45; echoic memory lasting about 0.5 to 1 second. auditory &#45; iconic memory lasting up to 7 seconds",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "auditory – echoic lasting 2 to 8 seconds. visual – iconic lasting 0.5 to 1 second",
+            "content": "auditory &#45; echoic lasting 2 to 8 seconds. visual &#45; iconic lasting 0.5 to 1 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "visual – iconic lasting 2 to 8 seconds auditory – echoic lasting 0.5 to 1 second",
+            "content": "visual &#45; iconic lasting 2 to 8 seconds auditory &#45; echoic lasting 0.5 to 1 second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "visual – iconic lasting 3 to 4 seconds. auditory – echoic about 3 to 8 seconds",
+            "content": "visual &#45; iconic lasting 3 to 4 seconds. auditory &#45; echoic about 3 to 8 seconds",
             "isTrue": false
           }
         ]

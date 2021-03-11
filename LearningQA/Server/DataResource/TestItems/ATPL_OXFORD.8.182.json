@@ -20,7 +20,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "45 – 75 seconds",
+            "content": "45 &#45; 75 seconds",
             "isTrue": false
           },
           {
@@ -265,7 +265,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "enable the detection of possible noxious gases and trigger the body&#8221;s defences",
+            "content": "enable the detection of possible noxious gases and trigger the body&#715;s defences",
             "isTrue": false
           },
           {
@@ -781,7 +781,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "According to Rasmussen&#8221;s activity model, errors are of the following type in skillbased mode:",
+        "question": "According to Rasmussen&#715;s activity model, errors are of the following type in skillbased mode:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -866,7 +866,7 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "steadfastly maintaining one&#8221;s own point of view",
+            "content": "steadfastly maintaining one&#715;s own point of view",
             "isTrue": false
           },
           {
@@ -878,7 +878,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "surrendering one&#8221;s own point of view",
+            "content": "surrendering one&#715;s own point of view",
             "isTrue": false
           }
         ]

@@ -475,25 +475,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "alarm phase – denial phase – acceptance phase",
+            "content": "alarm phase &#45; denial phase &#45; acceptance phase",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "alarm phase – resistance phase – exhaustion phase",
+            "content": "alarm phase &#45; resistance phase &#45; exhaustion phase",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "stressor – resistance phase – adaptation phase",
+            "content": "stressor &#45; resistance phase &#45; adaptation phase",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "resistance phase – exhaustion phase – recovery phase",
+            "content": "resistance phase &#45; exhaustion phase &#45; recovery phase",
             "isTrue": false
           }
         ]
@@ -501,7 +501,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "With a large aircraft maintaining a standard 3° approach to a runway, the touchdown point will be:",
+        "question": "With a large aircraft maintaining a standard 3&#176; approach to a runway, the touchdown point will be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -545,7 +545,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a flight or task undertaken at a time when the body&#8221;s circadian rhythms are at their lowest point of efficiency",
+            "content": "a flight or task undertaken at a time when the body&#715;s circadian rhythms are at their lowest point of efficiency",
             "isTrue": false
           },
           {
@@ -598,7 +598,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "to determine the eventual size of the flight deck and where the window frames will be positioned so as to give minimum interference to the pilot&#8221;s field of view",
+            "content": "to determine the eventual size of the flight deck and where the window frames will be positioned so as to give minimum interference to the pilot&#715;s field of view",
             "isTrue": false
           }
         ]
@@ -832,7 +832,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "1.5 hours per day",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -867,7 +867,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "25",
-            "isTrue": true
+            "isTrue": false
           },
           {
             "id": 0,
@@ -901,7 +901,7 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "makes it possible to detect abnormal values for flight parameters even though they are not the pilot&#8221;s immediate concern",
+            "content": "makes it possible to detect abnormal values for flight parameters even though they are not the pilot&#715;s immediate concern",
             "isTrue": true
           },
           {
