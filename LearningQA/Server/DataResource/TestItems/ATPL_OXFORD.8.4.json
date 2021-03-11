@@ -825,13 +825,13 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "0.1 m/s2<sup>2</sup>",
+            "content": "0.1 m/s<sup>2</sup>",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "1.0 m/s2<sup>2</sup>",
+            "content": "1.0 m/s<sup>2</sup>",
             "isTrue": false
           }
         ]

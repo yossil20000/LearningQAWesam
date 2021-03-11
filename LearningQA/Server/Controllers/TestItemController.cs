@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 
+using Castle.Core.Internal;
 using Castle.Core.Logging;
 
 using LearningQA.Server.Configuration;
@@ -25,6 +26,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -249,10 +251,12 @@ namespace LearningQA.Server.Controllers
                 {
                     for (int qIndex = 0; qIndex < items.ElementAt(item).Questions.Count; qIndex++)
                     {
+                        var toRemove = items.ElementAt(item).Questions.ElementAt(qIndex).Supplements.Where(x => x.OriginalContent.IsNullOrEmpty() && x.Title.IsNullOrEmpty()).ToList();
                         var supplement = items.ElementAt(item).Questions.ElementAt(qIndex).Supplements;
-                        
+                        toRemove.ForEach(item => supplement.Remove(item));
                         for (int suppIndex = 0; suppIndex < supplement.Count; suppIndex++)
                         {
+                            
                             if (supplement.ElementAt(suppIndex).OriginalcontentType == ContentType.ImageFileName)
                             {
                                 Console.WriteLine($"ConverSupplement: item:{item}, Question:{items.ElementAt(item).Questions.ElementAt(qIndex).QuestionNumber} Supp:{supplement.ElementAt(suppIndex).OriginalContent}");

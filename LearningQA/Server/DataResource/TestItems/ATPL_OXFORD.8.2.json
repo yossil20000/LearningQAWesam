@@ -15,18 +15,7 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [
-          {
-            "id": 0,
-            "title": "",
-            "tenantId": "",
-            "content": "",
-            "rotateContent": 0,
-            "originalContent": "",
-            "originalcontentType": 0,
-            "contentType": 0
-          }
-        ],
+        "supplements": [],
         "options": [
           {
             "id": 0,
@@ -61,18 +50,7 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [
-          {
-            "id": 0,
-            "title": "",
-            "tenantId": "",
-            "content": "",
-            "rotateContent": 0,
-            "originalContent": "",
-            "originalcontentType": 0,
-            "contentType": 0
-          }
-        ],
+        "supplements": [],
         "options": [
           {
             "id": 0,
@@ -107,18 +85,7 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [
-          {
-            "id": 0,
-            "title": "",
-            "tenantId": "",
-            "content": "",
-            "rotateContent": 0,
-            "originalContent": "",
-            "originalcontentType": 0,
-            "contentType": 0
-          }
-        ],
+        "supplements": [],
         "options": [
           {
             "id": 0,
@@ -199,18 +166,7 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [
-          {
-            "id": 0,
-            "title": "",
-            "tenantId": "",
-            "content": "",
-            "rotateContent": 0,
-            "originalContent": "",
-            "originalcontentType": 0,
-            "contentType": 0
-          }
-        ],
+        "supplements": [],
         "options": [
           {
             "id": 0,
@@ -721,13 +677,13 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "100 – 120",
+            "content": "100 &#45; 120",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "210 - 250",
+            "content": "210 &#45; 250",
             "isTrue": true
           },
           {
@@ -739,7 +695,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "10 - 20",
+            "content": "10 &#45; 20",
             "isTrue": false
           }
         ]
@@ -779,7 +735,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "keep the patient’s body temperature as low as possible",
+            "content": "keep the patient&#715;s body temperature as low as possible",
             "isTrue": false
           },
           {
@@ -905,7 +861,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "the brain’s control of the pulse rate",
+            "content": "the brain&#715;s control of the pulse rate",
             "isTrue": false
           },
           {
