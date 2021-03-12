@@ -99,7 +99,7 @@ namespace LearningQA.Client.Pages
 			//	() => base.StateHasChanged());
 			if(bImageChanged && canvasJsInterop != null)
 			{
-				_ = await canvasJsInterop.UpdateImage("canvasimg");
+				///_ = await canvasJsInterop.UpdateImage(canvasId,canvasImageId);
 				bImageChanged = false;
 			}
 			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, ShowMessage());
@@ -179,7 +179,7 @@ namespace LearningQA.Client.Pages
 		{
 
 
-			await canvasJsInterop.ClearDraw();
+			await canvasJsInterop.ClearDraw(canvasId);
 
 		}
 		private async Task CanvasOnMoseMove(MouseEventArgs ea)
@@ -187,14 +187,14 @@ namespace LearningQA.Client.Pages
 			message = $"Mouse: Client:{lastMouseEventArgs.ClientX} offsetx:{lastMouseEventArgs.OffsetX} ScreenX:{lastMouseEventArgs.ScreenX}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
 			lastMouseEventArgs = ea;
 			//Console.WriteLine(message);
-			if(ea.AltKey)
-				await canvasJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
+			//if(ea.AltKey)
+			//	await canvasJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
 			await Task.CompletedTask;
 		}
 		private async Task  NewLine()
 		{
 			newLine = true;
-			await canvasJsInterop.NewLine();
+			await canvasJsInterop.NewLine(canvasId);
 
 		}
 		private async Task ClearDraw()
@@ -224,7 +224,7 @@ namespace LearningQA.Client.Pages
 		private async Task Draw(MouseEventArgs firstPoint, MouseEventArgs secondPoint)
 		{
 			drawMessage = $"Draw Line:(({firstPoint.ClientX},{firstPoint.ClientY})({secondPoint.ClientX}, {secondPoint.ClientY}) )";
-			await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
+			//await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
 			await Task.CompletedTask;
 			if (canvasJsInterop != null)
 			{

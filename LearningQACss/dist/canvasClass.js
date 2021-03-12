@@ -1,3 +1,77 @@
+let canvasClasses = new Map();
+function initCanvas(canvasId)
+{
+    var canvas = canvasClasses.get(canvasId);
+    if(canvas === undefined)
+        {
+            var canvas = canvas = document.getElementById(canvasId);
+            if(canvas === null)
+                return;
+            canvasClasses.set(canvasId, new CanvasClass(canvasId));
+        }
+}
+function OnDrawPreview(int x, int y)
+{
+    var canvas = canvasClasses.get(canvasId);
+    if(canvas != undefined)
+        {
+            var canvas = canvasClasses.get(canvasId);
+            if(canvas === null)
+                return;
+             
+        }
+}
+
+function CanvasRedraw()
+{
+    /* canvasClasses.forEach(
+       (value,key) => { value.onCanvasSizeChange}
+    ) */
+   
+    for (let value of canvasClasses.values())
+    {
+        value.onCanvasSizeChange()
+    }
+    //canvasClasses.get('can').onCanvasSizeChange();
+}
+function OnClearDraw(canvasId)
+{
+    var id = canvasClasses.get(canvasId);
+    if (id) {
+        id.clearDraw();
+    }
+}
+function OnNewline(canvasId) {
+    var id = canvasClasses.get(canvasId);
+    if (id) {
+        id.SetNewLine();
+    }
+    first = true;
+}
+function OnUnDo(canvasId)
+{
+    var id = canvasClasses.get(canvasId);
+    if (id) {
+        id.unDo();
+    }
+}
+function mouseDraw(canvasId) {
+    var id = canvasClasses.get(canvasId);
+    if (id) {
+        id.newLine = false;
+        id.bDrawOnMove = true;
+    }
+}
+function setCanvasImage(canvasId, imageId)
+{
+    document.getElementById(imageId).src = imagesrc;
+    var id = canvasClasses.get(canvasId);
+    if(id != null)
+    {
+        id.setImage(imageId);
+    }
+}
+
 class CanvasClass {
     canvas;
     img;
@@ -158,6 +232,7 @@ class CanvasClass {
     clearCanvas() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.scaleToFit(this.img);
+        this.SetNewLine();
     }
     clearDraw() {
     this.points = [];

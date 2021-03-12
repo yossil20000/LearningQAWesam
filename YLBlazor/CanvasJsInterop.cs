@@ -20,7 +20,7 @@ namespace YLBlazor
 		public CanvasJsInterop(IJSRuntime jsRuntime)
 		{
 			moduleTask = new(() => jsRuntime.InvokeAsync<IJSObjectReference>(
-			   "import", "./_content/YLBlazor/canvas.js").AsTask());
+			   "import", "./_content/YLBlazor/canvas-class-demo.js").AsTask());
 		}
 
 		public async ValueTask<string> Prompt(string message)
@@ -28,42 +28,47 @@ namespace YLBlazor
 			var module = await moduleTask.Value;
 			return await module.InvokeAsync<string>("showPrompt", message);
 		}
-		public async ValueTask<string> UpdateImage(string imageId)
+		public async ValueTask<string> UpdateImage(string canvasId, string imageId)
 		{
 			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("UpdateImage", imageId);
+			return await module.InvokeAsync<string>("setCanvasImage", canvasId, imageId);
 		}
 		
-		public async ValueTask<string> NewLine()
+		public async ValueTask<string> NewLine(string canvasId)
 		{
 			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("newline");
+			return await module.InvokeAsync<string>("OnNewline",canvasId);
 
 		}
-		public async ValueTask<string> ClearDraw()
+		public async ValueTask<string> ClearDraw(string canvasId)
 		{
 			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("ClearDraw");
+			return await module.InvokeAsync<string>("OnClearDraw" , canvasId);
 		}
 		public async ValueTask<string> ClearCanvas(bool isConfirm)
 		{
 			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("erase", isConfirm);
+			return await module.InvokeAsync<string>("OnClearDraw", isConfirm);
 		}
-		public async ValueTask<string> InitCanvas(string id, string imageId)
+		public async ValueTask<string> InitCanvas(string canvasId, string imageId)
 		{
 			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("init", id, imageId);
+			return await module.InvokeAsync<string>("initCanvas", canvasId, imageId);
 		}
-		public async ValueTask<string> Draw(int prevX, int prevY, int currX, int currY)
+		//public async ValueTask<string> Draw(int prevX, int prevY, int currX, int currY)
+		//{
+		//	var module = await moduleTask.Value;
+		//	return await module.InvokeAsync<string>("draw", prevX, prevY, currX, currY);
+		//}
+		//public async ValueTask<string> DrawPreview(int x,int y)
+		//{
+		//	var module = await moduleTask.Value;
+		//	return await module.InvokeAsync<string>("drawPreview", x, y);
+		//}
+		public async ValueTask<string> UnDo(string canvasId)
 		{
 			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("draw", prevX, prevY, currX, currY);
-		}
-		public async ValueTask<string> DrawPreview(int x,int y)
-		{
-			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("drawPreview", x, y);
+			return await module.InvokeAsync<string>("OnUnDo",canvasId);
 		}
 		public async ValueTask DisposeAsync()
 		{
