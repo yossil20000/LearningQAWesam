@@ -28,6 +28,7 @@ namespace LearningQA.Client.Pages
 		[Parameter] public int testId { get; set; }
 		private bool IsInitialize { get; set; } = false;
 		private CanvasJsInterop canvasJsInterop = null;
+		private CanvasClassJsInterop CanvasClassJsInterop = null;
 		private string message = "";
 		private string drawMessage = "";
 		private bool mouseUp = false;
@@ -51,7 +52,7 @@ namespace LearningQA.Client.Pages
 		{
 			 await testItemViewModel?.RetriveTestItemInfos(testItemId);
 			 canvasJsInterop = new CanvasJsInterop(jSRuntime);
-			
+			//CanvasClassJsInterop = new CanvasClassJsInterop(jSRuntime);
 			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, UpdateImage());
 			//if(testItemId > 0)
 			//{
@@ -63,6 +64,8 @@ namespace LearningQA.Client.Pages
 
 			//}
 			IsInitialize = true;
+			//await canvasJsInterop.Prompt("I am from CanvasW");
+			//await CanvasClassJsInterop.Prompt("I am from CanvasClassJsInterop");
 			
 			
 		}
@@ -99,7 +102,8 @@ namespace LearningQA.Client.Pages
 			//	() => base.StateHasChanged());
 			if(bImageChanged && canvasJsInterop != null)
 			{
-				///_ = await canvasJsInterop.UpdateImage(canvasId,canvasImageId);
+				
+				_ = await canvasJsInterop.UpdateImage("canvasimg");
 				bImageChanged = false;
 			}
 			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, ShowMessage());
@@ -179,7 +183,7 @@ namespace LearningQA.Client.Pages
 		{
 
 
-			await canvasJsInterop.ClearDraw(canvasId);
+			await canvasJsInterop.ClearDraw();
 
 		}
 		private async Task CanvasOnMoseMove(MouseEventArgs ea)
@@ -187,14 +191,14 @@ namespace LearningQA.Client.Pages
 			message = $"Mouse: Client:{lastMouseEventArgs.ClientX} offsetx:{lastMouseEventArgs.OffsetX} ScreenX:{lastMouseEventArgs.ScreenX}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
 			lastMouseEventArgs = ea;
 			//Console.WriteLine(message);
-			//if(ea.AltKey)
-			//	await canvasJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
+			if(ea.AltKey)
+				await canvasJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
 			await Task.CompletedTask;
 		}
 		private async Task  NewLine()
 		{
 			newLine = true;
-			await canvasJsInterop.NewLine(canvasId);
+			await canvasJsInterop.NewLine();
 
 		}
 		private async Task ClearDraw()
@@ -224,7 +228,7 @@ namespace LearningQA.Client.Pages
 		private async Task Draw(MouseEventArgs firstPoint, MouseEventArgs secondPoint)
 		{
 			drawMessage = $"Draw Line:(({firstPoint.ClientX},{firstPoint.ClientY})({secondPoint.ClientX}, {secondPoint.ClientY}) )";
-			//await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
+			await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
 			await Task.CompletedTask;
 			if (canvasJsInterop != null)
 			{

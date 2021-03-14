@@ -13,12 +13,51 @@ namespace YLBlazor
 		private readonly Lazy<Task<IJSObjectReference>> moduleTask;
 		public CanvasClassJsInterop(IJSRuntime jsRuntime)
 		{
-			moduleTask = new (() => jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/YLBlazor/canvas.js").AsTask());
+			moduleTask = new (() => jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/YLBlazor/canvasclass.js").AsTask());
 		}
-
-		public ValueTask DisposeAsync()
+		public async ValueTask<string> Prompt(string message)
 		{
-			throw new NotImplementedException();
+			var module = await moduleTask.Value;
+			return await module.InvokeAsync<string>("showPrompt", message);
+		}
+		public async ValueTask<string> UpdateImage(string canvasId, string imageId)
+		{
+			var module = await moduleTask.Value;
+			return await module.InvokeAsync<string>("setCanvasImage", canvasId, imageId);
+		}
+		public async ValueTask<string> NewLine(string canvasId)
+		{
+			var module = await moduleTask.Value;
+			return await module.InvokeAsync<string>("OnNewline", canvasId);
+
+		}
+		public async ValueTask<string> ClearDraw(string canvasId)
+		{
+			var module = await moduleTask.Value;
+			return await module.InvokeAsync<string>("OnClearDraw", canvasId);
+		}
+		//public async ValueTask<string> ClearCanvas(bool isConfirm)
+		//{
+		//	var module = await moduleTask.Value;
+		//	return await module.InvokeAsync<string>("OnClearDraw", isConfirm);
+		//}
+		public async ValueTask<string> InitCanvas(string canvasId, string imageId)
+		{
+			var module = await moduleTask.Value;
+			return await module.InvokeAsync<string>("initCanvas", canvasId, imageId);
+		}
+		public async ValueTask<string> UnDo(string canvasId)
+		{
+			var module = await moduleTask.Value;
+			return await module.InvokeAsync<string>("OnUnDo", canvasId);
+		}
+		public async ValueTask DisposeAsync()
+		{
+			if (moduleTask.IsValueCreated)
+			{
+				var module = await moduleTask.Value;
+				await module.DisposeAsync();
+			}
 		}
 	}
 }
