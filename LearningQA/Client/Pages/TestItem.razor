@@ -241,7 +241,7 @@
 
 @code {
     //*private RenderFragment<QuestionOption<int>> questionOptionChecbox = (i) =>  @<input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="(EventArgs) => { OnOptionChanged(i, EventArgs); }">;*/
-   
+
 
     private async void OnImageDoubleClick()
     {
@@ -261,8 +261,10 @@
     }
     private async void SelectedImage(int id)
     {
+        //var selected = TestItemViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).ToList();
+        //selected.ForEach(x => Console.WriteLine($"ImageId: {x.Id} {x.Title}"));
         TestItemViewModelPersist.SelectedSupplement = TestItemViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).FirstOrDefault();
-        Console.WriteLine(TestItemViewModelPersist.SelectedSupplement.Title);
+        // Console.WriteLine($"ImageId: {id} {TestItemViewModelPersist.SelectedSupplement.Title} {TestItemViewModelPersist.SelectedSupplement.Id}" );
 
         await canvasJsInterop.ClearDraw();
         await canvasJsInterop.ClearCanvas(false);
