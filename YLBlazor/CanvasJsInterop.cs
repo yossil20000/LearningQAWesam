@@ -57,8 +57,16 @@ namespace YLBlazor
 		}
 		public async ValueTask<string> Draw(int prevX, int prevY, int currX, int currY)
 		{
-			var module = await moduleTask.Value;
-			return await module.InvokeAsync<string>("draw", prevX, prevY, currX, currY);
+			try
+			{
+				var module = await moduleTask.Value;
+				return await module.InvokeAsync<string>("draw", prevX, prevY, currX, currY);
+			}
+			catch(Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+			}
+			return "";
 		}
 		public async ValueTask<string> DrawPreview(int x,int y)
 		{

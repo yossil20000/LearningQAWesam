@@ -18,6 +18,7 @@ function windowResize() {
     GetCanvasBoundingRect();
 /* erase(false);*/
     scaleToFit(img);
+    drawPath();
 };
 function GetCanvasBoundingRect() {
     BRectLeft = document.getElementById(canvasId).getBoundingClientRect().left;

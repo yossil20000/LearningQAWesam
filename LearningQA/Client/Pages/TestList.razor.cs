@@ -31,12 +31,12 @@ namespace LearningQA.Client.Pages
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
 		private bool answereExpend { get; set; } = false;
 		private bool supplementExpand { get; set; } = true;
-		private CanvasJsInterop canvasJsInterop;
+		private CanvasClassJsInterop canvasClassJsInterop;
 		private bool supplementFullExpand { get; set; } = true;
 		protected override async Task OnInitializedAsync()
 		{
-			canvasJsInterop = new CanvasJsInterop(JSRuntime);
-			await canvasJsInterop.Prompt("Hi From canvasJsInterop ");
+			//canvasClassJsInterop = new CanvasClassJsInterop(JSRuntime);
+			//await canvasClassJsInterop.Prompt("Hi From canvasJsInterop ");
 			await ExamVM?.RetriveTestItemInfos(0);
 			IsInitialize = true;
 			await base.OnInitializedAsync();

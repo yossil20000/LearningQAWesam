@@ -227,13 +227,18 @@ namespace LearningQA.Client.Pages
 		}
 		private async Task Draw(MouseEventArgs firstPoint, MouseEventArgs secondPoint)
 		{
-			drawMessage = $"Draw Line:(({firstPoint.ClientX},{firstPoint.ClientY})({secondPoint.ClientX}, {secondPoint.ClientY}) )";
-			await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
-			await Task.CompletedTask;
-			if (canvasJsInterop != null)
+			try
 			{
-				
+				drawMessage = $"Draw Line:(({firstPoint.ClientX},{firstPoint.ClientY})({secondPoint.ClientX}, {secondPoint.ClientY}) )";
+				Console.WriteLine(drawMessage);
+				await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
+				await Task.CompletedTask;
 			}
+			catch(Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+			}
+			
 
 			
 		}
