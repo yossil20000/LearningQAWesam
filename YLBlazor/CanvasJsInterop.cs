@@ -13,6 +13,10 @@ namespace YLBlazor
 	// This class can be registered as scoped DI service and then injected into Blazor
 	// components for use.
 	//15/03
+
+	/// <summary>
+	/// CanvasJsInterop for manipulate Canvas drawing
+	/// </summary>
 	public class CanvasJsInterop : IAsyncDisposable
 	{
 		private readonly Lazy<Task<IJSObjectReference>> moduleTask;
