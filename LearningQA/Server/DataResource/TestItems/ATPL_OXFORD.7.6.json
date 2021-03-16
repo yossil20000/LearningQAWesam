@@ -103,7 +103,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "<p>Refer CAP 697 Figure 4.2 Given:</p><p>Brake release mass of 60 000 kg</p><p>Distance 150 NAM</p><p>ISA +10&#8451</p><p>What is the short distance cruise altitude?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.2 Given:</p><p>Brake release mass of 60 000 kg</p><p>Distance 150 NAM</p><p>ISA +10&#8451;</p><p>What is the short distance cruise altitude?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -149,7 +149,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "<p>Refer CAP 697 Figure 4.2 Given:</p><p>Brake release mass of 40 000 kg</p><p>Distance 100 NAM</p><p>ISA +20&#8451</p><p>What is the short distance cruise altitude?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.2 Given:</p><p>Brake release mass of 40 000 kg</p><p>Distance 100 NAM</p><p>ISA +20&#8451;</p><p>What is the short distance cruise altitude?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,7 +195,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 45 000 kg</p><p>Distance 600 NGM</p><p>ISA +20&#8451</p><p>Cruise using LRC &#64 FL370</p><p>50 kt headwind</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 45 000 kg</p><p>Distance 600 NGM</p><p>ISA +20&#8451;</p><p>Cruise using LRC &#64; FL370</p><p>50 kt headwind</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -241,7 +241,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 55 000 kg</p><p>Distance 600 NGM</p><p>ISA -10&#8451</p><p>Cruise using LRC &#64 FL370</p><p>50 kt headwind</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 55 000 kg</p><p>Distance 600 NGM</p><p>ISA -10&#8451;</p><p>Cruise using LRC &#64; FL370</p><p>50 kt headwind</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -287,7 +287,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 35 000 kg</p><p>Distance 600 NGM</p><p>ISA</p><p>Cruise using LRC &#64 FL250</p><p>50 kt tailwind</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 35 000 kg</p><p>Distance 600 NGM</p><p>ISA</p><p>Cruise using LRC &#64; FL250</p><p>50 kt tailwind</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -333,7 +333,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 37 000 kg</p><p>Fuel available 4500 kg</p><p>ISA</p><p>Cruise using LRC &#64 FL370</p><p>75 kt headwind</p><p>How far could you fly?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.1b Given:</p><p>Landing mass of 37 000 kg</p><p>Fuel available 4500 kg</p><p>ISA</p><p>Cruise using LRC &#64; FL370</p><p>75 kt headwind</p><p>How far could you fly?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -379,7 +379,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "<p>Refer CAP 697 Figure 4.1 and 4.3.3 Given:</p><p>Landing mass of 47 500 kg</p><p>Cruise mass of 58 000 kg</p><p>Distance 1750 NGM</p><p>ISA +10&#8451</p><p>Cruise using M 0.78</p><p>Wind light & variable</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL330 what is your trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.1 and 4.3.3 Given:</p><p>Landing mass of 47 500 kg</p><p>Cruise mass of 58 000 kg</p><p>Distance 1750 NGM</p><p>ISA +10&#8451;</p><p>Cruise using M 0.78</p><p>Wind light & variable</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL330 what is your trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -435,7 +435,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "<p>Refer CAP 697 Figure 4.1 and 4.3.1 Given:</p><p>Landing mass of 50 000 kg</p><p>Cruise mass of 54 000 kg</p><p>Distance 800 NGM</p><p>ISA +20&#8451</p><p>Cruise using LRC</p><p>50 kt tailwind</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL350 what is your trip fuel and time?</p><p>c. With FMS in ECON mode with a cost index of 100; what are the fuel and time correction factors?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.1 and 4.3.1 Given:</p><p>Landing mass of 50 000 kg</p><p>Cruise mass of 54 000 kg</p><p>Distance 800 NGM</p><p>ISA +20&#8451;</p><p>Cruise using LRC</p><p>50 kt tailwind</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL350 what is your trip fuel and time?</p><p>c. With FMS in ECON mode with a cost index of 100; what are the fuel and time correction factors?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -466,25 +466,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a. 34 600 ft, b. 4400 kg 1 h 45 min, c. Fuel +7&#37; Time -4&#37;",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 45 min, c. Fuel +7&percnt; Time -4&percnt;",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a. 34 600 ft, b. 4400 kg 1 h 43 min, c. Fuel +7&#37; Time -4&#37;",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 43 min, c. Fuel +7&percnt; Time -4&percnt;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "a. 34 600 ft, b. 4400 kg 1 h 44 min, c. Fuel -7&#37; Time -4&#37;",
+            "content": "a. 34 600 ft, b. 4400 kg 1 h 44 min, c. Fuel -7&percnt; Time -4&percnt;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "a. 34 600 ft, b. 4500 kg 1 h 45 min, c. Fuel +7&#37; Time +4&#37;",
+            "content": "a. 34 600 ft, b. 4500 kg 1 h 45 min, c. Fuel +7&percnt; Time +4&percnt;",
             "isTrue": false
           }
         ]
@@ -492,7 +492,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "<p>Refer CAP 697 Figure 4.1, 4.3.1 and Table 4.1 Given:</p><p>Landing mass of 45 000 kg</p><p>Brake release mass of 60 000 kg</p><p>Distance 2000 NGM</p><p>ISA -10&#8451</p><p>Cruise using LRC</p><p>100 kt headwind</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL350 what is your trip fuel and time?</p><p>c. If ATC restrict you to FL280; what is the fuel/mileage penalty factor?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.1, 4.3.1 and Table 4.1 Given:</p><p>Landing mass of 45 000 kg</p><p>Brake release mass of 60 000 kg</p><p>Distance 2000 NGM</p><p>ISA -10&#8451;</p><p>Cruise using LRC</p><p>100 kt headwind</p><p>a. What is the optimum pressure altitude?</p><p>b. When cruising at FL350 what is your trip fuel and time?</p><p>c. If ATC restrict you to FL280; what is the fuel/mileage penalty factor?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -532,25 +532,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "a. 32 900 ft, b. 15 400 kg 6 h 44 min, c. Off optimum by 5000 ft 5.5&#37;",
+            "content": "a. 32 900 ft, b. 15 400 kg 6 h 44 min, c. Off optimum by 5000 ft 5.5&percnt;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "a. 32 900 ft, b. 15 500 kg 6 h 45 min, c. Off optimum by 5200 ft 5.5&#37;",
+            "content": "a. 32 900 ft, b. 15 500 kg 6 h 45 min, c. Off optimum by 5200 ft 5.5&percnt;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "a. 32 900 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 5.5&#37;",
+            "content": "a. 32 900 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 5.5&percnt;",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "a. 32 800 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 6.5&#37;",
+            "content": "a. 32 800 ft, b. 15 400 kg 6 h 45 min, c. Off optimum by 5000 ft 6.5&percnt;",
             "isTrue": false
           }
         ]
@@ -558,7 +558,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "<p>Refer CAP 697 Figure 4.3.2 Given:</p><p>Landing mass of 35 000 kg</p><p>Distance 2000 NGM</p><p>ISA</p><p>Cruise using M 0.74 &#64 FL290</p><p>Nil wind</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.2 Given:</p><p>Landing mass of 35 000 kg</p><p>Distance 2000 NGM</p><p>ISA</p><p>Cruise using M 0.74 &#64; FL290</p><p>Nil wind</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -604,7 +604,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "<p>Refer CAP 697 300 KIAS cruise Given:</p><p>Landing mass of 55 000 kg</p><p>Distance 500 NGM</p><p>ISA +10&#8451</p><p>Cruise &#64 FL240</p><p>50 kt tailwind</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 300 KIAS cruise Given:</p><p>Landing mass of 55 000 kg</p><p>Distance 500 NGM</p><p>ISA +10&#8451;</p><p>Cruise &#64; FL240</p><p>50 kt tailwind</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -650,7 +650,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "<p>Refer CAP 697 Figure 4.3.3 Given:</p><p>Landing mass of 35 000 kg</p><p>Fuel available 5000 kg ISA</p><p>Cruise using M 0.78 &#64 FL350</p><p>50 kt tailwind</p><p>What is the estimated trip distance?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.3 Given:</p><p>Landing mass of 35 000 kg</p><p>Fuel available 5000 kg ISA</p><p>Cruise using M 0.78 &#64; FL350</p><p>50 kt tailwind</p><p>What is the estimated trip distance?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -716,7 +716,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "<p>Refer CAP 697 Figure 4.3.1 Given:</p><p>Landing mass of 45 000 kg</p><p>Distance 300 NGM</p><p>ISA -10&#8451</p><p>Cruise using LRC &#64 FL330</p><p>120 kt tailwind</p><p>TAS 423 kt</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.1 Given:</p><p>Landing mass of 45 000 kg</p><p>Distance 300 NGM</p><p>ISA -10&#8451;</p><p>Cruise using LRC &#64; FL330</p><p>120 kt tailwind</p><p>TAS 423 kt</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -782,7 +782,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "<p>Refer CAP 697 Figure 4.3.5 Stepped Climb Cruise Given:</p><p>Brake release mass of 62 500 kg</p><p>Distance 3000 NGM</p><p>50 kt tailwind</p><p>ISA +20&#8451</p><p>What is the trip fuel and time?</p>",
+        "question": "<p>Refer CAP 697 Figure 4.3.5 Stepped Climb Cruise Given:</p><p>Brake release mass of 62 500 kg</p><p>Distance 3000 NGM</p><p>50 kt tailwind</p><p>ISA +20&#8451;</p><p>What is the trip fuel and time?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -914,7 +914,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "5150 kg plus 1.65 h &#64 70 kg/h (116) = 5266 kg",
+            "content": "5150 kg plus 1.65 h &#64; 70 kg/h (116) = 5266 kg",
             "isTrue": true
           },
           {
