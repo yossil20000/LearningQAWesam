@@ -49,7 +49,7 @@ export function OnNewline(canvasId) {
     if (id) {
         id.SetNewLine();
     }
-    first = true;
+    
     return "OnNewline";
 }
 export function OnUnDo(canvasId) {
@@ -94,6 +94,7 @@ class CanvasClass {
     points = [];
     newLine = true;
     lastDraw = { x: -1, y: -1 };
+    first = true;
     cuurentStrokStyle = 'red';
     constructor(canvasId) {
         this.canvasId = canvasId;

@@ -35,8 +35,8 @@ namespace LearningQA.Client.Pages
 		private bool supplementFullExpand { get; set; } = true;
 		protected override async Task OnInitializedAsync()
 		{
-			//canvasClassJsInterop = new CanvasClassJsInterop(JSRuntime);
-			//await canvasClassJsInterop.Prompt("Hi From canvasJsInterop ");
+			canvasClassJsInterop = new CanvasClassJsInterop(JSRuntime);
+			await canvasClassJsInterop.Prompt("Hi From canvasJsInterop ");
 			await ExamVM?.RetriveTestItemInfos(0);
 			IsInitialize = true;
 			await base.OnInitializedAsync();
@@ -50,6 +50,10 @@ namespace LearningQA.Client.Pages
 		protected override async Task OnAfterRenderAsync(bool firstRender)
 		{
 			await base.OnAfterRenderAsync(firstRender);
+			if(firstRender)
+			{
+				RenderSupp();
+			}
 		}
 		
 		private  async Task OnLoadExams()

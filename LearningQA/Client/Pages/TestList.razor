@@ -175,18 +175,28 @@
             <div class="operation">
                 <div id="container_supplement" class=@($"{(supplementExpand ? "toggle" : "toggle active")}") @onclick="OnSupplementExpandToggle"></div>
                 <div id="container_supplement" class=@($"{(supplementFullExpand ? "toggle-full" : "toggle-full active")}") @onclick="OnSupplementFullExpandToggle">        </div>
-
+                <button @onclick="ClearCanvas">Clear</button>
+                <button @onclick="NewLine">New Line</button>
             </div>
             @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
             {
-                @foreach (var supp in ExamViewModelPersist.SelectedQuestion.Supplements)
+
+                @if (ExamViewModelPersist.SelectedSupplement != null && RenderSupp())
                 {
-                    @if (supp.ContentType == ContentType.ImageBase64String)
-                    {
-                        <img  class=@(supp.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{supp.Content}") alt="base64 test" style=" width:100%;">
-                    }
+                    <div class="content" style="position:relative">
+                        <img id="imageSupp" @onchange="OnImageChanged" class=@(ExamViewModelPersist.SelectedSupplement.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{ExamViewModelPersist.SelectedSupplement.Content}") alt="base64 test" style="width:100%; display:none">
+                        <canvas id="canvaSupp" class="canvas" ></canvas>
+                    </div>
+
                 }
             }
+            else
+			{
+                <div class="content" style="position:relative">
+                        <img id="imageSupp"  alt="base64 test" style="width:100%; display:none">
+                        <canvas id="canvaSupp" class="canvas" ></canvas>
+                    </div>
+			}
 
 
         </div>
@@ -237,8 +247,9 @@
     //*private RenderFragment<QuestionOption<int>> questionOptionChecbox = (i) =>  @<input class="form-check-input bg-color-2" type="checkbox" checked="@i.IsTrue" disabled id="question-option-2" @onchange="(EventArgs) => { OnOptionChanged(i, EventArgs); }">;*/
 
     private bool IsTestMode { get; set; } = true;
-
-
+    private string canvaSuppId = "canvaSupp";
+    private string imageSuppId = "imageSupp";
+    private bool bRenderSupp = false; 
     private async Task OnExamLoad(object obj)
     {
 
@@ -284,6 +295,35 @@
     private void OnSupplementFullExpandToggle()
     {
         supplementFullExpand = !supplementFullExpand;
+    }
+    private async Task ClearCanvas()
+    {
+        _ = await canvasClassJsInterop.ClearDraw(canvaSuppId);
+    }
+    private async Task NewLine()
+    {
+        _ = await canvasClassJsInterop.NewLine(canvaSuppId);
+    }
+    private async Task OnImageChanged()
+    {
+        _ = await canvasClassJsInterop.UpdateImage(canvaSuppId, imageSuppId);
+    }
+    private bool RenderSupp(bool bRenderAlways = false)
+    {
+        if (canvasClassJsInterop != null && (bRenderSupp == false || bRenderAlways))
+        {
+            _ = canvasClassJsInterop.InitCanvas(canvaSuppId, canvaSuppId);
+            bRenderSupp = true;
+            ExamViewModelPersist.OnChanged(UpdateImage);
+        }
+
+        return true;
+    }
+    private void UpdateImage()
+    {
+        
+        StateHasChanged();
+
     }
     @*@onchange="ChangeEventArgs => { TestItemViewModelPersist.OnChangeQuestionNumber(ChangeEventArgs.Value.ToString()); }"*@
 }

@@ -141,6 +141,17 @@ namespace LearningQA.Client.ViewModel
 		{
 			FilteredAnsware.Where(x => x.Id == Id).FirstOrDefault().IsSelected = (bool)ea.Value;
 		}
+		private Supplement<int> selectedSupplement = null;
+		public Supplement<int> SelectedSupplement
+		{
+			get
+			{
+				if (selectedSupplement == null)
+					selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
+				return selectedSupplement;
+			}
+			set { selectedSupplement = value; }
+		}
 
 		public void OnOptionChanged(QuestionOption<int> id, object checkedValue)
 		{
