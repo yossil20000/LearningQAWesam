@@ -261,11 +261,8 @@
     }
     private async void SelectedImage(int id)
     {
-        //var selected = TestItemViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).ToList();
-        //selected.ForEach(x => Console.WriteLine($"ImageId: {x.Id} {x.Title}"));
         TestItemViewModelPersist.SelectedSupplement = TestItemViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).FirstOrDefault();
-        // Console.WriteLine($"ImageId: {id} {TestItemViewModelPersist.SelectedSupplement.Title} {TestItemViewModelPersist.SelectedSupplement.Id}" );
-
+        
         await canvasJsInterop.ClearDraw();
         await canvasJsInterop.ClearCanvas(false);
         bImageChanged = true ;

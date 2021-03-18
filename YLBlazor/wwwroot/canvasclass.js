@@ -108,7 +108,7 @@ export function mouseDraw(canvasId) {
     return "mouseDraw";
 }
 export function setCanvasImage(canvasId, imageId) {
-    document.getElementById(imageId).src = imagesrc;
+    
     var id = canvasClasses.get(canvasId);
     if (id != null) {
         id.setImage(imageId);

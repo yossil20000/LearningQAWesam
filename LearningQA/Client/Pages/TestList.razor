@@ -177,6 +177,13 @@
                 <div id="container_supplement" class=@($"{(supplementFullExpand ? "toggle-full" : "toggle-full active")}") @onclick="OnSupplementFullExpandToggle">        </div>
                 <button @onclick="ClearCanvas">Clear</button>
                 <button @onclick="NewLine">New Line</button>
+                 @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
+            {
+                @foreach (var supp in ExamViewModelPersist.SelectedQuestion.Supplements)
+                {
+                    <button @onclick=@(() => SelectedImage(supp.Id))>@supp.Title</button>
+                }
+            }
             </div>
             @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
             {
@@ -316,6 +323,15 @@
         }
 
         return false;
+    }
+     private async void SelectedImage(int id)
+    {
+         ExamViewModelPersist.SelectedSupplement = ExamViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).FirstOrDefault();
+        await canvasClassJsInterop.ClearDraw(canvaSuppId);
+        
+        bImageChanged = true ;
+        StateHasChanged();
+        await Task.CompletedTask;
     }
     private void UpdateImage()
     {

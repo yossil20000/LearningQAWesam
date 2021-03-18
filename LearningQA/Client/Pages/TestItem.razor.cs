@@ -52,22 +52,7 @@ namespace LearningQA.Client.Pages
 		{
 			 await testItemViewModel?.RetriveTestItemInfos(testItemId);
 			 canvasJsInterop = new CanvasJsInterop(jSRuntime);
-			//CanvasClassJsInterop = new CanvasClassJsInterop(jSRuntime);
-			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, UpdateImage());
-			//if(testItemId > 0)
-			//{
-			//	Console.WriteLine($"OnInitializedAsync TestIdemId: {testItemId}");
-			//	await testItemViewModel.OnTestItemId(testItemId);
-			//}
-			//else if(test > 0)
-			//{
-
-			//}
 			IsInitialize = true;
-			//await canvasJsInterop.Prompt("I am from CanvasW");
-			//await CanvasClassJsInterop.Prompt("I am from CanvasClassJsInterop");
-			
-			
 		}
 		protected override  async Task OnParametersSetAsync()
 		{
@@ -80,34 +65,20 @@ namespace LearningQA.Client.Pages
 				
 			}
 			else if(testId > 0)
-			{
-				
+			{				
 				Console.WriteLine($"OnParametersSetAsync TestId: {testId} ExamState:{TestItemViewModelPersist.ExamState} ");
-				
-				//if (testId > 0)
-				//{
-				//	Console.WriteLine($"OnParametersSetAsync TestId: {testId} ");
-
-				//	await testItemViewModel.OnTestId(testId);
-				//	TestItemViewModelPersist.ExamState = ExamState.ExamReview;
-				//	StateHasChanged();
-				//}
 			}
 			await base.OnParametersSetAsync();
 
 		}
 		protected override async Task OnAfterRenderAsync(bool firstRender)
 		{
-			//TestItemViewModelPersist.OnChanged(
-			//	() => base.StateHasChanged());
 			if(bImageChanged && canvasJsInterop != null)
 			{
 				
 				_ = await canvasJsInterop.UpdateImage("canvasimg");
 				bImageChanged = false;
 			}
-			//TestItemViewModelPersist.RegisterEvent(PageBase.RegisterEvent.SelectedSupplement, ShowMessage());
-
 		}
 		private async Task ShowMessage()
 		{

@@ -28,6 +28,7 @@ namespace LearningQA.Client.Pages
 		[Inject]
 		ExamViewModelPersist ExamViewModelPersist { get; set; }
 		private bool IsViewExamsList = false;
+		private bool bImageChanged = false;
 		private bool IsInitialize { get; set; } = false;
 		List<ExamInfoModel> TestsInfo { get; set; } = new List<ExamInfoModel>();
 		private bool answereExpend { get; set; } = false;
@@ -58,6 +59,13 @@ namespace LearningQA.Client.Pages
 			if(bRenderSupp == false && bCanInitCanvas == true)
 			{
 				 RenderSupp().GetAwaiter();
+			}
+			if (bImageChanged && canvasClassJsInterop != null)
+			{
+
+				_ = await canvasClassJsInterop.UpdateImage(canvaSuppId,imageSuppId);
+				bImageChanged = false;
+				ExamViewModelPersist.OnChanged(UpdateImage);
 			}
 		}
 		
