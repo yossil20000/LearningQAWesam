@@ -181,22 +181,16 @@
             @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
             {
 
-                @if (ExamViewModelPersist.SelectedSupplement != null && RenderSupp())
+                @if (ExamViewModelPersist.SelectedSupplement != null )
                 {
-                    <div class="content" style="position:relative">
-                        <img id="imageSupp" @onchange="OnImageChanged" class=@(ExamViewModelPersist.SelectedSupplement.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{ExamViewModelPersist.SelectedSupplement.Content}") alt="base64 test" style="width:100%; display:none">
-                        <canvas id="canvaSupp" class="canvas" ></canvas>
-                    </div>
-
+                     <div class="content" style="position:relative">
+                        <img id="imageSupp" @onchange="OnImageChanged" class=@(ExamViewModelPersist.SelectedSupplement.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{ExamViewModelPersist.SelectedSupplement.Content}") alt="base64 test" style="width:100%; display:none;">
+                        <canvas id="canvaSupp" class="canvas" style="background-color:yellow" ></canvas>
+                      </div>
+                    bCanInitCanvas = true;
                 }
             }
-            else
-			{
-                <div class="content" style="position:relative">
-                        <img id="imageSupp"  alt="base64 test" style="width:100%; display:none">
-                        <canvas id="canvaSupp" class="canvas" ></canvas>
-                    </div>
-			}
+            
 
 
         </div>
@@ -249,7 +243,8 @@
     private bool IsTestMode { get; set; } = true;
     private string canvaSuppId = "canvaSupp";
     private string imageSuppId = "imageSupp";
-    private bool bRenderSupp = false; 
+    private bool bRenderSupp = false;
+    bool bCanInitCanvas = false;
     private async Task OnExamLoad(object obj)
     {
 
@@ -308,16 +303,19 @@
     {
         _ = await canvasClassJsInterop.UpdateImage(canvaSuppId, imageSuppId);
     }
-    private bool RenderSupp(bool bRenderAlways = false)
+    private async Task<bool> RenderSupp(bool bRenderAlways = false)
     {
+        Console.WriteLine($"canvasClassJsInterop != null {canvasClassJsInterop != null } bRenderSupp:{bRenderSupp}");
         if (canvasClassJsInterop != null && (bRenderSupp == false || bRenderAlways))
         {
-            _ = canvasClassJsInterop.InitCanvas(canvaSuppId, canvaSuppId);
+            Console.WriteLine("RenderSupp");
+            _ = await canvasClassJsInterop.InitCanvas("canvaSupp", "imageSupp");
             bRenderSupp = true;
             ExamViewModelPersist.OnChanged(UpdateImage);
+            return true;
         }
 
-        return true;
+        return false;
     }
     private void UpdateImage()
     {

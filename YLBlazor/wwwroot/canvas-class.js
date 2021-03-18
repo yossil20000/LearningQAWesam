@@ -1,11 +1,11 @@
 let canvasClasses = new Map();
-export function initCanvas(canvasId) {
+export function initCanvas(canvasId,imageId) {
     var canvas = canvasClasses.get(canvasId);
     if (canvas === undefined) {
         var canvas = canvas = document.getElementById(canvasId);
         if (canvas === null)
             return;
-        canvasClasses.set(canvasId, new CanvasClass(canvasId));
+        canvasClasses.set(canvasId, new CanvasClass(canvasId, imageId));
     }
     return "initCanvas";
 }
@@ -89,9 +89,11 @@ class CanvasClass {
     newLine = true;
     lastDraw = { x: -1, y: -1 };
     cuurentStrokStyle = 'red';
-    constructor(canvasId) {
+    constructor(canvasId, imageId) {
         this.canvasId = canvasId;
+        this.imageId = imageId;
         this.canvas = document.getElementById(canvasId);
+        this.setImage(this.imageId);
         this.ctx = this.canvas.getContext('2d');
         this.ctx.strokeStyle = this.cuurentStrokStyle;
         this.GetCanvasBoundingRect();

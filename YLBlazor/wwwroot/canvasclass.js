@@ -2,6 +2,34 @@
 // wrapped in a .NET API
 
 let canvasClasses = new Map();
+function addGlobalEventListener(type, selector, callback) {
+    document.addEventListener(type, e => {
+        if (e.target.matches(selector)) callback(e)
+    })
+}
+function addWindowEventListener(type, callback) {
+    window.addEventListener(type, callback);
+}
+addGlobalEventListener("click", "canvas", e =>
+{
+    console.log(e.target.id);
+}
+)
+addGlobalEventListener("click", "canvas", e =>
+{
+    var canvas = canvasClasses.get(e.target.id);
+    if (canvas != undefined) {
+        var canvas = canvasClasses.get(e.target.id);
+        if (canvas === null)
+            return ;
+        canvas.onMouseDown(e);
+    }
+    
+}
+)
+addWindowEventListener("resize", CanvasResize);
+addWindowEventListener("scroll", CanvasResize);
+
 export function showPrompt(message) {
     return prompt(message, 'Type anything here');
 }
@@ -11,10 +39,12 @@ export function initCanvas(canvasId, imageId) {
         var canvas = canvas = document.getElementById(canvasId);
         if (canvas === null)
             return "canvas === null";
-        canvasClasses.set(canvasId, new CanvasClass(canvasId));
+        canvasClasses.set(canvasId, new CanvasClass(canvasId, imageId));
     }
     return "initCanvas";
 }
+
+
 export function OnDrawPreview(x, y, canvasId) {
     var canvas = canvasClasses.get(canvasId);
     if (canvas != undefined) {
@@ -25,7 +55,17 @@ export function OnDrawPreview(x, y, canvasId) {
     }
     return "OnDrawPreview";
 }
+export function CanvasResize() {
+    /* canvasClasses.forEach(
+       (value,key) => { value.onCanvasSizeChange}
+    ) */
 
+    for (let value of canvasClasses.values()) {
+        value.windowResize();
+    }
+    //canvasClasses.get('can').onCanvasSizeChange();
+    return "CanvasResize";
+}
 export function CanvasRedraw() {
     /* canvasClasses.forEach(
        (value,key) => { value.onCanvasSizeChange}
@@ -96,36 +136,35 @@ class CanvasClass {
     lastDraw = { x: -1, y: -1 };
     first = true;
     cuurentStrokStyle = 'red';
-    constructor(canvasId) {
+    constructor(canvasId,imageId) {
         this.canvasId = canvasId;
         this.canvas = document.getElementById(canvasId);
+        this.imageId = imageId;
+        
         this.ctx = this.canvas.getContext('2d');
         this.ctx.strokeStyle = this.cuurentStrokStyle;
         this.GetCanvasBoundingRect();
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
-        this.canvas.addEventListener(
-            'mousemove',
-            (e) => {
-                this.move(e);
-            },
-            false
-        );
-        this.canvas.addEventListener(
-            'mousedown',
-            (e) => {
-                this.onMouseDown(e);
-            },
-            false
-        );
-        this.canvas.addEventListener(
-            'mouseup',
-            (e) => {
-                this.bDrawOnMove = false;
-            },
-            false
-        );
-
+        //this.canvas.addEventListener(
+        //    'mousemove',
+        //    (e) => {
+        //        this.move(e);
+        //    }
+        //);
+        //this.canvas.addEventListener(
+        //    'mousedown',
+        //    (e) => {
+        //        this.onMouseDown(e);
+        //    }
+        //);
+        //this.canvas.addEventListener(
+        //    'mouseup',
+        //    (e) => {
+        //        this.bDrawOnMove = false;
+        //    },
+        //    false
+        //);
 
     }
     unDo() {

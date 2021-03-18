@@ -80,6 +80,20 @@ namespace LearningQA.Client.ViewModel
 			EnableNext = CurrentQuestion < FilteredAnsware.Count ? true : false;
 
 		}
+
+		public void SetCurrentQuestion(int index)
+		{
+			CurrentQuestion = index;
+			if (CurrentQuestion <= CurrentTest.Answers.Count)
+			{
+				SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
+				//SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
+				selectedSupplement = SelectedQuestion.Supplements.Count > 0 ? SelectedQuestion.Supplements.ElementAt(0) : null;
+				OnEventChanged(PageBase.RegisterEvent.SelectedSupplement);
+			}
+			UpdatePagination();
+			Changed();
+		}
 		public void OnNext()
 		{
 			try
@@ -87,10 +101,9 @@ namespace LearningQA.Client.ViewModel
 				if (CurrentQuestion < FilteredAnsware.Count)
 				{
 					CurrentQuestion++;
-					SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
+					SetCurrentQuestion(CurrentQuestion);
 				}
-				UpdatePagination();
-				Changed();
+				
 			}
 			catch (Exception ex)
 			{
@@ -106,10 +119,9 @@ namespace LearningQA.Client.ViewModel
 				if (CurrentQuestion > 1)
 				{
 					CurrentQuestion--;
-					SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
+					SetCurrentQuestion(CurrentQuestion);
 				}
-				UpdatePagination();
-				Changed();
+				
 			}
 			catch (Exception ex)
 			{
@@ -126,9 +138,7 @@ namespace LearningQA.Client.ViewModel
 				if (questionNumber >= 1 && questionNumber <= FilteredAnsware.Count)
 				{
 					CurrentQuestion = questionNumber;
-					SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
-					UpdatePagination();
-					Changed();
+					SetCurrentQuestion(CurrentQuestion);
 				}
 			}
 			catch (Exception ex)
