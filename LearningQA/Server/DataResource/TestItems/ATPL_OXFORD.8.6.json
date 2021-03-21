@@ -241,7 +241,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "What is the World Health Organization’s definition of alcoholism?",
+        "question": "What is the World Health Organization&#714;s definition of alcoholism?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -379,7 +379,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "Which of the following diseases is considered to be the world’s biggest killer?",
+        "question": "Which of the following diseases is considered to be the world&#714;s biggest killer?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1115,7 +1115,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "A pilot’s performance can be affected by an intake of caffeine above ....... mg and should limit him/herself to a daily intake of approximately ....... mg.",
+        "question": "A pilot&#714;s performance can be affected by an intake of caffeine above ....... mg and should limit him/herself to a daily intake of approximately ....... mg.",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
