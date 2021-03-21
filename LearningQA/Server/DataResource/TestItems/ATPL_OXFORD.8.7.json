@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "What is the purpose of the “sympathetic” nervous system?",
+        "question": "What is the purpose of the &#8220;sympathetic&#8221; nervous system?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "What is the purpose of the “parasympathetic” nervous system?",
+        "question": "What is the purpose of the &#8220;parasympathetic&#8221; nervous system?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -580,25 +580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "40&#8451;C",
+            "content": "40&#8451;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "35&#8451;C",
+            "content": "35&#8451;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "50&#8451;C",
+            "content": "50&#8451;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "41&#8451;C",
+            "content": "41&#8451;",
             "isTrue": true
           }
         ]
