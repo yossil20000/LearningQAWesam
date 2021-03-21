@@ -96,7 +96,7 @@ namespace LearningQA.Client.ViewModel
 		private Supplement<int> selectedSupplement = null;
 		public Supplement<int> SelectedSupplement { 
 			get {
-				if (selectedSupplement == null)
+				if (selectedSupplement != null)
 					selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
 				return selectedSupplement; 
 			} 

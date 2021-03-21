@@ -149,7 +149,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "What is “empty field myopia”?",
+        "question": "What is &#8220;empty field myopia&#8221;?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -471,7 +471,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "Where is the “blind spot”?",
+        "question": "Where is the &#8220;blind spot&#8221;?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
