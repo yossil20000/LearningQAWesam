@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "If a runway slopes downwards, how does this affect the pilots’ approach?",
+        "question": "If a runway slopes downwards, how does this affect the pilots&#714; approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -46,7 +46,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "If a runway slopes upwards, how does this affect the pilots’ approach?",
+        "question": "If a runway slopes upwards, how does this affect the pilots&#714; approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "How does the &#8229;black hole effect&#8221; alter the pilots’ judgement of the approach?",
+        "question": "How does the &#8229;black hole effect&#8221; alter the pilot&#714;s judgement of the approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
