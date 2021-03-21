@@ -73,7 +73,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "7 seconds ±2 seconds maximum",
+            "content": "7 seconds &#177; seconds maximum",
             "isTrue": false
           }
         ]
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "What is the “cocktail party” effect?",
+        "question": "What is the &#8220;cocktail party&#8221; effect?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
