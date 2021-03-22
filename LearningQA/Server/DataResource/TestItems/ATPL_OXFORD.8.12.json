@@ -557,13 +557,13 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "on a competent co-pilot’s leg",
-            "isTrue": false
+            "content": "on a competent co-pilot&#714;s leg",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "on an incompetent co-pilot’s leg",
+            "content": "on an incompetent co-pilot&#714;s leg",
             "isTrue": false
           }
         ]

@@ -256,7 +256,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "The contents of a transmitter’s message will depend on:",
+        "question": "The contents of a transmitter&#714;s message will depend on:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,25 +265,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "the receiver’s image of the transmitter",
+            "content": "the receiver&#714;s image of the transmitter",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "the transmitter’s image of the receiver",
+            "content": "the transmitter&#714;s image of the receiver",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "the transmitter’s image of the situation",
+            "content": "the transmitter&#714;s image of the situation",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "the transmitter’s image of the perceived situation",
+            "content": "the transmitter&#714;s image of the perceived situation",
             "isTrue": false
           }
         ]
@@ -536,7 +536,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "In coordinated action what does the term “redundant actions” mean?",
+        "question": "In coordinated action what does the term &#8220;redundant actions&#8221; mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -571,7 +571,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "What is meant by “coaction”?",
+        "question": "What is meant by &#8220;coaction&#8221;?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

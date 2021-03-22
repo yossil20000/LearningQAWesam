@@ -178,7 +178,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Must not dazzle or possibly compromise the crew’s night vision",
+            "content": "Must not dazzle or possibly compromise the crew&#714;s night vision",
             "isTrue": false
           }
         ]
@@ -291,7 +291,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "What colour should the ‘Alert’ warning be on a CRT?",
+        "question": "What colour should the &#715;Alert&#714; warning be on a CRT?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

@@ -213,7 +213,7 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "The sleeper goes into a “sleep deficit” which is carried forward",
+            "content": "The sleeper goes into a &#8220;sleep deficit&#8221; which is carried forward",
             "isTrue": false
           }
         ]
@@ -452,13 +452,13 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Approximately 2 days per 1 to 1½ hours of time change",
+            "content": "Approximately 2 days per 1 to 1&#xbd; hours of time change",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Approximately 1 day per 1 to 1½ hours of time change",
+            "content": "Approximately 1 day per 1 to 1&#xbd; hours of time change",
             "isTrue": true
           }
         ]
