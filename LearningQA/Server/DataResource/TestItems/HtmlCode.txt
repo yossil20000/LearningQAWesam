@@ -11,7 +11,7 @@
 src-relative:DataResource\\TestItems\\CAP697JPG\\
 
 √	8730	221A	&radic;	SQUARE ROOT
-℃C	&#8451;	&#x2103	 	DEGREE CELSIUS
+°C	&#8451;	&#x2103	 	DEGREE CELSIUS
 ° &#176; &deg; \u00B0  Degree
 @ &#64; 	&#64;	&#x40;
 percent &#37; &#37;
@@ -26,3 +26,5 @@ O2 O<sub>2</sub>
 - &#45;
 ` &#715; 
 ˊ &#714;
+1/2 &#xbd;
+* &#xd7;
