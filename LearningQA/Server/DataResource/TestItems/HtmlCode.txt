@@ -28,3 +28,10 @@ O2 O<sub>2</sub>
 ˊ &#714;
 1/2 &#xbd;
 * &#xd7;
+
+Greack
+Rho &#929;
+Teta &#920;
+omega &#937;
+
+UPPERCASE O WITH DOUBLE GRAVE ö &#x020C;
