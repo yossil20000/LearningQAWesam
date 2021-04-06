@@ -1,0 +1,433 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "9.METEOROLOGY",
+    "chapter": "19.Other Depressions",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "A thermal depression is likely to form:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "over the Iberian peninsular during the summer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "in the lee of the Alps over northern Italy in winter",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "in association with a marked trough of low pressure over the USA",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "on the trailing edge of a warm sector mid latitude depression",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "Tropical revolving storms usually:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "form close to one side of the Equator and while moving slowly in a westerly direction, cross over to the other hemisphere",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "move in a westerly direction before recurving towards the Equator",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "move in an easterly direction before recurving towards the nearest pole",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "do not form within 5° of the Equator",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "With reference to tropical revolving storms, which of the following statements is correct?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Typhoons are found in the South China sea in January",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Cyclones occur in the Bay of Bengal in winter",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Hurricanes in the South Atlantic sometimes affect the east coast of Brazil",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Hurricanes affect the southeast of the USA in late summer",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "Which of the following statements accurately describes the &#8220;West African tornado&#8221;?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The West African tornado is similar to the North American and European tornadoes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "It is a line of thunderstorms producing a line squall aligned roughly north/south",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "It is another name for the cyclones that affect the West African coast in summer",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "It is the name given to a line of thunderstorms that lie along the ITCZ but some 200 miles to the south",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "Extensive cloud and precipitation is often associated with a non-frontal thermal depression because of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "surface divergence and upper level convergence causing widespread descent of air in the depression",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "surface convergence and upper level divergence causing widespread descent of air in the depression",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "surface convergence and upper level divergence causing widespread ascent of air in the depression",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "surface divergence and upper level convergence causing widespread ascent of air in the depression",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "In comparison with a primary depression a secondary depression is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "always more active",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "sometimes more active",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "never more active",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "unlikely to produce gale force winds",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "A secondary depression would form in association with:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a polar depression",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a col",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a summer thermal depression over the Mediterranean or Caspian Sea",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a polar front low",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "Tropical revolving storms:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "are always given a male first name beginning with &#8220;A&#8221; for the first of the season and thereafter named in alphabetical order of occurrence",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "have internal wind speeds of 10-20 knots rotating cyclonically round a subsiding clear air core known as the eye",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "usually have the most severe weather in the quadrant to the right of the track in a hurricane",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "regenerate after crossing the coast from sea to land",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "Which of the following are thermal depressions?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Tropical revolving storms, polar air depressions, tornadoes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "The equatorial trough, monsoon lows, some depressions over the central and eastern Mediterranean sea in summer",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "The equatorial trough, polar air depressions, monsoon lows, orographic lows",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The lows forming over flat land in summer, polar air depressions, tropical revolving storms, some of the lows which form over inland seas in winter",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "A secondary low pressure system rotates around a primary low:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "cyclonically",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "anticyclonically",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "into the primary",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "at a constant distance",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "Flying conditions in a secondary low pressure system are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "always more severe than in a primary low",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "sometimes more severe than in a primary low",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "less severe than in a primary low",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "relatively calm",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "Tropical revolving storms:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "do not occur in the South Atlantic",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "generally move from east to west before turning towards the Equator",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "intensify after crossing coasts",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "occur principally in spring and early summer",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

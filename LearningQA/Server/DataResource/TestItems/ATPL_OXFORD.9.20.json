@@ -1,0 +1,1552 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "9.METEOROLOGY",
+    "chapter": "20.Global Climatology",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "The tropical transitional climatic zone is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "approximately 20&#176; - 30&#176; of latitude and provides very dry desert conditions throughout the year",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "approximately 10&#176;- 20&#176; of latitude and provides dry trade wind conditions in winter and a wet summer season",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "approximately 10&#176; - 20&#176; of latitude and provides a wet winter season and a dry hot summer",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "approximately 10&#176; - 30&#176; of latitude and has a period of long rains in spring and autumn, but is never dry",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The temperate transitional climatic zone is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "approximately 20&#176; - 35&#176; of latitude and covers the high pressure desert regions of the world",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "approximately 35&#176; - 40&#176; of latitude and is under the influence of polar front depressions throughout the year",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "approximately 35&#176; - 40&#176; of latitude and provides a warm dry summer with a cool wet winter",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "approximately 35&#176; - 40&#176; of latitude and provides a wet summer season and a dry cold winter",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "Northern Hemisphere summers tend to be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "warmer than the Southern Hemisphere and winters are warmer too",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "colder than the Southern Hemisphere due to the smaller amount of solar radiation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "colder than the Southern Hemisphere because of the large land masses",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "warmer than the Southern Hemisphere and the winters are colder",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "The effect of mountain barriers on temperature is exemplified by the following:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "European temperatures are low in winter because there is no barrier to prevent cold Atlantic air crossing the area",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the Rocky mountains of North America prevent cold Pacific air reaching inland, so summer temperatures to the east of the mountains are high",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the Himalayas prevent warm dry air from Russia reaching India and Pakistan",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the Ural mountains of West Russia prevent most of the cold Siberian air reaching Europe in summer",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "The tropopause is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "more or less constant for any latitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is a boundary layer between the troposphere and the stratosphere",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "normally the upper limit of weather",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the upper limit for jet streams and mountain waves",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "Statistical pressure values tend to be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "on average parallel to the lines of latitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "on average parallel to the lines of latitude in the Southern Hemisphere and much more variable in the Northern Hemisphere",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "much lower in winter in the Northern Hemisphere than in the Southern Hemisphere",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "higher over the oceans in winter",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "The heat equator is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "another name for the geographic equator",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "coincident with the equatorial trough and ITCZ",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a line over the land joining places where the summer temperatures are highest",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a line over the land joining places where the winter temperatures are highest",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "The average temperature around the equatorial regions:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is always above +40&#8451;",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is higher over the sea areas",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "varies on average from winter to summer by only some 5&#8451;",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "has a very high range of temperatures throughout the year",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "Trade winds:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "blow towards the subtropical anticyclones",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "are caused by lifting over the heat equator and the subsequent air movements from the subtropical anticyclones",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "only blow in the winter months",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "blow from the equatorial low pressure systems throughout the year",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "Trade winds in the Southern Hemisphere are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "southeasterly",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "southeast at first becoming southwest",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "in opposition to the monsoons",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "usually from the northeast",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "The Hadley cell is the name given to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the CU cells which continue to form a CB",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "an initial bubble of air which is lifted by convection",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the centre portion of a jet stream",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a cell formed by lifted air over the heat equator descending to the subtropical highs",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "The large change in the direction of trade winds is caused by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "local pressure differences",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "an excess of air at height in association with the Hadley cells",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the change in geostrophic force when crossing the geographic equator",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the cyclostrophic force in the equatorial regions",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "Monsoons are seasonal winds which:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "develop due to the high pressure over continents in winter and the subsequent low pressure which develops over the same areas in summer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "are never in combination with trade winds",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "blow only in the southeast Asia region",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "are from the southeasterly direction over the Indian sub continent in summer",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "The outflow from the Siberian High:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is northwesterly over Japan, northerly and northeasterly over China and northerly over the whole of India",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is the source of Polar Maritime air",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is northwesterly over Japan, northeasterly over southeast Asia and easterly over Europe",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is evident throughout the year",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "The upper winds tend to be westerly outside the tropics because:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the rotation of the earth is west to east",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the thermal winds are westerly on average",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "surface winds are nearly always westerly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "jet streams are usually westerly",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "Jet stream main locations are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "in the warm air some 400 NM ahead of a warm or cold front and near the subtropical highs",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "in the warm air some 400 NM ahead of a warm front and some 200 NM behind a cold front and near the subtropical highs",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "only in association with the polar front",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "in association with the polar front and with mountain waves",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "Jet streams:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "only occur in the troposphere",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "have a speed in excess of 80 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "are located above the tropopause",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "are caused by a large difference in mean temperature in the horizontal",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "Near the Equator upper winds tend to be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "easterly",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "westerly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "at speeds greater than 60 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "calm",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "19",
+        "question": "The polar front is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the boundary surface between polar continental and tropical continental air",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "near the poles",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "only apparent over the Atlantic ocean",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the region where warm sector depressions develop",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "20",
+        "question": "The ITCZ is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the region between the two trade wind systems centred on the heat equator",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the boundary region between the two monsoons",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the boundary between polar air and equatorial air",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a region of calm winds and layer type clouds with much haze",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "Tropical revolving storms:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "are a summer weather feature",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "are easily predictable",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "can be very active well inland",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "can travel at speeds of 100 kt",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "The areas of greatest rainfall are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "those where there is much polar front depression activity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "in the equatorial regions",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "in the polar regions",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "in central North America in summer due to the large convective cloud formations",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "23",
+        "question": "Thunderstorms most frequently occur:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "in association with the ITCZ over central Africa",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "over the east Indies area (Java) due to the intense surface heating",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "in regions affected by cold fronts",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "in association with tropical revolving storms",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "24",
+        "question": "Dust storms and haze are most common:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "in association with the subtropical anticyclones over land",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "with the Haboobs in winter",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "in unstable air with low pressure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "in temperate latitudes",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "25",
+        "question": "The most notorious advection fogs occur:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "over southwest UK",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "over the sea in the region of Newfoundland and the Kamchatka peninsula",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "over Europe with high pressure to the north",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "over central North America in autumn and winter",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "26",
+        "question": "The cloud to be expected along the front at A3 in Appendix A is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "CU CB",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "ST SC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "ST NS",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "AS NS",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "27",
+        "question": "The cloud to be expected at B2 between the fronts in Appendix A is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "AS",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "ST SC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "NS",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "NIL",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "28",
+        "question": "The cloud to be expected at C2 along the front in Appendix A is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "CU CB",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "AS NS",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "ST SC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "AC",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "29",
+        "question": "The cloud to be expected along the front at A2 in Appendix A is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "CI",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "AS NS",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "ST",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "CU",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "30",
+        "question": "The average surface level winds at A3, B3 and C3 in Appendix A are respectively:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "easterly, westerly, southwesterly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "westerly, westerly, southwesterly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "southwesterly, westerly, northwesterly",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "southwesterly, westerly, northerly",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "31",
+        "question": "The average upper winds at A1, B1 and C1 in Appendix A are respectively:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "easterly, westerly, northwesterly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "northwesterly, westerly, southwesterly",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "southwesterly, westerly, northwesterly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "southwesterly, westerly, northerly",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "32",
+        "question": "The names of the air masses indicated A, B, C and D at Appendix B are respectively:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix B",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixB.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+			"title": "Appendix B1",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixB1.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Polar Maritime, Polar Continental, Tropical Maritime, Tropical Continental",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Returning Polar Maritime, Arctic, Tropical Continental, Tropical Maritime",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Polar Maritime, Arctic, Tropical Continental, Tropical Maritime",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Polar Maritime, Arctic, Polar Continental, Tropical Maritime",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "33",
+        "question": "The names of the air masses indicated E, F, G and H at Appendix B are respectively:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix B",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixB.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          },
+          {
+            "id": 0,
+			"title": "Appendix B1",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\AppendixB1.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Tropical Maritime, Polar Continental, Tropical Continental, Arctic",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Polar Continental, Tropical Maritime, Tropical Continental, Arctic",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Polar Continental, Tropical Continental, Tropical Maritime, Arctic",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Tropical Maritime, Polar Maritime, Tropical Continental, Polar Maritime",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "34",
+        "question": "In area L the main wet seasons will be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram34-39",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\Diagram34-39.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "at the equinoxes",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "in January/February",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "in July/August",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "in November/December",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "35",
+        "question": "In area M in winter there will be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram34-39",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\Diagram34-39.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "equatorial rains",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "extensive low cloud",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the Doldrums",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "dry trade wind conditions",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "36",
+        "question": "In area N there will be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram34-39",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\Diagram34-39.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "extensive winter rains",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "anticyclonic desert areas",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "dry summers and wet winters",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "polar front weather",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "37",
+        "question": "In area O the climate will include:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram34-39",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\Diagram34-39.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the trade winds",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "dry warm summers and a wet winter season",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "steppe type with grassy plains",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a wet summer and dry cold winters",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "38",
+        "question": "In area P the main weather factor will be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram34-39",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\Diagram34-39.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "polar front depressions",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "depressions in winter, anticyclones in summer",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "extensive low cloud throughout the year",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "monsoon weather",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "39",
+        "question": "In area Q the climate will include:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram34-39",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.20\\Diagram34-39.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "polar front depressions",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "cold anticyclonic weather",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "temperatures above zero for 3 months of the year",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "good visibility throughout the year",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
