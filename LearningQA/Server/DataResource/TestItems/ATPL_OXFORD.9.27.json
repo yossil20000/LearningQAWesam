@@ -1,0 +1,795 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "9.METEOROLOGY",
+    "chapter": "27.Significant Weather and Wind Charts",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>Appendix A answer question 1 to 4 on the route from Madrid to Larnaca following the marked route.</p><p>The highest tropopause height en route would be at:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "overhead 20&#176;E",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "overhead Madrid",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Larnaca",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "10&#176;E",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>Appendix A answer question 1 to 4 on the route from Madrid to Larnaca following the marked route.</p><p>The CAT expected at 5&#176;E en route would be:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "moderate between FL230 and FL460",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "moderate from below FL100 to FL160",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "moderate from FL260 to FL370",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "moderate between FL290 to FL440",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>Appendix A answer question 1 to 4 on the route from Madrid to Larnaca following the marked route.</p><p>If this route was flown at FL290 moderate to severe turbulence and icing could be expected at:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixA.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "5&#176;E",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10&#176;E",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "overhead Larnaca",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "25&#176;E",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>Appendix B for flying the route from Madrid to Larnaca at FL300 answer Questions 4 to 6.</p><p>The mean wind velocity and temperature between Madrid and 30&#176;E would be:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix B",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixB.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "295/70 - 40",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "290/80 - 45",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "270/75 42",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "260/70 38",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>Appendix B for flying the route from Madrid to Larnaca at FL300 answer Questions 4 to 6.</p><p>The ISA deviation overhead Madrid is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix B",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixB.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "ISA -4",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "ISA +4",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "ISA +5",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "ISA +3",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>Appendix B for flying the route from Madrid to Larnaca at FL300 answer Questions 4 to 6.</p><p>The highest ground speed would be achieved at:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix B",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixB.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "25&#176;",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "15&#176;E",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "30&#176;E",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "20&#176;E",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "The visibility at MKPP at 1600 Z is expected to be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "TAF7-11",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\Taf7-11.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2000 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "3000 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "5000 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "10 km or more",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "The lowest cloud base forecast for MKPP at 1100 is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "TAF7-11",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\Taf7-11.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2400 ft AMSL",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "above 5000 ft AMSL",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2400 ft AGL",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1000 ft AGL",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "The highest surface wind speed at MKPP is expected between:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "TAF7-11",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\Taf7-11.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "0600 Z and 0600 Z",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "0600 Z and 1200 Z",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1200 Z and 1500 Z",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "0800 Z and 1200 Z",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "At KBOS at 1100 Z which of the following weather conditions are expected?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "TAF7-11",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\Taf7-11.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Visibility of 28 km",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "8/8 cloud at 2800 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "40% chance or moderate snow",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Surface wind of 05025KT",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "<p>Refer to appendix C to answer this question.</p><p>What is the average temperature between 5730N 0500W and 5730N 0230W at FL075?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "TAF7-11",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\Taf7-11.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "-01&#176;C",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "-04&#176;C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "+03&#176;C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "+01&#176;C",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "<p>Refer to appendix C to answer this question.</p><p>What is the average temperature between 5730N 0500W and 5730N 0230W at FL075?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix C",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixC.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "-01&#176;C",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "-04&#176;C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "+03&#176;C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "+01&#176;C",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "<p>Refer to appendix C to answer this question.</p><p>What is the average wind velocity between 60N 0730W and 60N 0230E at FL140?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix C",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixC.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "215&#176;T/50 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "225&#176;T/55 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "220&#176;T/50 kt",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "220&#176;T/35 kt",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "<p>Refer to appendix C to answer this question.</p><p>What is the stability between FL050 and FL100 at 5230N 05W?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix C",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixC.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Absolute instability",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Absolute stability",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Conditional stability",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Conditional stability",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "<p>Refer to appendix D to answer this question.</p><p>What is the worst visibility likely to be experienced in SW England?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix D",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixD.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "20 km",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "<1000 m",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "5000 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3000 m",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "<p>Refer to appendix D to answer this question.</p><p>What is the altitude of the lowest cloud likely to be experienced over Scotland?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix D",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixD.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "500 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1500 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "800 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "2000 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "<p>Refer to appendix D to answer this question.</p><p>In which area is the most severe weather likely to be experienced?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Appendix D",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.27\\AppendixD.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "D",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "B",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "C",
+            "isTrue": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "9.METEOROLOGY",
+    "chapter": "25.Meteorological Aerodrome Reports",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "When a TREND is included at the end of a METAR, the trend is a forecast valid for:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1 hour after the time of observation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "2 hours after the time of observation",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2 hours after it was issued",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1 hour after it was issued",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "A METAR may be defined as being:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a routine weather report for a large area",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "an aerodrome forecast containing a TREND for the next 2 hours",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a routine weather report concerning a specific aerodrome",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a forecast weather report concerning a specific aerodrome",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>In the METAR shown below, the cloud base has been omitted. At what height might you expect the cloud base to be?</p><p>28005KT 9999 ?????? 12/11 Q1020 NOSIG</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "SCT042",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "OVC090",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "SCT280",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "OVC005",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>Which of the following correctly decodes the METAR shown below?</p><p>METAR EGKL 130350Z 32005KT 0400N DZ BCFG VV002</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Observed on the 13th day of the month at 0350Z, surface wind 320&#176; True, 05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Reported on the 13th day of the month at 0350Z, surface wind 320&#176; magnetic, 05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Valid on the 13th day of the month between 0300 and 1500Z, surface wind 320&#176;T/05 kt, minimum visibility 400 metres, drizzle, with fog patches and a vertical visibility of 200 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Valid between 1300 and 1350Z, surface wind 320&#176;T/05 kt, minimum visibility 400 metres to the north, moderate drizzle, with fog patches and a vertical visibility of 200 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "A temperature group of 28/24 in a METAR means that:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the temperature is 28&#176;C at the time of reporting, but it is expected to become 24&#176;C by the end of the TREND report",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the dry bulb is 28&#176;C and the wet bulb temperature is 24&#176;C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the dew point is 28&#176;C and the temperature is 24&#176;C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the temperature is 28&#176;C and the dew point is 24&#176;C",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "Providing the minimum sector altitude is not a factor, CAVOK in a TAF or METAR:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "means visibility 10 km or more, and no cloud below 5000 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "means visibility 10 km or more, and few cloud below 5000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "means visibility 10 nm or more, and no cloud below 5000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "means visibility 10 nm or more, and no scattered cloud below 5000 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "The visibility group R20/0050 in a METAR means:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "as measured by runway measuring equipment for runway 20, a current visibility of 50 metres",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "for runway 20, a current visibility of 500 metres measured by runway visual range equipment",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the runway visibility reported is 50 metres as measured by runway visual range equipment in the last 20 minutes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "on runway 20 the current viability is less than 5000 metres",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "The code &#8220;BECMG FM 1100 &#x2212;RASH&#8221; in a METAR means:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "from 1100UTC, the cessation of rain showers",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "becoming from 1100UTC slight rain showers",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "becoming from 1100UTC rain showers",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "becoming from 1100UTC till 0000UTC slight rain showers",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

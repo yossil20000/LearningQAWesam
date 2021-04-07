@@ -1,0 +1,258 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "9.METEOROLOGY",
+    "chapter": "26.Terminal Aerodrome Forecasts",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "The weather group RERA in a TAF means:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "rain in retreat",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "recent rain",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "returning rain",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "retreating rain",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "TEMPO in a TAF means:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a temporary variation to the main forecast that will last for less than one hour, or if recurring, for less than half the period indicated",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a temporary variation to the main forecast lasting less than an hour",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the development of unpredictable conditions that may be a hazard to aviation",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a variation to the base line conditions laid down in the main forecast that will continue to prevail until the end of the main forecast",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "The weather group SHSNRA in a TAF means:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "slight showers of snow and rain",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "moderate showers of snow and rain",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "heavy showers of snow and rain",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "showers of snow and rain",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "A TAF time group 0202/0220 means that the TAF:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is a short range forecast only, at 0220 UTC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "was observed at 0220 UTC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "was issued at 0220 UTC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is a long range forecast for the 18 hour period from the 2nd at 0200 UTC to the 2nd at 2000 UTC",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "BECMG 1618/1620 BKN030 in a TAF means:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "becoming between 1800 UTC and 2000 UTC 3-4 oktas of cloud at 300 ft AGL",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "becoming from 1820 UTC 5-7 oktas of cloud at 3000 ft AGL",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "becoming from 1820 UTC 3-4 oktas of cloud at 3000 ft AGL",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "becoming between 1800 UTC and 2000 UTC 5-7 oktas of cloud at 3000 ft AGL",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>Which of the following correctly decodes a TAF that reads:</p><p>EGLL 1306/1315 VRB08KT 9999 SCT025=</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Valid from 0600 UTC to 1500 UTC; surface wind variable at 8 kt; visibility 10 NM or more; with a cloud base of 2500 ft above mean sea level",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Observed at 0615 UTC; the surface wind was variable in direction and speed; averaging 8 kt; with a visibility of 10 km or more, and a cloud base of 2500 ft above aerodrome level",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Valid from the 13th at 0600 UTC to the 13th at 1500 UTC; surface wind will be variable at 8 kt, with a visibility 10 km or more; 3-4 oktas of cloud with a base of 2500 ft above aerodrome level",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Observed at 0600 UTC; the surface wind was variable in direction and speed; with a visibility of 10 km and a cloud base of 2500 ft above ground level",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "The correct decode for a TAF 1206/1215 14025G40KT 1200 BR would be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the forecast is for a nine hour period from 0615 UTC with a surface wind of 140&#176; M at 25 kt gusting 40 kt, visibility 1200 metres in mist",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the forecast is for a nine hour period from 0615 UTC with a surface wind of 140&#176; T at 25, visibility 1200 metres in fog",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the forecast is for a nine hour period from 0600 to 1500 UTC with a surface wind of 140&#176; M at 25 kt gusting 40 kt, visibility 1200 metres in broken patches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the forecast is for a nine hour period from the 12th at 0600 to 1500 UTC on the same day with a surface wind of 140&#176; T at 25 kt gusting 40 kt, visibility 1200 metres in mist",
+            "isTrue": true
+          }
+        ]
+      }
+    ]
+  }
+]
