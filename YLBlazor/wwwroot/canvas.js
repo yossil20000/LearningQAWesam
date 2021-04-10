@@ -26,13 +26,17 @@ function GetCanvasBoundingRect() {
 };
 export function UpdateImage(imageId) {
     img = document.getElementById(imageId);
-    scaleToFit(img);
+    if (img !== null)
+        scaleToFit(img);
 }
 
 export function init(id, imageId) {
     
     canvasId = id;
     canvas = document.getElementById(id);
+    if (canvas === null) {
+        console.writeline("Init canvas is null");
+    }
     ctx = canvas.getContext("2d");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -157,6 +161,8 @@ export function draw(prevX, prevY, currX, currY) {
     return "";
 }
 function scaleToFit(img) {
+    if (img === null)
+        return;
     // get the scale
     if (scaleMode == 0) {
         ctx.drawImage(img, 0, 0);
