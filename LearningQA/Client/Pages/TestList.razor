@@ -79,7 +79,7 @@
                                 <div class="form-check form-switch ">
                                     <input class="form-check-input bg-color-2" type="checkbox" disabled checked="@IsOptionChecked(ExamViewModelPersist.SelectedQuestion, i.TenantId)" id="question-option-2" @onchange="EventArgs => { ExamViewModelPersist.OnOptionChanged(i, EventArgs.Value); }">
                                 </div>
-                                <p>@i.Content</p>
+                                <p>@((MarkupString)i.Content)</p>
                             </li>
                         }
 
