@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "<p>MSA given as 12 000 ft, flying over mountains in temperatures +9°C, QNH set as 1023 (obtained from a nearby airfield).</p><p>What will the true altitude be when 12 000 ft is reached?</p>",
+        "question": "<p>MSA given as 12 000 ft, flying over mountains in temperatures +9&#176;C, QNH set as 1023 (obtained from a nearby airfield).</p><p>What will the true altitude be when 12 000 ft is reached?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -291,7 +291,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "If the ELR is 0.65°C/100 m:",
+        "question": "If the ELR is 0.65&#176;C/100 m:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -361,7 +361,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "Height of the tropopause at 50°N:",
+        "question": "Height of the tropopause at 50&#176;N:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -510,7 +510,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "lapse rate of 1°C/100 m",
+            "content": "lapse rate of 1&#176;C/100 m",
             "isTrue": false
           },
           {
@@ -522,7 +522,7 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "lapse rate of 0.3°C/100 m",
+            "content": "lapse rate of 0.3&#176;C/100 m",
             "isTrue": true
           },
           {
@@ -711,7 +711,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "ELR is 1°C/100 m:",
+        "question": "ELR is 1&#176;C/100 m:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -886,7 +886,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "<p>Flying over an airfield, at the surface the temp. is -5°C, freezing level is at 3000 ft, rain is falling from clouds with a base of 4000 ft caused by warm air rising above cold air.</p><p>Where would you experience icing?</p>",
+        "question": "<p>Flying over an airfield, at the surface the temp. is -5&#176;C, freezing level is at 3000 ft, rain is falling from clouds with a base of 4000 ft caused by warm air rising above cold air.</p><p>Where would you experience icing?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1026,7 +1026,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "What is the approximate height of the tropopause at 50°N?",
+        "question": "What is the approximate height of the tropopause at 50&#176;N?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1547,25 +1547,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "> 8°S",
+            "content": "> 8&#176;S",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "0 - 7°N",
+            "content": "0 - 7&#176;N",
             "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "8 - 12°N",
+            "content": "8 - 12&#176;N",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "12 - 16°N",
+            "content": "12 - 16&#176;N",
             "isTrue": false
           }
         ]
@@ -2494,7 +2494,7 @@
       {
         "id": 0,
         "questionNumber": "71",
-        "question": "<p>FL180, Northern Hemisphere with a wind from the left</p><p>what can you say about temperature with a heading of 360°?</p>",
+        "question": "<p>FL180, Northern Hemisphere with a wind from the left</p><p>what can you say about temperature with a heading of 360&#176;?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2516,7 +2516,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Increases from north to south",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2557,7 +2557,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "ELR",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -2580,7 +2580,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Vertical movement of air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2615,7 +2615,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "climb to the warmer air above",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2650,7 +2650,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "you are flying away from a lower temperature",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2679,7 +2679,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Just after dawn",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2720,7 +2720,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Late afternoon",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2755,7 +2755,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Decreases south - north",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2790,7 +2790,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "The boundary between the troposphere and stratosphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2819,7 +2819,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Troposphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2854,7 +2854,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Mountain waves",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2889,7 +2889,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "PGF, &#920;, &#937;, &#929;",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2924,7 +2924,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Cold katabatic wind over the Adriatic",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -2959,7 +2959,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "30 000 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3006,7 +3006,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Descend immediately to clear it",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3041,7 +3041,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Late summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3054,7 +3054,7 @@
       {
         "id": 0,
         "questionNumber": "87",
-        "question": "<p>At a certain position the temperature on the 300 hPa chart is -48°C.</p><p>According to the chart the tropopause is at FL330.</p><p>The most likely temperature at FL350 is:</p>",
+        "question": "<p>At a certain position the temperature on the 300 hPa chart is -48&#176;C.</p><p>According to the chart the tropopause is at FL330.</p><p>The most likely temperature at FL350 is:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3063,25 +3063,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "-54°C",
-            "isTrue": false
+            "content": "-54&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "-50°C",
+            "content": "-50&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "-56.5°C",
+            "content": "-56.5&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "58°C",
+            "content": "58&#176;C",
             "isTrue": false
           }
         ]
@@ -3105,7 +3105,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "March to May, October to November",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3134,7 +3134,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Poor visibility from dust and sand",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3169,7 +3169,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "NE trade wind to the north, SW monsoon to the south",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3204,7 +3204,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Cb",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3239,7 +3239,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Ns",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3285,7 +3285,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "EBBR",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3326,7 +3326,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "small supercooled water droplets",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3367,7 +3367,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Clear ice",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3408,7 +3408,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "air behind the cold front undercutting the air in front of the warm front",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -3443,7 +3443,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "air behind the cold front over riding the air in front of the warm front",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -3477,7 +3477,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "B",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3506,7 +3506,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Moves south, speed increases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3558,7 +3558,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "2",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3587,7 +3587,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "5 min, 5 km",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3628,7 +3628,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "In front of the cold front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3669,7 +3669,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Left and slightly on the nose",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3698,7 +3698,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Centrifugal force opposes the gradient force",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3726,25 +3726,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "25° - 35°",
-            "isTrue": false
+            "content": "25&#176; - 35&#176;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "10° - 15°",
+            "content": "10&#176; - 15&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "55° - 75°",
+            "content": "55&#176; - 75&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "40° - 55°",
+            "content": "40&#176; - 55&#176;",
             "isTrue": false
           }
         ]
@@ -3774,7 +3774,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "290/40",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3803,7 +3803,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "stability decreases within the layer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3822,7 +3822,7 @@
       {
         "id": 0,
         "questionNumber": "108",
-        "question": "<p>The QNH at an airfield 200 m AMSL is 1009 hPa; air temperature is 10°C lower than standard.</p><p>What is the QFF?</p>",
+        "question": "<p>The QNH at an airfield 200 m AMSL is 1009 hPa; air temperature is 10&#176;C lower than standard.</p><p>What is the QFF?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3850,7 +3850,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "More than 1009",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -3879,7 +3879,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "7000 - 15 000 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3902,13 +3902,13 @@
             "id": 0,
             "tenantId": "A",
             "content": "Showers for 2 hours, Drizzle for 12 hours, then snow and rain",
-            `"isTrue": false
+            "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
             "content": "Continuous snow and rain, then it stops to be followed by showers of rain and snow",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -3955,7 +3955,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "SIGMET",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -3972,7 +3972,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Cold/Low",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4019,7 +4019,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "This is due to local changes in the upper winds due to the movement of the ITCZ",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4042,7 +4042,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "thundery strong convergence",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4095,7 +4095,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Moves in accordance with the heat Equator",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4130,7 +4130,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Near Dakar",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4153,7 +4153,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Stratosphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4211,14 +4211,14 @@
             "id": 0,
             "tenantId": "D",
             "content": "D",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "119",
-        "question": "What wind would you expect between the Equator and 20° South?",
+        "question": "What wind would you expect between the Equator and 20&#176; South?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -4234,7 +4234,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Trade wind",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4275,7 +4275,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "South Atlantic",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4304,7 +4304,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "In the wall of cloud surrounding the eye",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4333,7 +4333,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "locate fronts in areas with few ground stations",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4385,7 +4385,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Westerly wave",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4426,7 +4426,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "close spaced isobars - strong winds",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4449,7 +4449,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "intensity of vertical and horizontal windshear",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4490,7 +4490,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "ahead of a cold front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4531,7 +4531,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "typical horizontal dimensions 1 - 3 km",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4572,7 +4572,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "DZ",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4601,7 +4601,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "higher than mountain elevation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4636,7 +4636,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "the surface - 6500 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4677,7 +4677,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "looking downstream, on your right hand side",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -4694,7 +4694,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "a warm front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4746,8 +4746,8 @@
           {
             "id": 0,
             "tenantId": "D",
-            "content": "You wouldn’t",
-            "isTrue": false
+            "content": "You wouldn&#714;t",
+            "isTrue": true
           }
         ]
       },
@@ -4764,7 +4764,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Polar front low",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4799,7 +4799,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Climbing through an inversion",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4833,25 +4833,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "1°C - 100 m",
+            "content": "1&#176;C - 100 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "0.5°C - 100 m",
+            "content": "0.5&#176;C - 100 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "0.65°C - 100 m",
-            "isTrue": false
+            "content": "0.65&#176;C - 100 m",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "0.6°C - 100 m",
+            "content": "0.6&#176;C - 100 m",
             "isTrue": false
           }
         ]
@@ -4869,7 +4869,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "heights of pressure levels",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4916,7 +4916,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "November - April",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4938,19 +4938,19 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "5 - 15°",
+            "content": "5 - 15&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "25 - 35°.",
-            "isTrue": false
+            "content": "25 - 35&#176;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "40 - 60°.",
+            "content": "40 - 60&#176;.",
             "isTrue": false
           },
           {
@@ -4974,7 +4974,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Northern Hemisphere in summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -4999,7 +4999,7 @@
       {
         "id": 0,
         "questionNumber": "141",
-        "question": "What causes ‘echoes’ on airborne weather radar screens?",
+        "question": "What causes &#715;echoes&#714; on airborne weather radar screens?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -5027,7 +5027,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Hail",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5062,7 +5062,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "less than 100 m",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5091,7 +5091,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "S more, T less",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5132,7 +5132,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Thunderstorms",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5167,7 +5167,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "QFE reduced to MSL using the standard atmosphere",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5184,7 +5184,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "In an area of low pressure",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5237,7 +5237,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "the elevation of the airfield",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5266,7 +5266,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "frontal",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5295,7 +5295,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "In the wall of cloud surrounding the eye",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5336,7 +5336,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Cc",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5377,7 +5377,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "True altitude to be higher than Indicated altitude",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5393,25 +5393,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "has a fixed value of 2°C / 1000 ft",
+            "content": "has a fixed value of 2&#176;C / 1000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "has a fixed value of 0.65°C / 100 m",
+            "content": "has a fixed value of 0.65&#176;C / 100 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
             "content": "varies with time",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "has a fixed value of 1°C / 100 m",
+            "content": "has a fixed value of 1&#176;C / 100 m",
             "isTrue": false
           }
         ]
@@ -5419,7 +5419,7 @@
       {
         "id": 0,
         "questionNumber": "153",
-        "question": "<p>Airfield is 69 metres below sea level, QFF is 1030 hPa, temperature is ISA -10°C.</p><p>What is the QNH?</p>",
+        "question": "<p>Airfield is 69 metres below sea level, QFF is 1030 hPa, temperature is ISA -10&#176;C.</p><p>What is the QNH?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -5447,7 +5447,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "More than 1030 hPa",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5464,7 +5464,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Drops by 510 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5517,7 +5517,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Converging and ascending",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -5534,7 +5534,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Descending and diverging",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5581,7 +5581,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Braking coefficient of 0.28",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5604,7 +5604,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Spring to summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5638,19 +5638,19 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "-56.5°C",
-            "isTrue": false
+            "content": "-56.5&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "-273°C",
+            "content": "-273&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "-100°C",
+            "content": "-100&#176;C",
             "isTrue": false
           },
           {
@@ -5674,7 +5674,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Crosswind from the right",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5732,7 +5732,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "C",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5778,7 +5778,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "C",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5818,7 +5818,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "B",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5876,14 +5876,14 @@
             "id": 0,
             "tenantId": "D",
             "content": "D",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "165",
-        "question": "<p>The temperature at the surface is 15°C, the temperature at 1000 m is 13°C.</p><p>The atmosphere is:</p>",
+        "question": "<p>The temperature at the surface is 15&#176;C, the temperature at 1000 m is 13&#176;C.</p><p>The atmosphere is:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -5905,7 +5905,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "stable",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5934,7 +5934,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "a medium level cloud",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -5981,7 +5981,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "+FZRA",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6010,7 +6010,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "freeze on impact giving rime ice",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6033,7 +6033,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "RVR assessed to be more than 1300 metres",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6080,7 +6080,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "M00, M01",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6103,7 +6103,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Difference in pressure",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6156,7 +6156,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "34 000 ft",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6191,7 +6191,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "a competent ATC should issue a SIGMET",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6220,7 +6220,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Dust and poor visibility",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6249,7 +6249,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "METAR",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6290,7 +6290,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "SWC (sig. weather chart) and SIGMET",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6303,7 +6303,7 @@
       {
         "id": 0,
         "questionNumber": "177",
-        "question": "If flying in the Alps with a Föhn effect from the south:",
+        "question": "If flying in the Alps with a F&#x020C;hn effect from the south:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -6313,7 +6313,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "clouds will be covering the southern passes of the Alps",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6348,7 +6348,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "decrease power and climb above the clouds if flight parameters allow",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6383,7 +6383,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "the air at Madrid is warmer than Paris",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6430,7 +6430,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "higher than the elevation of the peak",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6453,7 +6453,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "light",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6506,7 +6506,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "A gets more icing than B",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -6529,7 +6529,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Vertical down draught of air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6564,7 +6564,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "topography of 522 decametres above MSL",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6605,7 +6605,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "nimbostratus",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6628,7 +6628,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "north and decreases in strength",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6675,7 +6675,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "cold katabatic wind that may produce violent gusts",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6710,7 +6710,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "usually greater than met visibility",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6745,7 +6745,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "surface wind blows across the isobars and is less than the 3000 ft wind",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6768,7 +6768,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Polar continental",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6809,7 +6809,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Mature stage",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6850,7 +6850,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "cold air at a constant vapour pressure",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6879,7 +6879,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "clouds, fog and precipitation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6914,7 +6914,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "As and Ac",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6949,7 +6949,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Increase",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -6996,7 +6996,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "VRB002 8000 FEW100 12/09 Q1025 BECMG 0800",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7012,25 +7012,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "-50.6°C",
+            "content": "-50.6&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "-56.5°F",
+            "content": "-56.5&#176;F",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
             "content": "216.5 K",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "56.5°C",
+            "content": "56.5&#176;C",
             "isTrue": false
           }
         ]
@@ -7054,7 +7054,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Hail",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7089,7 +7089,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "possible but very rare",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7136,7 +7136,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "between the boundaries of the cold and warm air",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7165,7 +7165,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "wind from the left",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7206,7 +7206,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "at the top of a surface based inversion during strong night radiation",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7241,7 +7241,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "June to August",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -7264,7 +7264,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "TS that will last for a max of 1 hour in each instance",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7293,7 +7293,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Warm air behind the cold front overrides the cold air in front of the warm front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7327,19 +7327,19 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "1°C/100 m",
+            "content": "1&#176;C/100 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "0.65°C/100 m",
-            "isTrue": false
+            "content": "0.65&#176;C/100 m",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "0.49°C/100 m",
+            "content": "0.49&#176;C/100 m",
             "isTrue": false
           },
           {
@@ -7369,7 +7369,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "temp. stays the same",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7392,7 +7392,18 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.208",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.208.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -7410,7 +7421,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "3",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7433,7 +7444,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Air descending at high speed, the air is colder than the surrounding air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7480,7 +7491,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "the Balkans",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7515,7 +7526,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Warm front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7532,7 +7543,18 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.212",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.212.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -7550,7 +7572,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "C,D",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7591,14 +7613,14 @@
             "id": 0,
             "tenantId": "D",
             "content": "Along the front to the east",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "214",
-        "question": "In the Northern Hemisphere between lat. 35°N - 65°N in the North Atlantic during winter, the principle land based depression affecting the region is located at:",
+        "question": "In the Northern Hemisphere between lat. 35&#176;N - 65&#176;N in the North Atlantic during winter, the principle land based depression affecting the region is located at:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -7620,7 +7642,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Greenland/Icelandic low",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7643,7 +7665,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "where the trade winds of the Northern and Southern Hemispheres meet",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7684,7 +7706,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7712,25 +7734,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "-10°C to -17°C",
-            "isTrue": false
+            "content": "-10&#176;C to -17&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "-30°C to -40°C",
+            "content": "-30&#176;C to -40&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "-20°C to -30°C",
+            "content": "-20&#176;C to -30&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "-40°C to -60°C",
+            "content": "-40&#176;C to -60&#176;C",
             "isTrue": false
           }
         ]
@@ -7760,7 +7782,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Highest QNH and highest temperature above ISA",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7795,7 +7817,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "cyclones",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7824,7 +7846,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Ns",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7852,26 +7874,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "At the poles 8 km and -16°C",
+            "content": "At the poles 8 km and -16&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "At the pole 18 km and -75°C",
+            "content": "At the pole 18 km and -75&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "At the Equator 8 km and -40°C",
+            "content": "At the Equator 8 km and -40&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "At the Equator 18 km and -76°C",
-            "isTrue": false
+            "content": "At the Equator 18 km and -76&#176;C",
+            "isTrue": true
           }
         ]
       },
@@ -7899,8 +7921,8 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Rain falling from an inversion into an area below 0°C",
-            "isTrue": false
+            "content": "Rain falling from an inversion into an area below 0&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -7922,25 +7944,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "0 to 7°N",
-            "isTrue": false
+            "content": "0 to 7&#176;N",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "7°N to 12°N",
+            "content": "7&#176;N to 12&#176;N",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "7°S to 12°S",
+            "content": "7&#176;S to 12&#176;S",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "12°S to 18°S",
+            "content": "12&#176;S to 18&#176;S",
             "isTrue": false
           }
         ]
@@ -7957,25 +7979,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "10 to 15°N",
+            "content": "10 to 15&#176;N",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "25 to 35°N",
+            "content": "25 to 35&#176;N",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "35 to 55°N",
-            "isTrue": false
+            "content": "35 to 55&#176;N",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "55 to 75°N",
+            "content": "55 to 75&#176;N",
             "isTrue": false
           }
         ]
@@ -7992,19 +8014,19 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "-2°C to -15°C",
-            "isTrue": false
+            "content": "-2&#176;C to -15&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "-15°C to -20°C",
+            "content": "-15&#176;C to -20&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "-25°C to -30°C",
+            "content": "-25&#176;C to -30&#176;C",
             "isTrue": false
           },
           {
@@ -8040,7 +8062,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Size of droplet and temperature",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8074,8 +8096,8 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Northerly Föhn wind over the Alps",
-            "isTrue": false
+            "content": "Northerly F&#x020C;hn wind over the Alps",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8098,7 +8120,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Dry air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8145,7 +8167,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "water droplets, ice crystals and supercooled water droplets",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8162,7 +8184,18 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.230",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.230.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -8174,7 +8207,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "True altitude at B is greater than A",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8209,7 +8242,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "heating the surface, this then heats the air in the atmosphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8238,7 +8271,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Isolated",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8273,7 +8306,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8298,7 +8331,7 @@
       {
         "id": 0,
         "questionNumber": "234",
-        "question": "A coded SIGMET message for Athens reads “TS W Athenia MOV E”",
+        "question": "A coded SIGMET message for Athens reads &#8220;TS W Athenia MOV E&#8221;",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -8320,7 +8353,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "there will be TS coming from the west, moving east",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8355,7 +8388,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "high wind, rain, snow",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8384,7 +8417,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Temperature",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8431,7 +8464,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Vertical visibility in feet",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8454,7 +8487,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "aerodrome level",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8495,7 +8528,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "same as QNH",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8536,7 +8569,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Fall in pressure with cloud forming",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8553,7 +8586,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Absolutely stable",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8588,7 +8621,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Absolutely stable",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8613,7 +8646,7 @@
       {
         "id": 0,
         "questionNumber": "243",
-        "question": "<p>Air temperature in the afternoon is +12°C with a dew point of +5°C.</p><p>What temperature change must happen for saturation to occur?</p>",
+        "question": "<p>Air temperature in the afternoon is +12&#176;C with a dew point of +5&#176;C.</p><p>What temperature change must happen for saturation to occur?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -8622,25 +8655,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Cool to +5°C",
-            "isTrue": false
+            "content": "Cool to +5&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Cool by 5°C",
+            "content": "Cool by 5&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Cool to +6°C",
+            "content": "Cool to +6&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Cool to +7°C",
+            "content": "Cool to +7&#176;C",
             "isTrue": false
           }
         ]
@@ -8664,7 +8697,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "1:150",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8711,7 +8744,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "vertical down flow of air",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -8728,7 +8761,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Inversion",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8775,7 +8808,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "kt/100 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8804,7 +8837,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "marked movement of cold air in South America",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8833,7 +8866,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "the normal local changes in the winds at that time of the year",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8858,7 +8891,7 @@
       {
         "id": 0,
         "questionNumber": "250",
-        "question": "Why is the “Icelandic low” more intense in winter?",
+        "question": "Why is the &#8220;Icelandic low&#8221; more intense in winter?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -8868,7 +8901,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "The temperature contrast between Arctic/polar air and Equatorial areas are much greater in winter",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8903,7 +8936,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Water vapour that condenses behind the engines",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8938,7 +8971,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "warmer than ISA",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -8973,7 +9006,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "SW monsoon in summer, NE monsoon in winter",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9026,7 +9059,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "there may be freezing rain at a higher level",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9043,7 +9076,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "12 000 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9090,7 +9123,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "500 hPa",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9131,7 +9164,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Significant weather charts",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9148,7 +9181,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "1-5 min",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9195,7 +9228,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Using the elevation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9236,7 +9269,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "CB",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9265,7 +9298,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Wind speed increases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9294,7 +9327,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "1024 hPa",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9323,7 +9356,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "QNH/QFE decreases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9364,7 +9397,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "remain the same",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9405,7 +9438,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "QFF",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9440,7 +9473,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Turbulence",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9475,7 +9508,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Cap clouds and standing waves",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9488,7 +9521,7 @@
       {
         "id": 0,
         "questionNumber": "268",
-        "question": "<p>Air temperature is 12°C, Dew point is 10°C and the sea temperature is 8°C.</p><p>What might you expect if the air is blown over the sea?</p>",
+        "question": "<p>Air temperature is 12&#176;C, Dew point is 10&#176;C and the sea temperature is 8&#176;C.</p><p>What might you expect if the air is blown over the sea?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -9516,7 +9549,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Advection fog",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9545,7 +9578,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "a potentially very unstable atmosphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9568,7 +9601,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "low level inversion",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9603,7 +9636,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "true/knots",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9650,7 +9683,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "continuous waves of troughs and ridges",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9679,7 +9712,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "30 min",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9708,7 +9741,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "10 minute",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9761,7 +9794,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "24 hours",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9796,7 +9829,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Hurricanes",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9831,7 +9864,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "FZRA",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9866,7 +9899,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Water vapour",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9901,7 +9934,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "07:00",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -9924,7 +9957,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "the maximum distance a pilot in the threshold area at 15 ft above the runway can see marker boards by day or runway lights by night, when looking in the direction of take-off or landing",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9965,7 +9998,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Ns",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -9994,7 +10027,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Cloud height",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10041,7 +10074,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "QNH rounded down to the nearest hectopascal",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10058,7 +10091,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "8 parts",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10105,7 +10138,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Never 1013.25 hPa",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10134,7 +10167,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "December to March",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10181,7 +10214,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "800 ft",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10210,7 +10243,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "The air at Palma is warmer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10233,7 +10266,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "west, then NE",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10280,7 +10313,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "poor vis due to the lack of vertical moving air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10303,7 +10336,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "Cyclones, in December and January",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10356,7 +10389,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "for a landing and valid for 2 hour",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10379,7 +10412,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "The warm sector being unstable",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10426,7 +10459,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Not enough info",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10449,7 +10482,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Dissipating",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10478,7 +10511,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "6670 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10531,7 +10564,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Vertical visibility is 100 ft",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10542,7 +10575,18 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.298",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.298.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -10554,7 +10598,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Warm front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10577,7 +10621,18 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.299",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.299.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -10589,7 +10644,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Col",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10636,7 +10691,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "the polar air is below the jet to the east",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10665,7 +10720,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "possible but rare",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10699,14 +10754,14 @@
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Because the areas tend to have high ‘shear’ in the atmosphere",
+            "content": "Because the areas tend to have high &#715;shear&#714; in the atmosphere",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
             "content": "Because the air humidity is high, due to long passage of trade winds over ocean",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -10735,7 +10790,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "10 m above aerodrome elevation on a mast",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10770,7 +10825,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "Increase",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10805,7 +10860,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "50",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10828,7 +10883,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "the area where trade winds from the Northern Hemisphere meets those from the Southern Hemisphere",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10869,7 +10924,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "wet and stormy, due to proximity of the ITCZ",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10898,7 +10953,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "July to November",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -10923,8 +10978,7 @@
       {
         "id": 0,
         "questionNumber": "309",
-        "question": "<p>An aircraft is stationary on the ground.</p><p>With the passage of an active cold front its
-altimeter will:</p>",
+        "question": "<p>An aircraft is stationary on the ground.</p><p>With the passage of an active cold front its altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -10934,12 +10988,12 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "show an increase then a decrease",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "fluctuate ± 50 ft",
+            "content": "fluctuate &#177; 50 ft",
             "isTrue": false
           },
           {
@@ -10975,7 +11029,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "500 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11009,19 +11063,19 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "-2°C to -15°C",
-            "isTrue": false
+            "content": "-2&#176;C to -15&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "-20°C to -40°C",
+            "content": "-20&#176;C to -40&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Below -40°C",
+            "content": "Below -40&#176;C",
             "isTrue": false
           }
         ]
@@ -11029,7 +11083,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "312",
-        "question": "<p>You have to make an emergency ditch at sea.</p><p>The QNH of a nearby island airfield is 1025 hPa, airfield elevation 4000 ft.</p><p>he temp is -20°C.</p><p>With 1025 set on your subscale, on ditching the altimeter will read:</p>",
+        "question": "<p>You have to make an emergency ditch at sea.</p><p>The QNH of a nearby island airfield is 1025 hPa, airfield elevation 4000 ft.</p><p>he temp is -20&#176;C.</p><p>With 1025 set on your subscale, on ditching the altimeter will read:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -11045,7 +11099,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "less than 0 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11080,7 +11134,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Altocumulus castellanus",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11127,7 +11181,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "500 ft",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11162,7 +11216,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "SN",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11191,7 +11245,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "800 hPa",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11232,7 +11286,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "rime ice",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11267,7 +11321,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Ground to FL450",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11284,7 +11338,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "changes in altitude and/or attitude but the aircraft remains in positive control at all times",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11319,7 +11373,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "aerodrome operational and meteorological information",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11354,7 +11408,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Cb",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11401,7 +11455,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Left",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11424,7 +11478,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "around the primary in a cyclonic fashion",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11477,7 +11531,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Temp more than or equal to ISA and a QNH greater than 1013",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11506,7 +11560,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "NW Pacific i.e. Japan, Korea",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11529,12 +11583,12 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "increases then decreases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "fluctuates by ± 50 ft",
+            "content": "fluctuates by &#177; 50 ft",
             "isTrue": false
           },
           {
@@ -11570,7 +11624,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Latent heat from water in oceans",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11598,25 +11652,25 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "8 km and -40°C at Equator",
+            "content": "8 km and -40&#176;C at Equator",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "16 km and -75°C at Equator",
-            "isTrue": false
+            "content": "16 km and -75&#176;C at Equator",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "16 km and -40°C at Pole",
+            "content": "16 km and -40&#176;C at Pole",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "8 km and -75°C at Pole",
+            "content": "8 km and -75&#176;C at Pole",
             "isTrue": false
           }
         ]
@@ -11634,7 +11688,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "A wave of weather travelling east-west",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11680,13 +11734,13 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "C",
-            "content": "-2°C to -15 °C",
-            "isTrue": false
+            "content": "-2&#176;C to -15 &#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "-16°C to -30°C etc.",
+            "content": "-16&#176;C to -30&#176;C etc.",
             "isTrue": false
           }
         ]
@@ -11698,13 +11752,24 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.331",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.331.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
             "tenantId": "A",
             "content": "Col",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11751,7 +11816,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "no crosswind",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11792,7 +11857,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "7000 ft - 16 500 ft",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11809,7 +11874,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "500 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11862,7 +11927,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "15 000 - 35 000 ft above ground level",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11897,7 +11962,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "CB",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -11920,7 +11985,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "NS",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11949,7 +12014,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "decrease",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -11996,7 +12061,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "show no appreciable change due to such a minor pressure fluctuation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12031,7 +12096,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "the air mass above Palma is warmer than that above Marseilles",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12066,7 +12131,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "cPc",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12095,7 +12160,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "the air mass above Marseilles is warmer than that above Palma",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12130,7 +12195,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "colder than ISA",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12165,7 +12230,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Decreases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12184,7 +12249,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "345",
-        "question": "What happens to an aircraft’s altimeter on the ground at the approach of a cold front?",
+        "question": "What happens to an aircraft&#714;s altimeter on the ground at the approach of a cold front?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -12212,7 +12277,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Increases",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -12229,7 +12294,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Remains the same as any fluctuations are small",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12258,7 +12323,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.347",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.347.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -12276,7 +12352,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Cloud and rain",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12311,7 +12387,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Lower altitude as the summit",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12334,7 +12410,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "St with drizzle",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12375,7 +12451,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Cb",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12404,7 +12480,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "It increases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12457,7 +12533,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Middle level instability",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -12474,7 +12550,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "subsidence",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12515,7 +12591,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Severe mountain waves",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12549,7 +12625,7 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Large amounts of icing if temperature is way below -12°C",
+            "content": "Large amounts of icing if temperature is way below -12&#176;C",
             "isTrue": false
           },
           {
@@ -12562,7 +12638,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Icing will occur if supercooled water and ice are present",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -12591,7 +12667,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "CS",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12614,7 +12690,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "at the level where temperature change with altitude becomes little or nil and the pressure surface is at maximum slope",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12649,7 +12725,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "convection",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12690,7 +12766,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "lower troposphere over ocean",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12725,7 +12801,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "conditional; unstable when saturated and stable when unsaturated",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12754,7 +12830,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "front speed is 5 kt",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12789,7 +12865,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Anticyclonic",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12824,7 +12900,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Warm anticyclones over the Azores",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12871,7 +12947,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "warm descending winds",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12900,7 +12976,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "formed by the cold outflow from beneath TS",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12929,7 +13005,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "vertical movement of air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -12964,7 +13040,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "St, As",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13011,7 +13087,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "sinking air",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13040,7 +13116,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "1:100",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13075,7 +13151,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "In Summer from SE Asia through S. India to Central Africa",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13122,7 +13198,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Severe turbulence in Cb cloud",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -13139,7 +13215,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "wave in a trade wind belt, moving from east to west with severe convective activity in rear of its trough",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13180,7 +13256,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Freezing rain and freezing drizzle",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13199,7 +13275,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "374",
-        "question": "Which of the following is an example of a Föhn wind?",
+        "question": "Which of the following is an example of a F&#x020C;hn wind?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -13221,7 +13297,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Chinook",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13250,7 +13326,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "CS/AS",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13291,7 +13367,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Cold pool is most evident behind polar frontal weather in mid temperate areas with little or no sign on significant weather charts",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13326,7 +13402,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Sig. WX chart",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13361,12 +13437,12 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "The air inside is warmer than outside and can reach up to the tropopause",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "They are never found more than 25° latitude",
+            "content": "They are never found more than 25&#176; latitude",
             "isTrue": false
           }
         ]
@@ -13402,7 +13478,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "changes when water is added, even if the temperature is the same",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -13425,7 +13501,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "It heats up less than dry because of evaporation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13472,7 +13548,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Low level stratus",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -13489,7 +13565,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "16 km",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13530,7 +13606,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "at the North Pole than at the Equator",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13565,7 +13641,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "1080 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13594,7 +13670,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "it is 10 kt greater than the mean wind speed",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13629,7 +13705,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "In standard conditions",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13676,7 +13752,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "QFE > QNH",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13705,7 +13781,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "On a Significant Weather chart",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13724,7 +13800,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "389",
-        "question": "<p>Up to FL180 ISA Deviation is ISA +10°C.</p><p>What is the actual depth of the layer between FL60 and FL120?</p>",
+        "question": "<p>Up to FL180 ISA Deviation is ISA +10&#176;C.</p><p>What is the actual depth of the layer between FL60 and FL120?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -13740,7 +13816,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "6240 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13775,7 +13851,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "when air is warm moist and cools quicker than SALR",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13804,7 +13880,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "It blows down a mountain to a valley at night",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13851,7 +13927,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Harmattan",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13886,7 +13962,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Curved isobars and straight isobars",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13899,7 +13975,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "394",
-        "question": "In still air a lapse rate of 1.2°C/100 m refers to:",
+        "question": "In still air a lapse rate of 1.2&#176;C/100 m refers to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -13921,7 +13997,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "ELR",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13950,7 +14026,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Heats up less than dry because of evaporation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -13997,14 +14073,14 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Coriolis force",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "397",
-        "question": "<p>You are flying at FL160 with an OAT of -27°C. QNH is 1003 hPa.</p><p>What is your true altitude?</p>",
+        "question": "<p>You are flying at FL160 with an OAT of -27&#176;C. QNH is 1003 hPa.</p><p>What is your true altitude?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -14020,7 +14096,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "15 090 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14043,7 +14119,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.398",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.398.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -14061,7 +14148,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "true altitude decreases",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14096,7 +14183,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Surface winds are veered from the 5000 ft and have a slower speed",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14131,7 +14218,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Surface winds blow across isobars towards a low",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14160,7 +14247,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "fixed",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14195,7 +14282,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Cold front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14230,7 +14317,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Descend",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14249,7 +14336,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "404",
-        "question": "<p>On a significant weather chart you notice a symbol with the letter “H” and the number “400” inside.</p><p>What does this imply?</p>",
+        "question": "<p>On a significant weather chart you notice a symbol with the letter &#8220;H&#8221; and the number &#8220;400&#8221; inside.</p><p>What does this imply?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -14264,19 +14351,19 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Tropopause “low”",
+            "content": "Tropopause &#8220;low&#8221;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Tropopause “high”",
-            "isTrue": false
+            "content": "Tropopause &#8220;high&#8221;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Tropopause “middle”",
+            "content": "Tropopause &#8220;middle&#8221;",
             "isTrue": false
           }
         ]
@@ -14284,7 +14371,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "405",
-        "question": "<p>You are at 12 000 ft (FL120) with an outside air temperature of -2°C.</p><p>Where would you find the freezing level?</p>",
+        "question": "<p>You are at 12 000 ft (FL120) with an outside air temperature of -2&#176;C.</p><p>Where would you find the freezing level?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -14294,7 +14381,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "FL110",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14335,7 +14422,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Same direction as the isobars in the warm sector",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14364,7 +14451,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "From the left and slightly on the nose",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14398,14 +14485,14 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "over West Africa at 25°N and stretches up to the north of the Arabian Sea",
+            "content": "over West Africa at 25&#176;N and stretches up to the north of the Arabian Sea",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "20°N over West Africa",
-            "isTrue": false
+            "content": "20&#176;N over West Africa",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14428,7 +14515,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.409",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.409.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -14452,7 +14550,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "AB",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -14487,14 +14585,14 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Can be equal to or lower than the temperature of the air mass",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "411",
-        "question": "What kind of weather system might you typically find between 45° - 70°N?",
+        "question": "What kind of weather system might you typically find between 45&#176; - 70&#176;N?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -14516,7 +14614,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Polar front depressions",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14538,7 +14636,7 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Always below -60°C",
+            "content": "Always below -60&#176;C",
             "isTrue": false
           },
           {
@@ -14556,8 +14654,8 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "D",
-            "content": "All below 0°C",
-            "isTrue": false
+            "content": "All below 0&#176;C",
+            "isTrue": true
           }
         ]
       },
@@ -14586,7 +14684,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Its direction",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14609,7 +14707,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "CS 600 km; AS 400 km: NS 200 km",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14650,7 +14748,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "horizontal pressure difference",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14691,7 +14789,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Isolated CBs and showers",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14726,7 +14824,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "By rain and or snow",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14755,7 +14853,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "It is located where there is little vertical temperature gradient but the horizontal pressure gradient is at its steepest",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14802,7 +14900,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Altocumulus castallanus",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -14837,7 +14935,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Winter",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -14854,7 +14952,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Stratus if saturated",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14901,7 +14999,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "greatest at 40N",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14930,7 +15028,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "A report produced when significant changes have occurred",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -14949,7 +15047,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "424",
-        "question": "A parcel of air cooling by more than 1°C/100 m is said to be:",
+        "question": "A parcel of air cooling by more than 1&#176;C/100 m is said to be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -14971,7 +15069,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "unstable",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15000,7 +15098,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "backed at the surface, veered above the friction layer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15029,7 +15127,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Northern Hemisphere only",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15076,7 +15174,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Good visibility, turbulence",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15089,7 +15187,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "428",
-        "question": "<p>At 15 000 ft in nimbostratus cloud with an outside air temperature of -12°C,</p><p>what icing might you expect?</p>",
+        "question": "<p>At 15 000 ft in nimbostratus cloud with an outside air temperature of -12&#176;C,</p><p>what icing might you expect?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -15111,7 +15209,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Moderate to severe ice if orographically intensified",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15152,7 +15250,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "improve",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -15187,7 +15285,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "It is lower over the poles with a higher temperature",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -15198,30 +15296,41 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.431",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.431.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
             "tenantId": "A",
-            "content": "ISA +2°C",
+            "content": "ISA +2&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "ISA -13°C",
-            "isTrue": false
+            "content": "ISA -13&#176;C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "ISA +13°C",
+            "content": "ISA +13&#176;C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "ISA -2°C",
+            "content": "ISA -2&#176;C",
             "isTrue": false
           }
         ]
@@ -15257,7 +15366,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "in the direction of the isobars inside the warm sector",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -15292,7 +15401,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "rounded down to the nearest whole hectopascal",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -15321,7 +15430,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "over the land in summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15344,7 +15453,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "for the period indicated in the TAF itself",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15391,7 +15500,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Cb",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15426,7 +15535,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "true, kt",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15455,7 +15564,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "the trade winds",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15484,7 +15593,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Behind the original cold front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15537,7 +15646,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "the winds tend to be stronger in early afternoon",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -15560,7 +15669,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Convective uplift during the day",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15601,7 +15710,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Warmer rain falling into a colder layer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15624,7 +15733,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Turn around immediately before loss of controllability",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15653,13 +15762,24 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.444-5",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.444-5.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
             "tenantId": "A",
             "content": "Warm occlusion",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15688,13 +15808,24 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.444-5",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.444-5.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
             "tenantId": "A",
             "content": "Increase",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15741,7 +15872,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "If the wind is from the north, he will gain altitude",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15754,7 +15885,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "447",
-        "question": "<p>Up to FL180 ISA Deviation is ISA -10°C.</p><p>What is the actual depth of the layer between FL60 and FL120?</p>",
+        "question": "<p>Up to FL180 ISA Deviation is ISA -10&#176;C.</p><p>What is the actual depth of the layer between FL60 and FL120?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -15776,7 +15907,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "5760 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15805,7 +15936,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "low stratus and drizzle",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15840,7 +15971,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "thunderstorms and rain",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15863,13 +15994,24 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.450",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.450.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
             "tenantId": "A",
             "content": "A trough",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15916,7 +16058,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "SE",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15945,7 +16087,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "OVC 500 ft AGL St SCT 3000 ft St",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15968,7 +16110,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.453",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.453.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -15980,7 +16133,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Polar front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -15999,7 +16152,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "454",
-        "question": "<p>Paris reports OVC 8/8 St at +3°C during the day.</p><p>What will happen on the night of 3/4 Jan?</p>",
+        "question": "<p>Paris reports OVC 8/8 St at +3&#176;C during the day.</p><p>What will happen on the night of 3/4 Jan?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -16008,25 +16161,25 @@ altimeter will:</p>",
           {
             "id": 0,
             "tenantId": "A",
-            "content": "Slightly above +3°",
+            "content": "Slightly above +3&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "Slightly below +3°",
-            "isTrue": false
+            "content": "Slightly below +3&#176;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "Stays at +3°",
+            "content": "Stays at +3&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "Well below 0°",
+            "content": "Well below 0&#176;",
             "isTrue": false
           }
         ]
@@ -16056,7 +16209,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Scattered Cu and showers",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16079,7 +16232,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "330/25",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16126,7 +16279,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "1028 hPa",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16155,7 +16308,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "10 - 20N over East Africa and the Arabian sea",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16190,7 +16343,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "no change",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16225,7 +16378,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Sub tropical jet in excess of 90 kt",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16254,7 +16407,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Land in summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16289,7 +16442,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Direction of the isobars in the warm sector",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16336,7 +16489,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "warm front in winter",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16359,7 +16512,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "met vis is usually less than RVR",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16394,7 +16547,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Land in summer",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16441,7 +16594,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "9 h",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16470,7 +16623,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Up currents",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16511,7 +16664,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Poor visibility due to dust or sand",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16528,7 +16681,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.469",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.469.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -16540,7 +16704,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Madrid",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16587,7 +16751,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Milan",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -16610,7 +16774,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "It is either rain or drizzle",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16639,7 +16803,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "No significant change",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16686,7 +16850,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "A landing forecast appended to a METAR/SPECI valid for 2 hours",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16709,7 +16873,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "SWDs spreading on impact",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16744,7 +16908,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Near a strong low level inversion and in the region of a thunderstorm",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16773,7 +16937,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.477",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.477.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -16785,7 +16960,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "FL240",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16820,7 +16995,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Ahead of a fast moving cold front",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16855,7 +17030,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "on the leeward side, because the condensation level is higher",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16890,7 +17065,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "a NE wind over NW Africa between Nov - April reducing visibility with dust",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16931,7 +17106,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "0 to -10C",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16954,7 +17129,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "5 km",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -16995,7 +17170,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "Elevation",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17042,7 +17217,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Most likely in NS",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -17077,7 +17252,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "reduced visibility and light icing in cloud",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -17094,7 +17269,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "Clear",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17123,7 +17298,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.486",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.486.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -17135,7 +17321,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "B",
             "content": "S + Y",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17164,7 +17350,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "180/60",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17217,7 +17403,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Friction",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -17246,7 +17432,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "Temperature",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17269,7 +17455,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "A",
             "content": "ISA conditions prevail",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17322,7 +17508,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "D",
             "content": "Conditions just turned out to be much more volatile than originally forecast",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -17333,7 +17519,18 @@ altimeter will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure9.30S.492",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.9.30Summary\\Figure9.30S.492.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
@@ -17351,7 +17548,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "c",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17364,7 +17561,7 @@ altimeter will:</p>",
       {
         "id": 0,
         "questionNumber": "493",
-        "question": "Considering the North Atlantic area at 60°N in winter, the mean height of the tropopause is approximately:",
+        "question": "Considering the North Atlantic area at 60&#176;N in winter, the mean height of the tropopause is approximately:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -17386,7 +17583,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "29 000 ft",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -17421,7 +17618,7 @@ altimeter will:</p>",
             "id": 0,
             "tenantId": "C",
             "content": "decrease at 1.0 deg C per 100 m",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
