@@ -1,0 +1,303 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "5.The Navigation Computer - Distance, Speed, Time",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "Fill The Table",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.1Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.1Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.1A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.1A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check Answer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "Fill The Table",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.2Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.2Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.2A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.2A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check Answer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "Fill The Table",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.3Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.3Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.3A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.3A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check Answer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "Fill The Table",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.4Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.4Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.4A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.4A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check Answer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "Fill The Table",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.5Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.5Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.5.5A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.5A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check Answer",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

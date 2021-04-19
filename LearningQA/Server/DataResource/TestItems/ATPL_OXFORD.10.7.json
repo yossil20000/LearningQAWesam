@@ -1,0 +1,129 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "7.The Navigation Computer - Triangle of Velocities ",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>To calculate track and ground speed:</p><p>1. Set wind direction under true heading index.</p><p>2. Mark in wind dot on centre line of computer BELOW centre dot at a distance equal to wind speed scale to scale.</p><p>3. Set true heading at true heading index.</p><p>4. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP CORRECTLY WITH HEADING AT THE TRUE HEADING INDEX. DO NOT DISTURB THE SETTINGS.</p><p>5. Read off drift under wind dot.</p><p>6. Read off track on circular scale beneath drift on drift scale.</p><p>7. Read off ground speed beneath wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.7.1Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.7\\Table10.7.1Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.7.1A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.7\\Table10.7.1A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>To calculate track and ground speed:</p><p>1. Set wind direction under true heading index.</p><p>2. Mark in wind dot on centre line of computer BELOW centre dot at a distance equal to wind speed scale to scale.</p><p>3. Set true heading at true heading index.</p><p>4. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP CORRECTLY WITH HEADING AT THE TRUE HEADING INDEX. DO NOT DISTURB THE SETTINGS.</p><p>5. Read off drift under wind dot.</p><p>6. Read off track on circular scale beneath drift on drift scale.</p><p>7. Read off ground speed beneath wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.7.2Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.7\\Table10.7.2Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.7.1A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.7\\Table10.7.2A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

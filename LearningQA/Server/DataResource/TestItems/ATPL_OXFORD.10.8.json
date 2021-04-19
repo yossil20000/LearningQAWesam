@@ -1,0 +1,303 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "8.The Navigation Computer - Calculation of Heading and Wind Finding",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>To calculate heading and ground speed (Note that this is the one which is normally required):</p><p>1. Mark in wind dot.</p><p>2. Set true track at true heading index.</p><p>3. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP INCORRECTLY, TRACK IS SET AT THE HEADING INDEX. THE COMPUTER NEEDS RE-SETTING.</p><p>4. Read off drift indicated beneath the wind dot.</p><p>5. Move the track reading on the circular scale to coincide with the drift read off at 4 above on the drift scale.</p><p>6. Repeat 4 and 5 above until drift indicated under wind dot agrees with drift indicated on the drift scale.</p><p>THE COMPUTER IS NOW CORRECTLY SET UP. TRUE HEADING IS AT THE TRUE HEADING INDEX AND TAS IS BENEATH THE CENTRE DOT. THE DRIFT HAS BEEN BALANCED.</p><p>7. Read off true heading at the true heading index.</p><p>8. Read off ground speed under the wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.1Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.1Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.1A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.1A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>To calculate heading and ground speed (Note that this is the one which is normally required):</p><p>1. Mark in wind dot.</p><p>2. Set true track at true heading index.</p><p>3. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP INCORRECTLY, TRACK IS SET AT THE HEADING INDEX. THE COMPUTER NEEDS RE-SETTING.</p><p>4. Read off drift indicated beneath the wind dot.</p><p>5. Move the track reading on the circular scale to coincide with the drift read off at 4 above on the drift scale.</p><p>6. Repeat 4 and 5 above until drift indicated under wind dot agrees with drift indicated on the drift scale.</p><p>THE COMPUTER IS NOW CORRECTLY SET UP. TRUE HEADING IS AT THE TRUE HEADING INDEX AND TAS IS BENEATH THE CENTRE DOT. THE DRIFT HAS BEEN BALANCED.</p><p>7. Read off true heading at the true heading index.</p><p>8. Read off ground speed under the wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.2Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.2Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.2A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.2A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>To calculate heading and ground speed (Note that this is the one which is normally required):</p><p>1. Mark in wind dot.</p><p>2. Set true track at true heading index.</p><p>3. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP INCORRECTLY, TRACK IS SET AT THE HEADING INDEX. THE COMPUTER NEEDS RE-SETTING.</p><p>4. Read off drift indicated beneath the wind dot.</p><p>5. Move the track reading on the circular scale to coincide with the drift read off at 4 above on the drift scale.</p><p>6. Repeat 4 and 5 above until drift indicated under wind dot agrees with drift indicated on the drift scale.</p><p>THE COMPUTER IS NOW CORRECTLY SET UP. TRUE HEADING IS AT THE TRUE HEADING INDEX AND TAS IS BENEATH THE CENTRE DOT. THE DRIFT HAS BEEN BALANCED.</p><p>7. Read off true heading at the true heading index.</p><p>8. Read off ground speed under the wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.3Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.3Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.3A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.3A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>To calculate heading and ground speed (Note that this is the one which is normally required):</p><p>1. Mark in wind dot.</p><p>2. Set true track at true heading index.</p><p>3. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP INCORRECTLY, TRACK IS SET AT THE HEADING INDEX. THE COMPUTER NEEDS RE-SETTING.</p><p>4. Read off drift indicated beneath the wind dot.</p><p>5. Move the track reading on the circular scale to coincide with the drift read off at 4 above on the drift scale.</p><p>6. Repeat 4 and 5 above until drift indicated under wind dot agrees with drift indicated on the drift scale.</p><p>THE COMPUTER IS NOW CORRECTLY SET UP. TRUE HEADING IS AT THE TRUE HEADING INDEX AND TAS IS BENEATH THE CENTRE DOT. THE DRIFT HAS BEEN BALANCED.</p><p>7. Read off true heading at the true heading index.</p><p>8. Read off ground speed under the wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.4Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.4Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.4A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.4A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>To calculate heading and ground speed (Note that this is the one which is normally required):</p><p>1. Mark in wind dot.</p><p>2. Set true track at true heading index.</p><p>3. Set TAS under centre dot.</p><p>THE COMPUTER IS NOW SET UP INCORRECTLY, TRACK IS SET AT THE HEADING INDEX. THE COMPUTER NEEDS RE-SETTING.</p><p>4. Read off drift indicated beneath the wind dot.</p><p>5. Move the track reading on the circular scale to coincide with the drift read off at 4 above on the drift scale.</p><p>6. Repeat 4 and 5 above until drift indicated under wind dot agrees with drift indicated on the drift scale.</p><p>THE COMPUTER IS NOW CORRECTLY SET UP. TRUE HEADING IS AT THE TRUE HEADING INDEX AND TAS IS BENEATH THE CENTRE DOT. THE DRIFT HAS BEEN BALANCED.</p><p>7. Read off true heading at the true heading index.</p><p>8. Read off ground speed under the wind dot.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.5Q",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.5Q.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Table10.8.5A",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.8\\Table10.8.5A.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

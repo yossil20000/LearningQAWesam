@@ -1,0 +1,221 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "11.Navigation Using the 1 in 60 Rule",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "If an aircraft is 3&#176; off required track at a range of 120 NM, how far in nautical miles (NM) is the aircraft off required track?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "6 NM",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "If an aircraft is 2 miles off required track at a range of 40 NM, what is the angle off track (track error)?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3&#176;",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>An aircraft leaves A to fly to B, 95 NM distance.</p><p>Having flown 35 NM, the aircraft position is found from a ‘pinpoint’ (a geographical point over which the aircraft has flown); the pinpoint is 7 NM right of track.</p><p>a. What is the track error?</p><p>b. What alteration of heading is required to fly direct to B?</p><p>What is the drift? (Trap question).</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Answare10.11.3",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.11\\Answare10.11.3.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>An aircraft is flying from Oxford to Cambridge, planned track 074&#176;(M), distance 70 NM, heading 065&#176;(M). Having flown 30 NM, the pilot ‘pinpoints’ the aircraft position overhead Cranfield, 4 NM left of planned track.</p><p>a. What is the track error overhead Cranfield?</p><p>b. What is the Track Made Good (TMG) from Oxford?</p><p>c. What was the expected drift?</p><p>d. What has the actual drift been?</p><p>e. What alteration of heading should be made over Cranfield to fly direct to Cambridge?</p><p>f. What is the new heading to be flown from overhead Cranfield?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Answare10.11.4",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.11\\Answare10.11.4.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>An aircraft is flying from Norwich to Oxford, planned track 250&#176;(M), distance 96 NM, heading 260&#176;(M), ground speed 180 kt. The aircraft departs Norwich at 1000 hrs. At 1012, the aircraft is overhead Ely, 3 NM right of planned track. Use the 1:60 to estimate the following.</p><p>a. What was the planned drift?</p><p>b. What is the track error at 1012 hrs?</p><p>c. What TMG has been flown between 1000 hrs and 1012 hrs.</p><p>d. What has the actual drift been between 1000 hrs and 1012 hrs?</p><p>e. What alteration of heading should be made to track directly to Oxford?</p><p>f. What heading is required to fly directly to Oxford?</p><p>g. What alteration of heading should be made to regain track at 1024 hrs?</p><p>h. What heading should be flown between 1012 and 1024 hrs to regain track at 1024 hrs?</p><p>i. Given the situation in g. and h. above, what heading change should be made at 1024 hrs and what heading should be flown from 1024 hrs onwards?</p><p>j. Estimate the ETA at Oxford.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Answare10.11.5",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.11\\Answare10.11.5.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Check",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
