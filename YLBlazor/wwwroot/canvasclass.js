@@ -167,6 +167,12 @@ class CanvasClass {
         //);
 
     }
+    RefreshContext() {
+        if (this.ctx)
+            return;
+        this.ctx = this.canvas.getContext('2d');
+        this.ctx.strokeStyle = this.cuurentStrokStyle;
+    }
     unDo() {
         this.pathsarray.pop();
         this.drawPath();
@@ -300,7 +306,10 @@ class CanvasClass {
     scaleToFit(img) {
         if (img === undefined)
             return;
+        if (img == null)
+            return;
         // get the scale
+        this.RefreshContext();
         if (this.scaleMode == 0) {
             this.ctx.drawImage(this.img, 0, 0);
         } else if (this.scaleMode == 1) {

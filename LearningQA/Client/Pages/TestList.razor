@@ -179,19 +179,20 @@
                 <button @onclick="NewLine">New Line</button>
                  @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
             {
-                @foreach (var supp in ExamViewModelPersist.SelectedQuestion.Supplements)
+                @for (var supp =0; supp < ExamViewModelPersist.SelectedQuestion.Supplements.Count();supp++)
                 {
-                    <button @onclick=@(() => SelectedImage(supp.Id))>@supp.Title</button>
+                    var id = ExamViewModelPersist.SelectedQuestion.Supplements.ElementAt(supp).Id;
+                    <button @onclick=@(() => SelectedImage(id))>@ExamViewModelPersist.SelectedQuestion.Supplements.ElementAt(supp).Title</button>
                 }
             }
             </div>
-            @if (ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
+            @if (  ExamViewModelPersist.SelectedQuestion != null && ExamViewModelPersist.SelectedQuestion.Supplements != null)
             {
 
-                @if (ExamViewModelPersist.SelectedSupplement != null )
+                @if ( true @*ExamViewModelPersist.SelectedSupplement != null*@ )
                 {
                      <div class="content" style="position:relative">
-                        <img id="imageSupp" @onchange="OnImageChanged" class=@(ExamViewModelPersist.SelectedSupplement.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@($"data:image/jpeg;base64,{ExamViewModelPersist.SelectedSupplement.Content}") alt="base64 test" style="width:100%; display:none;">
+                        <img id="imageSupp" @onchange="OnImageChanged" class=@(ExamViewModelPersist.SelectedSupplement?.RotateContent == 0  ? "contain" :  $"contain rotate90") src=@(GetSupplementSrc(ExamViewModelPersist.SelectedSupplement?.Content)) alt="base64 test" style="width:100%; display:none;">
                         <canvas id="canvaSupp" class="canvas" style="background-color:yellow" ></canvas>
                       </div>
                     bCanInitCanvas = true;
@@ -273,6 +274,14 @@
         }
         await Task.CompletedTask;
     }
+    private string GetSupplementSrc(string src)
+    {
+        if(string.IsNullOrEmpty(src))
+        {
+            return "";
+        }
+        return $"data:image/jpeg;base64,{src}";
+    }
     private async Task OnExamDelete(object obj)
     {
 
@@ -326,12 +335,17 @@
     }
      private async void SelectedImage(int id)
     {
-         ExamViewModelPersist.SelectedSupplement = ExamViewModelPersist.SelectedQuestion.Supplements.Where(x => x.Id == id).FirstOrDefault();
+        Console.WriteLine($"SelectedImage  Id : {id} ");
         await canvasClassJsInterop.ClearDraw(canvaSuppId);
+         ExamViewModelPersist.SelectedSupplement = ExamViewModelPersist.SelectedQuestion.Supplements.ToList().Where(x => x.Id == id).FirstOrDefault();
+        ExamViewModelPersist.SelectedQuestion.Supplements.ToList().ForEach(x => Console.WriteLine($"{x.Id} {x.Title}"));
+        Console.WriteLine($"SelectedImage  Id : {id} {ExamViewModelPersist.SelectedSupplement.Id} Tittle:{ExamViewModelPersist.SelectedSupplement.Title} Size:{ExamViewModelPersist.SelectedSupplement.Content.Length} Num:{ExamViewModelPersist.SelectedQuestion.Supplements.Count()} ");
         
         bImageChanged = true ;
-        StateHasChanged();
         await Task.CompletedTask;
+
+        StateHasChanged();
+        
     }
     private void UpdateImage()
     {

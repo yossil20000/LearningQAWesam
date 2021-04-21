@@ -156,8 +156,8 @@ namespace LearningQA.Client.ViewModel
 		{
 			get
 			{
-				if (selectedSupplement != null)
-					selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
+				//if (selectedSupplement == null)
+				//	selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
 				return selectedSupplement;
 			}
 			set { selectedSupplement = value; }
