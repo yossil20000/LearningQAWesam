@@ -1,0 +1,398 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "2.Great Circles, Rhumb Lines",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>What is the change of latitude between the following positions:-</p><p>a. 52&#176;15&#714;N to 39&#176;35&#714;N</p><p>b. 49&#176;35&#714;N to 60&#176;20&#714;S</p><p>c. 74&#176;20&#714;S to 34&#176;30&#714;S</p><p>d. 71&#176;20&#714;N to 86&#176;45&#714;N over the North Pole.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 12&#176;40&#714;S</p><p>b. 109&#176;55&#714;S</p><p>c. 39&#176;50&#714;N</p><p>d. 21&#176;55&#714;</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "What is the difference in nautical miles and in kilometres from position A (41&#176;25&#714;N) to position B (79&#176;30&#714;N)? Both are on the same meridian.",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2285 NM is 4232 km using a calculator or 4230 km using the Navigation Computer.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>What is the change of longitude between the following positions:</p><p>a. 075&#176;40&#714;W to 125&#176;35&#714;W</p><p>b. 001&#176;20&#714;E to 004&#176;20&#714;W</p><p>c. 150&#176;40&#714;E to 179&#176;30&#714;E</p><p>d. 162&#176;36&#714;W to 140&#176;42&#714;E</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 49&#176;55&#714;W</p><p>b. 05&#176;40&#714;W</p><p>c. 28&#176;50&#714;E</p><p>d. 56&#176;42&#714;W (Not 303&#176; 18&#714; - we want the smaller arc).</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>Give the direction and change of latitude and longitude from X to Y in each case:</p><p>a. 50&#176;31&#714;N 006&#176;30&#714;W to 52&#176;00&#714;N 008°35&#714;W</p><p>b. 47°32&#714;N 002°46&#714;W to 43°56&#714;N 001°33&#714;W</p><p>c. 61°47&#714;N 003°46&#714;W to 62°13&#714;N 001°36&#714;E</p><p>d. 31°27&#714;S 091°47&#714;E to 35°57&#714;N 096°31&#714;E</p><p>e. 51°05&#714;N 177°42&#714;E to 51°06&#714;N 167°42&#714;W</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 01°29&#714;N 002°05&#714;W</p><p>b. 03°36&#714;S 001°13&#714;E</p><p>c. 00°26&#714;N 005°22&#714;E</p><p>d. 67°24&#714;N 004°44&#714;E</p><p>e. 00°01&#714;N 014°36&#714;E</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>Give the shortest distance in nautical miles and kilometres between the following positions:</p><p>a. 52°06&#714;N 002°32&#714;E and 53°36&#714;N 002°32&#714;E</p><p>b. 04°41&#714;S 163°36&#714;W and 03°21&#714;N 163°36&#714;W</p><p>c. 62°00&#714;N 093°00&#714;E and 62°00&#714;N 087°00&#714;W</p><p>d. 00°00&#714;N 176°00&#714;E and 00°00&#714;N 173°00&#714;W</p><p>e. 43°57&#714;N 071°37&#714;W and 43°57&#714;S 108°23&#714;E</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 90 NM 167 km</p><p>b. 482 NM 893 km</p><p>c. 3360 NM 6223 km</p><p>d. 660 NM 1222 km</p><p>e. 10 800 NM 20 000 km</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>An aircraft is to fly from position 72°00&#714;N 002°30&#714;E to position 72°00&#714;N 177°30&#714;W on the shortest possible route.</p><p>a. Give the initial (True) track direction</p><p>b. Will the track direction remain the same for the whole flight?</p><p>c. Give a reason for the answer given in b above.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 360°(T)</p><p>No</p><p>c. Route over the North Pole, initial track True North, then once over the Pole, True South.</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>You are at position A at 54°20&#714;N 002°30&#714;W. Given a ch.lat of 16°20&#714;N and a ch.long of 20°30&#714;W to B,</p><p>what is the position of B?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "70°40&#714;N 023°00&#714;W",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "<p>You are at position C at 36°47&#714;S 179°21&#714;E. Given a ch.at of 46°47&#714;N and a ch.long of 20°30&#714;E to D,</p><p>what is the position of D?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10°00&#714;N 160°09&#714;W",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "<p>What is the position of the Rhumb Line between 2 points relative to the Great Circle between the same points if the points are:</p><p>a. In the Northern hemisphere?</p><p>b. In the Southern hemisphere?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. Nearer the Equator (South of the Great Circle)</p><p>b. Nearer the Equator (North of the Great Circle)</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "<p>Any Meridian Line is a:</p><p>a. Rhumb Line</p><p>b. Semi Great Circle</p><p>c. Rhumb Line and a semi Great Circle</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "b",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "c",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "<p>A Rhumb Line cuts all meridians at the same angle. This gives:</p><p>a. The shortest distance between two points.</p><p>b. A line which could never be a Great Circle track</p><p>c. A line of constant direction</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "A",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "B",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "C",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

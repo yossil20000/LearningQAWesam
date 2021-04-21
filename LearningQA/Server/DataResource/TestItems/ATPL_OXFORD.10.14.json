@@ -1,0 +1,363 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "14.Convergency and Conversion Angle",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>The convergency of the meridians through M and N which are in the Southern hemisphere is 12&#176;.</p><p>If the rhumb line track from M to N is 249&#176;(T), what is the great circle track:</p><p>a. from M to N?</p><p>b. from N to M?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 243&#176;(T)</p><p>b. 075&#176;(T)</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>The great circle bearing of position B in latitude 30&#176;00&#714;S from position A (30&#176;00&#714;S 165&#176;00&#714;E) is 100&#176;(T).</p><p>What is:</p><p>a. The great circle track from B to A?</p><p>b. The longitude of position B ?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 260&#176;(T)</p><p>b. 155&#176; West</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>The rhumb line from position D (30&#176;00&#714;N 179&#176;00&#714;W) to position C is 090&#176;(T).</p><p>The initial great circle track from C to D is 287&#176;(T).</p><p>What is:</p><p>a. The great circle track from D to C?</p><p>b. The approximate latitude and longitude of position C ?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 073&#176;(T)</p><p>b. 30&#176;N 111&#176;W</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>The great circle track from A to B measures 227&#176;(T) at A and 225&#176;(T) at B.</p><p>What is the convergency of the meridians through A and B and in which hemisphere are they?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2&#176; of Convergency and in Northern hemisphere",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>a. In what latitude is the convergency between two meridians on the Earth equal to twice their convergency in latitude 20&#176;N?</p><p>b. Is there a latitude where the convergency would be three times the value at 20&#176;N?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. Latitude 43&#176; North</p><p>b. No, because you cannot have a latitude whose sine is greater than</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>a. A and B are in the same hemisphere. The initial great circle track from B to A is 268&#176;(T) and the initial great circle track from A to B is 092&#176;(T).</p><p>i) In which hemisphere are A and B?</p><p>ii) What is the rhumb line track from A to B?</p><p>b. C and D are in the same hemisphere. The initial great circle track from C to D is 063&#176;(T) and the rhumb line track from D to C is 240&#176;(T).</p><p>i) In which hemisphere are C and D?</p><p>ii) What is the approximate initial great circle track from D to C?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a.i) Southern hemisphere. a.ii) 090&#176;(T), as A and B on same latitude</p><p>b.i) Southern hemisphere. b.ii) 237&#176;(T)</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>Position X 64&#176;00&#714;S 11&#176;50&#714;W. Position Y 64&#176;00&#714;S 05&#176;10&#714;W. Give:</p><p>a. The convergency between the meridians of X and Y.</p><p>b. The approximate initial great circle track from Y to X.</p><p>c. The rhumb line track from X to Y.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 6&#176;</p><p>b. 267&#176;(T)</p><p>c. 090&#176;(T)</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "<p>a. Calculate the convergency between positions A (55&#176;30&#714;N 04&#176;35&#714;W) and B (64&#176;00&#714;N 22&#176;37&#714;W).</p><p>b. If the rhumb line track from A to B is 313&#176;(T), what is the approximate initial great circle track from B to A?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 15.5&#176; Convergency; call it 16&#176;</p><p>b. 125&#176;(T)</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "<p>The initial great circle track from B to A is 245&#176;(T) and the rhumb line track from A to B is 060&#176;(T).</p><p>If the mean latitude between A and B is 53&#176; and the longitude of B is 02&#176;15&#714;E, what is the longitude of A?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "010&#176;15&#714; W",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "<p>A and B are both in the Southern hemisphere and the convergency of their meridians is 8&#176;. The initial great circle track from A to B is 094&#176;(T).</p><p>If the position of B is 23&#176;00&#714;S 20&#176;00&#714;W, what is the position of A?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Position A is at 23&#176;00S 040&#176;30&#714; W. (Rhumb Line is 090&#176;(T))",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
