@@ -88,7 +88,7 @@ namespace LearningQA.Client.ViewModel
 			{
 				SelectedQuestion = FilteredAnsware.ElementAt(CurrentQuestion - 1).QUestionSql;
 				//SelectedQuestion = CurrentTest.Answers.ElementAt(CurrentQuestion - 1).QUestionSql;
-				selectedSupplement = SelectedQuestion.Supplements.Count > 0 ? SelectedQuestion.Supplements.ElementAt(0) : null;
+				SelectedSupplement = SelectedQuestion.Supplements.Count > 0 ? SelectedQuestion.Supplements.ElementAt(0) : null;
 				OnEventChanged(PageBase.RegisterEvent.SelectedSupplement);
 			}
 			UpdatePagination();
@@ -160,7 +160,7 @@ namespace LearningQA.Client.ViewModel
 				//	selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
 				return selectedSupplement;
 			}
-			set { selectedSupplement = value; }
+			set { selectedSupplement = value; Changed(); }
 		}
 
 		public void OnOptionChanged(QuestionOption<int> id, object checkedValue)
