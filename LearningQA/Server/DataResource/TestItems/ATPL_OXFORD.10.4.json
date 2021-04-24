@@ -15,7 +15,6 @@
         "mark": 0,
         "isActive": true,
         "answerType": 0,
-        "supplements": [],
         "supplements": [
           {
             "id": 0,
@@ -26,9 +25,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.4\\Table10.4.1A.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.4.1Q",
@@ -38,13 +35,14 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.4\\Table10.4.1Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
+          }		  
         ],
+		"options": [
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Check",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -83,9 +81,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.4\\Table10.4.2A.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.4.2Q",
@@ -207,7 +203,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "1890 metres",
-            "isTrue": 1890 metres
+            "isTrue": true
           },
           {
             "id": 0,

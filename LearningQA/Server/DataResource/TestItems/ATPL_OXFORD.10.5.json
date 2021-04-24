@@ -25,9 +25,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.1Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.5.1A",
@@ -83,9 +81,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.2Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.5.2A",
@@ -141,9 +137,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.3Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.5.3A",
@@ -199,9 +193,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.4Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.5.4A",
@@ -257,9 +249,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.5\\Table10.5.5Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.5.5A",

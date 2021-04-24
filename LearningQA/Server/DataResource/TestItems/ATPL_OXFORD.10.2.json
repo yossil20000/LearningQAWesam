@@ -116,7 +116,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "<p>Give the direction and change of latitude and longitude from X to Y in each case:</p><p>a. 50&#176;31&#714;N 006&#176;30&#714;W to 52&#176;00&#714;N 008°35&#714;W</p><p>b. 47°32&#714;N 002°46&#714;W to 43°56&#714;N 001°33&#714;W</p><p>c. 61°47&#714;N 003°46&#714;W to 62°13&#714;N 001°36&#714;E</p><p>d. 31°27&#714;S 091°47&#714;E to 35°57&#714;N 096°31&#714;E</p><p>e. 51°05&#714;N 177°42&#714;E to 51°06&#714;N 167°42&#714;W</p>",
+        "question": "<p>Give the direction and change of latitude and longitude from X to Y in each case:</p><p>a. 50&#176;31&#714;N 006&#176;30&#714;W to 52&#176;00&#714;N 008&#176;35&#714;W</p><p>b. 47&#176;32&#714;N 002&#176;46&#714;W to 43&#176;56&#714;N 001&#176;33&#714;W</p><p>c. 61&#176;47&#714;N 003&#176;46&#714;W to 62&#176;13&#714;N 001&#176;36&#714;E</p><p>d. 31&#176;27&#714;S 091&#176;47&#714;E to 35&#176;57&#714;N 096&#176;31&#714;E</p><p>e. 51&#176;05&#714;N 177&#176;42&#714;E to 51&#176;06&#714;N 167&#176;42&#714;W</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -125,7 +125,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "<p>a. 01°29&#714;N 002°05&#714;W</p><p>b. 03°36&#714;S 001°13&#714;E</p><p>c. 00°26&#714;N 005°22&#714;E</p><p>d. 67°24&#714;N 004°44&#714;E</p><p>e. 00°01&#714;N 014°36&#714;E</p>",
+            "content": "<p>a. 01&#176;29&#714;N 002&#176;05&#714;W</p><p>b. 03&#176;36&#714;S 001&#176;13&#714;E</p><p>c. 00&#176;26&#714;N 005&#176;22&#714;E</p><p>d. 67&#176;24&#714;N 004&#176;44&#714;E</p><p>e. 00&#176;01&#714;N 014&#176;36&#714;E</p>",
             "isTrue": true
           },
           {
@@ -151,7 +151,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "<p>Give the shortest distance in nautical miles and kilometres between the following positions:</p><p>a. 52°06&#714;N 002°32&#714;E and 53°36&#714;N 002°32&#714;E</p><p>b. 04°41&#714;S 163°36&#714;W and 03°21&#714;N 163°36&#714;W</p><p>c. 62°00&#714;N 093°00&#714;E and 62°00&#714;N 087°00&#714;W</p><p>d. 00°00&#714;N 176°00&#714;E and 00°00&#714;N 173°00&#714;W</p><p>e. 43°57&#714;N 071°37&#714;W and 43°57&#714;S 108°23&#714;E</p>",
+        "question": "<p>Give the shortest distance in nautical miles and kilometres between the following positions:</p><p>a. 52&#176;06&#714;N 002&#176;32&#714;E and 53&#176;36&#714;N 002&#176;32&#714;E</p><p>b. 04&#176;41&#714;S 163&#176;36&#714;W and 03&#176;21&#714;N 163&#176;36&#714;W</p><p>c. 62&#176;00&#714;N 093&#176;00&#714;E and 62&#176;00&#714;N 087&#176;00&#714;W</p><p>d. 00&#176;00&#714;N 176&#176;00&#714;E and 00&#176;00&#714;N 173&#176;00&#714;W</p><p>e. 43&#176;57&#714;N 071&#176;37&#714;W and 43&#176;57&#714;S 108&#176;23&#714;E</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -186,7 +186,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "<p>An aircraft is to fly from position 72°00&#714;N 002°30&#714;E to position 72°00&#714;N 177°30&#714;W on the shortest possible route.</p><p>a. Give the initial (True) track direction</p><p>b. Will the track direction remain the same for the whole flight?</p><p>c. Give a reason for the answer given in b above.</p>",
+        "question": "<p>An aircraft is to fly from position 72&#176;00&#714;N 002&#176;30&#714;E to position 72&#176;00&#714;N 177&#176;30&#714;W on the shortest possible route.</p><p>a. Give the initial (True) track direction</p><p>b. Will the track direction remain the same for the whole flight?</p><p>c. Give a reason for the answer given in b above.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -195,7 +195,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "<p>a. 360°(T)</p><p>No</p><p>c. Route over the North Pole, initial track True North, then once over the Pole, True South.</p>",
+            "content": "<p>a. 360&#176;(T)</p><p>No</p><p>c. Route over the North Pole, initial track True North, then once over the Pole, True South.</p>",
             "isTrue": true
           },
           {
@@ -221,7 +221,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "<p>You are at position A at 54°20&#714;N 002°30&#714;W. Given a ch.lat of 16°20&#714;N and a ch.long of 20°30&#714;W to B,</p><p>what is the position of B?</p>",
+        "question": "<p>You are at position A at 54&#176;20&#714;N 002&#176;30&#714;W. Given a ch.lat of 16&#176;20&#714;N and a ch.long of 20&#176;30&#714;W to B,</p><p>what is the position of B?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -230,7 +230,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "70°40&#714;N 023°00&#714;W",
+            "content": "70&#176;40&#714;N 023&#176;00&#714;W",
             "isTrue": true
           },
           {
@@ -256,7 +256,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "<p>You are at position C at 36°47&#714;S 179°21&#714;E. Given a ch.at of 46°47&#714;N and a ch.long of 20°30&#714;E to D,</p><p>what is the position of D?</p>",
+        "question": "<p>You are at position C at 36&#176;47&#714;S 179&#176;21&#714;E. Given a ch.at of 46&#176;47&#714;N and a ch.long of 20&#176;30&#714;E to D,</p><p>what is the position of D?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -265,7 +265,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "10°00&#714;N 160°09&#714;W",
+            "content": "10&#176;00&#714;N 160&#176;09&#714;W",
             "isTrue": true
           },
           {

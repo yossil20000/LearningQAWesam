@@ -515,10 +515,8 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.3\\Table10.3Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
-          {
+          },
+		  {
             "id": 0,
 			"title": "Table10.3A",
             "tenantId": null,
