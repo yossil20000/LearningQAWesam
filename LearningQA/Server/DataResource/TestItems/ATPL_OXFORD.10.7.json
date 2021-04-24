@@ -3,7 +3,7 @@
     "id": 0,
     "category": "1.ATPL_OXFORD",
     "subject": "10.General Navigation",
-    "chapter": "7.The Navigation Computer - Triangle of Velocities ",
+    "chapter": "7.The Navigation Computer - Triangle of Velocities",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -25,9 +25,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.7\\Table10.7.1Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.7.1A",
@@ -83,9 +81,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.7\\Table10.7.2Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.7.1A",

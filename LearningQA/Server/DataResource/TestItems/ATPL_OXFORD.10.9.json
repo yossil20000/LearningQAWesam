@@ -25,9 +25,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.9\\Table10.9.1Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.9.1A",
@@ -83,9 +81,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.9\\Table10.9.2Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.9.2A",
@@ -141,9 +137,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.9\\Table10.9.3Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.9.3A",
@@ -199,9 +193,7 @@
             "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.10.9\\Table10.9.4Q.JPG;",
             "originalcontentType": 2,
             "contentType": 0
-          }
-        ],
-        "supplements": [
+          },
           {
             "id": 0,
 			"title": "Table10.9.4A",
@@ -243,7 +235,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "<p>An airfield has runways 18/36 and 07/25, all of equal length.</p><p>The TAF W/V is 310/25. Variation is 20°E.</p><p>Which will be the best R/W for take-off and landing?</p>",
+        "question": "<p>An airfield has runways 18/36 and 07/25, all of equal length.</p><p>The TAF W/V is 310/25. Variation is 20&#176;E.</p><p>Which will be the best R/W for take-off and landing?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -348,7 +340,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "<p>On a particular take-off, you can accept up to 10 knots tailwind.</p><p>The runway QDM is 047, the variation is 17°E and the ATIS gives the wind direction as 210.</p><p>What is the maximum wind strength you can accept?</p>",
+        "question": "<p>On a particular take-off, you can accept up to 10 knots tailwind.</p><p>The runway QDM is 047, the variation is 17&#176;E and the ATIS gives the wind direction as 210.</p><p>What is the maximum wind strength you can accept?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
