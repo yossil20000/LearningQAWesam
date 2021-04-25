@@ -1,0 +1,223 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "10.General Navigation",
+    "chapter": "16.Scale",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>Give the scale, as a representative fraction, of the following charts:</p><p>a. One centimetre represents five kilometres</p><p>b. one centimetre represents 5.4 nautical miles</p><p>c. one inch represents 15.4 kilometres</p><p>d. 3.5 inches represents 70 kilometres</p><p>e. five inches represents eight nautical miles</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 1:500 000 , b. 1:1 000 000</p><p>c. 1:600 000 (approx) , d. 1:788 000</p><p>e. 1:116 740</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>The representative fraction of a chart is given as 1: 500 000 (Half Mil Chart)</p><p>a. how many (1) centimetres and (2) inches would represent 30 kilometres on the ground?</p><p>b. how many (1) inches and (2) centimetres would represent 30 nautical miles on the ground?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. (1) 6 centimetres (2) 2.36 inches</p><p>b. (1) 4.38 inches (2) 11.12 centimetres</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>The representative fraction of a chart is given as 1: 1 000 000</p><p>a. What is the chart length of a line representing an Earth distance of 50 kilometres on this chart? give your answer in both centimetres and inches</p><p>b. is this scale larger or smaller than the one used in question two above?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 5 cm = 1.97 in</p><p>b. Smaller</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>On a chart 5 centimetres represents 7 nautical miles</p><p>a. Give the scale of this chart as a representative fraction</p><p>b. Determine the distance in inches on this chart which would represent the distance flown by an aircraft in 5 minutes at a groundspeed of 156 knots.</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 1:260 000</p><p>b. 3.65 inches</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>On a chart 14.8 centimetres represents 20 nautical miles on the ground</p><p>a. Give the chart scale as a representative fraction</p><p>b. Determine the length in inches on this chart which would represent the distance flown by an aircraft in 9 minutes at a ground speed of 185 Knots</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 1:250 000</p><p>b. 8.1 inches</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>On a chart, one centimetre represents 3.5 kilometres</p><p>a. Give the scale as a representative fraction</p><p>b. What is the length in inches on the chart which would represent the distance flown in 4 minutes at a ground speed of 204 kilometres per hour?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>a. 1:350 000</p><p>b. 1.53 inches</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

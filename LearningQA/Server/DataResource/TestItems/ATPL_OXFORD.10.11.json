@@ -81,7 +81,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "<p>An aircraft leaves A to fly to B, 95 NM distance.</p><p>Having flown 35 NM, the aircraft position is found from a ‘pinpoint’ (a geographical point over which the aircraft has flown); the pinpoint is 7 NM right of track.</p><p>a. What is the track error?</p><p>b. What alteration of heading is required to fly direct to B?</p><p>What is the drift? (Trap question).</p>",
+        "question": "<p>An aircraft leaves A to fly to B, 95 NM distance.</p><p>Having flown 35 NM, the aircraft position is found from a &#715;pinpoint&#714; (a geographical point over which the aircraft has flown); the pinpoint is 7 NM right of track.</p><p>a. What is the track error?</p><p>b. What alteration of heading is required to fly direct to B?</p><p>What is the drift? (Trap question).</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -127,7 +127,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "<p>An aircraft is flying from Oxford to Cambridge, planned track 074&#176;(M), distance 70 NM, heading 065&#176;(M). Having flown 30 NM, the pilot ‘pinpoints’ the aircraft position overhead Cranfield, 4 NM left of planned track.</p><p>a. What is the track error overhead Cranfield?</p><p>b. What is the Track Made Good (TMG) from Oxford?</p><p>c. What was the expected drift?</p><p>d. What has the actual drift been?</p><p>e. What alteration of heading should be made over Cranfield to fly direct to Cambridge?</p><p>f. What is the new heading to be flown from overhead Cranfield?</p>",
+        "question": "<p>An aircraft is flying from Oxford to Cambridge, planned track 074&#176;(M), distance 70 NM, heading 065&#176;(M). Having flown 30 NM, the pilot &#715;pinpoints&#714; the aircraft position overhead Cranfield, 4 NM left of planned track.</p><p>a. What is the track error overhead Cranfield?</p><p>b. What is the Track Made Good (TMG) from Oxford?</p><p>c. What was the expected drift?</p><p>d. What has the actual drift been?</p><p>e. What alteration of heading should be made over Cranfield to fly direct to Cambridge?</p><p>f. What is the new heading to be flown from overhead Cranfield?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,

@@ -55,7 +55,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "700 ft (2 × 350)",
+            "content": "700 ft (2 &#xd7; 350)",
             "isTrue": true
           },
           {
@@ -90,7 +90,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "1040 ft (4 × 260)",
+            "content": "1040 ft (4 &#xd7; 260)",
             "isTrue": true
           },
           {
@@ -125,7 +125,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "600 ft (2 × 300)",
+            "content": "600 ft (2 &#xd7; 300)",
             "isTrue": true
           },
           {
