@@ -39,7 +39,7 @@ O2 O<sub>2</sub>
 - &#45;
 ` &#715; 
 ˊ &#714;
-1/2 &#xbd;
+½ &#xbd;
 * &#xd7;
 - &#x2212;
 
@@ -49,3 +49,4 @@ Teta &#920;
 omega &#937;
 
 UPPERCASE O WITH DOUBLE GRAVE ö &#x020C;
+"answerExplain": "",
