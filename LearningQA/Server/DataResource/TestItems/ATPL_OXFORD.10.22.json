@@ -234,13 +234,13 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": ".202",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": ".446",
             "isTrue": true
           },
           {
@@ -269,7 +269,7 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "constant along a line of longitude",
             "isTrue": false
           },
           {

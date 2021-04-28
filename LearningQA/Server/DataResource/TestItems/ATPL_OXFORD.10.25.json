@@ -166,7 +166,7 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1100 UTC 15th May",
             "isTrue": false
           },
           {
@@ -195,7 +195,7 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "66&#xbd; S",
             "isTrue": false
           },
           {
