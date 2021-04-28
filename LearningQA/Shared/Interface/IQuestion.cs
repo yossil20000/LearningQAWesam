@@ -32,6 +32,7 @@ namespace LearningQA.Shared.Interface
 		bool IsActive { get; set; }
 		//ICategory<Tdb> Category { get; set; }
 		AnswerType AnswerType { get; set; }
+		string AnswerExplain { get; set; } 
 		ICollection<Supplement<Tdb>> Supplements  { get; set; }
 		ICollection<QuestionOption<int>> Options { get; set; }
 		//ICollection<AnswareOption<int>> Answares { get; set; }

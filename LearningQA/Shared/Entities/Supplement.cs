@@ -10,9 +10,12 @@ namespace LearningQA.Shared.Entities
 {
 	public enum ContentType
 	{
-		Text = 0,
-		ImageBase64String = 1,
-		ImageFileName = 2
+		Text = 1,
+		ImageFileName = 2,
+		ImageBase64String = 4,
+		TextExplain = 65, // 64 + 2
+		ImageFileNameExplain = 66, // 64 + 2
+		ImageBase64StringExplain = 68, //64 + 4
 	}
 
 	public class Supplement<Tdb> : ISupplement<Tdb>

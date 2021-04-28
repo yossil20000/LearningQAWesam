@@ -256,19 +256,35 @@ namespace LearningQA.Server.Controllers
                         toRemove.ForEach(item => supplement.Remove(item));
                         for (int suppIndex = 0; suppIndex < supplement.Count; suppIndex++)
                         {
-                            
-                            if (supplement.ElementAt(suppIndex).OriginalcontentType == ContentType.ImageFileName)
+                            switch(supplement.ElementAt(suppIndex).OriginalcontentType)
                             {
-                                Console.WriteLine($"ConverSupplement: item:{item}, Question:{items.ElementAt(item).Questions.ElementAt(qIndex).QuestionNumber} Supp:{supplement.ElementAt(suppIndex).OriginalContent}");
-                                var content = supplement.ElementAt(suppIndex).OriginalContent.Split(";");
-                                if (content.Length > 0)
-                                {
-                                    var src = content[0].Split(":")[1];
-                                    supplement.ElementAt(suppIndex).Content = DataResourceReader.LoadImageForDisplay(src);
-                                    supplement.ElementAt(suppIndex).ContentType = ContentType.ImageBase64String;
-                                }
+                                case ContentType.ImageFileName:
+                                case ContentType.ImageFileNameExplain:
+                                    {
+                                        Console.WriteLine($"ConverSupplement: item:{item}, Question:{items.ElementAt(item).Questions.ElementAt(qIndex).QuestionNumber} Supp:{supplement.ElementAt(suppIndex).OriginalContent}");
+                                        var content = supplement.ElementAt(suppIndex).OriginalContent.Split(";");
+                                        if (content.Length > 0)
+                                        {
+                                            var src = content[0].Split(":")[1];
+                                            supplement.ElementAt(suppIndex).Content = DataResourceReader.LoadImageForDisplay(src);
+                                            supplement.ElementAt(suppIndex).ContentType = ContentType.ImageBase64String;
+                                        }
 
+                                    }
+                                    break;
                             }
+                            //if (supplement.ElementAt(suppIndex).OriginalcontentType == ContentType.ImageFileName)
+                            //{
+                            //    Console.WriteLine($"ConverSupplement: item:{item}, Question:{items.ElementAt(item).Questions.ElementAt(qIndex).QuestionNumber} Supp:{supplement.ElementAt(suppIndex).OriginalContent}");
+                            //    var content = supplement.ElementAt(suppIndex).OriginalContent.Split(";");
+                            //    if (content.Length > 0)
+                            //    {
+                            //        var src = content[0].Split(":")[1];
+                            //        supplement.ElementAt(suppIndex).Content = DataResourceReader.LoadImageForDisplay(src);
+                            //        supplement.ElementAt(suppIndex).ContentType = ContentType.ImageBase64String;
+                            //    }
+
+                            //}
                         }
 
                     }
