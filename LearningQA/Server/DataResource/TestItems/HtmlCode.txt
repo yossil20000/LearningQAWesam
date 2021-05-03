@@ -30,7 +30,7 @@ src-relative:DataResource\\TestItems\\CAP697JPG\\
 percent &#37; &#37;
 Double quotes 9	“ ”	&#8220; &#8221;
 +- &#177;
-
+±
 CO2 CO<sub>2</sub>
 O2 O<sub>2</sub>
 <sup>3</sup>/<sub>4</sub>
