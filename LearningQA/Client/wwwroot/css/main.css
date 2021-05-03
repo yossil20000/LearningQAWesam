@@ -3373,7 +3373,7 @@ a:hover, a:active, a:focus {
       align-self: center;
   width: 1rem;
   height: 1rem;
-  background: url(/dist/css/fonts/expand_less-24px.svg);
+  background: url(fonts/expand_less-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
@@ -3386,7 +3386,7 @@ a:hover, a:active, a:focus {
 }
  */
 .toggle.active {
-  background: url(/dist/css/fonts/expand_more-24px.svg);
+  background: url(fonts/expand_more-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
@@ -3400,7 +3400,7 @@ a:hover, a:active, a:focus {
       align-self: center;
   width: 1rem;
   height: 1rem;
-  background: url(/dist/css/fonts/open_in_full-24px.svg);
+  background: url(fonts/open_in_full-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
@@ -3413,7 +3413,7 @@ a:hover, a:active, a:focus {
 }
  */
 .toggle-full.active {
-  background: url(/dist/css/fonts/close_fullscreen-24px.svg);
+  background: url(fonts/close_fullscreen-24px.svg);
   background-repeat: no-repeat;
   background-size: 2rem;
   background-position: center;
