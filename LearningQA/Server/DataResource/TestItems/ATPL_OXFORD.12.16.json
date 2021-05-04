@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "12.OPERATIONAL PROCEDURES",
+    "chapter": "16.Emergency and Precautionary Landings",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "to regularly see members of the flight crew calmly moving about the cabin in a relaxed manner.",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "a procedure that is not a normal landing where the intent is to attempt to preserve the integrity of the airframe to permit orderly and controlled",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "any landing where the pilot does not have full control of the aeroplane.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "any landing where the structural integrity of the aeroplane has been seriously affected.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a landing for which ATC permission has not been previously obtained.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The aim of a ditching procedure is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to enable the pilot to land the aeroplane on water rather than a crash landing on land.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to land on water if the undercarriage is not able to be lowered correctly.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "to land the aeroplane on water if it is not possible to reach land.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to land the aeroplane on water if it is on fire.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "A precautionary landing is a procedure that:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "enables the aeroplane to land at the destination with unserviceabilities that prevent a normal instrument approach being carried out.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "enables a landing after the declaration of a state of emergency or urgency.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "enables a landing if it is suspected that the undercarriage is not properly lowered.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "is carried out in the event of landing at an alternate aerodrome.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "What is the purpose of the passenger briefing given in the event of a precautionary landing being necessary?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,33 +129,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "To find out if there are any other pilots on board who may have experienced the situation and can help.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "To prepare the passengers for the worst outcome.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "To stop the passengers pestering the cabin staff so that they can get on with their preparations for crash-landing or ditching.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "By involving the passengers and sharing information, fear may be overcome and greater survivability achieved.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "In the event of a successful crash landing or ditching, rapid and controlled evacuation from the aeroplane is essential. In order to achieve this:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,33 +165,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "all doors and windows should be opened as soon as the aeroplane comes to rest.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "women and children should be evacuated first.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the use of slides/chutes is preferred.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the cabin staff have to impress their authority and frequently carry out drills and practices",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "One way in which passengers can be reassured during an emergency is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to regularly see members of the flight crew calmly moving about the cabin in a relaxed manner.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "for the captain or first officer to keep a running commentary going over the PA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "for the cabin staff to ensure that the passengers are aware of what is happening and that they are complying with instructions.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "for the cabin staff to direct the passengers&#714; attention to the emergency passenger brief cards and make sure that they have read them.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "Briefing the passengers about the emergency prior to the crash landing /ditching must include:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "comprehensive brief concerning evacuation.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "how to tackle any fires that may result, including the use of extinguishers.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a short brief concerning survival in the environment to be encountered",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "deputizing passengers to take over from the crew if they are all killed",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "If a ditching is inevitable:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "non-swimmers are to be evacuated first",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "life jackets are to be inflated before leaving the aeroplane.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the use of life jackets is to be reiterated before the ditching.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "passengers should be briefed that even if they successfully evacuate the aeroplane it is inevitable that some of them will die from drowning.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "Where are details of drills and crew training requirements for evacuation of an aeroplane in an emergency published?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,33 +309,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "In the Training Manual (Part B section 11 - Emergency Procedures).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "In the Aeroplane Manual",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "In the aircrew training notes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "In the Operations Manual (Part B section 11 - Emergency Evacuation Procedures).",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "If the captain elects to ditch the aeroplane, it is recommended to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "land along the swell.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "land into the swell but downwind",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "land into the swell but into wind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "land into wind regardless of the swell direction if the wind speed is over 20 kt.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "The method of alighting the aeroplane on water during a ditching is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "carry out a normal approach with flaps and gear selected as normal but to calculate all speeds plus 10 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "reduce the approach angle to 1.5&#176; (150 ft per mile), add 15 kt to all speeds, keep the aeroplane clean (no flaps or gear) and fly it onto the surface",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "fly a normal approach but keep the gear up and land at the lowest possible speed with the nose raised for the tail to strike first.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "fly a normal approach to stalling speed and then drop the aeroplane vertically onto the water",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "During a ditching passenger injuries can be limited by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "ensuring that all seat belts are fastened as tightly as possible and passengers brace themselves against the seat in front.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "ensuring that seat belts are fastened and passengers adopt a braced position with heads as far forward with hands clasped behind the neck so as to minimize further forward movement of the body at impact, and the wearing of life jackets.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "ensure that all loose objects in passenger cabin are held tightly by passengers.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "illuminating the No Smoking light, ensuring seats are fully forward, internally stowed dinghies are placed by emergency exits for quick deployment.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "During a ditching:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "there will be one or two minor skips after the main impact.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "it is inevitable that the nose will dig in and the aeroplane will immediately start to submerge.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the main effect will be rapid deceleration and the preparation in the cabin will be to counter the effects of this deceleration.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "as sea state (wave height and swell height) increases, the effect of the initial high rotation will be reduced and the accompanying uncontrolled roll will disappear.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "In the event of a precautionary landing, who is responsible for alerting the emergency services?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "ATC.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The commander.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The local constabulary",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The operations despatcher",
             "isTrue": false
           }
         ]
