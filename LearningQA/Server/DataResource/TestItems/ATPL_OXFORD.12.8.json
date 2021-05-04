@@ -1,9 +1,9 @@
 ﻿[
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category":  "1.ATPL_OXFORD",
+    "subject": "12.OPERATIONAL PROCEDURES",
+    "chapter": "8.Long Range Flight and Polar Navigation",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "How should the accuracy of long range navigation systems be checked?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "With 2 systems, a voting system is employed",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "With reference to a map and compass",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "A voting system if 3 systems are installed, by cross-checking with DME with only 2 systems",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Ask ATC",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "If an aircraft is unable to continue in accordance with the clearance what should they do?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Attempt to obtain a revised clearance from ATC, via radio relay if required",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Continue in accordance with the last acknowledged clearance until in sight of land",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Follow the contrails of another aircraft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Land at the nearest suitable aerodrome",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "<p>An aircraft on the ground at latitude 51&#176;50&#714;S is parked on a heading of 180&#176; with ground power applied and all flight instruments powered.</p><p>After 2 hours, what will the DGI indicate?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "156&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "204&#176;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "168&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "192&#176;",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "What is a minimum time route?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,26 +129,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The shortest distance between 2 points",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The great circle track between 2 points",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The minimum time between 2 points taking into account wind and time zone changes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "The minimum time between 2 points taking into account wind and ATC restrictions",
+            "isTrue": true
           }
         ]
       }
