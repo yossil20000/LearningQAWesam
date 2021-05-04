@@ -1,9 +1,9 @@
 ﻿[
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "12.OPERATIONAL PROCEDURES",
+    "chapter": "12.Pressurization Failure",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "What is a minimum supplemental oxygen requirement to be supplied in a pressurized aeroplane during an emergency descent?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A supply of oxygen sufficient for all crew and passengers to enable a shallow rate of descent to 10 000 ft or 2 hours whichever is the longer",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A supply of oxygen for the crew only for the entire time the aeroplane cabin pressure is above 8 000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "A supply for all crew and passengers sufficient for a constant rate of descent from the aeroplane&#714;s maximum certificated operating altitude to 15 000 ft in 10 minutes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "A supply for 10% of passengers whilst the cabin pressure is over 13 000 ft",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "In a rapid or explosive decompression:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the cabin pressure control system immediately reduces the cabin pressure to ambient pressure to prevent the fuselage integrity being destroyed",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the cabin altitude quickly or instantaneously reduces to ambient (outside) pressure",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the cause of the decompression is usually catastrophic failure of the pressure hull",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "cabin pressurization system failure will be the first indication that something is wrong",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "The difference between slow and rapid decompression is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,33 +93,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a rapid decompression will be immediately noticeable, a slow decompression will require instrumentation to detect the failure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a rapid decompression is caused by a pressure hull rupture whereas a slow decompression is caused by system failure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the rate at which the cabin altitude climbs with respect to the desired climb setting or the automatic control setting",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the speed with which the cabin altitude rises with respect to the ambient (outside) pressure",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "During a slow decompression, passengers will notice:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the cabin temperature will fall as the pressure reduces",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "body cavities (sinuses, ears etc.) will become pressurized and may require assistance in venting",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "as soon as the pressure falls, the oxygen drop-out system will operate",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "no contra effects, as slow depressurization has no effect on the human body",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "During a rapid or explosive decompression, passengers may notice:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "gross discomfort, breathlessness, possible damage to sinus cavities",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "tunnel vision and sensorial depletion",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "marked reduction in night vision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "pain in muscles and joints caused by the bends",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "In the event of a cabin depressurization, the actions of the pilot will be to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,26 +201,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "immediately commence a diversion to a suitable alternate",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "increase engine power to provide additional airflow to the pressurization systems",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "maintain the aeroplane attitude to prevent further damage to the airframe by over loading of the structure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "commence a descent to an altitude where the supplemental oxygen supply is sufficient for all crew and passengers",
+            "isTrue": true
           }
         ]
       }

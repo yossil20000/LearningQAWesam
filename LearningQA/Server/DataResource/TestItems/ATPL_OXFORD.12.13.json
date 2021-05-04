@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "12.OPERATIONAL PROCEDURES",
+    "chapter": "13.Windshear and Microburst",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "What is meant by &#715;low altitude windshear&#714;?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Turbulence at or below FL50",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A sudden change in wind direction at any altitude below 2000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "A sudden change in wind velocity on the runway, final approach or in the climb-out",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "An unexpected crosswind when the aeroplane is on the runway",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Vertical windshear is defined as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "a change in wind velocity with height",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a change in wind speed with an increase in altitude",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a change in wind direction, contrary to that expected, with an increase in altitude",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a rapid change in speed of an ascending current of air",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "Horizontal windshear is defined as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a change in wind direction with a change in horizontal distance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a change in wind force over a defined area",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "a change of wind velocity with horizontal distance",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "any change in speed of a wind that is blowing horizontally",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "What would you expect to happen in an &#715;up and down draught&#714; windshear?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,33 +129,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The wind velocity to vary with both altitude and horizontal displacement from a datum",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Initially an updraught causing the aeroplane to rise uncontrollably, and subsequently a downdraught causing uncontrolled descent",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Encountering alternately rising and descending air currents in the vicinity of large cloud formations",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Vertical excursions in horizontal flight",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "With what met phenomena is windshear most associated?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Thunderstorms",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Passage of a warm front",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Tropical revolving storms",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Standing mountain waves",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "<p>Apart from the answer to Q5, windshear can also be found in the vicinity of hills and structures</p><p>Where particularly would windshear in this instance be found?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Upwind and above the hills or structures",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "In the lee of hills and structures but well above the ground",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Downwind of hills and structures from ground level upwards",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "On the seaward side of hills and structures where no other obstructions are found",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "If, during an approach to land you encounter an abrupt decrease in wind speed or a shift to a tail wind the aircraft will ____ and you should ____ ",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "suffer a loss of lift apply power",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "increase speed due to reduced drag lift the nose",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "yaw to starboard apply right rudder",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "suffer an energy gain reduce power and lower the nose",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "<p>Shortly after take-off the attitude of the aeroplane suffers an abrupt pitch-up and IAS rapidly decreases followed quickly by a decrease in altitude</p><p>Engine indications are normal. You should suspect what, and what should you do?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Marked temperature drop; apply full power",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Loss of headwind or an increase in tailwind; apply full power",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Incipient engine failure (ignore instruments); lower the nose to gain airspeed",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Local clear air turbulence; reduce speed to V<sub>RA</sub> and ride it out",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "<p>On an ILS final approach, you notice that the sky is darkening, visibility is reducing and turbulence is increasing</p><p>At the same time you encounter an energy gain situation causing you to &#715;balloon&#714; above the glide path.</p><p>What should you do?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,33 +309,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Suspect windshear and correct power and attitude to regain the glide path",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Suspect that you have passed through the top of the turbulence layer and that the wind is no longer geostrophic, so corrections to power and attitude are required",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Suspect microburst activity and pre-empt the inevitable energy loss situation by leaving power and attitude settings as before and then correct once clear of the microburst",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Suspect microburst activity, apply full power, climb as per the missed approach procedure and go around for a further approach after the microburst has cleared the approach area",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "<p>With which of the following should you be aware of the possibility of microburst activity?</p><p>1. Thunderstorms</p><p>2. Cumulonimbus clouds</p><p>3. Sudden rain squalls</p><p>4. Gust front activity (rising dust clouds)</p><p>5. Unexpected windshear</p><p>6. Virga</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "All the above",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2, 4 and 5",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1, 3, 4, 5 and 6",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2, 5 and 6",
             "isTrue": false
           }
         ]
