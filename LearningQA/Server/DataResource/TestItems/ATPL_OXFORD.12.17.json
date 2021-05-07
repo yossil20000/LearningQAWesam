@@ -1,0 +1,301 @@
+﻿[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "12.OPERATIONAL PROCEDURES",
+    "chapter": "17.Fuel Jettison",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "Where a fuel jettison system is fitted to an aeroplane it must be capable of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "reducing the aeroplane mass from max take-off mass to max landing mass in 15 mins",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "reducing the aeroplane mass from max take-off mass to max landing mass in 10 mins",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "reducing the aeroplane mass from max take-off mass to max landing mass in 20 mins",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "reducing the aeroplane mass from max take-off mass to max landing mass in 5 mins",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "Which of the following correctly describes the requirement of a fuel jettison system?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Free from fire hazards; discharges are clear of the aeroplane; fuel or fumes do not enter the aeroplane; control of the aeroplane is not affected by the jettison operation",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Free from fire hazards; discharges are clear of the aeroplane; fuel or fumes do not enter the aeroplane; normal radio operation can continue",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Free from fire hazards; discharges are clear of the aeroplane; fuel or fumes do not enter the aeroplane; must be safe to use in all weather/environmental conditions",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The system must contain a protection device to stop the jettison as soon as the gear is lowered, and also to prevent all tanks being drained totally",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "Fuel jettison:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is a procedure to reduce mass in an emergency only",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is a procedure that may be employed to reduce aeroplane mass where an overweight landing may result in damage to the aeroplane",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "may be authorized by ATC to reduce delays by protracted holding procedures",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "may be ordered by ATC to reduce aeroplane mass in an emergency situation",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "Fuel is to be jettisoned:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "over the sea and then only above 10 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "over the sea, or over land above 10 000 ft agl",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "anywhere and at any height if unavoidable in an emergency",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "over the sea, or over land above 4000 ft in summer or 7000 ft in winter",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "The following aeroplanes are required to have a jettison system:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "all public transport aeroplanes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "only public transport aeroplanes with MTMA greater than 5700 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "all public transport aeroplanes requiring two pilots",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "all aeroplanes, except where the max landing mass exceeds the max take-off mass less the mass of fuel required for a 15 minute flight to land back at the aerodrome of departure",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>When jettisoning fuel, safety is an overriding consideration.</p><p>Which of the following lists correctly identifies items to be considered when planning to jettison fuel?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Smoking; HF Radio; operation of flaps/gear/slats; weather conditions",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Height; speed; ATC clearance; weather; area",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Time required; position; other aeroplanes; proximity of cloud; aeroplane attitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "OAT; wind direction; altitude; time of day; airspace restrictions; any other emergencies",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "Once jettison has begun:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "passengers are restricted to their seats and strapped in",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "normal operation of flaps/gear and lift enhancers is permitted",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "HF radios may be used but limited to essential transmissions only",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "fuel flow from the vents is to be visually monitored (where possible)",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "Once the fuel jettison is complete:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "it is essential that the fuel remaining is balanced in the tanks and a revised endurance calculated",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "ATC is to be informed that jettison is complete",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the NO SMOKING light is to be extinguished",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "normal food distribution service is to recommence",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
