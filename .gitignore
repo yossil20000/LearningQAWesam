@@ -357,5 +357,3 @@ LearningQA/Server/LearningQAContext.db
 
 LearningQA.zip
 *.bak
-
-*.db
