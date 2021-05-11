@@ -96,11 +96,11 @@ namespace LearningQA.Client.ViewModel
 		private Supplement<int> selectedSupplement = null;
 		public Supplement<int> SelectedSupplement { 
 			get {
-				if (selectedSupplement != null)
-					selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
+				//if (selectedSupplement != null)
+				//	selectedSupplement = SelectedQuestion?.Supplements?.ElementAt(0);
 				return selectedSupplement; 
 			} 
-			set { selectedSupplement = value; } } 
+			set { selectedSupplement = value; Changed(); } } 
 		public Person<int> CurretPerson { get; set; } = new Person<int>()
 		{
 			Name = "Yosef",

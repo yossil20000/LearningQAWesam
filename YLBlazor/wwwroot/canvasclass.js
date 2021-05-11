@@ -35,6 +35,11 @@ export function showPrompt(message) {
 }
 export function initCanvas(canvasId, imageId) {
     var canvas = canvasClasses.get(canvasId);
+    if (canvas) {
+        canvasClasses.delete(canvas);
+        canvas = null;
+        canvas = undefined;
+    }
     if (canvas === undefined) {
         var canvas = canvas = document.getElementById(canvasId);
         if (canvas === null)
@@ -212,12 +217,14 @@ class CanvasClass {
         this.drawPath();
     }
     GetCanvasBoundingRect() {
-        this.BRectLeft = document
-            .getElementById(this.canvasId)
-            .getBoundingClientRect().left;
-        this.BRectTop = document
-            .getElementById(this.canvasId)
-            .getBoundingClientRect().top;
+        var canvas = document
+            .getElementById(this.canvasId);
+        if (canvas) {
+            this.BRectLeft = canvas.getBoundingClientRect().left;
+            this.BRectTop = canvas.getBoundingClientRect().top;
+        }
+
+       
     }
     draw(currX, currY) {
         //this.windowResize();

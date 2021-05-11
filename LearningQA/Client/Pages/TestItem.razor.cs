@@ -21,14 +21,13 @@ namespace LearningQA.Client.Pages
 	public partial class TestItem : ComponentBase
 	{
 		[Inject]
-		IJSRuntime jSRuntime { get; set; }
+		IJSRuntime JSRuntime { get; set; }
 		[Inject]
 		ITestItemViewModel testItemViewModel { get; set; }
 		[Parameter] public int testItemId { get; set; }
 		[Parameter] public int testId { get; set; }
 		private bool IsInitialize { get; set; } = false;
-		private CanvasJsInterop canvasJsInterop = null;
-		private CanvasClassJsInterop CanvasClassJsInterop = null;
+		private CanvasClassJsInterop canvasClassJsInterop = null;
 		private string message = "";
 		private string drawMessage = "";
 		private bool mouseUp = false;
@@ -50,9 +49,11 @@ namespace LearningQA.Client.Pages
 		}
 		protected override async  Task OnInitializedAsync()
 		{
-			 await testItemViewModel?.RetriveTestItemInfos(testItemId);
-			 canvasJsInterop = new CanvasJsInterop(jSRuntime);
+			canvasClassJsInterop = new CanvasClassJsInterop(JSRuntime);
+			await testItemViewModel?.RetriveTestItemInfos(testItemId);
 			IsInitialize = true;
+			await base.OnInitializedAsync();
+			StateHasChanged();
 		}
 		protected override  async Task OnParametersSetAsync()
 		{
@@ -61,28 +62,28 @@ namespace LearningQA.Client.Pages
 			{
 				
 				await testItemViewModel.OnTestItemId(testItemId);
-				Console.WriteLine($"OnParametersSetAsync TestIdemId: {testItemId} {TestItemViewModelPersist.SelectedSubjecte}");
+				Console.WriteLine($"OnParametersSetAsync TestIdemId: {testItemId} {ViewModelPersist.SelectedSubjecte}");
 				
 			}
 			else if(testId > 0)
 			{				
-				Console.WriteLine($"OnParametersSetAsync TestId: {testId} ExamState:{TestItemViewModelPersist.ExamState} ");
+				Console.WriteLine($"OnParametersSetAsync TestId: {testId} ExamState:{ViewModelPersist.ExamState} ");
 			}
 			await base.OnParametersSetAsync();
 
 		}
 		protected override async Task OnAfterRenderAsync(bool firstRender)
 		{
-			if(bImageChanged && canvasJsInterop != null)
+			if(bImageChanged && canvasClassJsInterop != null)
 			{
 				
-				_ = await canvasJsInterop.UpdateImage("canvasimg");
+				_ = await canvasClassJsInterop.UpdateImage("canvasTestItem", "canvasImgTestItem");
 				bImageChanged = false;
 			}
 		}
 		private async Task ShowMessage()
 		{
-			await canvasJsInterop.Prompt("Hi from event");
+			await canvasClassJsInterop.Prompt("Hi from event");
 		}
 		private void UpdateImage()
 		{
@@ -92,11 +93,11 @@ namespace LearningQA.Client.Pages
 		}
 		private bool RenderSupp(bool bRenderAlways = false)
 		{
-			if (canvasJsInterop != null && (bRenderSupp == false || bRenderAlways))
+			if (canvasClassJsInterop != null && (bRenderSupp == false || bRenderAlways))
 			{
-				_ = canvasJsInterop.InitCanvas("can", "canvasimg");
+				_ = canvasClassJsInterop.InitCanvas("canvasTestItem", "canvasImgTestItem");
 				bRenderSupp = true;
-				TestItemViewModelPersist.OnChanged(UpdateImage);
+				ViewModelPersist.OnChanged(UpdateImage);
 			}
 				
 			return true;
@@ -115,7 +116,7 @@ namespace LearningQA.Client.Pages
 		}
 		private void OnMarkCurrentQuestion()
 		{
-			TestItemViewModelPersist.MarkCurrentQuestion();
+			ViewModelPersist.MarkCurrentQuestion();
 		}
 		private bool IsOptionChecked(QUestionSql questionSql, string tenantId)
 		{
@@ -128,13 +129,13 @@ namespace LearningQA.Client.Pages
 					return false;
 
 				}
-				var answer = TestItemViewModelPersist.CurrentTest.Answers.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault();
+				var answer = ViewModelPersist.CurrentTest.Answers.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault();
 				if(answer != null)
 				{
 					if(answer.SelectedAnswer == null)
 					{
 						answer.SelectedAnswer = new List<AnswareOption<int>>();
-						Console.WriteLine($"Answer: {questionSql.QuestionNumber} with Id:{answer.Id} in question:{questionSql.Id} in test:{TestItemViewModelPersist.CurrentTest.Id} answerOption was null");
+						Console.WriteLine($"Answer: {questionSql.QuestionNumber} with Id:{answer.Id} in question:{questionSql.Id} in test:{ViewModelPersist.CurrentTest.Id} answerOption was null");
 					}
 
 					var selectes = answer.SelectedAnswer.Where(x => x.TenantId == tenantId);
@@ -154,7 +155,7 @@ namespace LearningQA.Client.Pages
 		{
 
 
-			await canvasJsInterop.ClearDraw();
+			await canvasClassJsInterop.ClearDraw("canvasTestItem");
 
 		}
 		private async Task CanvasOnMoseMove(MouseEventArgs ea)
@@ -162,14 +163,14 @@ namespace LearningQA.Client.Pages
 			message = $"Mouse: Client:{lastMouseEventArgs.ClientX} offsetx:{lastMouseEventArgs.OffsetX} ScreenX:{lastMouseEventArgs.ScreenX}  DX:{ea.ClientX - lastMouseEventArgs.ClientX}";
 			lastMouseEventArgs = ea;
 			//Console.WriteLine(message);
-			if(ea.AltKey)
-				await canvasJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
+			//if(ea.AltKey)
+			//	await canvasClassJsInterop.DrawPreview((int)ea.ClientX, (int)ea.ClientY);
 			await Task.CompletedTask;
 		}
 		private async Task  NewLine()
 		{
 			newLine = true;
-			await canvasJsInterop.NewLine();
+			await canvasClassJsInterop.NewLine("canvasTestItem");
 
 		}
 		private async Task ClearDraw()
@@ -202,7 +203,7 @@ namespace LearningQA.Client.Pages
 			{
 				drawMessage = $"Draw Line:(({firstPoint.ClientX},{firstPoint.ClientY})({secondPoint.ClientX}, {secondPoint.ClientY}) )";
 				Console.WriteLine(drawMessage);
-				await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
+				//await canvasJsInterop.Draw((int)firstPoint.ClientX, (int)firstPoint.ClientY, (int)secondPoint.ClientX, (int)secondPoint.ClientY);
 				await Task.CompletedTask;
 			}
 			catch(Exception ex)

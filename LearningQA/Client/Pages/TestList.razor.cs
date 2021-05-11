@@ -26,7 +26,7 @@ namespace LearningQA.Client.Pages
 		[Inject]
 		NavigationManager navigationManager { get; set; }
 		[Inject]
-		ExamViewModelPersist ExamViewModelPersist { get; set; }
+		ExamViewModelPersist ViewModelPersist { get; set; }
 		private bool IsViewExamsList = false;
 		private bool bImageChanged = false;
 		private bool IsInitialize { get; set; } = false;
@@ -38,7 +38,7 @@ namespace LearningQA.Client.Pages
 		protected override async Task OnInitializedAsync()
 		{
 			canvasClassJsInterop = new CanvasClassJsInterop(JSRuntime);
-			await canvasClassJsInterop.Prompt("Hi From canvasJsInterop ");
+			//await canvasClassJsInterop.Prompt("Hi From canvasJsInterop ");
 			await ExamVM?.RetriveTestItemInfos(0);
 			IsInitialize = true;
 			await base.OnInitializedAsync();
@@ -52,10 +52,6 @@ namespace LearningQA.Client.Pages
 		protected override async Task OnAfterRenderAsync(bool firstRender)
 		{
 			await base.OnAfterRenderAsync(firstRender);
-			if(firstRender)
-			{
-				 
-			}
 			if(bRenderSupp == false && bCanInitCanvas == true)
 			{
 				 RenderSupp().GetAwaiter();
@@ -65,7 +61,7 @@ namespace LearningQA.Client.Pages
 
 				_ = await canvasClassJsInterop.UpdateImage(canvaSuppId,imageSuppId);
 				bImageChanged = false;
-				ExamViewModelPersist.OnChanged(UpdateImage);
+				ViewModelPersist.OnChanged(UpdateImage);
 			}
 		}
 		
@@ -99,13 +95,13 @@ namespace LearningQA.Client.Pages
 					return false;
 
 				}
-				var answer = ExamViewModelPersist.FilteredAnsware.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault();
+				var answer = ViewModelPersist.FilteredAnsware.Where(x => x.QUestionSql.Id == questionSql.Id).FirstOrDefault();
 				if (answer != null)
 				{
 					if (answer.SelectedAnswer == null)
 					{
 						answer.SelectedAnswer = new List<AnswareOption<int>>();
-						Console.WriteLine($"Answer: {questionSql.QuestionNumber} with Id:{answer.Id} in question:{questionSql.Id} in test:{ExamViewModelPersist.CurrentTest.Id} answerOption was null");
+						Console.WriteLine($"Answer: {questionSql.QuestionNumber} with Id:{answer.Id} in question:{questionSql.Id} in test:{ViewModelPersist.CurrentTest.Id} answerOption was null");
 					}
 
 					var selectes = answer.SelectedAnswer.Where(x => x.TenantId == tenantId);
