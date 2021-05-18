@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "13.PRINCIPLES OF FLIGHT",
+    "chapter": "3.Basic Aerodynamic Theory",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "If the cross-sectional area of an airflow is mechanically reduced:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,33 +21,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the velocity of the airflow remains constant and the kinetic energy increases.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the velocity of the airflow remains constant and the mass flow increases.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the mass flow remains constant and the static pressure increases.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the mass flow remains constant and the velocity of the airflow increases.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The statement, Pressure plus Kinetic energy equals constant, refers to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Bernoulli&#714;s theorem.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the principle of continuity.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Newton&#714;s second law of motion.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the Magnus effect.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "If the velocity of an air mass is increased:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the dynamic pressure will decrease and the static pressure will increase",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the static pressure will remain constant and the kinetic energy will increase",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the kinetic energy will increase, the dynamic pressure will increase and the static pressure will decrease.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the mass flow will stay constant, the dynamic pressure will decrease and the static pressure will increase",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "<p>When considering a streamlined airflow, which of the following statements is correct?</p><p>A resultant decrease in static pressure is indicated by streamlines shown close together.</p><p>An increase in velocity is indicated by streamlines shown close together.</p><p>Accelerating airflow with a resultant decreasing static pressure is indicated by converging streamlines</p><p>Diverging streamlines indicate decelerating airflow with a resultant increasing static pressure.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,33 +129,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3 and 4.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "If the pressure on one side of a surface is lower than on the other side:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "a force per unit area will exist, acting in the direction of the lower pressure.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "no force will be generated, other than drag",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a force will be generated, acting in the direction of the higher pressure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the pressure will leak around the sides of the surface, cancelling out any pressure differential.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "<p>When considering a streamtube, which of the following statements is correct?</p><p>1. Different sizes of stream tube are manufactured to match the wingspan of the aircraft to which they will be fitted.</p><p>2. A streamtube is a concept to aid understanding of aerodynamic force generation.</p><p>3. There is no flow into or out of the streamtube through the &#8220;walls&#8221;, only flow along the tube.</p><p>4. A streamtube is an imaginary tube made up of streamlines</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1 and 3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "2, 3 and 4.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1, 2 and 3.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "<p>In accordance with the principle of continuity:</p><p>1. air accelerates when the cross-sectional area of a streamline flow is reduced.</p><p>2. when air accelerates the density of air in a streamline flow is increased.</p><p>3. air decelerates when the cross-sectional area of a streamline flow is increased</p><p>4. changes in cross-sectional area of a streamline flow will affect the air velocity.</p><p>Which of the preceding statements are true?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,33 +237,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1 and 4",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1, 3 and 4.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "<p>In accordance with Bernoulli&#714;s theorem:</p><p>1. if a streamline flow of air decelerates, its kinetic energy will decrease and the static pressure will increase</p><p>2. if a streamline flow of air accelerates, its kinetic energy will increase and the static pressure will decrease</p><p>3. if a streamline flow of air is accelerated, the dynamic pressure will increase and the static pressure will increase.</p><p>4. if a streamline flow of air is decelerated, its dynamic pressure will decrease and the static pressure will increase</p><p>The combination of correct statements is:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2 and 4.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 and 4.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "The statement, &#8220;Energy and mass can neither be created nor destroyed, only changed from one form to another&#8221;, refers to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Bernoulli&#714;s theorem.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the equation of kinetic energy.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the principle of continuity",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Bernoulli&#714;s principle of continuity",
             "isTrue": false
           }
         ]
