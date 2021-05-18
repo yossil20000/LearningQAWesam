@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "13.PRINCIPLES OF FLIGHT",
+    "chapter": "4.Subsonic Airflow",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "<p>With reference to aerofoil section terminology, which of the following statements are true?</p><p>1. The chord line is a line joining the centre of curvature of the leading edge to the centre of the trailing edge, equidistant from the top and bottom surface of the aerofoil.</p><p>2. The angle of incidence is the angle between the chord line and the horizontal datum of the aircraft.</p><p>3. The angle between the chord line and the relative airflow is called the aerodynamic incidence or angle of attack.</p><p>4. The thickness/chord ratio is the maximum thickness of the aerofoil as a percentage of the chord; the location of maximum thickness is measured as a percentage of the chord aft of the leading edge.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 2 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "2, 3 and 4.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2 and 4.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The definition of lift is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,33 +57,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the aerodynamic force which acts perpendicular to the chord line of the aerofoil.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the aerodynamic force that results from the pressure differentials about an aerofoil",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the aerodynamic force which acts perpendicular to the upper surface of the aerofoil.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the aerodynamic force which acts at 90&#176; to the relative airflow",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "An aerofoil section is designed to produce lift resulting from a difference in the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "negative air pressure below and a vacuum above the surface.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "vacuum below the surface and greater air pressure above the surface",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "higher air pressure below the surface and lower air pressure above the surface.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "higher air pressure at the leading edge than at the trailing edge.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "On an aerofoil section, the force of lift acts perpendicular to, and the force of drag acts parallel to the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "flight path",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "longitudinal axis",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "chord line",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "aerofoil section upper surface.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "When the angle of attack of a symmetrical aerofoil is increased, the centre of pressure will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "have very limited movement.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "move aft along the aerofoil surface.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "remain unaffected",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "move forward to the leading edge.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "Why does increasing speed also increase lift?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The increased impact of the relative wind on an aerofoil&#714;s lower surface creates a greater amount of air being deflected downward.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "The increased speed of the air passing over an aerofoil&#714;s upper surface decreases the static pressure, thus creating a greater pressure differential between the upper and lower surface",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The increased velocity of the relative wind overcomes the increased drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Increasing speed decreases drag",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "The point on an aerofoil section through which lift acts is the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "midpoint of the chord.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "centre of gravity.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "centre of pressure",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "aerodynamic centre.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "The angle between the chord line of the aerofoil section and the longitudinal axis of the aircraft is known as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the angle of incidence.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "dihedral",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "sweepback.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "The angle between the chord line of an aerofoil section and the relative wind is known as the angle of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -315,19 +315,19 @@
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "lift.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "attack.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "sweepback",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "A line drawn from the leading edge to the trailing edge of an aerofoil section and equidistant at all points from the upper and lower contours is called the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "chord line.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "camber.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "mean camber line.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "longitudinal axis.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "At zero angle of attack, the pressure along the upper surface of a symmetrical aerofoil section would be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "greater than atmospheric pressure.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "equal to atmospheric pressure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "less than atmospheric pressure.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "non existent.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "The angle of attack of an aerofoil section directly controls:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the amount of airflow above and below the section.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the angle of incidence of the section.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the distribution of positive and negative pressure acting on the section",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the angle relative to the horizontal datum",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "When the angle of attack of a positively cambered aerofoil is increased, the centre of pressure will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "have very little movement.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "move forward along the chord line.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "remain unaffected.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "move back along the chord.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "The term &#8220;angle of attack&#714;&#714; is defined as the angle:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "formed by the longitudinal axis of the aeroplane and the chord line of the section",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "between the section chord line and the relative wind.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "between the aeroplane&#714;s climb angle and the horizon",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "formed by the leading edge of the section and the relative airflow.",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "<p>Which of the following statements is true?</p><p>1. Relative airflow, free stream flow, relative wind and aircraft flight path are parallel.</p><p>2. Aircraft flight path, relative airflow, relative wind and free stream flow are parallel, but the aircraft flight path is opposite in direction.</p><p>3. The pressure, temperature and relative velocity of the free stream flow are unaffected by the presence of the aircraft</p><p>4. The relative wind is produced by the aircraft moving through the air.</p><p>5. The direction of flight is parallel with and opposite to the relative airflow</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 and 2.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3, 4 and 5.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "<p>Which of the following statements are correct?</p><p>1. Maximum camber is the maximum distance between the top and bottom surface of an aerofoil section.</p><p>2. The thickness/chord ratio is expressed as a percentage of the chord.</p><p>3. It is easier for air to flow over a well-rounded leading edge radius than a sharp leading edge</p><p>4. Two dimensional airflow assumes a wing with the same aerofoil section along its entire span, with no spanwise pressure differential.</p><p>5. Air flowing towards the lower pressure of the upper surface is called upwash.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2, 3, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "2, 3, 4 and 5.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1 and 5",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "When considering an aerofoil section at a constant angle of attack, which of the following statements is true?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "If the static pressure on one side is reduced more than on the other side, a pressure differential will exist.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "If dynamic pressure is increased, the pressure differential will decrease",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The pressure differential will increase if the dynamic pressure is decreased",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Dynamic pressure and pressure differential are not related.",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "Considering an aerofoil section subject to a constant dynamic pressure, which of the following statements is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "If the angle of attack is increased from 4&#176; to 14&#176;, the pressure differential will not change but lift will be greater due to increased dynamic pressure acting on the lower surface",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Up to about 16&#176;, increasing the angle of attack will increase the pressure differential between the top and bottom surface of the aerofoil",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Changing the angle of attack does not affect the pressure differential, only changes in dynamic pressure affect the pressure differential",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Up to about 16&#176;, increasing the angle of attack decreases the pressure differential between the top and bottom surface of the aerofoil section.",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "<p>When considering the effect of changing angle of attack on the pitching moment of an aerofoil, which of the following statements is correct?</p><p>1. At &#715;normal&#714; angles of attack the pitching moment is nose-up.</p><p>2. The pitching moment about the aerodynamic centre (AC) is constant at normal angles of attack.</p><p>3. The aerodynamic centre (AC) is located approximately at the 25% chord point.</p><p>4. The moment about the aerodynamic centre (AC) is a product of the distance between the aerodynamic centre (AC) and the centre of pressure (CP) and the magnitude of the lift force</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,33 +669,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "4 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "2, 3 and 4.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "<p>Ice contamination of the leading portion of the aerofoil has which of the following consequences?</p><p>1. The profile of the leading portion of the surface can be changed, preventing normal acceleration of the airflow and substantially reducing the magnitude of the lift force</p><p>2. Form (pressure) drag will be increased because of the increased frontal area of the aerofoil section</p><p>3. Loss of lift will have a greater effect than an increase in form (pressure) drag.</p><p>4. At &#715;normal&#714; angles of attack lift can be lost entirely if enough ice accumulates.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3 and 4",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 3 and 4",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1, 2 and 3",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 and 4",
             "isTrue": false
           }
         ]
