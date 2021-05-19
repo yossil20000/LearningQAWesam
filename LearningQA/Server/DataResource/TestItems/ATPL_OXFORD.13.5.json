@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "13.PRINCIPLES OF FLIGHT",
+    "chapter": "5.Lift",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "To maintain altitude, what must be done as Indicated Airspeed (IAS) is reduced?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Decrease angle of attack to reduce the drag",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Increase angle of attack to maintain the correct lift force.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Deploy the speed brakes to increase drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Reduce thrust.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "If more lift force is required because of greater operating weight, what must be done to fly at the angle of attack which corresponds to CL<sub>MAX</sub>?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,33 +57,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Increase the angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Nothing, the angle of attack for CL<sub>MAX</sub> is constant.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "It is impossible to fly at the angle of attack that corresponds to CL<sub>MAX</sub>",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Increase the Indicated Airspeed (IAS).",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "<p>Which of the following statements is correct?</p><p>1. To generate a constant lift force, any adjustment in IAS must be accompanied by a change in angle of attack</p><p>2. For a constant lift force, each IAS requires a specific angle of attack.</p><p>3. Minimum IAS is determined by CL<sub>MAX</sub>.</p><p>4. The greater the operating weight, the higher the minimum IAS.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,33 +93,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "4 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3 and 4.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "What effect does landing at high altitude airports have on ground speed with comparable conditions relative to temperature, wind and aeroplane weight?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Higher than at low altitude",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The same as at low altitude",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Lower than at low altitude.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Dynamic pressure will be the same at any altitude.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "What flight condition should be expected when an aircraft leaves ground effect?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A decrease in parasite drag permitting a lower angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "An increase in induced drag and a requirement for a higher angle of attack.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "An increase in dynamic stability.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "A decrease in induced drag requiring a smaller angle of attack.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "If the angle of attack and other factors remain constant and airspeed is doubled, lift will be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "two times greater",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "four times greater.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the same",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "one quarter.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "What true airspeed and angle of attack should be used to generate the same amount of lift as altitude is increased?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "A higher true airspeed for any given angle of attack.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The same true airspeed and angle of attack",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A lower true airspeed and higher angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "A constant angle of attack and true airspeed.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "How can an aeroplane produce the same lift in ground effect as when out of ground effect?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "A lower angle of attack",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A higher angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The same angle of attack",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The same angle of attack, but a lower IAS",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "By changing the angle of attack of a wing, the pilot can control the aeroplane&#714;s:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "lift and airspeed, but not drag",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "lift, gross weight, and drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "lift, airspeed, and drag.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "lift and drag, but not airspeed.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "Which flight conditions of a large jet aeroplane create the most severe flight hazard by generating wing tip vortices of the greatest strength?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Heavy, slow, gear and flaps up.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Heavy, fast, gear and flaps down",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Heavy, slow, gear and flaps down",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Weight, gear and flaps make no difference",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "Hazardous vortex turbulence that might be encountered behind large aircraft is created only when that aircraft is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "using high power settings",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "operating at high airspeeds.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "developing lift.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "operating at high altitude.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "Wing tip vortices created by large aircraft tend to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "rise from the surface to traffic pattern altitude.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "sink below the aircraft generating the turbulence.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "accumulate and remain for a period of time at the point where the takeoff roll began.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "dissipate very slowly when the surface wind is strong.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "How does the wake turbulence vortex circulate around each wing tip, when viewed from the rear?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Inward, upward, and around the wing tip.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Counterclockwise",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Outward, upward, and around the wing tip.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Outward, downward and around the wing tip.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "Which statement is true concerning the wake turbulence produced by a large transport aircraft?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Wake turbulence behind a propeller-driven aircraft is negligible because jet engine thrust is a necessary factor in the formation of vortices.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Vortices can be avoided by flying 300 ft below and behind the flight path of the generating aircraft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "The vortex characteristics of any given aircraft may be altered by extending the flaps or changing the speed",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Vortices can be avoided by flying downwind of, and below the flight path of the generating aircraft",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "What effect would a light crosswind have on the wing tip vortices generated by a large aeroplane that has just taken off?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The downwind vortex will tend to remain on the runway longer than the upwind vortex.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A crosswind will rapidly dissipate the strength of both vortices",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A crosswind will move both vortices clear of the runway",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "The upwind vortex will tend to remain on the runway longer than the downwind vortex.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "To avoid the wing tip vortices of a departing jet aeroplane during take-off, the pilot should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "remain below the flight path of the jet aeroplane",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "climb above and stay upwind of the jet aeroplane&#714;s flight path.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "lift off at a point well past the jet aeroplane&#714;s flight path.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "remain below and downwind of the jet aeroplane&#714;s flight path.",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "What wind condition prolongs the hazards of wake turbulence on a landing runway for the longest period of time?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Light quartering headwind",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Light quartering tailwind",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Direct tailwind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Strong, direct crosswind.",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "If you take off behind a heavy jet that has just landed, you should plan to lift off:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,33 +633,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "prior to the point where the jet touched down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "at the point where the jet touched down and on the upwind edge of the runway",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "before the point where the jet touched down and on the downwind edge of the runway",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "beyond the point where the jet touched down",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "The adverse effects of ice, snow or frost on aircraft performance and flight characteristics include decreased lift and:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +669,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "increased thrust",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a decreased stall speed",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "an increased stall speed",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an aircraft will always stall at the same indicated airspeed",
             "isTrue": false
           }
         ]
@@ -695,7 +695,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "Lift on a wing is most properly defined as the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "differential pressure acting perpendicular to the chord of the wing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "force acting perpendicular to the relative wind",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "reduced pressure resulting from a laminar flow over the upper camber of an aerofoil, which acts perpendicular to the mean camber.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "force acting parallel with the relative wind and in the opposite direction",
             "isTrue": false
           }
         ]
@@ -731,7 +731,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "Which statement is true relative to changing angle of attack?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A decrease in angle of attack will increase pressure below the wing, and decrease drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "An increase in angle of attack will decrease pressure below the wing, and increase drag",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "An increase in angle of attack will increase drag.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "An increase in angle of attack will decrease the lift coefficient.",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "The angle of attack of a wing directly controls the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +777,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "angle of incidence of the wing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "distribution of pressures acting on the wing",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "amount of airflow above and below the wing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "dynamic pressure acting in the airflow.",
             "isTrue": false
           }
         ]
@@ -803,7 +803,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "In theory, if the angle of attack and other factors remain constant and the airspeed is doubled, the lift produced at the higher speed will be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the same as at the lower speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "two times greater than at the lower speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "four times greater than at the lower speed.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "one quarter as much",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "An aircraft wing is designed to produce lift resulting from a difference in the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +849,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "negative air pressure below and a vacuum above the wing&#714;s surface",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "vacuum below the wing&#714;s surface and greater air pressure above the wing&#714;s surface.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "higher air pressure below the wing&#714;s surface and lower air pressure above the wing&#714;s surface",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "higher pressure at the leading edge than at the trailing edge.",
             "isTrue": false
           }
         ]
@@ -875,7 +875,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "On a wing, the force of lift acts perpendicular to, and the force of drag acts parallel to the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,33 +885,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "camber line.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "longitudinal axis.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "chord line.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "flight path.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "Which statement is true, regarding the opposing forces acting on an aeroplane in steady-state level flight?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,25 +921,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Thrust is greater than drag and weight and lift are equal.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "These forces are equal",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Thrust is greater than drag and lift is greater than weight.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Thrust is slightly greater than Lift, but the drag and weight are equal.",
             "isTrue": false
           }
         ]
@@ -947,7 +947,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "At higher elevation airports the pilot should know that indicated airspeed:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "will be unchanged, but ground speed will be faster.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "will be higher, but ground speed will be unchanged.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "should be increased to compensate for the thinner air.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "should be higher to obtain a higher landing speed",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "An aeroplane leaving ground effect will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,33 +993,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "experience a reduction in ground friction and require a slight power reduction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "require a lower angle of attack to maintain the same lift coefficient",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "experience a reduction in induced drag and require a smaller angle of attack",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "experience an increase in induced drag and require more thrust.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "If the same angle of attack is maintained in ground effect as when out of ground effect, lift will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1029,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "increase, and induced drag will increase.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "increase, and induced drag will decrease.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "decrease, and induced drag will increase",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "decrease and induced drag will decrease.",
             "isTrue": false
           }
         ]
@@ -1055,7 +1055,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "Which is true regarding the force of lift in steady, unaccelerated flight?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1065,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "There is a corresponding indicated airspeed required for every angle of attack to generate sufficient lift to maintain altitude.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "An aerofoil will always stall at the same indicated airspeed; therefore, an increase in weight will require an increase in speed to generate sufficient lift to maintain altitude.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "At lower airspeeds the angle of attack must be less to generate sufficient lift to maintain altitude",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The lift force must be exactly equal to the drag force.",
             "isTrue": false
           }
         ]
@@ -1091,7 +1091,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "At a given Indicated Airspeed, what effect will an increase in air density have on lift and drag?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,33 +1101,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Lift will increase but drag will decrease",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Lift and drag will increase.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Lift and drag will decrease",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Lift and drag will remain the same.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "If the angle of attack is increased beyond the critical angle of attack, the wing will no longer produce sufficient lift to support the weight of the aircraft:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,25 +1137,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "unless the airspeed is greater than the normal stall speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "regardless of airspeed or pitch attitude",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "unless the pitch attitude is on or below the natural horizon.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "in which case, the control column should be pulled back immediately.",
             "isTrue": false
           }
         ]
@@ -1163,7 +1163,7 @@
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "<p>Given that:</p><p>Aircraft A. Wingspan: 51 m Average wing chord: 4 m</p><p>Aircraft B. Wingspan: 48 m Average wing chord: 3.5 m</p><p>Determine the correct aspect ratio and wing area:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,25 +1173,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "aircraft A has an aspect ratio of 13.7, and has a larger wing area than aircraft B.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "aircraft B has an aspect ratio of 13.7, and has a smaller wing area than aircraft A.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "aircraft B has an aspect ratio of 12.75, and has a smaller wing area than aircraft A.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "aircraft A has an aspect ratio of 12.75, and has a smaller wing area than aircraft B.",
             "isTrue": false
           }
         ]
@@ -1199,7 +1199,7 @@
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "Aspect ratio of the wing is defined as the ratio of the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,25 +1209,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "wingspan to the wing root",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "square of the chord to the wingspan.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "wingspan to the average chord",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "square of the wing area to the span.",
             "isTrue": false
           }
         ]
@@ -1235,7 +1235,7 @@
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "What changes to aircraft control must be made to maintain altitude while the airspeed is being decreased?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1245,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Increase the angle of attack to compensate for the decreasing dynamic pressure.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Maintain a constant angle of attack until the desired airspeed is reached, then increase the angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Increase angle of attack to produce more lift than weight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Decrease the angle of attack to compensate for the decrease in drag.",
             "isTrue": false
           }
         ]
@@ -1271,7 +1271,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "Take-off from an airfield with a low density altitude will result in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,26 +1281,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a longer take-off run.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a higher than standard IAS before lift off.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a higher TAS for the same lift off IAS.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "a shorter take-off run because of the lower TAS required for the same IAS",
+            "isTrue": true
           }
         ]
       }
