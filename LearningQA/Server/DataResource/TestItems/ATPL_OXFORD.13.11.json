@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "13.PRINCIPLES OF FLIGHT",
+    "chapter": "11.Controls",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "An elevon is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,33 +21,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an all moving tailplane that has no elevator.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the correct name for a V - tail.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a surface that extends into the airflow from the upper surface of the wing to reduce the lift.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "a combined aileron and elevator fitted to an aircraft that does not have conventional horizontal stabilizer (tailplane).",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "When rolling at a steady rate the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "up-going wing experiences an increase in effective angle of attack.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "rate of roll depends only on aileron deflection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "down-going wing experiences an increase in effective angle of attack.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "effective angle of attack of the up-going and down-going wings are equal.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "The control surface which gives longitudinal control is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the rudder.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the ailerons.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the elevators.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the flaps.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "Ailerons give:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "lateral control about the lateral axis.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "longitudinal control about the lateral axis.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "lateral control about the longitudinal axis.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "directional control about the normal axis.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Aileron reversal would be most likely to occur:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "with a rigid wing at high speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "with a flexible wing at high speed.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "with a rigid wing at low",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "with a flexible wing at low speed.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "If the ailerons are deflected to 10&#176;, compared to 5&#176;, this will cause:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an increased angle of bank.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "an increased rate of roll.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "no change to either bank angle or roll rate.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a reduction in the adverse yawing moment.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "Yawing is a rotation around:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,33 +237,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the normal axis controlled by elevator.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the lateral axis controlled by rudder.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the longitudinal axis controlled by ailerons.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the normal axis controlled by rudder.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "If the control column is moved forward and to the left:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the left aileron moves up, right aileron moves down, elevator moves up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the left aileron moves down, right aileron moves up, elevator moves down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the left aileron moves up, right aileron moves down, elevator down.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the left aileron moves down, right aileron moves up, elevator moves up.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "The secondary effect of yawing to port is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,33 +309,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "roll to starboard.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "pitch nose-up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "roll first to starboard and then to port.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "roll to port.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "Due to the AC of the fin being above the longitudinal axis, if the rudder is moved to the right, the force acting on the fin will give:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a yawing moment to the left but no rolling moment.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "a rolling moment to the left.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a rolling moment to the right.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a yawing moment to the right but no rolling moment.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "What should be the feel on a &#715;full and free&#714; check of the controls?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A gradual stiffening of the controls.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Rebound on reaching the stops.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "A solid stop",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Controls should not be moved to the stops.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "The purpose of control locks on a flying control system is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to enable any free movement in the control system to be detected.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "to prevent structural damage to the controls in gusty conditions when the aircraft is on the ground.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to keep the control surface rigid to permit ground handling.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "as a security measure.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "An irreversible control:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "may be moved by operating the cockpit control but not by the aerodynamic loads acting on the control surface.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "has less movement in one direction than the other.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "may be moved either by the cockpit control or by a load on the control surface.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "is when the control locks are engaged.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "Ailerons may be rigged slightly down (drooped):",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to increase the feel in the control circuit",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to correct for adverse aileron yaw.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "to allow for up-float in flight to bring the aileron into the streamlined position.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to give a higher CL<sub>MAX</sub> for take-off.",
             "isTrue": false
           }
         ]
@@ -515,35 +515,46 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "<p>The tailplane shown has inverted camber.</p><p>To cause the aircraft to pitch nose-up:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
         "answerExplain": "",
-        "supplements": [],
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Figure.13.11.15",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.13\\Figure.13.11.15.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
         "options": [
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the control column must be pushed forward.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the control column must be pulled backwards.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the control wheel must be rotated.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the incidence of the tailplane must be decreased because the negative camber will make it effective in the reverse sense.",
             "isTrue": false
           }
         ]
@@ -551,7 +562,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "If an aileron is moved downward:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,19 +572,19 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the stalling angle of that wing is increased.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the stalling angle of that wing is decreased.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the stalling angle is not affected but the stalling speed is decreased.",
             "isTrue": false
           },
           {
@@ -587,7 +598,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "When rudder is used to give a coordinated turn to the left:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,20 +608,20 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the left pedal is moved forward, and the rudder moves right.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the right pedal is moved forward and the rudder moves left.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the left pedal is moved forward and the rudder moves left.",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -623,7 +634,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "<p>The higher speed of the upper wing in a steady banked turn causes it to have more lift than the lower wing.</p><p>This may be compensated for by:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,19 +644,19 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "use of the rudder control.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "operating the ailerons slightly in the opposite sense once the correct angle of bank has been reached.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "increasing the nose-up pitch by using the elevators.",
             "isTrue": false
           },
           {
@@ -659,7 +670,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "The purpose of a differential aileron control is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +680,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "give a yawing moment which opposes the turn.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "reduce the yawing moment which opposes the turn.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "give a pitching moment to prevent the nose from dropping in the turn.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "improve the rate of roll.",
             "isTrue": false
           }
         ]
@@ -695,7 +706,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "When displacing the ailerons from the neutral position:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +716,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the up-going aileron causes an increase in induced drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the down-going aileron causes an increase in induced drag.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "both cause an increase in induced drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "induced drag remains the same, the up-going aileron causes a smaller increase in profile drag than the down-going aileron.",
             "isTrue": false
           }
         ]
@@ -731,7 +742,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "The purpose of aerodynamic balance on a flying control is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,33 +752,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to get the aircraft into balance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to prevent flutter of the flying control",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to reduce the control load to zero.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "to make the control easier to move.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "A horn balance on a control surface is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +788,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an arm projecting upward from the control surface to which the control cables are attached",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "a projection of the outer edge of the control surface forward of the hinge line",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a rod projecting forward from the control surface with a weight on the end",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a projection of the leading edge of the control surface below the wing undersurface.",
             "isTrue": false
           }
         ]
@@ -803,7 +814,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "An aileron could be balanced aerodynamically by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +824,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "making the up aileron move through a larger angle than the down aileron.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "attaching a weight to the control surface forward of the hinge.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "having the control hinge set back behind the control surface leading edge.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "having springs in the control circuit to assist movement.",
             "isTrue": false
           }
         ]
@@ -839,7 +850,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Control overbalance results in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +860,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a sudden increase in stick force.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "a sudden reduction then reversal of stick force.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a sudden loss of effectiveness of the controls.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a gradual increase in stick force with increasing IAS.",
             "isTrue": false
           }
         ]
@@ -875,7 +886,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "A control surface is mass balanced by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,25 +896,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "fitting a balance tab.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "attaching a weight acting forward of the hinge line.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "attaching a weight acting on the hinge line.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "attaching a weight acting behind the hinge line.",
             "isTrue": false
           }
         ]
@@ -911,7 +922,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "If the control wheel is turned to the right, a balance tab on the port aileron should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,25 +932,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "move up relative to the aileron.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "move down relative to the aileron.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "not move unless the aileron trim wheel is turned.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "move to the neutral position.",
             "isTrue": false
           }
         ]
@@ -947,7 +958,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "The purpose of an anti-balance tab is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,33 +968,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "trim the aircraft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "reduce the load required to move the controls at all speeds.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "reduce the load required to move the controls at high speeds only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "give more feel to the controls.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "When the control column is pushed forward a balance tab on the elevator:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,25 +1004,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "will move up relative to the control surface.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "will move down relative to the control surface",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "will only move if the trim wheel is operated.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "moves to the neutral position.",
             "isTrue": false
           }
         ]
@@ -1019,7 +1030,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "The purpose of a spring tab is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1040,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to maintain a constant tension in the trim tab system.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to increase the feel in the control system",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "to reduce the pilot&#714;s effort required to move the controls against high air loads",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to compensate for temperature changes in cable tension",
             "isTrue": false
           }
         ]
@@ -1055,7 +1066,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "The purpose of a trim tab is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1076,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to assist the pilot in initiating movement of the controls.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "to zero the load on the pilots controls in the flight attitude required.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to provide feel to the controls at high speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to increase the effectiveness of the controls.",
             "isTrue": false
           }
         ]
@@ -1091,7 +1102,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "To re-trim after failure of the right engine on a twin-engine aircraft:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,25 +1112,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the rudder trim tab will move right and the rudder left.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the trim tab will move left and the rudder right",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the trim tab will move left and the rudder remain neutral.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the trim tab will move right and the rudder remain neutral.",
             "isTrue": false
           }
         ]
@@ -1127,7 +1138,7 @@
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "To trim an aircraft which tends to fly nose heavy with hands off, the top of the elevator trim wheel should be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,25 +1148,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "moved forward to raise the nose and this would cause the elevator trim tab to move down, and the elevator to move up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "moved backwards to raise the nose, and this would cause the elevator trim tab to move down, and the elevator to move up.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "moved backwards to raise the nose, and this would cause the elevator trim tab to move up, and the elevator to move up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "be moved backwards to raise the nose, and this would cause the elevator trim tab to move up and cause the nose to rise.",
             "isTrue": false
           }
         ]
@@ -1163,7 +1174,7 @@
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "To achieve the same degree of longitudinal trim, the trim drag from a variable incidence trimming tailplane would be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,20 +1184,20 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "greater than that from an elevator",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the same as that from an elevator.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "less than that from an elevator.",
+            "isTrue": true
           },
           {
             "id": 0,
@@ -1199,7 +1210,7 @@
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "Following re-trimming for straight and level flight because of forward CG movement:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,25 +1220,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "nose-up pitch authority will be reduced",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "nose-down pitch authority will be reduced.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "longitudinal stability will be reduced.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "tailplane down load will be reduced.",
             "isTrue": false
           }
         ]
@@ -1235,7 +1246,7 @@
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "<p>An aircraft has a tendency to fly right wing low with hands off.</p><p>It is trimmed with a tab on the left aileron. The trim tab will:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1256,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "move up, causing the left aileron to move up and right aileron to move down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "move down, causing the left aileron to move up, right aileron remains neutral.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "move down causing the left aileron to move up, and right aileron to move down.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "move up causing the left wing to move down, ailerons remain neutral.",
             "isTrue": false
           }
         ]
@@ -1271,7 +1282,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "<p>An aircraft takes off with the elevator control locks still in position.</p><p>It is found to be nose heavy and:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,25 +1292,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "backward movement of the trim wheel would increase nose heaviness.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "it would not be possible to move the trim wheel.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "backward movement of the trim wheel would reduce nose heaviness.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "operating the trim wheel would have no effect.",
             "isTrue": false
           }
         ]
@@ -1307,7 +1318,7 @@
       {
         "id": 0,
         "questionNumber": "37",
-        "question": "",
+        "question": "On a servo tab operated elevator, if the pilot&#714;s control column is pushed forward in flight:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1317,33 +1328,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the servo tab will move down causing the elevator to move up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the elevator will move down causing the servo tab to move up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the elevator will move up causing the servo tab to move down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the servo tab will move up causing the elevator to move down.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "38",
-        "question": "",
+        "question": "If a cockpit control check is made on an aircraft with servo operated controls, and it is found that the cockpit controls move fully and freely in all directions:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1353,33 +1364,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the control surfaces and servo tabs are free.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the control surfaces are free but there could be locks on the servo tabs.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "there could be locks on the control surfaces and on the servo tabs.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the servo tabs are free but there could be locks on the control surfaces.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "",
+        "question": "In a servo operated aileron control system, turning the cockpit control wheel to the right in flight will cause the servo tab on the left aileron:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1389,25 +1400,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "to move up and the left aileron to move down.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to move down and the left aileron to move down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to move down and the left aileron to move up.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to move up and the right aileron to move down.",
             "isTrue": false
           }
         ]
@@ -1415,7 +1426,7 @@
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "",
+        "question": "Spoilers on the upper surface of the wing may be used on landing:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1425,25 +1436,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "to give a nose-down pitching moment.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "to reduce the lift and so put more weight on the wheels, making the brakes more effective",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to cause drag and increase the lift from the flaps.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to reduce the touchdown speed.",
             "isTrue": false
           }
         ]
@@ -1451,7 +1462,7 @@
       {
         "id": 0,
         "questionNumber": "41",
-        "question": "",
+        "question": "Wing mounted spoiler surfaces may be used as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1461,33 +1472,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "air brakes.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "lift dumpers.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "lateral control.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "all of the above.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "42",
-        "question": "",
+        "question": "Spoilers, when used for roll control, will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1497,33 +1508,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "reinforce the boundary layer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "create turbulence at the wing root.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "increase the camber at the wing root.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "decrease lift on the upper wing surface when deployed asymmetrically.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "43",
-        "question": "",
+        "question": "On an aircraft fitted with roll control spoilers, a roll to port is achieved by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1533,25 +1544,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "deflecting the port spoiler up and starboard down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "deflecting the starboard spoiler down.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "deflecting the port spoiler up.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "deflecting the port spoiler down.",
             "isTrue": false
           }
         ]
@@ -1559,7 +1570,7 @@
       {
         "id": 0,
         "questionNumber": "44",
-        "question": "",
+        "question": "In a fully power operated flying control system control feel is provided by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1569,25 +1580,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the friction in the control cable system.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "an artificial feel unit (Q - Feel).",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the aerodynamic loads on the control surface.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the mass balance weights",
             "isTrue": false
           }
         ]
