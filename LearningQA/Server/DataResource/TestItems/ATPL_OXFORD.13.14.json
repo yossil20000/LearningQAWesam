@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "13.PRINCIPLES OF FLIGHT",
+    "chapter": "14.Limitations",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "If an aircraft is flown at its design manoeuvring speed V<sub>A</sub>:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "it is possible to subject the aircraft to a load greater than its limit load during high &#715;g&#714; manoeuvres.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "it is only possible to subject the aircraft to a load greater than its limit load during violent increases in incidence, i.e. when using excessive stick force to pull-out of a dive.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "it is not possible to exceed the limit load.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "it is possible to subject the aircraft to a load greater than its limit load at high TAS.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The speed V<sub>NE</sub> is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the airspeed which must not be exceeded except in a dive.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the maximum airspeed at which manoeuvres approaching the stall may be carried out",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the maximum airspeed at which an aircraft may be flown.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the maximum speed, above which flaps should not be extended.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "Maximum structural cruising speed V<sub>NO</sub> is the maximum speed at which an aeroplane can be operated during:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "normal operations.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "abrupt manoeuvres.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "flight in smooth air.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "flight in rough air.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "The maximum allowable airspeed with flaps extended (V<sub>FE</sub>) is lower than cruising speed because:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "they are used only when preparing to land.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the additional lift and drag created would overload the wing and flap structure at higher speeds.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "flaps will stall if they are deployed at too high an airspeed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "too much drag is induced.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Why is V<sub>LE</sub> greater than V<sub>LO</sub> on the majority of large jet transport aircraft?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,33 +165,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "V<sub>LO</sub> is used when the aircraft is taking off and landing when the IAS is low.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Extending the gear at too high an airspeed would cause excessive parasite drag.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Flying at too high an airspeed with the gear down would prevent retraction of the forward retracting nose gear.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "V<sub>LO</sub> is a lower IAS because the undercarriage doors are vulnerable to aerodynamic loads when the gear is in transit, up or down.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "The phenomenon of flutter is described as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "rapid oscillatory motion involving only rotation of the control surfaces, associated with the shock waves produced around the control surfaces.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "oscillatory motion of part or parts of the aircraft relative to the remainder of the structure",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "rapid movement of the airframe caused by vibration from the engines.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "reversal of the ailerons caused by wing torsional flexibility.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "What is the purpose of fitting the engines to an aircraft using wing mounted pylons?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "They give increased ground clearance in roll.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "They give improved longitudinal mass distribution.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "The wing structure can be lighter because the engine acts as a mass balance and also relieves wing bending stress",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "They enable a longer undercarriage to be used which gives an optimum pitch attitude for take-off and landing.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Aileron reversal at high dynamic pressures is caused by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,33 +273,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the down-going aileron increasing the semi-span angle of attack beyond the critical.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "flow separation ahead of the aileron leading edge.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "uneven shock wave formation on the top and bottom surface of the aileron, with the attendant movement in control surface CP, causing the resultant force to act in the opposite direction from that intended",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "dynamic pressure acting on the aileron twisting the wing in the opposite direction, possibly causing the aircraft to bank in a direction opposite to that intended.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "Controls are mass balanced in order to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "eliminate control flutter.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "aerodynamically assist the pilot in moving the controls.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "provide equal control forces on all three controls.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "return the control surface to neutral when the controls are released.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "If an aircraft weight is reduced by 15%, V<sub>A</sub> will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,33 +345,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "not change.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "increase by 15%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "increase by 7.5%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "decrease by 7.5%.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "V<sub>LO</sub> is defined as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "maximum landing gear operating speed.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "maximum landing gear extended speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "maximum leading edge flaps extended speed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "maximum flap speed.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "If flutter is experienced during flight, the preferable action would be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,33 +417,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "immediately increase speed beyond V<sub>MO</sub> / M<sub>MO</sub>, by sacrificing altitude if necessary.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "immediately close the throttles, deploy the speed brakes and bank the aircraft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "rapidly pitch-up to slow the aircraft as quickly as possible.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "reduce speed immediately by closing the throttles, but avoid rapid changes in attitude and/or configuration",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "<p>Which of the following statements are correct?</p><p>1. It is a design requirement that control reversal speeds must be higher than any speed to be achieved in flight.</p><p>2. The airframe must be made strong and stiff enough to ensure that the wing torsional divergence speed is higher, by a substantial safety margin, than any speed which will ever be achieved in any condition in flight.</p><p>3. Flying control surfaces are aerodynamically balanced to prevent flutter.</p><p>4. An aircraft is not a rigid structure.</p><p>5. Aeroelasticity effects are inversely proportional to IAS.</p><p>6. Control reversal speed is higher if the aircraft is fitted with outboard ailerons which are locked-out as the aircraft accelerates; the inboard ailerons alone controlling the aircraft in roll at higher speeds.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "All the above statements are correct.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 2, 3 and 6.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 4 and 6.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1, 3, 5 and 6.",
             "isTrue": false
           }
         ]
