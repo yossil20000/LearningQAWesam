@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "13.PRINCIPLES OF FLIGHT",
+    "chapter": "15.Windshear",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "<p>Take-off EPR is being delivered by all engines and the take-off is proceeding normally, the undercarriage has just retracted.</p><p>Which initial indications may be observed when a headwind shears to a downdraught?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,33 +21,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Indicated Airspeed: constant. Vertical Speed: decreases. Pitch Attitude: decreases.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Indicated Airspeed: increases. Vertical Speed: decreases. Pitch Attitude: constant.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Indicated Airspeed: decreases. Vertical Speed: constant. Pitch Attitude: constant.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Indicated Airspeed: decreases. Vertical Speed: decreases. Pitch Attitude: decreases",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Maximum downdraughts in a microburst encounter may be as strong as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "6000 ft/min.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "7000 ft/min.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "8000 ft/min.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "10 000 ft/min.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "An aircraft that encounters a headwind of 45 knots, within a microburst, may expect a total shear across the microburst of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "80 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "40 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "90 kt.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "45 kt.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "What is the expected duration of an individual micro burst?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Two minutes with maximum winds lasting approximately 1 minute.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Seldom longer than 15 minutes from the time the burst strikes the ground until dissipation",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "One microburst may continue for as long as 2 to 4 hours.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "For as long as 1 hour.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Which windshear condition results in a loss of airspeed?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Decreasing headwind or tailwind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Increasing headwind and decreasing tailwind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Decreasing headwind and increasing tailwind.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Increasing headwind or tailwind.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "Which performance characteristics should be recognized during take-off when encountering a tailwind shear that increases in intensity?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Loss of, or diminished climb ability.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Increased climb performance immediately after take-off.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Decreased take-off distance.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Improved ability to climb.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "Which condition would INITIALLY cause the indicated airspeed and pitch to increase and the sink rate to decrease?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Tailwind which suddenly increases in velocity.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Sudden decrease in a headwind component",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Sudden increase in a headwind component.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Calm wind which suddenly shears to a tailwind",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Which INITIAL cockpit indications should a pilot be aware of when a constant tailwind shears to a calm wind?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Altitude increases; pitch and indicated airspeed decrease.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Altitude, pitch, and indicated airspeed increase.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Altitude, pitch, and indicated airspeed decrease.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Altitude decreases; pitch and indicated airspeed increase.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "What is the recommended technique to counter the loss of airspeed and resultant lift from windshear?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Maintain, or increase, pitch attitude and accept the lower-than-normal airspeed indications",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Lower the pitch attitude and regain lost airspeed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Avoid overstressing the aircraft, pitch to stick shaker, and apply maximum power",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Accelerate the aircraft to prevent a stall by sacrificing altitude",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "<p>Which of the following would be acceptable techniques to minimize the effects of a windshear encounter?</p><p>1. To prevent damage to the engines, avoid the use of maximum available thrust.</p><p>2. Increase the pitch angle until the stick shaker activates, then decrease backpressure to maintain that angle of pitch.</p><p>3. Maintain a constant airspeed</p><p>4. Use maximum power available as soon as possible</p><p>5. Keep to noise abatement procedures</p><p>6. Wait until the situation resolves itself before taking any action.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,33 +345,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 3, 5 and 6.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2, 3 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2, 3, 4, 5 and 6.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "2 and 4.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "<p>Which of the following statements about windshear is true?</p><p>1. Windshear can subject your aircraft to sudden updraughts, downdraughts, or extreme horizontal wind components.</p><p>2. Windshear will cause abrupt displacement from the flight path and require substantial control action to counteract it.</p><p>3. Windshear only affects small single and twin engine aircraft. Large, modern, powerful, fast gas turbine engine powered aircraft will not suffer from the worst effects of a microburst.</p><p>4. Microbursts are associated with cumulonimbus clouds.</p><p>5. Windshear can strike suddenly and with devastating effect which has been beyond the recovery powers of experienced pilots flying modern and powerful aircraft.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2, 3, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 2 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 4 and 5.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2, 3, 4 and 5.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "A microburst is one of the most dangerous sources of windshear associated with thunderstorms. They are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,33 +417,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "small-scale intense updraughts, which suck warm moist air into the cumulonimbus cloud",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "small-scale shafts of violent rain, which can cause severe problems to gas turbine engines",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "large-scale, violent air, associated with air descending from the &#715;anvil&#714; of a thunder cloud.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "small-scale (typically less than 1 mile in diameter) intense downdraughts which, on reaching the surface, spread outward in all directions from the downdraught centre.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "<p>Thrust is being managed to maintain desired indicated airspeed and the glide slope is being flown.</p><p>Which of the following is the recommended procedure when you observe a 30 kt loss of airspeed and the descent rate increases from 750 ft/min to 2000 ft/min?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Increase power to regain lost airspeed and pitch-up to regain the glide slope - continue the approach and continue to monitor your flight instruments.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Decrease the pitch attitude to regain airspeed and then fly-up to regain the glide slope.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Apply full power and execute a go-around; report windshear to ATC as soon as practicable",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Wait until the airspeed stabilizes and the rate of descent decreases, because microbursts are quite small and you will soon fly out of it.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "<p>Which of the following statements are correct?</p><p>1. A rapid increase in headwind is an &#715;energy gain&#714;.</p><p>2. A rapid loss of tailwind is an &#715;energy gain&#714;.</p><p>3. A shear from a tailwind to calm is an &#715;energy gain&#714;.</p><p>4. A shear from calm to a headwind is an &#715;energy gain&#714;.</p><p>5. A shear from headwind to calm is an &#715;energy loss&#714;.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3, 4 and 5.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4 and 5 only.",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "<p>Which of the following statements are correct?</p><p>1. A downdraught is an &#715;energy gain&#714;.</p><p>2. A rapid loss of tailwind is an &#715;energy loss&#714;.</p><p>3. A shear from a tailwind to calm is an &#715;energy loss&#714;.</p><p>4. A shear from calm to a headwind is an &#715;energy gain&#714;.</p><p>5. A downdraught is an &#715;energy loss&#714;.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 2, 3 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "4 and 5 only.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "Which of the following sequences might be encountered when flying into a microburst?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Increased headwind, followed by downdraught, followed by increased tailwind on the approach, or following take-off.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Increased headwind, followed by downdraught, followed by increased tailwind on the approach. Increased tailwind, followed by downdraught, followed by increased headwind following take-off.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Increased headwind, followed by downdraught, followed by increased tailwind on take-off. Increased tailwind, followed by downdraught, followed by increased headwind on the approach.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Increased tailwind, followed by downdraught, followed by increased headwind on take-off. Increased headwind, followed by downdraught, followed by increased tailwind on the approach.",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "<p>Which of the following statements is correct when considering windshear?</p><p>1. Recognize that windshear is a hazard to all sizes and types of aircraft.</p><p>2. Recognize the signs which may indicate its presence.</p><p>3. Avoid windshear by delaying departure or by diverting if airborne</p><p>4. Prepare for the inadvertent encounter by a speed &#715;margin&#714; if &#715;energy loss&#714; windshear is suspected.</p><p>5. Know the techniques for recovery recommended for your aircraft and use them without any hesitation if windshear is encountered.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,26 +597,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3, 4 and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1, 2, and 5.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3, 4 and 5.",
+            "isTrue": true
           }
         ]
       }

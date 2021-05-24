@@ -179,7 +179,10 @@ namespace LearningQA.Server.Controllers
             {
                 
                 var result = DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file);
-                if (result == null) continue;
+                if (result == null) 
+                    continue;
+                if (result.Where(x => string.IsNullOrEmpty(x.Category) && string.IsNullOrEmpty(x.Chapter) && string.IsNullOrEmpty(x.Subject)).Any())
+                    continue;
                 if (!ConverSupplement(result))
                     return Ok("ConverSupplement Failed");
                 await _mediator.Send(new CreateRangeTestItemCommand(result, person) { CreateNewDatabase = createNewDatabase }, cancellationToken);
