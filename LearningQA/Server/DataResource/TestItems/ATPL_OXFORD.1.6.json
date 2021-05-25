@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "6.Rules of the Air",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "When, in airspace where VFR is permitted, the PIC of an IFR flight wishes to continue the flight in accordance with VFR until destination:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the pilot must inform the control unit of his intention using the expression &#8220;cancelling my IFR flight&#8221;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the pilot must request and obtain clearance to continue under VFR.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the pilot must communicate the necessary changes to the current flight plan.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the flight plan automatically becomes a VFR flight.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Which of the following combinations is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2 and 3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2 and 4.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 and 3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1 and 4.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "An aircraft flying in the visual circuit at an aerodrome sees a series of red flashes from the control tower. What does this mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Do not land.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Do not land because the aerodrome is unusable.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Give way to other aircraft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Return for landing and await clearance to land.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "<p>An aircraft has flight visibility of 3 km, and is heading 355&#176; T in an area where the variation is 6&#176; west.</p><p>There is no appreciable wind. Which of the following is the appropriate flight level?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "FL60.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "FL65.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "FL70.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "FL75.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "What letter goes in item 8 of a flight plan for a flight starting under IFR then changing to VFR?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Z",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Y",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "I",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "V",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "What are the VMC limits for class B airspace?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,33 +201,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "8 km flight visibility, clear of cloud and in sight of the surface.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "8 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "The same as class D.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "When is a flight plan required?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "For IFR flight in advisory airspace.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "For all IFR flights.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "For all flights in controlled airspace.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "For all VFR and SVFR flights in controlled airspace.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Whilst airborne in the vicinity of the aerodrome, you see a flashing green light from the Tower. What does this mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Cleared to land.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Return for landing and await clearance to land.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Give way to other landing aircraft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Land at this aerodrome after receiving clearance to land and proceed to the apron.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "You see a double white cross in a signal square, what does this mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Glider flying in progress.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Tow ropes and banners may be dropped.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Runway unfit for aircraft movement.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Aerodrome unfit for aircraft movement.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "You are taxiing on the manoeuvring area of an aerodrome and see a flashing green light from the tower. What does it mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Return to start point.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Clear to taxi.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Clear to take off.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Stop.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "You have been intercepted in the airspace of a foreign contracting state. What is the signal for &#715;clear to proceed&#714; from the intercepting aircraft?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,33 +381,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Rocking wings.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Flashing lights.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Cut across track",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Breaking turn up and left.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "Which has priority to land?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,33 +417,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A hospital flight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "An emergency.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A military flight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "A VIP flight",
             "isTrue": false
           }
         ]
       },
-      {
+   {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "What does a double horizontal white cross on an aerodrome indicate?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Glider flying in progress.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Runway unfit for use.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Light aircraft may taxi on the grass.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Runway to be used for take-off but aircraft may taxi on the grass.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "<p>Which of these is not a distress frequency?</p><p>1. 121.5 MHz</p><p>2. 2182 kHz</p><p>3. 243.0 kHz</p><p>4. 2430 kHz</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,33 +489,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "4 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1 and 2.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2, 3 and 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "3 and 4.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "If you are intercepted by another aircraft, what do you set on the SSR transponder?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A/2000 + C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A/7500 + C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A/7600 + C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "A/7700 + C.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "You are taxiing an aircraft on the ground at an aerodrome and you see a flashing red light from the tower. What does it mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Stop.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Taxi clear of the landing area.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Give way to approaching aircraft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "You are not clear to take off.",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "<p>Aircraft A is a VFR flight operating in a CTR under an ATC clearance.</p><p>Aircraft B is entering the CTR without clearance.</p><p>As they converge, which one has the right of way?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,33 +597,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "B has right of way regardless of aircraft type and position",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A has right of way regardless of aircraft type and position",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A has right of way if B is on the right.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "B has right of way if A is on the left.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "What minimum ground visibility is required to enable a SVFR flight to take off from an aerodrome in a CTR?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1000 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1500 m",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2000 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3000 m",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "If a pilot wishes to cancel an IFR flight plan and proceed under VFR in VMC, he/she must inform ATC and include the phrase:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +669,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "&#8220;cancelling my flight plan&#8221;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "&#8220;cancelling my flight&#8221;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "&#8220;cancelling my IFR flight&#8221;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "&#8220;cancelling my IMC flight plan&#8221;.",
             "isTrue": false
           }
         ]
@@ -695,7 +695,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "What signal from a marshaller to a pilot indicates &#8220;apply brakes&#8221;?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Waving the arms across the face.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Drawing the palm across the throat.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Clenching a raised fist.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Holding both arms up with palms facing forward.",
             "isTrue": false
           }
         ]
@@ -731,7 +731,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "ATC has given you the transponder code of A/5320. In case of a radio failure in flight you must squawk:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "A/7600 + Mode C.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A/0020 + Mode C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A/5300 + Mode C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "A/7620 + Mode C.",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "For a controlled flight, a flight plan must be filed before departure at least:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +777,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "60 minutes before off-block time.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "60 minutes before departure.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "30 minutes before departure.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "30 minutes before off-block time.",
             "isTrue": false
           }
         ]
@@ -803,7 +803,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "Which Mode A code must be used to make sure that your aircraft is recognized as an aircraft in distress?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Code 7500",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Code 7700",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Code 7000",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Code 7600",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "An aircraft which is intercepted by another aircraft must immediately try to contact the intercepting aircraft on the following frequencies:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +849,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "121.5 MHz and/or 243.0 MHz.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "121.5 MHz and/or 282.8 MHz.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "121.5 MHz and/or 125.5 MHz.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "243.0 MHz and/or 125.5 MHz",
             "isTrue": false
           }
         ]
@@ -875,7 +875,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "Your aircraft is intercepted by a military aircraft. Instructions given by this aircraft do not comply with ATC instructions. You should:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,25 +885,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "select code 7500 A on your transponder.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ask ATC for different instructions.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "comply with instructions given by the intercepting aircraft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "comply with ATC instructions.",
             "isTrue": false
           }
         ]
@@ -911,7 +911,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "A pilot crosses his/her hands in front of the face, palms outwards and then moves the arms outwards. What does this signal indicate?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,25 +921,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Clear to move forward.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Brakes off.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Remove chocks.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Clear to close all engines",
             "isTrue": false
           }
         ]
@@ -947,7 +947,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "A red flare fired at a flying aircraft means:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "do not land, the aerodrome is unfit.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "notwithstanding any previous instructions, do not land for the time being.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "return to the aerodrome for landing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "give way to another aircraft and continue to circle.",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "In order to avoid confusion, the identification numbers given to each prohibited, restricted and danger area shall not be re-used for a period of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,25 +993,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "at least 12 months after the cancellation of the area referred to.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "at least 6 months after the cancellation of the area referred to.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "at least 3 months after the cancellation of the area referred to.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "at least 2 months after the cancellation of the area referred to.",
             "isTrue": false
           }
         ]
@@ -1019,7 +1019,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "When an aircraft has been subjected to unlawful interference, the pilot may wish to indicate the fact by squawking which SSR code?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1029,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "7500",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "7700",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "7600",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "7000",
             "isTrue": false
           }
         ]
@@ -1055,7 +1055,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "Which of the following procedures would a pilot follow in the event of communications failure whilst under IFR in VMC?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1065,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Return to the aerodrome of departure",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Continue the flight whilst maintaining VMC and land as soon as possible.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Continue the flight at the assigned level and route and start the approach at the stated ETA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Maintain the assigned level and route and land at the nearest aerodrome that is reporting VMC.",
             "isTrue": false
           }
         ]
@@ -1091,7 +1091,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "If so equipped, when should an aircraft display the anti-collision light?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,33 +1101,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Only at night in flight, but not on the ground if being towed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Whilst taxiing but not whilst being towed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Only at night with engines running.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "At all times on the ground when the engines are running.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "The &#715;estimated elapsed time&#714; in field 16 of a flight plan for a VFR flight is the estimated time:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,33 +1137,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "From which the aircraft first moves under its own power until it finally comes to rest after landing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "From brakes release at take-off until landing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "At cruising level taking into account temperature and pressure for that day.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "From take-off until overhead the destination aerodrome",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "What is the minimum vertical separation between IFR flights flying in the same direction below FL 290?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,25 +1173,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "500 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1000 ft",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "2000 ft",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4000 ft",
             "isTrue": false
           }
         ]
@@ -1199,7 +1199,7 @@
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "The cruising speed entered in item 15 of a flight plan is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,25 +1209,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "TAS.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "TAS or Mach No.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "IAS or TAS",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "TAS at 65% engine power",
             "isTrue": false
           }
         ]
@@ -1235,7 +1235,7 @@
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "What action is required by the pilot of an aircraft flying in the vicinity of an aerodrome to indicate that the aircraft is experiencing radio failure or another difficulty that requires immediate landing but no other assistance?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1245,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "The repeated switching on and off of the landing lights.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Switching the landing lights on and off three times.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Switching the landing lights on and off four times.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Switching the navigation lights on and off three times.",
             "isTrue": false
           }
         ]
@@ -1271,7 +1271,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "A position report shall contain the following information in the order listed?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,25 +1281,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Aircraft identification, position, time, true airspeed, flight level or altitude, next position and time over.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Aircraft identification, position, time, flight level or altitude, next position and time over.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Aircraft identification, position, time, flight level or altitude, next position and time over, ensuing position.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Aircraft identification, position, flight level or altitude, next position and time over, ensuing position and time over.",
             "isTrue": false
           }
         ]
@@ -1307,7 +1307,7 @@
       {
         "id": 0,
         "questionNumber": "37",
-        "question": "",
+        "question": "What defines EET for an IFR flight?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1317,25 +1317,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "from time of take-off until overhead the IAF.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "from time of take-off until overhead the destination aerodrome.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "from push back until overhead the IAF.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "from push back until overhead the destination aerodrome.",
             "isTrue": false
           }
         ]
@@ -1343,7 +1343,7 @@
       {
         "id": 0,
         "questionNumber": "38",
-        "question": "",
+        "question": "A DISTRESS message differs from an URGENCY message because:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1353,25 +1353,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "there is grave and imminent danger which requires immediate assistance.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the aeroplane has suffered damage that endangers the ability to fly.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the aeroplane will not be able to reach a suitable aerodrome.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the situation concerns the safety of passengers on board or within sight.",
             "isTrue": false
           }
         ]
@@ -1379,7 +1379,7 @@
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "",
+        "question": "If radio contact with an intercepting aircraft is established but not in a common language, what would the pilot of an intercepted aircraft say, if he/she is unable to comply with the instruction from the interceptor?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1389,33 +1389,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "&#8220;KAN NOTT KOMPLY&#8221;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "&#8220;UNN-ABOL TOO KOMPLY&#8221;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "&#8220;NOTT POSS ABOL&#8221;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "&#8220;KANN NOTT&#8221;",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "",
+        "question": "Which of the following flight has the highest priority to land?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1425,25 +1425,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "VIP flight.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Hospital flight.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Emergency aircraft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Military aircraft.",
             "isTrue": false
           }
         ]
@@ -1451,7 +1451,7 @@
       {
         "id": 0,
         "questionNumber": "41",
-        "question": "",
+        "question": "What letter is put in item 8 of a flight plan to indicate that a flight is to begin under IFR and finish under VFR?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1461,25 +1461,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Y",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "I",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "V",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Z",
             "isTrue": false
           }
         ]
@@ -1487,7 +1487,7 @@
       {
         "id": 0,
         "questionNumber": "42",
-        "question": "",
+        "question": "A white dumb-bell with black perpendicular bars indicates that:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1497,25 +1497,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "glider flying is being conducted outside the landing area.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "landing and take-off is restricted to the runways but taxiing is not confined to the pavement areas.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "this aerodrome is using parallel runways",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "taxiing is confined to the taxiways.",
             "isTrue": false
           }
         ]
@@ -1523,7 +1523,7 @@
       {
         "id": 0,
         "questionNumber": "43",
-        "question": "",
+        "question": "If an ATC clearance is not suitable, the PIC may:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1533,25 +1533,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "offer ATC an acceptable alternative",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "request and if practicable accept an amended clearance.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "demand an alternative clearance and ATC must comply",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "decline the clearance on the grounds that it is not in accordance with the filed flight plan.",
             "isTrue": false
           }
         ]
@@ -1559,7 +1559,7 @@
       {
         "id": 0,
         "questionNumber": "44",
-        "question": "",
+        "question": "What letter is put in item 8 of a flight plan to indicate that a flight is to begin under VFR and finish under IFR?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1569,33 +1569,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Y",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "I",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "V",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Z",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "45",
-        "question": "",
+        "question": "Who has final authority as to the disposition of an aircraft during flight time?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1605,25 +1605,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The owner.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The Operator.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "The Commander",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The ATC controller.",
             "isTrue": false
           }
         ]
@@ -1631,7 +1631,7 @@
       {
         "id": 0,
         "questionNumber": "46",
-        "question": "",
+        "question": "The vertical separation minima for IFR flights in CAS applied by ATC above FL290 is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1641,33 +1641,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "500 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1000 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2000 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1000 ft if RVSM is applied otherwise 2000 ft.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "47",
-        "question": "",
+        "question": "Unless authorized by ATC, a VFR flight is not permitted to take off from an aerodrome within a CTR when:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1677,25 +1677,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "cloud ceiling is less than 1000 ft and ground visibility is less than 5 km.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "cloud ceiling is less than 1500 ft and ground visibility is less than 5 km.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "cloud ceiling is less than 1000 ft and ground visibility is less than 8 km.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "cloud ceiling is less than 1500 ft and ground visibility is less than 8 km.",
             "isTrue": false
           }
         ]
@@ -1703,7 +1703,7 @@
       {
         "id": 0,
         "questionNumber": "48",
-        "question": "",
+        "question": "An aircraft is flying over the sea between 4500 ft and 9000 ft AMSL and outside CAS. To continue under VFR the meteorological conditions must remain:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1713,25 +1713,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2000 ft horizontally and 1000 ft vertically from cloud with visibility of 8 km.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1500 m horizontally and 1000 ft vertically from cloud with visibility of 5 km.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1500 m horizontally and 1000 m vertically from cloud with visibility of 5 km.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "clear of cloud and in sight of the surface, with visibility of 5 km.",
             "isTrue": false
           }
         ]
@@ -1739,7 +1739,7 @@
       {
         "id": 0,
         "questionNumber": "49",
-        "question": "",
+        "question": "A change in flight rules from IFR to VFR will only take place:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1749,25 +1749,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "when initiated by the PIC.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "when ordered by ATC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "at a point specified by the operator.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "when the aircraft leaves CAS in VMC.",
             "isTrue": false
           }
         ]
@@ -1775,7 +1775,7 @@
       {
         "id": 0,
         "questionNumber": "50",
-        "question": "",
+        "question": "An aircraft is overtaking another aircraft if it is closing to the other aircraft from behind in a sector:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1785,25 +1785,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "50&#176; either side of the longitudinal axis.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "60&#176; either side of the longitudinal axis.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "70&#176; either side of the longitudinal axis.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "80&#176; either side of the longitudinal axis.",
             "isTrue": false
           }
         ]
@@ -1811,7 +1811,7 @@
       {
         "id": 0,
         "questionNumber": "51",
-        "question": "",
+        "question": "When may a Repetitive Flight Plan be submitted?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1821,25 +1821,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "When flights are operated on the same day(s) of consecutive weeks and on at least 10 occasions or every day over a period of at least 10 consecutive days",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "When flights are operated on the same day(s) of consecutive weeks and on at least 7 occasions or every day over a period of at least 10 consecutive days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "When flights are operated on the same day(s) of consecutive weeks and on at least 10 occasions or every day over a period of at least 7 consecutive days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When flights are operated on the same day(s) of consecutive weeks and on at least 7 occasions or every day over a period of at least 7 consecutive days.",
             "isTrue": false
           }
         ]
