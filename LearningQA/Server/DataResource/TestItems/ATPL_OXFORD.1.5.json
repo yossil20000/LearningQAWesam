@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "5.Flight Crew Licensing",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "According to JAR-FCL class ratings shall be established for single-pilot aeroplanes not requiring a type rating including:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "all touring motor gliders.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "all types of single-pilot, single-engine aeroplanes fitted with a turbojet engine.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "microlights having fixed wings and moveable aerodynamic control surfaces acting in all three dimensions.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "any other type of aeroplane if considered necessary.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Which of the following is the privilege of the holder of a CPL(A)?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "To act as PIC of any aeroplane engaged in operations other than commercial air transportation.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "To act as PIC of any aeroplane engaged in commercial air transportation.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "To act as PIC of any aircraft certificated for single-pilot operation other than commercial air transportation.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "To act as co-pilot of any aircraft engaged in commercial air transport operations.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "What age do you need to be to exercise the privileges of a CPL licence?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "18",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "21",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "16",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "23",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "When you are over 60 and the holder of an ATPL(A), how often are you required to have a medical examination?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "The 12 month period reduces to 6 months.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The 24 month period reduces to 12 months.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The 6 month period reduces to 3 months.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The 9 month period reduces to 3 months.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "You can use simulator hours towards the 1500 hours required for an ATPL. How are simulator hours limited?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Maximum of 100, not more than 15 in a procedural flight trainer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Maximum of 100, not more than 30 in a procedural flight trainer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Maximum of 100, not more than 25 in a procedural flight trainer.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Maximum of 100, not more than 50 in a procedural flight trainer.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "What is the night flying hours requirement for an ATPL(A) licence?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "75 hours PIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "100 hours PIC or co-pilot.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "100 hours PIC",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "75 hours PIC or co-pilot.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "One of the privileges of the holder of a CPL(A) is to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,33 +237,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "act as co-pilot of aircraft in commercial air transport operations.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "act as PIC of single engine aeroplanes in commercial air transport operations.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "act as a flying instructor",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "act as PIC of aeroplanes involved in operations other than commercial air transportation",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Included in the requirements for 1500 hours, an ATPL(A) holder must have:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "500 hours multi-pilot operations in transport, commuter or equivalent category aircraft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "500 hours multi-pilot operations and 250 hours as PIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "500 hours multi-pilot operations including up to 150 hours flight engineering time.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "500 hours multi-pilot operations including 200 hours night time",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "When are you required to tell the authorities of an illness?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "After the period of 21 days of illness has elapsed.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "On the 21st day of the illness.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "After a month",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "After medical has expired.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "To obtain a CPL(A), how many hours of cross-country flying are required?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "15 hrs.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "20 hrs.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "25 hrs.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "35 hrs.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "What medical is required for the issue of a CPL(A)?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Class 2.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "As required by particular state.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Class 1.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "JAR Class A (as from 1 Jan 2001).",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "The holder of a pilot licence when acting as co-pilot under supervision of the PIC and performing the functions and duties of the PIC shall be entitled to be credited:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "with 50% of the flight time towards the total time required for a higher grade of licence.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "in full, but not more than 300 hrs towards the total time required for a higher grade of licence.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the flight time in full towards the total time required for a higher grade of licence",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the flight time in full towards the total time required for a higher grade of pilot licence according to the requirements of the licensing authority.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "For an ATPL(A), how many night hours are required?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "30",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "75",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "100",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "150",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "For an ATPL, how many cross-country hours are required, and how many of these must be as pilot-in-command?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "200/100",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "200/75",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "150/75",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "250/75",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "How long would you have to spend in a clinic or hospital before you would have to inform the authorities?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,25 +525,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "24 hrs or more",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Not less than 20 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "More than 12 hours",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "12 days or more",
             "isTrue": false
           }
         ]
@@ -551,7 +551,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "When you are a newly qualified flying instructor you have to be supervised by a qualified flying instructor. When will the period of supervision cease?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Once you have passed a competency check.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "When you have completed 100 hours instruction and sent 25 students solo.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "When you have completed 25 hours instruction and sent 100 students solo",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When you have completed 100 hours solo.",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "Between what ages can you exercise the privileges of an ATPL(A) on an unrestricted basis?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "21 - 60",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "21 - 59",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "18 - 59",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "18 - 60",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "How long would a non-JAA licence be valid for if validated for use in a JAA state?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Not less than 6 months.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "12 months from the date of validation.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "12 months providing the licence is still valid in the State of Issue",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Not more than 3 months.",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "Which of the following correctly identifies the cross-country hours requirement for a CPL(A)?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +669,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "100 hours PIC or SPIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "20 hours cross-country as PIC including a cross-country flight not less than 540 km (300 NM) in the course of which full stop landings are made at two different aerodromes.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "25 hours including at least one flight of 2 hours duration covering at least 300 NM and to include 2 full stop landings.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "10 hours solo with at least one flight over 300 NM with at least two full stop landings",
             "isTrue": false
           }
         ]
@@ -695,7 +695,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "What is the minimum age for a holder of a PPL?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "16",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "17",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "18",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "21",
             "isTrue": false
           }
         ]
@@ -731,7 +731,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "What is the period of validity of a JAR-FCL class 2 medical?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "24 months until age 30, then 24 months until 50, then 12 months thereafter.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "24 months until age 30, then 12 months until 50, then 6 months thereafter.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "60 months until age 40, then 24 months until 50, then 12 months thereafter",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "60 months until age 30, then 24 months until 50, then 12 months thereafter.",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "A PPL(A) or Commercial licence holder, before taking his/her Instrument Rating, must have completed _____ hours of cross-country of which _____ hours must be in an aeroplane ?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +777,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "50 15",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "50 10",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "40 15",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "40 10",
             "isTrue": false
           }
         ]
@@ -803,7 +803,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "A PPL(A) holder shall demonstrate competence for an IR(A) in a _____ aircraft type with _____ .?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Amphibian all engines running only",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Seaplane one engine inoperative",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Multi-engine one engine inoperative",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Multi-engine all engines running",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Of the 1500 hours required experience for an ATPL(A). _____ hours may be in a simulator but not more than _____. hours may be in a basic instrument trainer or basic procedure trainer.",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +849,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "100 15",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "100 20",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "100 25",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "75 25",
             "isTrue": false
           }
         ]
@@ -875,7 +875,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "Which of the following types of aircraft requires a type rating?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,25 +885,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Each type of multi-engine aircraft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Each type of single-pilot multi-engine turbine.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Each type of micro-light with fixed wings and able to move its surfaces in three dimensions.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Each type of touring motor glider.",
             "isTrue": false
           }
         ]
@@ -911,7 +911,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "To have an unrestricted FI(A) rating and to instruct for the issue of a CPL(A) or a PPL(A), you must have a CPL(A) or:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,33 +921,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "at least 250 hours as a pilot.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "not less than 15 hours in the last 12 months on the relevant type.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "at least 200 hours of flight instruction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "200 hours flight time of which not less than 150 hours is PIC.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "According to JAR-FCL, what classes of medical exist?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Class 1 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Classes 1 and 2.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Classes 1, 2 and 3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Classes 1, 2, 3 and 4.",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "According to JAR-FCL, a single-engine class rating is valid for:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,25 +993,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "2 years",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2 years up to the age of 40 then 1 year thereafter",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 years after licence issue.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1 year.",
             "isTrue": false
           }
         ]
@@ -1019,7 +1019,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "The validity of a multi-engine class rating or a type rating shall be 1 year from:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1029,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "date of issue or the date of expiry if revalidated within the validity period.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "date of application received by the authority",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "date of skills test.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "date of medical examination.",
             "isTrue": false
           }
         ]
@@ -1055,7 +1055,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "In order to carry out PPL(A) instruction you must:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1065,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "hold a PPL(A) with instrument rating.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "have passed the CPL theoretical knowledge exams and hold an FI(A) rating.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "hold a CPL(A)/IR(A).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "hold an ATPL(A).",
             "isTrue": false
           }
         ]
@@ -1091,7 +1091,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "For a pilot to hold an ATPL(A), the hours required are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,33 +1101,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "500 PIC, or 300 PIC and 200 as co-pilot acting as PIC under supervision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "200 PIC, or 100 PIC and 100 as co-pilot acting as PIC under supervision",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "250 PIC, or 150 PIC and 100 as co-pilot acting as PIC under supervision.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "500 hrs as PIC under supervision or 250 hrs, either as PIC, or made up by not less than 70 hrs as PIC and the additional flight time as PIC under supervision.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "A pilot holding a CPL(A) can act as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,25 +1137,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "PIC of any aircraft in non-commercial aviation",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "PIC in any single-engine aeroplane engaged in commercial aviation.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "PIC of any single-pilot aeroplane engaged in commercial aviation.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "PIC in any aircraft for which he/she is class/type rated engaged in noncommercial aviation.",
             "isTrue": false
           }
         ]
@@ -1163,7 +1163,7 @@
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "From what date is a medical certificate valid?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,25 +1173,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "The date of the initial general medical examination",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The date the certificate is delivered to the pilot",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The date of licence issue.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The date of the revalidation of the licence.",
             "isTrue": false
           }
         ]
@@ -1199,7 +1199,7 @@
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "Which of the following annexes of the Chicago Convention contains the minimum specification for a crew member&#714;s licence to be recognized by Contracting States?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,25 +1209,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Annex 2.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Annex 3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Annex 1.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Annex 4.",
             "isTrue": false
           }
         ]
@@ -1235,7 +1235,7 @@
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "For the holder of a commercial pilot&#714;s licence for single-pilot fixed-wing and helicopters who has attained the age of 40, the period between medical reports decreases from:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1245,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "12 months to 6 months.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "60 months to 24 months",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "24 months to 6 months",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "24 months to 12 months",
             "isTrue": false
           }
         ]
@@ -1271,7 +1271,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "An applicant for an ATPL(A) for aircraft shall have at least:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,25 +1281,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "100 hours night flying purely as PIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "75 hours night flying as PIC or as co-pilot",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "100 hours night flying as PIC or as co-pilot.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "75 hours night flying as PIC.",
             "isTrue": false
           }
         ]
@@ -1307,7 +1307,7 @@
       {
         "id": 0,
         "questionNumber": "37",
-        "question": "",
+        "question": "A CPL(A) applicant undergoing an integrated course of flight training shall have completed:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1317,25 +1317,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "150 hours flight time of which 5 hours may be instrument ground time.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "150 hours flight time.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "200 hours flight time including 10 hours instrument ground time.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "200 hours flight time.",
             "isTrue": false
           }
         ]
@@ -1343,7 +1343,7 @@
       {
         "id": 0,
         "questionNumber": "38",
-        "question": "",
+        "question": "If an applicant for a CPL(A) wishes to exercise the privileges of the licence at night, flight experience will include:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1353,25 +1353,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 hours of night flight including 3 take-offs and 5 landings as PIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "5 hours of night flight including 5 take-offs and 5 landings as PIC",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 hours of night flight including 5 take-offs and 5 landings as PIC or co-pilot",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "5 hours of night flight including 3 take-offs and 3 landings as PIC or co-pilot.",
             "isTrue": false
           }
         ]
@@ -1379,7 +1379,7 @@
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "",
+        "question": "According to JAR-FCL, an instrument rating is valid for:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1389,25 +1389,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "one year.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "two years.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the period of validity of the licence.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "indefinitely.",
             "isTrue": false
           }
         ]
@@ -1415,7 +1415,7 @@
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "",
+        "question": "When acting as co-pilot of an aeroplane that requires a co-pilot, the pilot shall be entitled to credit not more than:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1425,33 +1425,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "40% of the co-pilot time towards the total flight time required for a higher grade of licence",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "60% of the co-pilot time towards the total flight time required for a higher grade of licence.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "100 hours of the co-pilot time towards the total flight time required for a higher grade of licence",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "100% of the co-pilot time towards the total flight time required for a higher grade of licence",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "41",
-        "question": "",
+        "question": "An applicant for a CPL(A) shall have completed in aeroplanes, not less than:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1461,25 +1461,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "200 hours of flight time including 70 hours as PIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "150 hours of flight time including 100 hours as PIC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "200 hours of flight time or 150 hours if completed during an integrated course of approved training as a pilot of aeroplanes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "200 hours of flight time including 80 hours as PIC.",
             "isTrue": false
           }
         ]
@@ -1487,7 +1487,7 @@
       {
         "id": 0,
         "questionNumber": "42",
-        "question": "",
+        "question": "The holders of pilot licences are required to inform the authority if, through illness, they are unable to undertake those functions to which the licence relates throughout a certain number of days. The number of days is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1497,25 +1497,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "14",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "21",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "28",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "30",
             "isTrue": false
           }
         ]
@@ -1523,7 +1523,7 @@
       {
         "id": 0,
         "questionNumber": "43",
-        "question": "",
+        "question": "The cross-country requirement for the issue of a CPL(A) is to include:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1533,25 +1533,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "20 hours cross country with one flight including 2 full stop landings over a total distance of 270 km (150 NM)",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "20 hours cross country with one flight including 2 full stop landings over a total distance of 540 km (300 NM).",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 hours cross country with one flight including 2 full stop landings over a total distance of 270 km (150 NM).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "15 hours cross country with one flight including 2 full stop landings over a total distance of 540 km (300 NM).",
             "isTrue": false
           }
         ]
@@ -1559,7 +1559,7 @@
       {
         "id": 0,
         "questionNumber": "44",
-        "question": "",
+        "question": "An applicant for a CPL(A) shall hold:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1569,25 +1569,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a current class 3 medical assessment.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a current class 2 medical assessment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "a current class 1 medical assessment.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a current medical assessment to a level prescribed by the authority of the state of licence issue.",
             "isTrue": false
           }
         ]
@@ -1595,7 +1595,7 @@
       {
         "id": 0,
         "questionNumber": "45",
-        "question": "",
+        "question": "How many synthetic flight trainer hours may be included by an applicant for an ATPL(A) as part of the 1500 hours necessary experience?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1605,25 +1605,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "100 hours of which not more than 15 hours have been completed in a flight procedures trainer or basic instrument trainer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "75 hours of which not more than 20 hours have been completed in a flight procedures trainer or basic instrument trainer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "100 hours of which not more than 25 hours have been completed in a flight procedures trainer or basic instrument trainer",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "100 hours of which not more than 20 hours have been completed in a flight procedures trainer or basic instrument trainer",
             "isTrue": false
           }
         ]
@@ -1631,7 +1631,7 @@
       {
         "id": 0,
         "questionNumber": "46",
-        "question": "",
+        "question": "According to JAR-FCL, an applicant for an IR(A) shall hold a PPL(A) with a night qualification, or a CPL(A), and have completed at least 50 hours:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1641,25 +1641,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "instructional time as student PIC of aeroplanes or helicopters of which at least 10 hours is to be in aeroplanes.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "cross-country time as PIC of aeroplanes or helicopters of which at least 10 hours is to be in aeroplanes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "cross-country time as a pilot of aeroplanes or helicopters of which at least 10 hours is to be in aeroplanes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "instructional time as student PIC of aeroplanes.",
             "isTrue": false
           }
         ]
@@ -1667,7 +1667,7 @@
       {
         "id": 0,
         "questionNumber": "47",
-        "question": "",
+        "question": "For which of the following are type ratings established?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1677,33 +1677,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Each type of multi-pilot aeroplane",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Each type of single-pilot multi-engine aeroplane fitted with turbine engines.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Any type of aircraft whenever considered necessary by the authority.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "All the above answers are correct",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "48",
-        "question": "",
+        "question": "<p>According to JAR-FCL, establishment of separate type rating for aeroplanes will be assessed on the basis of three criteria.</p><p>One of these criteria is that the aeroplane</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1713,25 +1713,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "handling characteristics that require the use of more than one crew member",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a certificate of airworthiness issued by a non-JAA state",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a certificate of airworthiness issued by the manufacturer",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "handling characteristics that require additional flying or simulator training.",
             "isTrue": false
           }
         ]
@@ -1739,7 +1739,7 @@
       {
         "id": 0,
         "questionNumber": "49",
-        "question": "",
+        "question": "Which annex to the Chicago Convention contains minimum specifications for a crew licence to have international validity?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1749,25 +1749,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Annex 3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Annex 4.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Annex 1.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Annex 2.",
             "isTrue": false
           }
         ]
@@ -1775,7 +1775,7 @@
       {
         "id": 0,
         "questionNumber": "50",
-        "question": "",
+        "question": "A type rating is applicable to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1785,25 +1785,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an aeroplane requiring a certificate of airworthiness",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "an aeroplane with a certificate of airworthiness issued by the state of licence issue.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "an aeroplane that requires multi-pilot operation",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an aeroplane that requires additional skills training.",
             "isTrue": false
           }
         ]
@@ -1811,7 +1811,7 @@
       {
         "id": 0,
         "questionNumber": "51",
-        "question": "",
+        "question": "According to JAR-FCL, recognized instructor categories are:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1821,33 +1821,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "FI(A); TRI(A); CRI(A); IRI(A) only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "FI(A); CRI(A) only",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "FI(A); TRI(A) only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "FI(A); TRI(A); CRI(A); IRI(A); MCCI(A) and SFI(A) only.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "52",
-        "question": "",
+        "question": "When a state renders valid a licence issued by another Contracting State, as an alternative to issuance of its own licence, the period of validity shall:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1857,25 +1857,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "not extend beyond 15 days after the validity of the licence.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "not extend beyond the period of validity of the licence",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "be at the discretion of the validating state.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "be at the discretion of ICAO",
             "isTrue": false
           }
         ]
@@ -1883,7 +1883,7 @@
       {
         "id": 0,
         "questionNumber": "53",
-        "question": "",
+        "question": "An applicant for a JAR-FCL ATPL(A) has to demonstrate the ability to pilot:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1893,25 +1893,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "training aircraft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "multi-crew aircraft requiring a Flight Engineer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "multi-crew aeroplanes under IFR.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "night flights with passengers on board.",
             "isTrue": false
           }
         ]
@@ -1919,7 +1919,7 @@
       {
         "id": 0,
         "questionNumber": "54",
-        "question": "",
+        "question": "A pilot is not to operate an aircraft as PIC or co-pilot in CAT or carry passengers unless he/she has carried out at least:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1929,25 +1929,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 take-offs and landings in the preceding 90 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "3 take-offs, approaches and landings in the preceding 90 days",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 take-offs, approaches and landings in the preceding 90 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "5 take-offs, approaches and landings in the preceding 60 days",
             "isTrue": false
           }
         ]
@@ -1955,7 +1955,7 @@
       {
         "id": 0,
         "questionNumber": "55",
-        "question": "",
+        "question": "A pilot is not to operate an aircraft as PIC at night in CAT or carry passengers at night unless he/she has carried out at least:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1965,25 +1965,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "1 take-off, approach and landing at night in the preceding 90 days or holds an Instrument Rating",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5 take-offs, approaches and landings at night in the preceding 90 days or holds an Instrument Rating",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 take-offs, approaches and landings at night in the preceding 90 days or holds an Instrument Rating",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 take-offs, approaches and landings at night in the preceding 60 days or holds an Instrument Rating",
             "isTrue": false
           }
         ]
