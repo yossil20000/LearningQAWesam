@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "8.Approach Procedures",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "What radius from a terminal VOR is MSA provided?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "25 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "10 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "15 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "15 km.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "What is the climb gradient required during the intermediate segment of a missed approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5.5%",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2.5%.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "0.8%",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3.3%.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "A precision approach procedure is defined as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an approach using bearing, elevation and distance information.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "an approach with a crew of at least 2 pilots trained for such operations.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "an instrument approach procedure utilizing azimuth and glide path information provided by an ILS or a PAR.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an approach using bearing, elevation and, optionally, distance information.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "The MOC in the primary area of the intermediate approach segment:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "is not more than 150 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "reduces from 300 m to 150 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "is equal to or greater than 300 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "is 500 m in mountainous terrain",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "What is the optimum distance of the FAF from the threshold?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "15 NM",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "For a straight-in non-precision approach, the MDA/H will be not less than:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "OCA/H.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "200 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "350 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "400 ft.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "What is the maximum interception angle which is allowed to the intermediate approach segment from the initial approach segment for a non-precision approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "30&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "45&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "120&#176;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "15&#176;.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "An instrument approach is made up of a number of segments. How many of them are there?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "4",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "5",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "6",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "On a precision approach, where does the final approach segment start?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "DH",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "FAF",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "FAP",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "MAPt",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "On an instrument approach, part of the procedure enables the aircraft to return inbound from outbound with tracks flown being reciprocal. This is called:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "base turn.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "procedure turn.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "reverse procedure.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "racetrack.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "Which categories of aircraft fly the 45&#176; leg of a procedure turn for 1 minute?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A, B and C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "A and B.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "C, D and E.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "On an instrument approach, what is the maximum permissible descent gradient in the final approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "3&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "6.5%.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4.5&#176;.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "For the intermediate section of a missed approach, what is the minimum obstacle clearance?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "30 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "100 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "50 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "120 m.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "During an initial approach, what is the turn between the outbound track and the inbound track where the tracks flown are not reciprocal?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,33 +489,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Reverse turn.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Race track.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Procedure turn.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Base turn.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "What are the Cat II ILS criteria for instrument runways?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,25 +525,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "RVR = 350 m DH not below 100 ft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "RVR = 200 m DH not below 100 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "RVR = 200 m DH not below 200 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "RVR = 300 m DH not below 200 ft.",
             "isTrue": false
           }
         ]
@@ -551,7 +551,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "When is OCH for an ILS approach complied with?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Not more than &#xbd; scale glide path and full scale localizer deflection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Not more than &#xbd; scale localizer deflection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Not more than &#xbd; scale glide path and localizer deflection.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Not more than full scale glide path and &#xbd; scale localizer deflection.",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "What is the MOC for the intermediate missed approach segment?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "30 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "50 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "120 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "300 m.",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "In which stage of an instrument approach do you align with the runway?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Initial segment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Final segment.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Arrival segment",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Intermediate segment.",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "What are ICAO defined instrument approaches?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +669,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Non-precision and CAT I/II/III precision.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Precision in general",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Precision CAT I/II/III.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Instrument precision and CAT II/III.",
             "isTrue": false
           }
         ]
@@ -695,7 +695,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "Within what angle of the extended centre line of a runway is a non-precision approach considered to be straight-in?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "10&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "15&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "30&#176;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "40&#176;.",
             "isTrue": false
           }
         ]
@@ -731,7 +731,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "What is the name of the phase of an instrument approach in which the aircraft is aligned with the runway and descent commenced?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Final.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Initial.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Intermediate.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Arrival.",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "At what point does the intermediate phase of a missed approach end?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +777,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "When 30 metres obstacle clearance is attained and can be maintained.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "When 50 metres obstacle clearance is attained and can be maintained.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "When 75 metres obstacle clearance is attained and can be maintained",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When 90 metres obstacle clearance is attained and can be maintained",
             "isTrue": false
           }
         ]
@@ -803,7 +803,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "The 45&#176; leg of a 45&#176;/180&#176; procedure turn for a Cat C aircraft is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 min.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1 min 15 seconds.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 min 30 seconds.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "continued until interception of the glide slope.",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Is it permitted to fly over the Missed Approach Point at an altitude higher than MDA?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +849,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Yes.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Never.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Sometimes.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "It depends on the flight conditions.",
             "isTrue": false
           }
         ]
@@ -875,7 +875,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "For an instrument approach, the missed approach gradient is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,33 +885,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "3%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3.3%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "2.5%.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "On a precision approach (ILS), the OCH(A) is based among other standard conditions, on the vertical limits between the flight path of the wheels and the glide path antenna. For a Category C aircraft this should not be more than:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,25 +921,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "6 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "7 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "12 m.",
             "isTrue": false
           }
         ]
@@ -947,7 +947,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "What is the turn from outbound to inbound called where the tracks flown are not reciprocal?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Base turn",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Procedure turn.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Reversal procedure.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Racetrack procedure",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "When following an instrument procedure, the pilot must:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,33 +993,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "calculate the track required and request ATC clearance to follow it.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "fly the heading without wind correction.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "adjust the track specified to allow for the wind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "fly the heading to make good the required track allowing for the wind.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "Where does the initial phase of a missed approach procedure end?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1029,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "From where a new instrument approach can be commenced.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Where 50 ft obstacle clearance is obtained and can be maintained.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Where a climb is established.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "At the missed approach point.",
             "isTrue": false
           }
         ]
@@ -1055,7 +1055,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "Who determines OCA/H?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1065,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The operator.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The flight operations department.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "The authority of the State.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The Commander.",
             "isTrue": false
           }
         ]
@@ -1091,7 +1091,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "What does an approach plate not include?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,33 +1101,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "OCH.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ILS/DME frequencies.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Obstacles infringing the OIS.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Aerodrome operating minima for the use of the aerodrome as an alternate aerodrome, if higher than normal.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "The V<sub>at</sub> for a Category B aircraft is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,33 +1137,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "up to 91 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "90 to 121 kt inclusive.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "141 to 165 kt inclusive.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "91 to 120 kt inclusive",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "OCH clearance on ILS is given, provided the accuracy flown on the localizer is within:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,33 +1173,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "&#xbc; scale deflection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1&#xbd; scale deflection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 scale deflection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "&#xbd; scale deflection.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "Where does the initial sector of a missed approach procedure end?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,25 +1209,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "When a height of 50 m has been achieved and maintained.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "When established in the climb.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "At the missed approach point.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When en route either to the hold or departure.",
             "isTrue": false
           }
         ]
@@ -1235,7 +1235,7 @@
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "When using a DR segment to take up an ILS instrument approach, what is the maximum length of the track that may be used to intercept the localizer?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1245,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "10 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 minutes.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "5 minutes.",
             "isTrue": false
           }
         ]
@@ -1271,7 +1271,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "The obstacle clearance surfaces for an ILS assume a pilot localizer accuracy of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,25 +1281,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "&#xbc; scale",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "&#xbd; scale.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 scale.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1 &#xbd; scale.",
             "isTrue": false
           }
         ]
@@ -1307,7 +1307,7 @@
       {
         "id": 0,
         "questionNumber": "37",
-        "question": "",
+        "question": "The abbreviation OCH means:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1317,25 +1317,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "obstacle clearance height.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "obstruction/collision height.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "obstruction clearance height.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "obstacle confirmation height.",
             "isTrue": false
           }
         ]
@@ -1343,7 +1343,7 @@
       {
         "id": 0,
         "questionNumber": "38",
-        "question": "",
+        "question": "What is the descent gradient in the final segment for an ILS CAT II approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1353,25 +1353,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Between 2.5&#176; and 3.5&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3%.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "3&#176;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Up to 400 ft/NM.",
             "isTrue": false
           }
         ]
@@ -1379,7 +1379,7 @@
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "",
+        "question": "What are the 5 segments of an instrument approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1389,25 +1389,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Initial; Intermediate; Descent; Final; Landing.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Arrival; Initial; Intermediate; Final; Missed Approach.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Initial; Intermediate; Final; Landing; Missed Approach.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Arrival; Initial; Intermediate; Final; Landing.",
             "isTrue": false
           }
         ]
@@ -1415,7 +1415,7 @@
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "",
+        "question": "The minimum sector altitude gives an obstacle clearance of 300 metres within a certain radius from the navigation aid on which the instrument procedure is based. This radius is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1425,25 +1425,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "15 NM (28 km).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "30 NM (55 km).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "25 NM (46 km).",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "20 NM (37 km).",
             "isTrue": false
           }
         ]
@@ -1451,7 +1451,7 @@
       {
         "id": 0,
         "questionNumber": "41",
-        "question": "",
+        "question": "What is the minimum ground visibility for a CAT I ILS approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1461,25 +1461,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "800 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "550 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "50 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "550 ft.",
             "isTrue": false
           }
         ]
@@ -1487,7 +1487,7 @@
       {
         "id": 0,
         "questionNumber": "42",
-        "question": "",
+        "question": "Where does the initial approach segment begin in an instrument approach procedure?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1497,25 +1497,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "At the IF.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "At the IAF.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "At the FAF.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "At the final en route fix.",
             "isTrue": false
           }
         ]
@@ -1523,7 +1523,7 @@
       {
         "id": 0,
         "questionNumber": "43",
-        "question": "",
+        "question": "Under which circumstances may an aircraft on a &#8220;straight-in&#8221; VOR approach continue below MDA/H?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1533,25 +1533,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "When it seems possible to land.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "When the aircraft is in contact with the ground but does not have the runway in sight.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "When the aircraft has the necessary visual criteria specified by the operator.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When the tower is visible.",
             "isTrue": false
           }
         ]
@@ -1559,7 +1559,7 @@
       {
         "id": 0,
         "questionNumber": "44",
-        "question": "",
+        "question": "What is the obstacle clearance in the primary area of the intermediate approach segment while on the instrument approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1569,25 +1569,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "300 m (984 ft).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "450 m (1476 ft).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "300 m (984 ft) reducing to 150 m (492 ft).",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "600 m (1968 ft).",
             "isTrue": false
           }
         ]
@@ -1595,7 +1595,7 @@
       {
         "id": 0,
         "questionNumber": "45",
-        "question": "",
+        "question": "What is the MOC in the primary area of the initial segment of an approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1605,25 +1605,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "At least 150 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "At least 300 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "300 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "150 m.",
             "isTrue": false
           }
         ]
@@ -1631,7 +1631,7 @@
       {
         "id": 0,
         "questionNumber": "46",
-        "question": "",
+        "question": "<p>When can an aircraft descend below MSA</p><p>1. The airfield and underlying terrain are visible and will remain so.</p><p>2. The aircraft is being radar vectored.</p><p>3. The underlying terrain is visible and remains so.</p><p>4. The aircraft is following an approach procedure.</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1641,26 +1641,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1, 2 and 4 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1, 3 and 4 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2, 3 and 4 only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1, 2, 3 and 4.",
+            "isTrue": true
           }
         ]
       }
