@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "20.Aerodromes - Visual Aids, Markings and Signs",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "How are the runways designated at an aerodrome where there are three parallel runways?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,33 +21,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "02; 03; and 04.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The QDM for the third runway will be increased by 10&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The L and R runways will have different QDM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "The QDM with &#715;L&#714;; &#715;C&#714; and &#715;R&#714; added.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Runway threshold marking consists of a number of stripes. How many stripes are there for a runway width of 60 metres?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,33 +57,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "6",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "8",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "12",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "16",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "Touchdown zone markings are set out in pairs. How many such pairs are required for a runway of 2400 m or more?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "6",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "4",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "8",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "A transverse white stripe on a runway is associated with:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a closed runway.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "a runway which is 2400 metres or longer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "a displaced threshold.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a runway available for circling to land approaches.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Which of the following statements is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Taxiway markings are white and runway markings are yellow.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Numerals on aerodrome signs are reserved for runways.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A clearway has the same function as a RESA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The pairs of touchdown zone markings are separated from each other by 120 metres.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "If a runway is 2000 m in length, how close to the runway centre line is the nearest taxiway holding point?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,33 +201,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "50 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "35 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "40 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "75 m.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "Which of the following statements are correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Runway markings are white and taxiway markings are yellow.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Runway and taxiway markings are white.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Runway and taxiway markings are yellow",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Runway markings are yellow and taxiway markings are white",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "On an instrument approach runway which is more than 2400 m long there will be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an aiming point marking and centre line markings only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "touchdown zone markings and centre line markings only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "aiming point markings and touchdown zone markings.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an aiming point marking 150 m from the threshold.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "Which of the following concerning aerodrome signs is correct?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Mandatory signs: Black background with red inscription.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Information signs: Black or yellow background with black or yellow inscription.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Mandatory signs: Red background with black inscription.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Information signs: Orange background with black inscription.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "Where fixed distance marking is provided, this shall commence:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "at 100 m from the far end threshold",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "at 150 m from the far end threshold",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "at 300 m from the far end threshold.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "at 500 m from the far end threshold.",
             "isTrue": false
           }
         ]

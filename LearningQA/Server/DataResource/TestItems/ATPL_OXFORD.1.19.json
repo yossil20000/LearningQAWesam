@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "19.Aerodromes - Physical Characteristics",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "Aerodrome reference code 4 refers to field length of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,33 +21,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "900 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1000 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1600 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "1800 m or more.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The signal area should be located so that it is visible from the air. A lack of a signal area denotes that:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "non-radio traffic will not be accepted at the aerodrome other than emergency traffic",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "non-radio traffic will be accepted",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "non-radio traffic will be accepted in daylight hours only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "non-radio traffic will not be accepted in daylight hours only.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "The Aerodrome Reference Code consists of Code Element 1 (aeroplane reference field length) and Code Element 2. What does Code Element 2 define?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,33 +93,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Wing span and inner main gear wheel span.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Fuselage width and inner main gear wheel span.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Fuselage width and outer main gear wheel span.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Wing span and outer main gear wheel span.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "A radio altimeter operating area must extend before the threshold of a precision approach runway for a distance of at least:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "100 metres.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "200 metres.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "300 metres",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "500 metres.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Which of the following is a valid aerodrome reference code?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,33 +165,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "6B.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "4G.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "7G.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "2B.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "What is a stopway for?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Stopping after landing distance.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Extending the Landing Distance Available.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Stopping after a rejected take-off.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "A runway extension for big aircraft.",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "A transverse white stripe on a runway is associated with a:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "closed runway.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "runway which is 2400 metres or longer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "displaced threshold",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "runway available for circling to land approaches.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Which &#8220;code letter&#8221; identifies a taxiway that has to be used by an aircraft with a wheel-base of 15 metres?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Code letter E .",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Code letter C.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Code letter B.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Code letter D.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "According to the Aerodrome Reference Code, the code letter E relates to an aircraft wingspan of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "15 m or more but less than 24 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "36 m or more but less than 52 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "52 m or more but less than 65 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "24 m or more but less than 36 m.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "The stopway is a defined rectangular area on the ground at the end of the take-off run available which is prepared as a suitable area:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "to stop an aircraft after a rejected take-off.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to stop a landing aircraft in case of an emergency.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to stop a starting or landing aircraft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "to stop a landing aircraft if it overshoots the runway.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "An area defined about the extended runway centre line and adjacent to the end of the strip, primarily intended to reduce the risk of damage to an aircraft undershooting or overrunning the runway is defined as a:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "clearway.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "runway strip extension.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "runway end safety area.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "altimeter operating area extension.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "What is the width of a code letter D taxiway used by aircraft with an outer main gear wheel span of less than 9 m?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "10.5 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "15 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "18 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "23 m.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "What is the minimum width of a code 4 runway?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,33 +453,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "18 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "23 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "30 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "45 m.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "When a fixed distance marking has to be provided this marking shall commence at:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "150 m from the threshold.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "300 m from the threshold.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "150 m from the aiming point",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "300 m from the aiming point.",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "TODA consists of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,25 +525,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "TORA but excluding the clearway.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "TORA and includes the clearway.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "TORA but excluding the stopway.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "TORA only.",
             "isTrue": false
           }
         ]

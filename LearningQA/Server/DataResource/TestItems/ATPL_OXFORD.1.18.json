@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "18.Aeronautical Information Service",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "What level of alert would be inserted in field E of an ASHTAM following a volcanic eruption in which a pyroclastic ash cloud extends above FL250?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Red alert.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Orange alert.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Yellow alert.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Green alert.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "In which section of the AIP would you find information on holding, approach and departing procedures?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "GEN.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "ENR.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "SAT.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "AD.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "An integrated aeronautical information package consists of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "AIP and amendment service, supplement to the AIP, NOTAM, Pre-flight Information Bulletins (PIBs), AICs, checklists and summaries",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "AIP and amendment service, NOTAM, Pre-flight Information Bulletins (PIBs), and AICs, AIRAC, checklists and summaries",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AIP and amendment service, supplement to the AIP, NOTAM, AIRAC, AICs, checklists and summaries",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "AIP & Supplements, AIRAC, NOTAM and pre-flight bulletins.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "In what section of the AIP are details of SIGMET found?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "GEN.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ENR.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AD.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "COMMS.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Where in the AIP is a list of Location Indicators to be found?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "GEN.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "COMMS.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AD.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "AGA.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "A check list for NOTAM is issued:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,33 +201,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "every 5 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "every 28 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "every 18 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "at intervals of not more than one month.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "AIP approach charts do not give information for Instrument Approach Procedures for:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "OCA/H.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "visibility minima.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "obstacles protruding above the obstacle free zone.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "DME frequencies",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "AIP supplements with extensive text and graphics cover a short period. What is a long period in this respect?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 yr.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2 months.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "3 months.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "6 months.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "AIRAC is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "a breakdown service.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "operationally significant changes to the AIP.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a medical evacuation flight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an Army Air Corps publication",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "What information is not on an aerodrome approach plate?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,33 +345,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "DME frequency.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "OCA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Dominant obstacles.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Operating minima if the aerodrome is being used as an alternative.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "Where in the AIP is information concerning re-fuelling facilities and services found?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "ENR.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "SUPP.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "AD.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "GEN.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "Where in the AIP would you find information concerning prohibited, restricted or danger areas?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "ENR.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "SUPP.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AD.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "GEN.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "In what part of the AIP are the details of SIGMET found?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "GEN.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ENR.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AD.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "AIRAC.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "What is the coefficient of braking, if the braking action is reported as medium?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Between 1.0 and 0.25.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Between 0.25 and 0.3.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Between 0.30 and 0.35.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Between 0.35 and 0.4.",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "Regarding the AIS what is the time limit for a checklist of current NOTAM to be issued?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "7 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "14 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "28 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "One month.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "A checklist of the active NOTAM must be published on the AFTN at intervals of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "not more than 28 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "not more than 15 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "not more than 1 month.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "not more than 10 days",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "Operationally significant changes to the AIP shall be published in accordance with:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "AICs.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "AIP Supplements.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "AIRAC procedures.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "trigger NOTAMS",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "A notice containing information concerning flight safety, air navigation, administration or legislative matters and originated at the AIS of a state is called:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Aeronautical Information Publication (AIP).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Aeronautical Information Circular (AIC).",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AIRAC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "NOTAM.",
             "isTrue": false
           }
         ]

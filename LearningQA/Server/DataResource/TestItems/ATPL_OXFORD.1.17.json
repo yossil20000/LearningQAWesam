@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "17.Control of Aircraft",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "In what class of airspace is an advisory service provided for participating IFR traffic and an FIS for all other traffic?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,33 +21,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "D",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "F",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "List the services that must be provided in an FIR:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,33 +57,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "FIS only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "FIS, advisory ATC, ATC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "FIS, aerodrome control.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "FIS, alerting service.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "<p>An aircraft has been cleared to land and fails to do so within 5 minutes of the ETA of landing and communications have not been re-established with the aircraft.</p><p>What phase of the Alerting Service will be declared?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "DETRESFA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "INCERFA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "ALERFA.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "EMERGFA.",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "When must QNH be passed to an aircraft prior to take-off?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "In the taxi clearance.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "On engine start-up request.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "On first contact with ATC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Just prior to take-off.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "The necessary separation minima for controlled traffic in the vicinity of an aerodrome may be reduced when:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the commander of the aircraft requests reduced separation.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the aerodrome controller has the involved aircraft in sight.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the commander in the following aircraft has the preceding aircraft in sight and is able to maintain own separation.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "directed by the aerodrome controller.",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "<p>At commencement of final approach, if the approach controller has wind component information,</p><p>what change in crosswind component change would be passed to the pilot?</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,33 +201,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "10 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "8 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "5 kt.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "For IFR departures, 1 minute separation can be applied if the aircraft fly on diverging tracks immediately after take-off of at least:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "45&#176;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "15&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "30&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2&#176;.",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "During an approach, when can normal separation be reduced?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "When the controller has both aircraft in sight.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "When the following aircraft has the preceding in sight and can maintain it.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "When both pilots request it.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When both aircraft are under radar control.",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "For parallel runway operations, the missed approach tracks must diverge by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "15&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "30&#176;.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "45&#176;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "20&#176;.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "When the air traffic controller has wind information as components at the start of final approach, significant changes in the average surface wind direction and speed must be given to the pilot. The significant change of the average tailwind is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2 kt.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "4 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 kt.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "According to international agreements the wind direction, in degrees magnetic converted with local magnetic variation from the true wind direction must be passed to the pilot of an aircraft:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "before entering the traffic pattern or commencing an approach to landing, and prior to taxiing for take-off.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "in anticipation of the upper wind for areas North of 60&#176;N and South of 60&#176;S.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "when an aircraft is requested by the meteorological office or on specified points to give a AIREP.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "when the local variation is greater than 10&#176; East or West.",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "What is the closest to touchdown that a radar controller can request a change of speed to an aircraft on final approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,33 +417,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "4 NM.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "What defines a controlled aerodrome?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "It must be located within a CTR",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "It must have a control tower giving an ATC service.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "It must have a control tower and be in a CTR.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "It must be in controlled airspace.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "What is the primary use for radar in ATC?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Separation.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Helping when aircraft communications have failed.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "To assist pilots with technical problems.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "To assist pilots of aircraft that are lost.",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "When must the SSR transponder be operated?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,25 +525,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Always.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "At all times unless otherwise instructed by ATC.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "At the pilot&#714;s discretion regardless of ATC instructions.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Mode A always; Mode C at pilot&#714;s discretion.",
             "isTrue": false
           }
         ]
@@ -551,7 +551,7 @@
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "What is the minimum distance from threshold that a controller must have issued clearance to land by, for a non-precision approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "10 NM.",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "The maximum speed change that may be required during a radar approach is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,33 +597,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "&#177; 40 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "&#177; 5 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "&#177; 10 kt.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "&#177; 20 kt.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "What is the distance on final approach within which the controller should suggest that the aircraft executes a missed approach if the aircraft either is lost from the radar for a significant time, or the identity of the aircraft is in doubt?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4 NM.",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "What is the closest point to the threshold that a radar controller may request a speed change?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,33 +669,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "4 NM.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "An aircraft in receipt of a radar service is told to &#8220;resume own navigation&#8221;. What does this mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The pilot is responsible for own navigation.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Radar vectoring is terminated",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The pilot should contact next ATC unit.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The pilot should contact the current ATC unit.",
             "isTrue": false
           }
         ]
@@ -731,7 +731,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "What is standard radar separation?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2.5 NM.",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "By how much will a radar controller turn an aircraft to identify that aircraft on the radar?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +777,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "45&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "15&#176;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "30&#176; or more.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a minimum of 25&#176;.",
             "isTrue": false
           }
         ]
@@ -803,7 +803,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "What is the acceptable tolerance for Mode &#715;C&#714; altitude indication (not in RVSM airspace)?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": " &#177; 100 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": " &#177; 150 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": " &#177; 300 ft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": " &#177; 200 ft.",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "When may the pilot operate the &#715;IDENT&#714; switch on the transponder?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +849,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Only in controlled airspace.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "When instructed by ATC.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Only in uncontrolled airspace.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Only when under radar control.",
             "isTrue": false
           }
         ]
@@ -875,7 +875,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "If you are given an instruction by ATC to steer heading 030, the heading is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,33 +885,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "degrees true and must be corrected for wind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "degrees magnetic and must be corrected for wind.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "degrees true no correction to be applied",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "degrees magnetic no correction to be applied.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "When would you squawk SSR mode C?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,25 +921,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Only when directed by ATC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Always.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Always in controlled airspace.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Only in controlled airspace",
             "isTrue": false
           }
         ]
@@ -947,7 +947,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "If radar contact is lost during an approach, at what range from touchdown would ATC order a missed approach to be flown?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4 NM.",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "When is an aircraft considered to have left the allocated flight level in the descent when referencing altitude to Mode C?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,25 +993,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Once it has descended through 100 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Once it has descended through 200 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Once it has descended through 300 ft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Once it has descended through 500 ft.",
             "isTrue": false
           }
         ]
@@ -1019,7 +1019,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "If you are intercepted by a military aircraft, what do you set on the SSR transponder?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,33 +1029,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "A/2000 + C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "A/7500 + C.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "A/7600 + C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "A/7700 + C.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "Aerodrome traffic is considered to be:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1065,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "aircraft on the movement area and flying in the vicinity.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "aircraft on the manoeuvring area and flying in the vicinity",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "aircraft on the movement area only.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "aircraft on the manoeuvring area only",
             "isTrue": false
           }
         ]
@@ -1091,7 +1091,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "The criterion that determines the specific level occupied by an aircraft based on Mode C information (except where the appropriate ATC authority specifies a lesser criterion) is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,25 +1101,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": " &#177; 300 ft.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": " &#177; 150 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": " &#177; 250 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": " &#177; 200 ft.",
             "isTrue": false
           }
         ]
@@ -1127,7 +1127,7 @@
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "If approved by the authority within 40 NM of the radar transmitter, radar separation can be reduced to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,33 +1137,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "4.5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "4 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "3 NM.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "How close to the boundary of a radar vectoring area can an aircraft be vectored?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,25 +1173,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2.5 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           }
         ]
@@ -1199,7 +1199,7 @@
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "<p>A radar controller can request an aircraft to change speed when it is on the intermediate and final approach phase, except in certain conditions specified by the proper ATS authority.</p><p>The speed change must not be more than:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,33 +1209,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": " &#177; 15 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": " &#177; 8 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": " &#177; 10 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": " &#177; 20 kt.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "What does the ATC term &#8220;radar contact&#8221; mean?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1245,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "The aircraft is identified and will receive separation from all aircraft while you are communicating with this radar facility.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ATC is receiving your transponder and will provide you with vectors and advice concerning traffic, until you are notified that contact is lost.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Your aircraft is seen and identified on the radar display and until further advised a service will be provided.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "You will receive radar advisory concerning traffic until you are notified that the contact is lost or radar service is terminated",
             "isTrue": false
           }
         ]
@@ -1271,7 +1271,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "The &#8220;land after&#8221; procedure may only be applied during:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,25 +1281,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "daylight hours.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "night or day.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "VMC.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "IMC.",
             "isTrue": false
           }
         ]
@@ -1307,7 +1307,7 @@
       {
         "id": 0,
         "questionNumber": "37",
-        "question": "",
+        "question": "<p>An aircraft making a radar approach must be told to make a missed approach,</p><p>when no landing clearance has been received from the non-radar traffic controller,</p><p>when the aircraft is at a distance of:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1317,33 +1317,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 NM from the touchdown.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1.5 NM from the touchdown.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "4 NM from the touchdown",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "2 NM from the touchdown",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "38",
-        "question": "",
+        "question": "A radar controller cannot ask a pilot to change speed if the aircraft is within:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1353,25 +1353,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "4 NM from the threshold on final approach.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5 NM from the threshold on final approach.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2 NM from the threshold on final approach.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 NM from the threshold on final approach.",
             "isTrue": false
           }
         ]
@@ -1379,7 +1379,7 @@
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "",
+        "question": "When an aircraft&#714;s SSR transponder appears to be unserviceable prior to departure and repair is not possible:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1389,25 +1389,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the pilot must indicate the failure in the fight plan, after which ATC will approve the operation of the aircraft without SSR.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "if required by ATC, departure to the nearest suitable airport where repair can be effected will be approved",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the pilot will not be allowed to commence the flight",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the flight can only continue in the most direct manner.",
             "isTrue": false
           }
         ]
@@ -1415,7 +1415,7 @@
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "",
+        "question": "Using SSR, a method by which a radar controller may identify an aircraft is to ask the pilot to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1425,25 +1425,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "set a specific SSR Code.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "switch from &#8220;off&#8221; to &#8220;on&#8221;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "switch to &#8220;off&#8221;.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "switch to &#8220;on&#8221;.",
             "isTrue": false
           }
         ]
