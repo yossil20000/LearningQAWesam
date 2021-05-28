@@ -28,7 +28,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "The commander and the authority of the state of destination.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -58,7 +58,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "To safeguard civil aviation operations against unlawful interference.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -100,7 +100,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "at each aerodrome serving international civil aviation.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -136,7 +136,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "passengers, crews, ground personnel and the general public.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -184,7 +184,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "all of the above",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -202,7 +202,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "civil aviation operations against acts of unlawful interference&#8221;.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -244,7 +244,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "deportees, people under lawful custody and inadmissibles.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -274,7 +274,7 @@
             "id": 0,
             "tenantId": "A",
             "content": "inadmissibles, deportees, persons in custody.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -316,7 +316,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "Air Traffic Services, permission to land and the use of navigational aids.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -364,7 +364,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "Other States.",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -400,7 +400,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "100.",
-            "isTrue": false
+            "isTrue": true
           }
         ]
       },
@@ -430,7 +430,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "all Contracting States.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -460,7 +460,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "deportees, inadmissible passengers and persons in custody.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -502,7 +502,7 @@
             "id": 0,
             "tenantId": "C",
             "content": "their journey can be continued.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
@@ -532,7 +532,7 @@
             "id": 0,
             "tenantId": "B",
             "content": "transportation to where the person commenced his/her journey or to any place where the person is admissible at the expense of the operator. However, nothing precludes the operator from recovering from such a person any transportation costs arising from his/her inadmissibility.",
-            "isTrue": false
+            "isTrue": true
           },
           {
             "id": 0,
