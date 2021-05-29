@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "27B.EASA Specimen Examination",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "The ‘standards’ contained in the annexes to the Chicago Convention are to be considered:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "advice and guidance for the aviation legislation within the member states.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "binding for all member states.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "binding for all member states that have not notified ICAO about a national difference.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "binding for all airline companies with international traffic.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Which of the annexes deals with the transportation of cargo?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "Annex 9 – Facilitation",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Annex 18 – Transportation of Dangerous Goods.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Annex 16 – Environmental Protection.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Annex 6 – Operation of Aircraft.",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "Which ICAO body furnishes the &#8220;Standards and Recommended Practices&#8221; (SARPs) for adoption by the Council?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,33 +93,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The Assembly.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The Regional Air Navigation Meeting.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The Council itself",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "The Air Navigation Commission",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "To what did the Tokyo convention of 1963 address itself?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,33 +129,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Licensing of scheduled air services",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Damage caused by a contracting state’s aircraft to property in the same state.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Damage caused by a contracting state’s aircraft to property in another state",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Interference with an aircraft in flight",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "It is suspected that a person on board an aircraft will commit an act that would jeopardize the safety of the aircraft; the PIC may:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,33 +165,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "request the crew to detain the passenger",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "ask the passenger to disembark",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "order the other passengers to detain the passenger in question.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "hand him/her over to the authorities",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "What freedom covers landing and refuelling in another state?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,25 +201,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1st",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "2nd",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3rd",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "4th",
             "isTrue": false
           }
         ]
@@ -227,7 +227,7 @@
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "Which of the following is permitted in the registration mark of an aircraft?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "TTT",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "SRA",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "QEE",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "XXX",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "Which registration is disallowed?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,25 +273,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "RCC",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "NNN",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "TTT",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "ZZZ",
             "isTrue": false
           }
         ]
@@ -299,7 +299,7 @@
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "You can use simulator hours towards the 1500 hours required for an ATPL. How are simulator hours limited?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Maximum of 100, not more than 15 in a procedural flight trainer",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Maximum of 100, not more than 30 in a procedural flight trainer.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "Maximum of 100, not more than 25 in a procedural flight trainer",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Maximum of 100, not more than 50 in a procedural flight trainer.",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "The holder of a pilot licence when acting as co-pilot under supervision of the PIC and performing the functions and duties of the PIC shall be entitled to be credited:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "with 50% of the flight time towards the total time required for a higher grade of licence",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "in full, but not more than 300 hrs towards the total time require for a higher grade of licence",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "the flight time in full towards the total time required for a higher grade of licence",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the flight in full toward the total time required for a higher grade of pilot licence according to the requirements of the licensing authority.",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "Can a holder of a CPL(A) fly as PIC in any non-commercial aircraft?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "only if the aircraft is classified for single-pilot operations",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Yes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "No",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Only if the aircraft has only one engine",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "When you are a newly qualified flying instructor (A) you have to be supervised by a qualified flying instructor. When will supervision cease?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Once you have passed a competency check",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "When you have completed 100 hours instruction and sent 25 students solo.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "When you have completed 100 hours instruction and sent 100 students solo.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "When you have completed 100 hours solo.",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "How long would a non-JAA licence be valid for if validated for use in a JAA state?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "6 months.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "12 months.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "12 months if still valid in the State of Issue.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 months.",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "What is the period of validity of a PPL class 2 medical in accordance with JAR FCL 3?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,25 +489,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "24 months until age 30, then 24 months until 50, then 12 months until 65, then 6 months thereafter",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "24 months until age 30, then 24 months until 50, then 12 months until 65.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "60 months until age 30, then 24 months until 50, then 12 months until 65, then 6 months thereafter.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "60 months until age 30, then 24 months until 50, then 12 months until 65.",
             "isTrue": false
           }
         ]
@@ -515,7 +515,7 @@
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "Which of the following requires a class rating?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "multi-engine turbine.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "single-pilot multi-engine turbine.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "microlight with fixed wings and able to move its surfaces in three dimensions",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "touring motor glider",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "A CPL applicant undergoing integrated flight training shall have completed:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "150 hours flight time including 10 hours instrument ground time.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "150 hours flight time",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "200 hours flight time including 10 hours instrument ground time.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "200 hours flight time",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "How many hours would you have to spend in a clinic or hospital before you would have to inform the authorities?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "24 hrs.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "20 days.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "12 hours.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "12 days.",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "Which of the quadrantal levels should be used when true track is 358&#176;; variation is 3&#176;W and deviation is 5&#176;E?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "FL75.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "FL60.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "FL70.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "FL65.",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "Can a holder of a CPL(A) fly as PIC in any non-commercial aeroplane?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +669,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "only if the aircraft is classified for single-pilot operations",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Yes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "No",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Only if the aircraft has only one engine",
             "isTrue": false
           }
         ]
@@ -695,7 +695,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "What are the VMC limits for class B airspace?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,33 +705,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Clear of cloud and in sight of the surface",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "8 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 km flight visibility, 1000 ft vertically and 1500 m horizontally from cloud.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "The same as class C.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "According to ICAO, what minimum ground visibility is required to enable a SVFR flight to take off from an aerodrome in a CTR?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1000 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1500 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2000 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3000 m.",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "In a holding pattern, turns are to be made at a:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,25 +777,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "rate of turn of 3&#176;/sec.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "rate of turn of 3&#176;/sec or 20&#176; bank whichever is lesser",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "rate of turn of 3&#176;/sec or at a bank angle of 25&#176; whichever is lesser.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "bank angle of 25&#176;.",
             "isTrue": false
           }
         ]
@@ -803,7 +803,7 @@
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "What is the maximum track guidance distance for a turning departure?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "10 km.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "10 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "25 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "25 km.",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "Visual circling for a class B aircraft is conducted in visibility not less than:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,25 +849,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1500 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1600 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "2800 m",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "5000 m",
             "isTrue": false
           }
         ]
@@ -875,7 +875,7 @@
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "At what distance from the holding navigation aid must an aircraft be established at the cleared holding level or altitude?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,25 +885,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "10 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "20 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "15 NM",
             "isTrue": false
           }
         ]
@@ -911,7 +911,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "The obstacle clearance in the primary area of an intermediate approach is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,25 +921,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "not more than150 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "reduces from 300 m to 150 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "equal to or greater than 300 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "500 m in mountainous terrain.",
             "isTrue": false
           }
         ]
@@ -947,7 +947,7 @@
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "What is considered to be &#8220;established&#8221; with regards to an NDB approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "within 5&#176; of the Final Approach Track (FAT)",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "within 10&#176; of the FAT",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "within half-scale deflection",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "once the threshold is in sight",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "What is the airspeed for holding area construction for a CAT B aircraft in a hold under normal conditions at 4250 m (14 000 ft)?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,25 +993,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Mach 0.83.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "490 km/hr (265 kt).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "315 km/hr (170 kt).",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "520 km/hr (280 kt).",
             "isTrue": false
           }
         ]
@@ -1019,7 +1019,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "For the intermediate section of a missed approach, what is the minimum obstacle clearance?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1029,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "30 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "100 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "50 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "120 m.",
             "isTrue": false
           }
         ]
@@ -1055,7 +1055,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "At what distance does an SRA normally terminate?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,25 +1065,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "2 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "&#xbd; NM.",
             "isTrue": false
           }
         ]
@@ -1091,7 +1091,7 @@
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "Taxiway side stripe marking indicates:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,25 +1101,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "non-load bearing surfaces",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "that no vehicles are to cross",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "maintenance work in progress",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "areas that can be used by the widest aircraft",
             "isTrue": false
           }
         ]
@@ -1127,7 +1127,7 @@
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "What is the minimum obstacle clearance in the final phase of a missed approach?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,25 +1137,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "50 m",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "30 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "300 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "600 m",
             "isTrue": false
           }
         ]
@@ -1163,7 +1163,7 @@
       {
         "id": 0,
         "questionNumber": "33",
-        "question": "",
+        "question": "For Mode 2 parallel approach operations, what is the minimum radar separation prior to an aircraft being established on the localizer?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1173,25 +1173,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "3 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2.5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2 NM",
             "isTrue": false
           }
         ]
@@ -1199,7 +1199,7 @@
       {
         "id": 0,
         "questionNumber": "34",
-        "question": "",
+        "question": "The 45&#176; leg of a 45&#176;/180&#176; procedure turn for a Cat D aircraft is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1209,25 +1209,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 min.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "1 min 15 seconds.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 min 30 seconds.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "continued until interception of the glide slope.",
             "isTrue": false
           }
         ]
@@ -1235,7 +1235,7 @@
       {
         "id": 0,
         "questionNumber": "35",
-        "question": "",
+        "question": "<p>On a precision approach (ILS), the OCH(A) is based among other standard conditions, on the vertical limits between the flight path of the wheels and the glide path antenna.</p><p>For a Category A aircraft this should not be more than:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1245,25 +1245,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "6 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "9 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "12 m.",
             "isTrue": false
           }
         ]
@@ -1271,7 +1271,7 @@
       {
         "id": 0,
         "questionNumber": "36",
-        "question": "",
+        "question": "What is the lowest OCH on a circling approach for a Cat B aircraft?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1281,33 +1281,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "120 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "135 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "140 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "150 m.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "37",
-        "question": "",
+        "question": "What is the category of aircraft with a V<sub>S1g</sub> of 132 knots?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1317,33 +1317,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "B",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "E",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "D",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "38",
-        "question": "",
+        "question": "When using a DR segment to take up an ILS instrument approach, what is the maximum length of the track that may be used to intercept the localizer?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1353,25 +1353,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "10 NM.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "5 minutes.",
             "isTrue": false
           }
         ]
@@ -1379,7 +1379,7 @@
       {
         "id": 0,
         "questionNumber": "39",
-        "question": "",
+        "question": "What Obstacle Clearance is guaranteed at a range greater than 5 NM from the edge of the holding area of a holding pattern?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1389,33 +1389,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "100 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "250 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "300 ft.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "none.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "40",
-        "question": "",
+        "question": "<p>A small fire occurs in the toilet of an aircraft but is quickly extinguished by the use of extinguishing agents.</p><p>This is classed as:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1425,25 +1425,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an accident",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "an occurrence",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "a serious occurrence",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "an incident",
             "isTrue": false
           }
         ]
@@ -1451,7 +1451,7 @@
       {
         "id": 0,
         "questionNumber": "41",
-        "question": "",
+        "question": "A VFR flight in Class F airspace is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1461,33 +1461,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "required to submit a flight plan and is required to carry a radio",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "required to submit a flight plan but is not required to carry a radio",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "not required to submit a flight plan but is required to carry a radio",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "not required to submit a flight plan and is not required to carry a radio",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "42",
-        "question": "",
+        "question": "What is the speed limit below 10 000 ft for an IFR flight in Class D airspace?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1497,25 +1497,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "250 kt TAS.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "250 kt IAS.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "not applicable",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "200 kt IAS",
             "isTrue": false
           }
         ]
@@ -1523,7 +1523,7 @@
       {
         "id": 0,
         "questionNumber": "43",
-        "question": "",
+        "question": "What phase of the Alert Service is declared when apprehension exists?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1533,33 +1533,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "INCEFA",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "DETRESFA",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "EMERGFA",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "ALERFA",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "44",
-        "question": "",
+        "question": "How must an AIRPROX (P) be initially reported?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1569,25 +1569,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "By RFT (aircraft radio)",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Submitted to the Operator in writing as soon as possible on landing",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "By immediately declaring a MAYDAY",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Included in an URGENCY message to the Company Operations",
             "isTrue": false
           }
         ]
@@ -1595,7 +1595,7 @@
       {
         "id": 0,
         "questionNumber": "45",
-        "question": "",
+        "question": "Prohibited, Restricted and Danger areas must be designated by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1605,25 +1605,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "country identifier, followed by P/R/D, followed by the identifier.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "country identifier followed by P/R/D.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "P/R/D followed by the identifier",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "country identifier followed by numbers",
             "isTrue": false
           }
         ]
@@ -1631,7 +1631,7 @@
       {
         "id": 0,
         "questionNumber": "46",
-        "question": "",
+        "question": "In which class or classes of airspace would essential traffic information be given to VFR traffic about other VFR traffic?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1641,25 +1641,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "B",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "B,C,D,E",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "B,C",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "B,C,D",
             "isTrue": false
           }
         ]
@@ -1667,7 +1667,7 @@
       {
         "id": 0,
         "questionNumber": "47",
-        "question": "",
+        "question": "The lowest height of a CTA above ground or water is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1677,25 +1677,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "300 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "150 m.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "200 m.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "500 m.",
             "isTrue": false
           }
         ]
@@ -1703,7 +1703,7 @@
       {
         "id": 0,
         "questionNumber": "48",
-        "question": "",
+        "question": "RNP (Required Navigation Performance) is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1713,25 +1713,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "based on Regional Air Navigation Orders (RANOs).",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "based on RANOs and applied by the state",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "based on RANOs and applied by the state and ICAO.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "based on RANOs and applied by the ICAO.",
             "isTrue": false
           }
         ]
@@ -1739,7 +1739,7 @@
       {
         "id": 0,
         "questionNumber": "49",
-        "question": "",
+        "question": "In what class of airspace can both IFR and VFR fly and IFR traffic only receives an advisory service for separation?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1749,25 +1749,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "F",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "E",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "G",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "D",
             "isTrue": false
           }
         ]
@@ -1775,7 +1775,7 @@
       {
         "id": 0,
         "questionNumber": "50",
-        "question": "",
+        "question": "Must a Final Report be sent to ICAO following an accident to an aircraft with an MTOM of 2250 kg?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1785,25 +1785,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Yes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Not unless the accident has resulted in a fatality of any sort",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "No",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Not unless the accident has resulted in a fatality of any sort and serious damage to the aircraft",
             "isTrue": false
           }
         ]
@@ -1811,7 +1811,7 @@
       {
         "id": 0,
         "questionNumber": "51",
-        "question": "",
+        "question": "What is the delay for a controlled flight after which a flight plan has to be re-filed?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1821,25 +1821,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "30 minutes EOBT",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "30 minutes ETD.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "60 minutes EOBT",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "60 minutes ETD",
             "isTrue": false
           }
         ]
@@ -1847,7 +1847,7 @@
       {
         "id": 0,
         "questionNumber": "52",
-        "question": "",
+        "question": "What are the contents of section 2 of an AIREP?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1857,33 +1857,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Present position and ETA.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Estimated time over the FIR boundary and endurance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Estimated elapsed time (EET) and endurance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "ETA and endurance",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "53",
-        "question": "",
+        "question": "If you want to descend through the level of another aircraft on the same track, the minimum separation is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1893,25 +1893,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "20 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "10 minutes.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "15 minute",
             "isTrue": false
           }
         ]
@@ -1919,7 +1919,7 @@
       {
         "id": 0,
         "questionNumber": "54",
-        "question": "",
+        "question": "If two aircraft are using the same VOR, by what lateral distance must the aircraft be separated before one of the two may commence a climb or descent?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1929,25 +1929,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "10 NM.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "15 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "20 NM.",
             "isTrue": false
           }
         ]
@@ -1955,7 +1955,7 @@
       {
         "id": 0,
         "questionNumber": "55",
-        "question": "",
+        "question": "What does the signal XX from a search party indicate?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1965,25 +1965,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "We have not found all personnel",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "We are not able to continue. Returning to base",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Nothing found",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Operation completed",
             "isTrue": false
           }
         ]
@@ -1991,7 +1991,7 @@
       {
         "id": 0,
         "questionNumber": "56",
-        "question": "",
+        "question": "What is the greatest radar wake turbulence?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2001,33 +2001,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "10 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "6 NM",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "57",
-        "question": "",
+        "question": "What is the maximum speed for a Category C aircraft for a departure procedure?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2037,33 +2037,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "120 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "165 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "290 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "265 kt",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "58",
-        "question": "",
+        "question": "Where an aeroplane is approaching to land, what is the maximum time spacing applied between that aeroplane and any other taking off in any direction?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2073,25 +2073,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "3 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "5 minutes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2 minutes",
             "isTrue": false
           }
         ]
@@ -2099,7 +2099,7 @@
       {
         "id": 0,
         "questionNumber": "59",
-        "question": "",
+        "question": "Which of the following statements is incorrect with regards to parallel runways operations?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2109,25 +2109,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "The maximum incept angle to the final approach track for Mode 4 operations is 30&#176;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "Regardless of the weather all approaches are to be radar monitored",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Only straight-in approaches may be conducted",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "All aircraft must have full ILS/MLS",
             "isTrue": false
           }
         ]
@@ -2135,7 +2135,7 @@
       {
         "id": 0,
         "questionNumber": "60",
-        "question": "",
+        "question": "For dependent parallel approaches what is the radar separation between two aircraft on the same ILS unless wake turbulence requires a greater separation?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2145,25 +2145,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "3 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "10 NM",
             "isTrue": false
           }
         ]
@@ -2171,7 +2171,7 @@
       {
         "id": 0,
         "questionNumber": "61",
-        "question": "",
+        "question": "What is the separation for a light aircraft taking off after a medium aircraft providing they are both using the same runway?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2181,33 +2181,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 min",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3 min",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 min",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "2 min",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "62",
-        "question": "",
+        "question": "Between two aircraft on the same track what is the minimum radar separation which must be provided for wake turbulence?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2217,25 +2217,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "4 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2.5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "3 NM",
             "isTrue": false
           }
         ]
@@ -2243,7 +2243,7 @@
       {
         "id": 0,
         "questionNumber": "63",
-        "question": "",
+        "question": "A heavy aircraft has made a missed approach to a runway in the opposite direction to normal take-off. What is the separation required for a light aircraft taking off?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2253,25 +2253,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "2 minutes",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1 minute",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "5 minutes",
             "isTrue": false
           }
         ]
@@ -2279,7 +2279,7 @@
       {
         "id": 0,
         "questionNumber": "64",
-        "question": "",
+        "question": "Radar separation may be applied before an aircraft taking off and a preceding departing aircraft providing the departing aircraft can be identified from the end of the runway within:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2289,25 +2289,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1 NM",
             "isTrue": false
           }
         ]
@@ -2315,7 +2315,7 @@
       {
         "id": 0,
         "questionNumber": "65",
-        "question": "",
+        "question": "What is the minimum radar separation for two aircraft established on the same localizer?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2325,25 +2325,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "5 NM when the first a/c is 20 kt faster than the second",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "10 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "20 NM",
             "isTrue": false
           }
         ]
@@ -2351,7 +2351,7 @@
       {
         "id": 0,
         "questionNumber": "66",
-        "question": "",
+        "question": "Under normal circumstances, what is the radar separation applied between aircraft at the same altitude?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2361,33 +2361,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "2 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2.5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "3 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "5 NM",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "67",
-        "question": "",
+        "question": "If radar capability permits, the minimum longitudinal separation may be reduced to:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2397,33 +2397,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "4.5 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "4 NM",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "3 NM",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "68",
-        "question": "",
+        "question": "A radar controller can request an aircraft to change speed when it is on the intermediate and final approach phase, except in certain conditions specified by the proper ATS authority. The speed change must not be more than:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2433,33 +2433,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "&#177; 15 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "&#177; 8 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "&#177; 10 kt",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "&#177; 20 kt",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "69",
-        "question": "",
+        "question": "The minima that must be applied to aircraft which are landing after a &#8220;heavy&#8221; or &#8220;medium&#8221; aircraft complying with wake turbulence separation on a timed approach is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2469,33 +2469,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "light aircraft behind medium aircraft ; 4 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "medium aircraft behind medium aircraft ; 2 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "medium aircraft behind heavy aircraft ; 3 minutes",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "medium aircraft behind heavy aircraft ; 2 minutes",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "70",
-        "question": "",
+        "question": "An integrated aeronautical information package consists of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2505,25 +2505,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "AIP and amendment service, supplement to the AIP, NOTAMs, Preflight Information Bulletins (PIBs), AICs, checklists and summaries",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "AIP and amendment service,, NOTAMs, Preflight Information Bulletins (PIBs), AICs, AIRACs, checklists and summaries",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "AIP and amendment service, supplement to the AIP, NOTAMs, AIRACs, AICs, checklists and summaries",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "AIP & Supplements, AIRACs, NOTAMs and pre-flight bulletins",
             "isTrue": false
           }
         ]
@@ -2531,7 +2531,7 @@
       {
         "id": 0,
         "questionNumber": "71",
-        "question": "",
+        "question": "AIP supplements with extensive text and graphics cover a short period; what is a long period in this respect?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2541,25 +2541,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1 year",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2 months",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "3 months",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "6 months",
             "isTrue": false
           }
         ]
@@ -2567,7 +2567,7 @@
       {
         "id": 0,
         "questionNumber": "72",
-        "question": "",
+        "question": "Regarding the AIS what is the time limit for a checklist of current NOTAMs to be issued?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2577,33 +2577,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "7 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "14 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "28 days",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "one month",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "73",
-        "question": "",
+        "question": "A VASI consists of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2613,25 +2613,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "two sets of three lights positioned as wingbars",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "three sets of three lights positioned as wingbars",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "two sets of two lights positioned as wingbars",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "three sets of two lights positioned as wingbars",
             "isTrue": false
           }
         ]
@@ -2639,7 +2639,7 @@
       {
         "id": 0,
         "questionNumber": "74",
-        "question": "",
+        "question": "Which &#8220;code letter&#8221; has to be chosen to identify a taxiway that has to be used by an aircraft with a wheel-base of 15 metres?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2649,25 +2649,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Code letter E",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "Code letter C",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Code letter B",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Code letter D",
             "isTrue": false
           }
         ]
@@ -2675,7 +2675,7 @@
       {
         "id": 0,
         "questionNumber": "75",
-        "question": "",
+        "question": "Which of the following is a non-standard Aerodrome Reference Code?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2685,25 +2685,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "4A",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "3F",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "4G",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "2E",
             "isTrue": false
           }
         ]
@@ -2711,7 +2711,7 @@
       {
         "id": 0,
         "questionNumber": "76",
-        "question": "",
+        "question": "What length should the approach lighting system for a CAT II Calvert design be?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2721,25 +2721,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "900 m",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "600 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "1200 m",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "400 m",
             "isTrue": false
           }
         ]
@@ -2747,7 +2747,7 @@
       {
         "id": 0,
         "questionNumber": "77",
-        "question": "",
+        "question": "What information must be passed to the Commander of an aircraft with regards to Law Enforcement Officers?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2757,25 +2757,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The number on board, their names and their seat locations",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "The number on board and their seat locations",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "Their names and their seat locations",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Only their seat locations",
             "isTrue": false
           }
         ]
@@ -2783,7 +2783,7 @@
       {
         "id": 0,
         "questionNumber": "78",
-        "question": "",
+        "question": "Medium intensity obstacle lighting will normally consist of flashing red lights except that they may be flashing white when used:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2793,25 +2793,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "in conjunction with high intensity obstacle lighting",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "in conjunction with low intensity obstacle lighting",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "in conjunction with runway obstacle lighting",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "in conjunction with the approach path obstacle lighting",
             "isTrue": false
           }
         ]
@@ -2819,7 +2819,7 @@
       {
         "id": 0,
         "questionNumber": "79",
-        "question": "",
+        "question": "Road Holding Position lights consist of either a controllable red (stop) /green (go) light or a:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2829,25 +2829,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "flashing red light",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "flashing yellow light",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "flashing blue light",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "flashing green light",
             "isTrue": false
           }
         ]
@@ -2855,7 +2855,7 @@
       {
         "id": 0,
         "questionNumber": "80",
-        "question": "",
+        "question": "The level of rescue and fire fighting facilities is dependent upon the category of the aerodrome. What factors determine this category?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2865,25 +2865,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "Aeroplane reference field length, wing span and outer main gear wheel span of the largest aircraft using that aerodrome",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The length of the longest runway and the area to be covered",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "The overall length and the fuselage width of the longest aircraft using that aerodrome",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "The length of the longest runway and total area of hard standings including access roads",
             "isTrue": false
           }
         ]
@@ -2891,7 +2891,7 @@
       {
         "id": 0,
         "questionNumber": "81",
-        "question": "",
+        "question": "<p>On departure, how many copies of the following are required:</p><p>1. the Gen Dec</p><p>2. the stores list</p><p>3. passenger manifest</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2901,25 +2901,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "3 of each",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "2 of 1; 2 of 2; 3 of 3",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "2 of 1; 1 of 2; 2 of 3",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "1 of 1; 1 of 2; 2 of 3",
             "isTrue": false
           }
         ]
@@ -2927,7 +2927,7 @@
       {
         "id": 0,
         "questionNumber": "82",
-        "question": "",
+        "question": "Which organizations are responsible for initiating the Alerting Service and moving from phase to phase?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2937,25 +2937,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "FIC and RCC",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "ACC and FIC",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "ACC and RCC",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "RCC and sub-units",
             "isTrue": false
           }
         ]
@@ -2963,7 +2963,7 @@
       {
         "id": 0,
         "questionNumber": "83",
-        "question": "",
+        "question": "Using the visual SAR signals the symbol for &#8220;we have found all personnel&#8221; is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -2973,25 +2973,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "+ +",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "L L L",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "<u>LL</u>",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "Y",
             "isTrue": false
           }
         ]
@@ -2999,7 +2999,7 @@
       {
         "id": 0,
         "questionNumber": "84",
-        "question": "",
+        "question": "According to Annex 17, security is defined as &#8220;a combination of measures and human resources intended to safeguard:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3009,25 +3009,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "civil aviation operations against acts of unlawful interference&#8221;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "international civil aviation operations against acts of unlawful interference&#8221;",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "international aviation operations against acts of unlawful interference&#8221;",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "aviation operations against acts of unlawful interference&#8221;",
             "isTrue": false
           }
         ]
@@ -3035,7 +3035,7 @@
       {
         "id": 0,
         "questionNumber": "85",
-        "question": "",
+        "question": "When an aircraft has sustained damage, the aircraft must be allowed to resume its flight provided that:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -3045,25 +3045,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the state where the aircraft is registered, the state where the aircraft is designed and the state where the prototype of the aircraft is declared to be airworthy, agree that the aircraft is still airworthy",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the state where the aircraft is registered is of the opinion that the sustained damage is of such a nature that the aircraft is still airworthy",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the state where the aircraft is designed and the state where the prototype of the aircraft is declared to be airworthy, send a message to the state where there aircraft is registered which says that the aircraft is still airworthy",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the state where the prototype of the aircraft is declared to be airworthy has informed the state where the aircraft is registered that the sustained damage is of such a nature that the aircraft is still airworthy",
             "isTrue": false
           }
         ]

@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "1.Air Law",
+    "chapter": "26.Aircraft Accident and Incident Investigation",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "An aircraft wheel gets stuck in the mud whilst taxiing to the runway for take-off and sustains damage. Is this:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an incident.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "an accident",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "a serious incident.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a normal operating hazard.",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "Who is responsible for the investigation of an accident?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,33 +57,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "State of Occurrence.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "State or Registry",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "ICAO.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "Combination of A and B.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "The purpose of Accident Investigations is the prevention of future accidents and:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,33 +93,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "apportion blame",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "to improve manufacturing design.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "to help judicial proceedings.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "nothing more.",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "<p>Just before arrival at the apron, the aircraft unintentionally taxies onto the grass causing the wheel to ride into a pothole.</p><p>The aircraft has sustained serious damage and consequently the crew is forced to delay the departure:</p>",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "considering that there is no physical injury and that the flight has ended, the action that has to be taken is merely confined to notification of the insurance company, the mechanic, the operator and persons who are in charge of runways and taxiways.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "this is an accident and the crew should follow the appropriate procedures.",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "this is an incident and the captain has to report this to the aerodrome authority within 48 hours.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "this is an irregularity in the exploitation. This crew should inform the operator about the delay caused by necessary repairs.",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "Who is entitled to be represented at any investigation?",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,26 +165,26 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "The State of Registry.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "The State of Design.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "The State of Manufacture.",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "All the above.",
+            "isTrue": true
           }
         ]
       }
