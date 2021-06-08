@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "category": "",
-    "subject": null,
-    "chapter": "",
+    "category": "1.ATPL_OXFORD",
+    "subject": "3.ELECTRICS AND ELECTRONICS",
+    "chapter": "11.AC Electrics - Introduction to AC",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
@@ -11,7 +11,7 @@
       {
         "id": 0,
         "questionNumber": "1",
-        "question": "",
+        "question": "The impedance of a circuit:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -21,25 +21,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "is the AC inductive load",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "is the DC inductive load",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "is the total resistance in an AC circuit",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "is the highest resistance of a rectifier",
             "isTrue": false
           }
         ]
@@ -47,7 +47,7 @@
       {
         "id": 0,
         "questionNumber": "2",
-        "question": "",
+        "question": "The ratio of true power to apparent power is known as:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -57,25 +57,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "ohms",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the power factor",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "kVAs",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the RMS value",
             "isTrue": false
           }
         ]
@@ -83,7 +83,7 @@
       {
         "id": 0,
         "questionNumber": "3",
-        "question": "",
+        "question": "In a constant frequency AC supply system, the frequency is determined by:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -93,25 +93,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the generator drive speed and the number of poles",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "engine drive speed and the power factor",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the capacitive reactance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the impedance",
             "isTrue": false
           }
         ]
@@ -119,7 +119,7 @@
       {
         "id": 0,
         "questionNumber": "4",
-        "question": "",
+        "question": "The amount of electrical power output for a given generator weight is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -129,25 +129,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "dependent on the aircrafts power requirements",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "greater for a DC generator",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "greater for an AC generator",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "determined by the size of the aircraft",
             "isTrue": false
           }
         ]
@@ -155,7 +155,7 @@
       {
         "id": 0,
         "questionNumber": "5",
-        "question": "",
+        "question": "The frequency of a supply is quoted in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -165,25 +165,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "cycles or hertz",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "watts",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "megacycles",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "cycles / minute",
             "isTrue": false
           }
         ]
@@ -191,7 +191,7 @@
       {
         "id": 0,
         "questionNumber": "6",
-        "question": "",
+        "question": "One advantage that AC has over DC is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -201,33 +201,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "that TRUs are not required",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "that the generators require less cooling",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "that the cables require less insulation",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the ease with which the voltage can be stepped up or down with almost 100% efficiency",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "7",
-        "question": "",
+        "question": "The voltage output of an AC generator will rise to a maximum value:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -237,25 +237,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "in one direction, fall to zero and rise in the same direction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "in one direction and remain there",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "in one direction, fall to zero and rise to a maximum value in the opposite direction",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "in one direction only",
             "isTrue": false
           }
         ]
@@ -263,7 +263,7 @@
       {
         "id": 0,
         "questionNumber": "8",
-        "question": "",
+        "question": "If the frequency in an inductive circuit is less than it was designed for, then current consumption will:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -273,33 +273,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "decrease",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "remain the same",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "fluctuate",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "increase",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "9",
-        "question": "",
+        "question": "In a capacitive circuit, if the frequency increases:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -309,25 +309,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "current decreases",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "current increases",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "current flow is unaffected by frequency change",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the voltage fluctuates",
             "isTrue": false
           }
         ]
@@ -335,7 +335,7 @@
       {
         "id": 0,
         "questionNumber": "10",
-        "question": "",
+        "question": "The line voltage of a typical aircraft constant frequency paralleled AC system is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -345,25 +345,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "115",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "208",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "200",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "400",
             "isTrue": false
           }
         ]
@@ -371,7 +371,7 @@
       {
         "id": 0,
         "questionNumber": "11",
-        "question": "",
+        "question": "A 400 Hz supply has:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -381,25 +381,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "an output capacity of 400 000 watts",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "an impedance of 400 ohms",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "a frequency of 400 cycles per second",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "a frequency of 400 cycles per minute",
             "isTrue": false
           }
         ]
@@ -407,7 +407,7 @@
       {
         "id": 0,
         "questionNumber": "12",
-        "question": "",
+        "question": "In an AC circuit which is mainly inductive:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -417,25 +417,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "current will lead voltage",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "current and voltage will be in phase",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "current will lag voltage",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the power factor will be negative",
             "isTrue": false
           }
         ]
@@ -443,7 +443,7 @@
       {
         "id": 0,
         "questionNumber": "13",
-        "question": "",
+        "question": "If the frequency is increased in an inductive circuit:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -453,25 +453,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "reactance will increase",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "reactance will decrease",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "impedance will remain constant",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the heating effect will increase",
             "isTrue": false
           }
         ]
@@ -479,7 +479,7 @@
       {
         "id": 0,
         "questionNumber": "14",
-        "question": "",
+        "question": "The RMS value of alternating current is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -489,33 +489,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the mean current value for one half cycle",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "1.73 times the peak value",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "equal to the square root of the peak value",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": ".707 times the peak value",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "15",
-        "question": "",
+        "question": "The number of separate stator windings in an AC generator determines:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -525,33 +525,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the output voltage of the supply",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the output frequency of the supply",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the power factor",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the number of phases present in the supply",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "16",
-        "question": "",
+        "question": "kVAR is a measure of:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -561,25 +561,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the resistive load on the alternat",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "the reactive load on the alternator",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the total load on the alternator",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the total circuit impedance",
             "isTrue": false
           }
         ]
@@ -587,7 +587,7 @@
       {
         "id": 0,
         "questionNumber": "17",
-        "question": "",
+        "question": "The output of an alternator is rated in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -597,25 +597,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "kVA",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "kVAR",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "kW",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "kW/kVAR",
             "isTrue": false
           }
         ]
@@ -623,7 +623,7 @@
       {
         "id": 0,
         "questionNumber": "18",
-        "question": "",
+        "question": "Instruments measuring AC are calibrated in:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -633,25 +633,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "RMS values",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "average values",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "peak values",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "mean values",
             "isTrue": false
           }
         ]
@@ -659,7 +659,7 @@
       {
         "id": 0,
         "questionNumber": "19",
-        "question": "",
+        "question": "Impedance is the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -669,25 +669,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "vector sum of the resistance and the reactance",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "sum of the resistance and capacitive reactance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "sum of the capacitive reactance and the inductive reactance",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "sum of the resistance, inductive reactance and the capacitive reactance",
             "isTrue": false
           }
         ]
@@ -695,7 +695,7 @@
       {
         "id": 0,
         "questionNumber": "20",
-        "question": "",
+        "question": "If an alternator is run at below normal frequency, then:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -705,25 +705,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "electric motors will stop",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "inductive devices will overheat",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "lights will become dim",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "lights will become brighter",
             "isTrue": false
           }
         ]
@@ -731,7 +731,7 @@
       {
         "id": 0,
         "questionNumber": "21",
-        "question": "",
+        "question": "The power factor is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -741,25 +741,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "kVA / kW",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "kW / kVAR",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "kW / kVA",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "kVAR / kW",
             "isTrue": false
           }
         ]
@@ -767,7 +767,7 @@
       {
         "id": 0,
         "questionNumber": "22",
-        "question": "",
+        "question": "When reactance is present in a circuit:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -777,33 +777,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "the power factor will be unity",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the power factor will be negative",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the power factor will be greater than unity",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the power factor will be less than one",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "23",
-        "question": "",
+        "question": "Generator output frequency is decreased by decreasing the:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -813,25 +813,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "generator field rotation speed",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "generator field voltage",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "generator field current",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "generator field impedance",
             "isTrue": false
           }
         ]
@@ -839,7 +839,7 @@
       {
         "id": 0,
         "questionNumber": "24",
-        "question": "",
+        "question": "The RMS value of AC is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -849,33 +849,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "1.73 times the peak value",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the peak value times the power factor",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the peak value which would provide the same heating effect as DC",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "the value of DC which would provide the same heating effect",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "25",
-        "question": "",
+        "question": "In a reactive circuit:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -885,25 +885,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the voltage and current will be out of phase",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the voltage and current will be in phase opposition",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the voltage will always be led by the current",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the voltage and current will be in phase",
             "isTrue": false
           }
         ]
@@ -911,7 +911,7 @@
       {
         "id": 0,
         "questionNumber": "26",
-        "question": "",
+        "question": "A capacitor consists of two metal plates:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -921,33 +921,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "separated by a diabetic",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "which have current flowing between them",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "which will not allow a potential difference between them",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "separated by waxed paper or mica",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "27",
-        "question": "",
+        "question": "In a DC circuit, an inductance:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -957,25 +957,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "never has any effect on the voltage",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "only affects the voltage upon switching on",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "offers opposition to the flow while switching on and off",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "will always increase the voltage",
             "isTrue": false
           }
         ]
@@ -983,7 +983,7 @@
       {
         "id": 0,
         "questionNumber": "28",
-        "question": "",
+        "question": "The basic unit of inductance is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -993,25 +993,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
-            "isTrue": false
+            "content": "the henry",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the ohm",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the farad",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "the coulomb",
             "isTrue": false
           }
         ]
@@ -1019,7 +1019,7 @@
       {
         "id": 0,
         "questionNumber": "29",
-        "question": "",
+        "question": "In an inductive circuit:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1029,25 +1029,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "current leads the voltage",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
-            "isTrue": false
+            "content": "current lags the voltage",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "the voltage is in phase with the current",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "only the RMS values vary",
             "isTrue": false
           }
         ]
@@ -1055,7 +1055,7 @@
       {
         "id": 0,
         "questionNumber": "30",
-        "question": "",
+        "question": "In a capacitive circuit, if the frequency increases then:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1065,33 +1065,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "current flow is unaffected",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "the voltage varies",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "current flow decreases",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "current flow increases",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "31",
-        "question": "",
+        "question": "The power factor is:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1101,33 +1101,33 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "WATTFUL POWER / REAL POWER",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "RATED POWER / APPARENT POWER",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
+            "content": "APPARENT POWER / TRUE POWER",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
-            "isTrue": false
+            "content": "APPARENT POWER / TRUE POWER",
+            "isTrue": true
           }
         ]
       },
       {
         "id": 0,
         "questionNumber": "32",
-        "question": "",
+        "question": "Transferring electrical energy by means of a magnetic field is called:",
         "mark": 0,
         "isActive": true,
         "answerType": 0,
@@ -1137,25 +1137,25 @@
           {
             "id": 0,
             "tenantId": "A",
-            "content": "",
+            "content": "electrostatic induction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "B",
-            "content": "",
+            "content": "electromolecular induction",
             "isTrue": false
           },
           {
             "id": 0,
             "tenantId": "C",
-            "content": "",
-            "isTrue": false
+            "content": "electromagnetic induction",
+            "isTrue": true
           },
           {
             "id": 0,
             "tenantId": "D",
-            "content": "",
+            "content": "electromolecular amplification",
             "isTrue": false
           }
         ]
