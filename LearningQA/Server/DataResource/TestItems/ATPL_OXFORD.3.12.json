@@ -1948,7 +1948,7 @@
             "id": 0,
             "tenantId": "D",
             "content": "kW & kVAR",
-            "isTrue": falsetrue
+            "isTrue": true
           }
         ]
       },
