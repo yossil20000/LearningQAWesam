@@ -1,0 +1,276 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "5.INSTRUMENTATION",
+    "chapter": "5.The Pressure Altimeter",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "The diagram below shows a simple altimeter. The parts labelled A, B, C and D are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Diagram.5.5.1",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.5\\Diagram.5.5.1.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "pitot pressure inlet, linkage mechanism, bellows, quadrant",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "air inlet, temperature compensator, leaf spring, linkage mechanism",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "static pressure inlet, partially evacuated capsule, linkage mechanism, subscale setting device",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "static pressure inlet, partially evacuated capsule, leaf spring, linkage mechanism",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "In the International Standard Atmosphere, the mean sea level pressure is _____ the lapse rate of temperature _____ between MSL and _____ and is isothermal up to _____ The numbers missing are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1225 hPa; 2<sup>&#176</sup>; per 1000 ft; 37 000 ft; 66 000 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1013.25 hPa; 1.98&#176;C per 1000 ft; 36 090 ft; 65 617 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1013.25 hPa; 1.98&#176;C per 1000 ft; 36 090 ft; 104 987 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1225 hPa; 1.98&#176;C per 1000 ft; 36 090 ft; 104 987 ft",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "An aircraft taking off from an airfield with QNH set on the altimeter has both static vents blocked by ice. As the aircraft climbs away the altimeter will:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "read the airfield elevation",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "indicate the aircraft height amsl",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "read the height of the aircraft above the airfield",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "show only a very small increase in height",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "When flying from low pressure to high pressure, without resetting the altimeter datum, the barometric error of an altimeter will cause the instrument to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "read the true altitude, providing a correction is made for temperature",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "over-read the true altitude of the aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "indicate a higher altitude than the correct one",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "under-read the true altitude of the aircraft",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "The errors affecting the pressure altimeter are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "instrument position, manoeuvre induced, density, temperature, lag",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "instrument, pressure, manoeuvre induced, density, temperature, lag",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "instrument, position, manoeuvre induced, temperature, barometric, lag",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "instrument, pressure, lag, barometric, temperature, compressibility",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "An altimeter with ___ set on the subscale will indicate _____ but with _____ set, the altimeter will show .......",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1013; pressure altitude; QNH; altitude",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "QNE; pressure altitude; QNH; height above airfield datum",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "QFE; height above the airfield datum; 1013; height amsl",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "QNH; height above touchdown; 1013; height amsl",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>An aircraft has one altimeter set to QFE and one to aerodrome QNH 1000 hPa.</p><p>If the airfield elevation is 300 ft, immediately before take-off the altimeter with QFE set will read _____ and the other _____ If the QFE altimeter is set to 1013 when passing through the transition altitude 3000 ft,</p><p>it will read _____ (Assume 1 hPa = 30 ft).</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "300 ft; zero; 2610 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "zero; 300 ft; 3390 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "zero; 300 ft; 3690 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "zero; 300 ft; 2610 ft",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
