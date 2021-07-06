@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.Internal;
 
 using Castle.Core.Internal;
 using Castle.Core.Logging;
@@ -23,10 +24,15 @@ using ServiceResult.ApiExtensions;
 using Swashbuckle.AspNetCore.Annotations;
 
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -174,26 +180,77 @@ namespace LearningQA.Server.Controllers
                 Phone = "054999888777"
 
             };
-
-            foreach (var file in filestoLoad)
+            BlockingCollection<List<TestItem<QUestionSql, int>>> testItemsLoader = new BlockingCollection<List<TestItem<QUestionSql, int>>>();
+            bool mode = false;
+            ICollection<ValidationResult> validationResults = new Collection<ValidationResult>();
+            var sw = Stopwatch.StartNew();
+            
+            if(mode)
             {
-                
-                var result = DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file);
-                if (result == null) 
-                    continue;
-                if (result.Where(x => string.IsNullOrEmpty(x.Category) && string.IsNullOrEmpty(x.Chapter) && string.IsNullOrEmpty(x.Subject)).Any())
-                    continue;
-                if (!ConverSupplement(result))
-                    return Ok("ConverSupplement Failed");
-                await _mediator.Send(new CreateRangeTestItemCommand(result, person) { CreateNewDatabase = createNewDatabase }, cancellationToken);
-                createNewDatabase = false;
+                foreach (var file in filestoLoad)
+                {
+
+                    var result = DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file);
+                    if (result == null)
+                        continue;
+                    if (result.Where(x => string.IsNullOrEmpty(x.Category) && string.IsNullOrEmpty(x.Chapter) && string.IsNullOrEmpty(x.Subject)).Any())
+                        continue;
+                    if (!ConverSupplement(result))
+                        return Ok("ConverSupplement Failed");
+                    await _mediator.Send(new CreateRangeTestItemCommand(result, person) { CreateNewDatabase = createNewDatabase }, cancellationToken);
+                    createNewDatabase = false;
+                }
+                sw.Stop();
+                Debug.WriteLine($"Without Parallel Tooks {sw.ElapsedMilliseconds}");
+            }
+            else
+            {
+               
+                createNewDatabase = true;
+                sw.Restart();
+                ParallelLoopResult parallelLoopResult = Parallel.ForEach(filestoLoad, file => DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file, testItemsLoader));
+                foreach (var result in testItemsLoader)
+                {
+                    //int parseResult;
+
+                    //if (result.Where(x => string.IsNullOrEmpty(x.Category) || string.IsNullOrEmpty(x.Chapter) || string.IsNullOrEmpty(x.Subject)).Any())
+                    //    continue;
+                    int previousValidationResult = validationResults.Count();
+                    result.ForEach(x => Validator.TryValidateObject(x, new System.ComponentModel.DataAnnotations.ValidationContext(x), validationResults, true));
+
+                    if (!ConverSupplement(result))
+                        validationResults.Add(new ValidationResult($"ConverSupplement failed"));
+                    if (validationResults.Count > previousValidationResult)
+                        continue;
+                    //var test = result.Where(x =>
+                    // x.Questions.Where(q => !int.TryParse(q.QuestionNumber, out parseResult)).Any()
+                    // );
+                    //if (test.Count() > 0)
+                    //{
+                    //    foreach (var item in test)
+                    //    {
+                    //        var q = item.Questions.Select(x => x.QuestionNumber).Aggregate((s1,s2) => s1 + " | " + s2);
+                    //        Debug.WriteLine($"{item.GeTestItemTitle()} question: {string.Join(" ! ", q) }");
+                    //    }
+                            
+                    //    //return Ok("Question number not valis"); 
+                    //}
+
+                    await _mediator.Send(new CreateRangeTestItemCommand(result, person) { CreateNewDatabase = createNewDatabase }, cancellationToken);
+                    createNewDatabase = false;
+                }
+                sw.Stop();
+                Debug.WriteLine($"With Parallel Tooks {sw.ElapsedMilliseconds}");
             }
 
+
             //var testitems = DataResourceReader.LoadJson<TestItem<QUestionSql, int>>(fileName);
-			
+
             //ConverSupplement(testitems);
-			//await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = createNewDatabase}, cancellationToken);
-			return Ok(true);
+            //await _mediator.Send(new CreateRangeTestItemCommand(testitems,person) { CreateNewDatabase = createNewDatabase}, cancellationToken);
+            var returnMessage = new StringBuilder();
+            validationResults.ForAll(s => returnMessage.Append($"{Environment.NewLine}{s.ErrorMessage}"));
+            return Ok(returnMessage.ToString());
 		}
 
 		[HttpGet(Name = "/EmptyTestItem")]
@@ -203,7 +260,7 @@ namespace LearningQA.Server.Controllers
             OperationId = "TestItem.Get",
             Tags = new[] { "TestItemEndpoint" })]
         [SwaggerResponse((int)System.Net.HttpStatusCode.OK, "List<TestItem<QUestionSql,int>>", typeof(List<TestItem<QUestionSql, int>>))]
-        public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int testCount, int questionCount, int supplementCount = 0)
+        public  async Task<List<TestItem<QUestionSql,int>>> EmptyTestItem(int testCount, int questionCount, int supplementCount = 0, string category = "1.ATPL_OXFORD", string subject = "")
 		{
 			string[] option = new string[4] { "A", "B", "C", "D" };
 			List<TestItem<QUestionSql, int>> testItems = new List<TestItem<QUestionSql, int>>();
@@ -211,7 +268,8 @@ namespace LearningQA.Server.Controllers
 			for(int i =0; i < testItems.Count();i++)
 			{
 				testItems[i] = new TestItem<QUestionSql, int>();
-
+                testItems[i].Category = category;
+                testItems[i].Subject = subject;
 				testItems[i].Questions = new List<QUestionSql>();
                 
 				for(var j=0; j < questionCount;j++)

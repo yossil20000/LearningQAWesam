@@ -8,6 +8,9 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Collections.Concurrent;
+using System.Diagnostics;
+
 namespace LearningQA.Server.Infrasructure
 {
 	public static class DataResourceReader
@@ -61,7 +64,7 @@ namespace LearningQA.Server.Infrasructure
 			}
             return null;
         }
-        public static List<T> LoadJsonFullName<T>(string file )
+        public static List<T> LoadJsonFullName<T>(string file,BlockingCollection<List<T>> collection = null )
         {
             if (string.IsNullOrEmpty(file))
             {
@@ -78,12 +81,13 @@ namespace LearningQA.Server.Infrasructure
                     option.IncludeFields = true;
                     option.PropertyNameCaseInsensitive = true;
                     var items = JsonSerializer.Deserialize<List<T>>(json, option).ToList();
+                    collection?.Add(items);
                     return items;
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Debug.WriteLine($"{MethodInfo.GetCurrentMethod().Name} File: {file} Ex:{Environment.NewLine} {ex.Message}");
             }
             return null;
         }
