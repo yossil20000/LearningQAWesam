@@ -1,0 +1,301 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "5.INSTRUMENTATION",
+    "chapter": "18.Inertial Navigation Systems",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "INS errors are classified as &#8220;bounded errors&#8221; and &#8220;unbounded errors&#8221;.",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "An &#8220;unbounded error&#8221; is an error that increases with time, an example being the distance gone error due to a ground speed error",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "An &#8220;unbounded error&#8221; is an error that increases with time, an example being an increasing ground speed error due to the platform not being levelled correctly",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A &#8220;bounded error&#8221; is an error that is subject to sudden unpredictable random changes. Most notable during pitching manoeuvres and when raising or lowering flap and U/C",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "A &#8220;bounded error&#8221; is an error that is &#8220;tied&#8221; to the real wander rates of the gyros on the platform",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "Two checks that can be carried out to check that two selected sequential waypoints have been entered correctly are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "select DSR.TK/STS and check that the status is less than 4; select DIS/TIME and check that the time agrees with the flight plan time",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "select DIS/TIME and check that the distance agrees with the distance on the flight plan; then check that the time agrees with the flight plan time for the leg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "select DIS/TIME and check that the distance agrees with the distance on the flight plan; select DSR.TK/STS and check that the track agrees with the flight plan track for the leg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "select DIS/TIME and check that the distance agrees with the distance on the flight plan; select HDG/DA and check that the heading agrees with the flight plan heading for the leg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "In an INS the E/W accelerations are converted into an E/W speed (kt) at the first stage of integration and into E/W distance gone (NM) at the second stage of integration. This gives:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "departure which is multiplied by cosine of the present latitude of obtain d&#714;long (min) which is used to automatically update the present longitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "d&#714;long (min) which is used to automatically update the present longitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "departure which is multiplied by secant of the present latitude to obtain d&#714;long (min) which is used to automatically update the present longitude",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "departure which is multiplied by sine of the present latitude to obtain d&#714;long (min) which is used to automatically update the present longitude",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "At the second stage of integration E/W speed is converted into E/W distance gone. To convert this departure into change of longitude it has to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "be divided by secant of the latitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "be multiplied by secant of the latitude",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "be divided by tangent of the latitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "be multiplied by cosine of the latitude",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "The amber ALERT light on an INS control and display unit:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "illuminates steadily 2 minutes, in AUTO mode, before reaching the next waypoint",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "start flashing 2 minutes before reaching the next waypoint and goes out at 30 seconds to run",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "illuminates if power from the aircraft bus bar has been lost and the system is operating on standby battery",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "illuminates steadily after passing a waypoint in manual mode, until the next leg is programmed in",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "<p>With reference to Inertial Navigation Systems, the functions of the integrators are:</p><p>i) at the second stage of integration to suppress unbounded errors (when in the NAV mode)</p><p>ii) at the first stage of integration to convert acceleration, with respect to time, into speed, (when in NAV mode)</p><p>iii) at the second stage of integration to convert speed, with respect to time, into distance gone, (when in the NAV mode)</p><p>iv) to align the platform (when in the level and align modes)</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "all the above statements are true",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "only (ii), (iii) and (iv) of the above statements are true",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "only (i), (ii) and (iii) of the above statements are true",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "only (ii) and (iii) of the above statements are true",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "The computer of a north referenced Inertial Navigation System (INS) in flight, provides compensation for:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "aircraft manoeuvres, real wander, apparent wander, transport wander",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "coriolis, real wander, apparent wander, transport wander",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "earth rotation, transport wander, coriolis",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "transport wander, apparent wander, coriolis, magnetic variation",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "During initialization of an INS the aircraft must not be moved until:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the ramp position has been inserted and checked",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the platform is levelled",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the gyros and accelerometers are in the &#8220;null&#8221; position",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the green &#8220;ready NAV&#8221; light has been illuminated and the mode selector switch has been set to the &#8220;NAV&#8221; position",
+            "isTrue": true
+          }
+        ]
+      }
+    ]
+  }
+]

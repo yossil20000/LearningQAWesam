@@ -1,0 +1,193 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "5.INSTRUMENTATION",
+    "chapter": "35.Airborne Collision and Avoidance System",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "On receipt of a TCAS RA your action is to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "initiate the required manoeuvre immediately",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "make a note of the details",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "request a flight clearance deviation from ATC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "do nothing until a TA is received",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "Which of the following statements concerning TCAS is correct:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "TCAS II provides avoidance instructions in the vertical and horizontal planes",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "TCAS II cannot provide information on non-SSR equipped intruders",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "TCAS II requires Mode S to be fitted to other aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "TCAS II provides advice on which way to turn",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "With reference to Traffic Collision Avoidance Systems. The difference between TCAS I and II is that:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "TCAS II can provide Traffic Advisories and Resolution Advisories whilst TCAS I can only provide Traffic Advisories",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "TCAS II can only be fitted to large aircraft which carry more than 30 passengers whilst TCAS I can be fitted to any aircraft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "TCAS I can be fitted to aircraft which carry transponders with Mode A only whilst TCAS II can only be fitted to aircraft whose transponders include either Mode C or Mode S",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "TCAS II can only be fitted to aircraft which are equipped with EFIS",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "The aural messages provided by TCAS II are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Threat, Climb; Threat, Descend",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Climb left; Climb right; Descend left; Descend right",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Climb; Descend; Increase Climb; Increase Descent",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Turn Left, Turn Right, Increase Turn, Decrease Turn",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "With reference to Traffic Collision Avoidance Systems:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "RAs may be disregarded only when the pilot visually identifies the potentially conflicting traffic and decides that no deviation is necessary and has the clearance confirmed by ATC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "RAs may be disregarded only when the pilot visually identifies the potentially conflicting traffic and decides that no deviation is necessary and has advised ATC of the other aircraft&#714;s proximity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "RAs must never be disregarded",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "RAs may be disregarded only when the pilot visually identifies the potentially conflicting traffic and decides that no deviation is necessary",
+            "isTrue": true
+          }
+        ]
+      }
+    ]
+  }
+]

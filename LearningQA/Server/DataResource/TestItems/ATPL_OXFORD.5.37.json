@@ -1,0 +1,193 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "5.INSTRUMENTATION",
+    "chapter": "37.Cockpit Voice Recorder",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>An altitude alerting system must at least be capable of alerting the crew on:</p><p>1. Approaching selected altitude</p><p>2. Abnormal gear/flap combination</p><p>3. Excessive vertical speed</p><p>4. Excessive terrain closure</p><p>5. Excessive deviation from selected altitude</p><p>6. Failure to set SPS or RPS as required</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1 & 3",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "2 & 5",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "4 & 6",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1 & 5",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "According to the regulations, when must the FDR on a 12 seat turbo prop a/c begin recording?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Switch on until switch off",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "From before the aircraft is capable of moving under its own power to after the a/c is no longer capable of moving under its own power",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "From lift-off until the weight on wheels switch is made on landing",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "At commencement of the taxi to turning off the runway",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "What is the GPWS mode 3 audible alert?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "&#8220;don&#714;t sink, don&#714;t sink&#8221; followed by &#8220;whoop, whoop, pull up&#8221; if the sink rate exceeds a certain value",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "&#8220;don&#714;t sink, don&#714;t sink&#8221; followed immediately by &#8220;whoop, whoop, pull up&#8221;",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "&#8220;don&#714;t sink, don&#714;t sink&#8221; continuously",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "&#8220;Terrain, don&#714;t sink&#8221; continuously",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>What are the inputs to a modern jet transport aeroplane&#714;s stall warning system?</p><p>1. AoA</p><p>2. Engine rpm</p><p>3. Configuration</p><p>4. Pitch and bank information</p><p>5. Control surface position</p><p>6. Airspeed vector</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1 & 3",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1, 2, 3, 4, 5 & 6",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2, 4 & 6",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1, 3, 5 & 6",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "<p>GPWS may indicate:</p><p>1. Excessive sink rate after T/O</p><p>2. Excessive descent rate</p><p>3. Excessive terrain closure</p><p>4. Ground proximity, not in the landing configuration</p><p>5. Upward deviation from glide slope</p><p>6. Proximity to en route terrain</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1, 2, 3, 4",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "All of the above",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2, 3, 4, 5",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "All of the above",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]
