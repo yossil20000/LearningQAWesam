@@ -206,7 +206,7 @@ namespace LearningQA.Server.Controllers
             else
             {
                
-                createNewDatabase = true;
+               
                 sw.Restart();
                 ParallelLoopResult parallelLoopResult = Parallel.ForEach(filestoLoad, file => DataResourceReader.LoadJsonFullName<TestItem<QUestionSql, int>>(file, testItemsLoader));
                 foreach (var result in testItemsLoader)
