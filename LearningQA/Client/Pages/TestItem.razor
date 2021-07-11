@@ -236,11 +236,11 @@
 
 @code {
     string border = "border-style: solid; border-width: 1px;";
-    private async void OnImageDoubleClick()
+    private async Task OnImageDoubleClick()
     {
         try
         {
-            await canvasClassJsInterop.ClearDraw("canvasTestItem");
+            _ = await canvasClassJsInterop.UpdateImage("canvasTestItem", "canvasImgTestItem");
         }
         catch(Exception ex)
         {
@@ -259,7 +259,7 @@
         await Task.CompletedTask;
     }*@
 
-     private async void SelectedImage(int id)
+     private async Task SelectedImage(int id)
     {
         Console.WriteLine($"SelectedImage  Id : {id} ");
         await canvasClassJsInterop.ClearDraw("canvasTestItem");
