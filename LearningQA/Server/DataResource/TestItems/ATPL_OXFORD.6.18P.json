@@ -1,0 +1,564 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "6.Mass and Balance And Performance",
+    "chapter": "18.2.1.Class A - Landing",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "The approach climb requirement has been established to ensure:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "minimum climb gradient in case of a go-around with one engine inoperative",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "obstacle clearance in the approach area",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "manoeuvrability in case of landing with one engine inoperative",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "manoeuvrability during approach with full flaps and gear down, all engines operating",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The maximum mass for landing could be limited by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the climb requirements with all engines in the landing configuration but with gear up",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the climb requirements with one engine inoperative in the approach configuration",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the climb requirements with one engine inoperative in the landing configuration", 
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the climb requirements with all engines in the approach configuration",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "Which of the following is true according to EU-OPS regulations for turbo-propeller powered aeroplanes not performing a steep approach?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Maximum take-off run is 0.5 × runway length",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Maximum use of clearway is 1.5 × runway length",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Maximum landing distance at the destination aerodrome and at any alternate aerodrome is 0.7 × LDA (landing distance available)",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Maximum landing distance at destination is 0.95 × LDA (landing distance available)",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "For a turboprop powered aeroplane, a 2200 m long runway at the destination aerodrome is expected to be &#8220;wet&#8221;. To ensure the wet landing distance meets the requirement, the &#8220;dry runway&#8221; landing distance should not exceed:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1540 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1147 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1339 m",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1771 m",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "A flight is planned with a turbojet aeroplane to an aerodrome with a landing distance available of 2400 m. Which of the following is the maximum landing distance for a dry runway?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1437 m",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1250 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1090 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1655 m",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "According to EU-OPS, which one of the following statements concerning the landing distance for a turbojet aeroplane is correct?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The landing distance is the distance from 35 ft above the surface of the runway to the full stop",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "When determining the maximum allowable landing mass at destination, 60% of the available landing runway length should be taken into account",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Reverse thrust is one of the factors always taken into account when determining the landing distance required",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Malfunctioning of an anti-skid system has no effect on the required runway length",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "By what factor must the landing distance available (dry runway) for a turbojet powered aeroplane be multiplied to find the maximum landing distance?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1.15",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1.67",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "60/115",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "0.60",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "The landing field length required for jet aeroplanes at the alternate in wet conditions is the demonstrated landing distance plus:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "92%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "43%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "70%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "67%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "The landing field length required for turbojet aeroplanes at the destination in wet condition is the demonstrated landing distance plus:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "67%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "70%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "43%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "92%",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "For a turbojet aeroplane, what is the maximum landing distance for wet runways when the landing distance available at an aerodrome is 3000 m?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2070 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1562 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1800 m",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "2609 m",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "If the airworthiness documents do not specify a correction for landing on a wet runway, the landing distance must be increased by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "20%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "15%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "Required runway length at destination airport for turboprop aeroplanes:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is the same as at an alternate airport",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is less then at an alternate airport",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is more than at an alternate airport",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is 60% longer than at an alternate airport",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "<p>For this question use Figure 4.28 in CAP 698 Section 4.</p><p>What is the minimum field length required for the worst wind situation, landing a twin jet aeroplane with the anti-skid inoperative?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.18P.13",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.18P.13.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2600 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "2700 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "2900 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3100 m",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "Compared to the landing distance available, the maximum landing distance for a turbo-propeller and turbojet aircraft are:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "60%, 60%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "70%, 70%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "70%, 60%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "60%, 70%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "The landing climb gradient limit mass is determined by:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a gradient of 3.2% with one engine inoperative, the other engines at take-off power in the landing configuration",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a gradient of 3.2% with all engines operating at take-off power, in the landing configuration",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a gradient of 2.1% with all engines operating at take-off power, with landing gear retracted, and approach flap",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a gradient of 3.2% with all engines operating at take-off power, with landing gear retracted and approach flap",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

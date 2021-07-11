@@ -1,0 +1,201 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "6.Mass and Balance And Performance",
+    "chapter": "8.2.1.Single-engine Class B - Climb",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "<p>For this question use Performance Manual CAP 698 SEP1 Figure 2.3.</p><p>Using the climb performance chart, for the single-engine aeroplane, determine the rate of climb and the gradient of climb in the following conditions:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.8P.1",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.8P.1.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1310 ft/min and 11.3%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1130 ft/min and 10.6%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1030 ft/min and 8.4%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1140 ft/min and 11.1%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "<p>For this question use Performance Manual CAP 698 SEP1 Figure 2.3.</p><p>Using the climb performance chart, for the single-engine aeroplane, determine the ground distance to reach a height of 1500 ft in the following conditions:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.8P.2",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.8P.2.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "19 250 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "14 275 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "14 925 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 625 ft",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "<p>For this question use Performance Manual CAP 698 SEP1 Figure 2.3.</p><p>With regard to the climb performance chart for the single-engine aeroplane determine the climb speed (ft/min).</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.8P.3",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.8P.3.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1150 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1290 ft/min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1370 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1210 ft/min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "<p>For this question use Performance Manual CAP 698 SEP1 Figure 2.3.</p><p>Using the climb performance chart, for the single-engine aeroplane, determine the ground distance to reach a height of 2000 ft in the following conditions:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.8P.4",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.8P.4.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "14 500 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "18 750 ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "16 850 ft",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 750 ft",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

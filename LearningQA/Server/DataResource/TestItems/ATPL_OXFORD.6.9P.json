@@ -1,0 +1,265 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "6.Mass and Balance And Performance",
+    "chapter": "9.2.1.Single-engine Class B - En Route and Descent",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "Which of the following statements correctly describes one of the general requirements about the operation of single-engine Class B aeroplanes in the public transport category?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "They may fly at night",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "They must be flown so that an airfield can be reached following engine failure",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "They are not to operate in IMC, except under special VFR",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "They must not be operated over water",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "According to the information in a light aircraft manual, which gives two powersettings for cruise, 65% and 75%, if you fly at 75% instead of 65%:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "cruise speed will be higher and SFC will be the same",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "cruise speed will be higher and SFC will be lower",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "cruise speed will be higher and SFC will be higher",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "cruise speed will be the same and SFC will be the same",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "According to the information in a light aircraft manual, which gives two power settings for cruise, 65% and 75%, if you fly at 65% instead of 75%:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "endurance will be higher and SFC will be the same",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "endurance will be higher and SFC will be lower",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "endurance will be higher and SFC will be higher",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "endurance will be the same and SFC will be the same",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "For the purpose of ensuring compliance with the en route regulations, up to what maximum altitude is the aeroplane assumed to operate?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The altitude where the rate of climb falls to 300 ft/min with maximum continuous power set",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "With maximum take-off power set, the altitude where the rate of climb exceeds 300 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "With maximum continuous power set, the altitude where the rate of climb exceeds 300 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The altitude where the rate of climb increases to 300 ft/min with maximum take-off power set",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "For the purpose of ensuring compliance with the en route regulations, the en route descent gradient must be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the gross gradient of descent decreased by 0.5%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the net gradient of descent decreased by 0.5%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the gross gradient of descent increased by 0.5%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "0.5%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "To ensure a piston engine Class B aeroplane can glide the furthest distance following engine failure, what speed must be flown?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "V<sub>MP</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1.32V<sub>MP</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "0.76V<sub>MP</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "V<sub>MP</sub>",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "Following engine failure, to maximize the descent range of a small piston engine aeroplane the aeroplane must be flown at:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the speed for the maximum lift over drag ratio",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "V<sub>MP</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the speed for minimum lift over drag ratio",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a speed equal to the aeroplane&#714;s best angle of climb",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

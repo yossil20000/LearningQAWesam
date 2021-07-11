@@ -1,0 +1,1824 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "6.Mass and Balance And Performance",
+    "chapter": "2.1.3.MRJT1",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "What is the total length of the fuselage?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1365 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1375 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1387 inches",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1395 inches",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "How far is the front spar from the datum?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "562 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "540 inches",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "500 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "458 inches",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "What is the distance between the two main access doors?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "940 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "947 inches",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "974 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "984 inches",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "How far is the leading edge of the mean aerodynamic chord from the datum?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "540 inches forward of the datum",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "589.5 inches forward of the datum",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "625.6 inches aft of the datum",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "627.5 inches aft of the datum",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "What is the length of the mean aerodynamic chord?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "104.5 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "114.5 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "124.5 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "134.5 inches",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "What moment change occurs when the flaps are fully retracted from the 15 degree position?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "A reduction of 14 kg.in",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "An increase of 14 kg.in",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A reduction of 14 000 kg.in",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "An increase of 14 000 kg.in",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "What change in moment occurs when the flaps are retracted from 40 degrees to 5 degrees?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "A negative moment of 5 kg.in",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "A negative moment of 11 kg.in",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "A negative moment of 16 kg.in",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "A negative moment of 5000 kg.in",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "What stabilizer trim setting is required for take-off when the CG is 19% MAC for 5 degrees of take-off flap?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "2.75",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "3.75",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "4.75",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5.75",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "What is the maximum structural take-off mass?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "63 060 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "62 800 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "54 900 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "54 900 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "What is the CG range for maximum zero fuel mass?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "8% MAC to 27% MAC",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "12%MAC to 20% MAC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "7.5% MAC to 27.5% MAC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "8.5% MAC to 26% MAC",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "Assuming the MZFM, what is the maximum allowable fuel mass for take-off?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10 015 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10 150 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "11 500 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 000 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "Assuming the standard masses have been used for both passengers and baggage, what is the mass of a full passenger and baggage load?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "13 027 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "13 677 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "14 127 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 127 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "What is the allowable hold baggage load for an aircraft with a full passenger complement?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1533 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1633 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1733 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1833 kg",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "What is the underload if only maximum passenger hold baggage is carried?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3305 kg - 1833 kg = 1472 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "4187 kg - 1833 kg = 2354 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "7492 kg - 1833 kg = 5659 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "9247 kg - 1833 kg = 7414 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "If the crew mass is 450 kg and the Zero Fuel Mass is 51 300 kg, what is the Basic Empty Mass if a full traffic load is carried?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "31 514 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "31 773 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "37 713 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "33 177 kg",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "Using the values for the data given in the Loading Manual, would the aircraft be able to carry both a full fuel load and a full traffic load at take-off?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "No.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Yes, providing the BEM was not more than 31 145 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Yes, providing the BEM was not less than 31 451 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Yes, providing the BEM was not more than 31 514 kg.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "If the DOM is given as 34 300 kg and the aircraft has a full load of passengers and baggage, what additional cargo mass could it carry i.e. what is the underload?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "None.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "3123 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "3223 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3323 kg.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "What is the maximum usable fuel quantity?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "5311 US gallons.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "5294 US gallons",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "5123 US gallons",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5032 US gallons",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "19",
+        "question": "What is the maximum usable fuel mass?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "16 092 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "16 078 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "16 064 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "16 040 kg.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "20",
+        "question": "What is the allowable start and taxi fuel?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "160 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "260 kg.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "360 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "460 kg.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "What are the preferred zones for passenger loads if the pax load is low?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Zones E, F and G.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Zones C, D and E.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Zones B, C and D.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "A, B and C.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "How many seats are there in zone B?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "15",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "18",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "21",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "24",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "23",
+        "question": "The leading edge of the MAC is given as 625.6 inches aft of the datum. What is the distance of the CG from the datum if it is found to be 16% of the MAC?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "547 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "647 inches",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "747 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "674 inches.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "24",
+        "question": "The CG is found to be 652.5 inches aft of the datum. What percentage is the CG of the MAC?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "10%.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "15%.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "20%.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "25%.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "25",
+        "question": "If a passenger moves from a seat position corresponding to the balance arm at zone D to a position corresponding to the balance arm at zone F, what distance will the passenger have travelled and how many seat rows will he have passed?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "255 inches and 8 seat rows",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "260 inches and 7 seat rows",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "265 inches and 6 seat rows",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "270 inches and 5 seat rows",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "26",
+        "question": "The balance arm for each of the seat zones is measured from the datum to:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the front border line of the zone.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the centre line of the zone",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the rear border line of the zone.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the front border line of the next zone in sequence",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "27",
+        "question": "What is the maximum and minimum running load of a box of mass 500 kg and dimensions of 1 m &#xd7; 1.2 m &#xd7; 1.2 m?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "12.7 kg/in and 10.6 kg/in.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "10 kg/in and 12.4 kg/in.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "11 kg/in and 9.5 kg/in.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 kg/in and 13.1 kg/in.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "28",
+        "question": "What is the maximum and minimum distribution load intensity for a box of mass 500 kg and dimensions of 1 m &#xd7; 1.2 m &#xd7; 1.2 m?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "50.5 kg/sq ft and 40.6 kg/sq ft.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "47.3 kg/sq ft and 37.7 kg/sq ft.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "45.1 kg/sq ft and 35.8 kg/sq ft.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "38.7 kg/sq ft and 32.3 kg/sq ft.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "29",
+        "question": "All other parameters being acceptable, a box with a maximum and minimum running load of 12 kg/in and 7 kg/in and a mass of 800 kg can be fitted into:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "any compartment of either the forward or aft cargo compartment",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the front section of the aft cargo compartment or the rear section of the forward cargo compartment.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the rear section of the forward cargo compartment or the rear section of the aft cargo compartment",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the centre section of the forward cargo compartment only.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "30",
+        "question": "A box with a mass of 500 kg and dimensions 0.8 m and 0.9 m * 1.3 m has a maximum and minimum distribution load intensity of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "64.6 kg/sq ft max and 39.7 kg/sq ft min.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "39.7 kg/sq ft max and 64.6 kg/sq ft min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "44.7 kg/sq ft max and 39.7 kg/sq ft min.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "44.7 kg/sq ft max and 39.7 kg/sq ft min.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "31",
+        "question": "The maximum freight mass allowed is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "17 017 lb.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "16 520 lb.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "16 017 lb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "15 517 lb.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "32",
+        "question": "Assuming all other parameters are acceptable, a box with a mass of 500 kg and with equal sides of 8.5 ft would fit into:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "either the front or rear cargo compartment",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the forward cargo compartment only",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "neither cargo compartment",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the aft cargo compartment only.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "33",
+        "question": "The front compartment of the front cargo hold is situated below:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "passenger zone A.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "passenger zone B.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "passenger zone C.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "passenger zone D.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "34",
+        "question": "The balance arm of the centroid of the forward hold compartment is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "228 inches.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "midway between 228 inches and 286 inches.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "midway between 286 inches and 343 inches",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "367.9 inches",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "35",
+        "question": "The maximum distribution load intensity for the cargo compartments is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "68 lb per sq ft",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "68 kg per sq metre",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "68 kg per sq in.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "68 kg per sq ft.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "36",
+        "question": "Between 44 000 kg and 63 000 kg the rear CG limit as a percentage of the MAC:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is constant at 28%.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "increases from 28% to 29.5%.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "decreases from 28% to 26%.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "decreases from 28% to 9%.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "37",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>The traffic load is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "39 800 kg obtained from ZFM, 51 300 kg less fuel mass 11 500 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "obtained from the sum of pax mass plus baggage mass plus total cargo compartment mass",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "13 370 kg obtained from 10 920 kg pax mass plus 2450 kg baggage mass plus 630 kg cargo mass",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "13 370 kg obtained from 10 920 kg pax mass, 1820 kg baggage mass and 630 kg cargo mass",
+            "isTrue": true
+          }
+        ]
+      },	  
+      {
+        "id": 0,
+        "questionNumber": "38",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>The cargo distribution in section 4 is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1220 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "630 kg.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1850 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "1820 kg plus 630 kg.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "39",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>The actual take-off mass is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "51 300 kg ZFM plus 14 500 kg take-off fuel.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "62 800 kg less 8500 kg trip fuel.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "53 670 kg less 14 500 kg take-off fuel.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "47 670 kg ZFM plus 14 500 kg take-off fuel mass.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "40",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>The landing mass is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "62 800 kg take-off mass less 8500 kg trip fuel.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "62 170 kg take-off mass less 8500 kg trip fuel.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "62 170 kg take-off mass plus 8500 kg trip fuel.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "62 800 kg take-off mass plus 8500 kg trip fuel",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "41",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>In order to determine the underload the pilot starts by selecting the lowest mass from the three key masses given. The key masses are:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "dry operating mass, maximum zero fuel mass and take-off mass.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "maximum zero fuel mass, take-off mass and landing mass",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "dry operating mass, maximum zero fuel mass and landing mass",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "traffic load, take-off mass and landing mass.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "42",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>From the figures given, if the actual take-off fuel mass (14 500 kg) was added to the Maximum Zero Fuel Mass the aircraft would be:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "below the maximum take-off mass by 350 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "over the maximum take-off mass by 530 kg",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "over the maximum take-off mass by 3000 kg",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "below the maximum take-off mass by 630 kg.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "43",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>The actual underload for the aircraft after the traffic load and fuel load have been accounted for is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "zero.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "720 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "630 kg.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "960 kg.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "44",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>What is the Dry Operating Index?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "45",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "12",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "54",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "10",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "45",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>What are the seat row numbers in pax zone &#715;Oc&#714;?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "4-6",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "6-8",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "7-10",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "8-13",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "46",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>What is the Take-off Mass as a percentage of the MAC?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "18.3%.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "19.3%.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "20.3%.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "21.3%.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "47",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>Prior to take-off there is a change in destination and so the pilot decides to take 2000 kg of fuel less.</p><p>Using the Load and Trim Sheet, calculate the new Take-off Mass and CG position:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "can not be calculated because the landing mass will be too high.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "60 800 kg take-off mass and CG 17.5% MAC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "60 170 kg take-off mass and CG 18.8% MAC",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "60 170 kg take-off mass and 19.3% MAC.",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "48",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>When adjusting the CG index for the fuel load, why is the line moved to the left as a minus index?</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Because the fuel will be consumed in flight.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Because the fuel is given a minus index in the fuel index correction table.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Because the centroid of the tanks is behind the CG position",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Because the graph would run out of range.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "49",
+        "question": "<p>Referring to CAP 696, Section 4 (MRJT1), in particular Figure 4.13, answe questions 37 to 49 inclusive:</p><p>For a fuel mass of 11 800 kg the index is:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "minus 4.5.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "minus 5.7.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "minus 6.3",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "none of the above.",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "50",
+        "question": "A scheduled flight of three hours estimated flight time, within Europe, is being planned. Calculate the maximum mass of freight that may be loaded in the following circumstances:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.2C.50",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.2C.50.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "4647 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "4102 kg.",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "1047 kg.",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "5545 kg.",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

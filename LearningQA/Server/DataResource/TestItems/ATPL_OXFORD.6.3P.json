@@ -1,0 +1,1583 @@
+[
+  {
+    "id": 0,
+    "category": "1.ATPL_OXFORD",
+    "subject": "6.Mass and Balance And Performance",
+    "chapter": "3.2.1.General Principles - Climb",
+    "version": 0,
+    "testQuestionMarking": 0,
+    "duration": 3600,
+    "questions": [
+      {
+        "id": 0,
+        "questionNumber": "1",
+        "question": "What happens to the drag of a jet aeroplane if, during the initial climb after takeoff, a constant IAS and constant configuration is maintained? (Assume a constant mass.)",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The drag decreases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "The drag increases initially and decreases thereafter",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "The drag remains almost constant",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The drag increases considerably",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "2",
+        "question": "The speed for best rate of climb is called:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "V<sub>o</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "V<sub>Y</sub>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "V<sub>X</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "V<sub>2</sub>",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "3",
+        "question": "An increase in atmospheric pressure has, among other things, the following consequences on take-off performance:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a reduced take-off distance and degraded initial climb performance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a reduced take-off distance and improved initial climb performance",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "an increased take-off distance and degraded initial climb performance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "an increased take-off distance and improved initial climb performance",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "4",
+        "question": "A higher outside air temperature:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "does not have any noticeable effect on climb performance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "reduces the angle of climb but increases the rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "reduces the angle and the rate of climb",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "increases the angle of climb but decreases the rate of climb",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "5",
+        "question": "In unaccelerated climb:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "thrust equals drag plus the uphill component of the gross weight in the flight path direction",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "thrust equals drag plus the downhill component of the gross weight in the flight path direction",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "lift is greater than the gross weight",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "lift equals weight plus the vertical component of the drag",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "6",
+        "question": "A jet aeroplane is climbing at a constant IAS with maximum climb thrust. How will the climb angle / the pitch angle change?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Remain constant / decrease",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Remain constant / become larger",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Reduce / decrease",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Reduce / remain constant",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "7",
+        "question": "<p>Take-off performance data, for the ambient conditions, show the following limitations with flap 10&#176; selected:</p><p>Runway or field limit mass: 5270 kg</p><p>Obstacle limit mass: 4630 kg</p><p>If the estimated take-off mass is 5000 kg, it would be prudent to consider a take-off with flaps at:</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "20&#176;, both limitations are increased",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "5&#176;, the obstacle limit mass is increased but the runway limit mass decreases",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "5&#176;, both limitations are increased", 
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "20&#176;, the obstacle limit mass is increased but the runway limit mass decreases",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "8",
+        "question": "<p>A four jet engine aeroplane whose mass is 150 000 kg is established on climb with engines operating.</p><p>The lift over drag ratio is 14:1.</p><p>engine has a thrust of 75 000 Newtons.</p><p>The gradient of climb is: (given: g = 10 m/s<sup>2</sup>)</p>",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "12.86%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "27%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "7.86%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "92%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "9",
+        "question": "How does the best angle of climb and best rate of climb vary with increasing altitude?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Both decrease",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Both increase",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Best angle of climb increases while best rate of climb decreases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Best angle of climb decreases while best rate of climb increases",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "10",
+        "question": "Following a take-off determined by the 50 ft (15 m) screen height, a light twin climbs on a 10% ground gradient. It will clear a 900 m high obstacle situated at 10 000 m from the 50 ft clearing point with an obstacle clearance of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "85 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "It will not clear the obstacle",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "115 m",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "100 m",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "11",
+        "question": "The rate of climb:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is approximately the climb gradient multiplied by the true airspeed divided by 100",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is the downhill component of the true airspeed",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is angle of climb multiplied by the true airspeed",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is the horizontal component of the true airspeed",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "12",
+        "question": "Assuming that the required lift exists, which forces determine an aeroplane&#714;s angle of climb?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Thrust and drag only",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Weight and thrust only",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Weight, drag and thrust",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Weight and drag only",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "13",
+        "question": "Which of the following provides maximum obstacle clearance during climb?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1.2V<sub>s</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "The speed for maximum rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "The speed at which the flaps may be selected one position further UP",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The speed for maximum climb angle V<sub>X</sub>",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "14",
+        "question": "Which speed provides maximum obstacle clearance during climb?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The speed which gives maximum excess thrust",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "V<sub>2</sub> + 10 kt",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "The speed for maximum rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "V<sub>2</sub>",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "15",
+        "question": "Which of the equations below expresses approximately the unaccelerated percentage climb gradient for small climb angles?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "Climb Gradient = (Thrust - Drag)/Weight * 100",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Climb Gradient = (Thrust + Drag)/Lift * 100",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Climb Gradient = (Thrust - Mass)/Lift * 100",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Climb Gradient = Lift/Weight * 100",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "16",
+        "question": "The absolute ceiling:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "is the altitude at which the best climb gradient attainable is 5%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "is the altitude at which the aeroplane reaches a maximum rate of climb of 100 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "is the altitude at which the rate of climb is theoretically zero",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "can be reached only with minimum steady flight speed",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "17",
+        "question": "The climb gradient of an aircraft after take-off is 6% in standard atmosphere, no wind, at 0 ft pressure altitude.",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.3P.17",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.3P.17.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3.9%",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "4.3%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "4.7%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "4.9%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "18",
+        "question": "As long as an aeroplane is in a positive climb:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "V<sub>X</sub> is always below V<sub>Y</sub>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "V<sub>X</sub> is sometimes below and sometimes above V<sub>Y</sub> depending on altitude",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "V<sub>X</sub> is always above V<sub>Y</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "V<sub>Y</sub> is always above V<sub>MO</sub>",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "19",
+        "question": "A constant headwind component:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "increases the angle of flight path during climb",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "increases the best rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "decreases the angle of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "increases the maximum endurance",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "20",
+        "question": "A higher gross mass at the same altitude will cause:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "V<sub>Y</sub> and V<sub>X</sub> to decrease",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "V<sub>X</sub> to increase and V<sub>Y</sub> to decrease",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "V<sub>Y</sub> and V<sub>X</sub> to remain constant since they are not affected by a higher gross mass",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "V<sub>Y</sub> and V<sub>X</sub> to incr",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "21",
+        "question": "With a true airspeed of 194 kt and a vertical speed of 1000 ft/min, the climb gradient is approximately:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3&#176;",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "3%",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "5&#176;",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "8%",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "22",
+        "question": "With take-off flaps set, V<sub>X</sub> and V<sub>Y</sub> will be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "lower than that for clean configuration",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "higher than that for clean configuration",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the same as that for clean configuration",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "changed so that V<sub>X</sub> increases and V<sub>Y</sub> decreases compared to clean configuration",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "23",
+        "question": "The maximum rate of climb that can be maintained at the absolute ceiling is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "0 ft/min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "125 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "500 ft/min",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "100 ft/min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "24",
+        "question": "A headwind will:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "increase the rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "shorten the time of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "increase the climb flight path angle",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "increase the angle of climb",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "25",
+        "question": "V<sub>X</sub> is:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "the speed for best rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "the speed for best specific range",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the speed for best angle of flight path",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the speed for best angle of climb",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "26",
+        "question": "The best rate of climb at a constant gross mass:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "decreases with increasing altitude since the thrust available decreases due to the lower air density",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "increases with increasing altitude since the drag decreases due to the lower air density",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "increases with increasing altitude due to the higher true airspeed",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "is independent of altitude",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "27",
+        "question": "With a jet aeroplane, the maximum climb angle can be flown at approximately:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "1.2V<sub>S</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "1.1V<sub>S</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the highest L/D ratio",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the highest L/D2 ratio",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "28",
+        "question": "During a climb with all engines operating, the altitude where the rate of climb reduces to 100 ft/min is called:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "thrust ceiling",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "maximum transfer ceiling",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "service ceiling",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "absolute ceiling",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "29",
+        "question": "With all other factors remaining constant, how does increasing altitude affect V<sub>X</sub> and V<sub>Y</sub> as a TAS:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "V<sub>X</sub> will decrease and V<sub>Y</sub> will increase",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Both will increase",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "Both will remain the same",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Both will decrease",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "30",
+        "question": "Any acceleration in climb, with a constant power setting:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "improves the climb gradient if the airspeed is below V<sub>X</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "improves the rate of climb if the airspeed is below V<sub>Y</sub>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "decreases rate of climb and increases angle of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "decreases the rate of climb and the angle of climb",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "31",
+        "question": "For an aircraft maintaining 100 kt true airspeed and a climb gradient of 3.3% with no wind, what would be the approximate rate of climb?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "3.30 m/s",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "33.0 m/s",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "330 ft/min",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "3300 ft/min",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "32",
+        "question": "During a climb to the cruising level, any headwind component:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "decreases the climb time",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "decreases the ground distance flown during that climb",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "increases the amount of fuel for the climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "increases the climb time",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "33",
+        "question": "The pilot of a single-engine aircraft has established the climb performance. The carriage of an additional passenger will cause the climb performance to be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "degraded",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "improved",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "unchanged",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "unchanged, if a short field take-off is adopted",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "34",
+        "question": "A headwind component increasing with altitude, as compared to zero wind condition: (assuming IAS is constant.)",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "improves angle and rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "decreases angle and rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "has no effect on rate of climb",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "does not have any effect on the angle of flight path during climb",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "35",
+        "question": "Which of the following combinations adversely affects take-off and initial climb performance?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "High temperature and low relative humidity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "Low temperature and low relative humidity",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "High temperature and high relative humidity",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "Low temperature and high relative humidity",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "36",
+        "question": "A decrease in atmospheric pressure has, among other things, the following consequences on take-off performance:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a reduced take-off distance and degraded initial climb performance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "an increased take-off distance and degraded initial climb performance",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a reduced take-off distance and improved initial climb performance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "an increased take-off distance and improved initial climb performance",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "37",
+        "question": "The angle of climb with flaps extended, compared to that with flaps retracted, will normally be:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "increased at moderate flap setting, decreased at large flap setting",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "smaller",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "larger",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "not changed",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "38",
+        "question": "What is the effect of tailwind on the time to climb to a given altitude?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The time to climb increases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "The time to climb decreases",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "The effect on time to climb will depend on the aeroplane type",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The time to climb does not change",
+            "isTrue": true
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "39",
+        "question": "Changing the take-off flap setting from flap 15&#176; to flap 5&#176; will normally result in:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "a longer take-off distance and a better climb",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "a shorter take-off distance and an equal climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "a better climb and an equal take-off distance",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "a shorter take-off distance and a better climb",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "40",
+        "question": "What is the influence of the mass on maximum rate of climb (ROC) speed if all other parameters remain constant?",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "The ROC is affected by the mass, but not the ROC speed",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "The ROC and the ROC speed are independent of the mass",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "The ROC speed increases with increasing mass",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "The ROC speed decreases with increasing mass",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "41",
+        "question": "Following a take-off to the 50 ft (15 m) screen height, a light twin climbs on a gradient of 5%. It will clear a 160 m obstacle situated at 5000 m from the 50 ft point with an obstacle clearance margin of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "it will not clear the obstacle",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "105 m",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "90 m",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "75 m",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "42",
+        "question": "The climb &#8220;gradient&#8221; is defined as the ratio of:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "true airspeed to rate of climb",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "rate of climb to true airspeed",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "the increase of altitude to horizontal air distance expressed as a percentage",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "the horizontal air distance over the increase of altitude expressed as a percentage",
+            "isTrue": false
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "questionNumber": "43",
+        "question": "When flying an aircraft at:",
+        "mark": 0,
+        "isActive": true,
+        "answerType": 0,
+        "answerExplain": "",
+        "supplements": [
+          {
+            "id": 0,
+			"title": "Data.6.3P.43",
+            "tenantId": null,
+            "content": null,
+            "rotateContent": 0,
+            "originalContent": "src-relative:DataResource\\TestItems\\ATPL_OXFORD.6\\Data.6.3P.43.JPG;",
+            "originalcontentType": 2,
+            "contentType": 0
+          }
+        ],
+        "options": [
+          {
+            "id": 0,
+            "tenantId": "A",
+            "content": "<p>i. the best rate of climb</p><p>ii. the best rate of climb, but using a slightly faster speed than in (i)</p><p>iii. the best angle of climb</p><p>iv. the best angle of climb, but using a slightly faster speed than in (iii)</p>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "B",
+            "content": "<p>i. a good angle of climb</p><p>ii. the best angle of climb</p><p>iii. a good rate of climb</p><p>iv. the best rate of climb</p>",
+            "isTrue": false
+          },
+          {
+            "id": 0,
+            "tenantId": "C",
+            "content": "<p>i. the best angle of climb</p><p>ii. a slightly reduced angle of climb compared to (i) if using a slightly reduced speed than in (i)</p><p>iii. the best rate of climb</p><p>iv. a slightly reduced rate of climb compared to (iii) if using a slightly reduced speed than in (iii)</p>",
+            "isTrue": true
+          },
+          {
+            "id": 0,
+            "tenantId": "D",
+            "content": "<p>i. a good rate of climb</p><p>ii. the best rate of climb</p><p>iii. a good angle of climb</p><p>iv. the best angle of climb</p>",
+            "isTrue": false
+          }
+        ]
+      }
+    ]
+  }
+]

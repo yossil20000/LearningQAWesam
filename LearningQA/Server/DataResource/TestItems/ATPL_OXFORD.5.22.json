@@ -3,10 +3,11 @@
     "id": 0,
     "category": "1.ATPL_OXFORD",
     "subject": "5.INSTRUMENTATION",
-    "chapter": "22.Electronic Flight Information Systems",
+    "chapter": "22.1.1.Electronic Flight Information Systems",
     "version": 0,
     "testQuestionMarking": 0,
     "duration": 3600,
+	"examremarks": "<p>SELF-ASSESSMENT QUESTIONS FOR SINGLE-ENGINE PISTON/PROPELLER (SEP1)</p><p>otherwise, assume that the maximum fuel capacity is 74 gallons</p><p>For all questions refer to CAP 696 (Loading Manual).</p>",
     "questions": [
       {
         "id": 0,
