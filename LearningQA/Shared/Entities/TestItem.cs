@@ -19,6 +19,7 @@ namespace LearningQA.Shared.Entities
 		public string Chapter { get; set; } = "";
 		public int Version { get; set; } = 0;
 
+		public string ExamRemarks { get; set; } = "";
 		public TestQuestionMarking TestQuestionMarking { get; set; } = TestQuestionMarking.TQM_EQUEALS;
 		/// <summary>
 		/// Test Duration in Seconds
