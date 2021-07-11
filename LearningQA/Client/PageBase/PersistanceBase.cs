@@ -7,6 +7,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Globalization;
 using System.Security.Cryptography;
+using ObjectTExtensions;
+using System.Diagnostics;
 
 namespace LearningQA.Client.PageBase
 {
@@ -44,15 +46,21 @@ namespace LearningQA.Client.PageBase
 		}
 		private void OnSubjectChanged()
 		{
-			Chapteres = testItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-			
+			//Chapteres = testItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			Chapteres = testItemInfos.Where(x => x.Subject == SelectedSubjecte).Select(x => x.Chapter).Distinct().ToList();
+			TitleComparer.ElimanateLast = true;
+			Chapteres.Sort(new TitleComparer());
+			Debug.WriteLine("OnSubjectChanged");
 			SelectedChapter = Chapteres.FirstOrDefault();
 			Changed();
 		}
 		private void OnCategoryChanged()
 		{
-			Subjectes = testItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
-			
+			//Subjectes = testItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().OrderBy(x => TestTitleFilter(x)).ToList();
+			Subjectes = testItemInfos.Where(x => x.Category == SelectedCategory).Select(x => x.Subject).Distinct().ToList();
+			TitleComparer.ElimanateLast = true;
+			Subjectes.Sort(new TitleComparer() );
+			Console.WriteLine("OnCategoryChanged");
 			SelectedSubjecte = Subjectes.FirstOrDefault();
 			Changed();
 		}
